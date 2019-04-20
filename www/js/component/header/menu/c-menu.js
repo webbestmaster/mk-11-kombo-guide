@@ -16,9 +16,6 @@ type StateType = {|
 |};
 
 export class Menu extends Component<PropsType, StateType> {
-    props: PropsType;
-    state: StateType;
-
     constructor(props: PropsType) {
         super(props);
 
@@ -28,6 +25,9 @@ export class Menu extends Component<PropsType, StateType> {
             state: 0,
         };
     }
+
+    state: StateType;
+    props: PropsType;
 
     render(): Node {
         return (
