@@ -10,8 +10,7 @@ type ComboInputType = ComboInputDirectionType | ComboInputMoveType | ComboInputC
 type NaType = 'N/A';
 export const naValue: NaType = 'N/A';
 
-export const input: {+[key: string]: ComboInputType} = {
-    /* eslint-disable id-match, id-length */
+export const inputMoveMap: {+[key: string]: ComboInputType} = {
     // ComboInputDirectionType
     iUp: 'u',
     iDn: 'd',
@@ -29,7 +28,6 @@ export const input: {+[key: string]: ComboInputType} = {
     i24: '2+4',
     i43: '4+3',
     i31: '3+1',
-    /* eslint-enable id-match, id-length */
 };
 
 type FrameDataType = {|
@@ -41,15 +39,34 @@ type FrameDataType = {|
     +cancel: number | NaType,
 |};
 
+type MoveType = 'low' | 'mid' | 'high' | 'overhead' | 'throw';
+
+export const moveTypeMap: {+[key: string]: MoveType} = {
+    low: 'low',
+    mid: 'mid',
+    hgh: 'high',
+    ovh: 'overhead',
+    thr: 'throw',
+};
+
+type MoveDataType = {|
+    +type: MoveType | NaType,
+    +hitDamage: number | NaType,
+    +blockDamage: number | NaType,
+|};
+
 type ComboType = {|
-    +sequence: Array<ComboInputType>,
+    +sequence: Array<ComboInputType | [ComboInputType, ComboInputType]>,
     +variationList: Array<LangKeyType>,
     +frameData: FrameDataType,
+    +moveData: MoveDataType,
 |};
 
 export type CharacterType = {|
     +imagePath: string,
     +name: LangKeyType,
     +description: LangKeyType,
+    +normalMoveList: Array<ComboType>,
     +comboList: Array<ComboType>,
+    +specialMoveList: Array<ComboType>,
 |};
