@@ -2,6 +2,7 @@
 
 export type LangDataType = {|
     /* eslint-disable id-match, id-length */
+    +APP_NAME: string,
     +META__LANGUAGE_NAME: string,
 
     +LOGIN_POPUP__PLEASE_LOG_IN_OR_JOIN_NOW: string,

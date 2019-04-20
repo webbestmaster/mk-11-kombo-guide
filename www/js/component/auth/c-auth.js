@@ -28,13 +28,14 @@ const reduxAction: ReduxActionType = {
 
 type PassedPropsType = {||};
 
-type PropsType = $Exact<{...PassedPropsType, ...ReduxPropsType, ...ReduxActionType}>;
+type PropsType = {...PassedPropsType, ...ReduxPropsType, ...ReduxActionType};
 
 type StateType = null;
 
 class Auth extends Component<ReduxPropsType, PassedPropsType, StateType> {
     state: StateType;
 
+    /*
     componentDidMount() {
         const view = this;
         const {props} = view;
@@ -43,6 +44,7 @@ class Auth extends Component<ReduxPropsType, PassedPropsType, StateType> {
             props.setUser({id: 'default-user-id'});
         }, 3e3);
     }
+*/
 
     props: PropsType;
 

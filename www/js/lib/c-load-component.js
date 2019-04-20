@@ -11,11 +11,7 @@ type PassedPropsType = {|
     +load: () => Promise<Node | Array<Node>>,
 |};
 
-type PropsType = {|
-    ...PassedPropsType,
-    // ...$Exact<ContextRouterType>
-    // +children: Node,
-|};
+type PropsType = PassedPropsType;
 
 type StateType = {|
     +component: Node | Array<Node>,

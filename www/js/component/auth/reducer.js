@@ -11,7 +11,7 @@ export type UserType = {|
     +id: string,
 |} | null;
 
-const defaultUserState: UserType = null;
+const defaultUserState: UserType = {id: 'no-login-required'};
 
 export type PopupNameType = 'login';
 

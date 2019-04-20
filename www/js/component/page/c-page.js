@@ -3,15 +3,14 @@
 /* eslint consistent-this: ["error", "view"] */
 
 import type {ComponentType, Node} from 'react';
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
 import type {GlobalStateType} from '../../redux-store-provider/reducer';
-import type {ContextRouterType} from '../../type/react-router-dom-v4';
-
 import type {SystemType} from '../system/reducer/root';
 
 import pageStyle from './page.style.scss';
+// import type {ContextRouterType} from '../../type/react-router-dom-v4';
 
 type ReduxPropsType = {|
     +system: SystemType,
@@ -26,16 +25,15 @@ const reduxAction: ReduxActionType = {
 };
 
 type PassedPropsType = {|
-    +children: Node | Array<Node>,
+    +children: mixed,
 |};
 
-type PropsType = $ReadOnly<$Exact<{
-        ...$Exact<PassedPropsType>,
-        ...$Exact<ReduxPropsType>,
-        ...$Exact<ReduxActionType>,
-        ...$Exact<ContextRouterType>,
-        +children: Node,
-    }>>;
+type PropsType = {
+    ...PassedPropsType,
+    ...ReduxActionType,
+    ...ReduxPropsType,
+    +children: Node,
+};
 
 type StateType = {|
     +state: number,

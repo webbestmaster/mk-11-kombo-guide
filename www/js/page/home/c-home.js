@@ -8,17 +8,12 @@ import type {Node} from 'react';
 import React, {Component} from 'react';
 
 import type {ContextRouterType} from '../../type/react-router-dom-v4';
-import {LoadComponent} from '../../lib/c-load-component';
-import {Locale} from '../../component/locale/c-locale';
-import {getLocalizedString} from '../../component/locale/locale-helper';
 
 import {Page} from '../../component/page/c-page';
 
-import homeStyle from './home.style.scss';
+import {Header} from '../../component/header/c-header';
 
-type PropsType = {
-    ...$Exact<ContextRouterType>,
-};
+type PropsType = ContextRouterType;
 
 class Mega<S, N: number> {
     constructor(message: S) {
@@ -82,10 +77,10 @@ export class Home extends Component<void, null> {
         const view = this;
         const {props, state} = view;
 
-        console.log(props, state);
-
         return (
             <Page>
+                <Header hasBackButton title="APP_NAME"/>
+                {/*
                 <div className={homeStyle.home__wrapper}>
                     <button onClick={view.handleMouseOver} onKeyPress={view.handleMouseOver} type="button">
                         | the button |
@@ -98,6 +93,7 @@ export class Home extends Component<void, null> {
                     <Locale stringKey="META__LANGUAGE_NAME"/>
                     <hr/>
                 </div>
+*/}
             </Page>
         );
     }

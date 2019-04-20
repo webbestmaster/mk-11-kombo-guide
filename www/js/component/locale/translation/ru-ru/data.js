@@ -1,8 +1,11 @@
 // @flow
 
 import type {LangDataType} from '../type';
+import {enUs} from '../en-us/data';
 
 export const ruRu: LangDataType = {
+    ...enUs,
+
     /* eslint-disable id-match, id-length */
     META__LANGUAGE_NAME: 'Русский',
 
