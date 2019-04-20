@@ -60,13 +60,16 @@ type ComboType = {|
     +variationList: Array<LangKeyType>,
     +frameData: FrameDataType,
     +moveData: MoveDataType,
+    +availableForVariationList: Array<LangKeyType>,
 |};
 
 export type CharacterType = {|
+    +id: string,
     +imagePath: string,
     +name: LangKeyType,
     +description: LangKeyType,
     +normalMoveList: Array<ComboType>,
     +comboList: Array<ComboType>,
     +specialMoveList: Array<ComboType>,
+    +variationList: Array<LangKeyType>,
 |};

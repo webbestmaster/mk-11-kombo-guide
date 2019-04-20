@@ -10,7 +10,7 @@ import type {ContextRouterType} from '../../type/react-router-dom-v4';
 type PropsType = ContextRouterType;
 
 // eslint-disable-next-line react/prefer-stateless-function
-export class Login extends Component<PropsType, null> {
+export class LoginPage extends Component<PropsType, null> {
     state: null;
     props: PropsType;
 

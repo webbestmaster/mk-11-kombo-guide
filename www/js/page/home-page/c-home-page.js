@@ -13,6 +13,7 @@ import {Page} from '../../component/page/c-page';
 
 import {Header} from '../../component/header/c-header';
 import {Scroll} from '../../component/ui/scroll/c-scroll';
+import {CharacterList} from '../../component/character-list/c-character-list';
 
 type PropsType = ContextRouterType;
 
@@ -22,7 +23,7 @@ class Mega<S, N: number> {
     }
 }
 
-export class Home extends Component<void, null> {
+export class HomePage extends Component<void, null> {
     state: null;
 
     componentDidMount() {
@@ -82,55 +83,7 @@ export class Home extends Component<void, null> {
             <Page>
                 <Header hasBackButton title="APP_NAME"/>
                 <Scroll>
-                    <div>1</div>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <div>2</div>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <div>3</div>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <div>4</div>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <div>5</div>
+                    <CharacterList/>
                 </Scroll>
             </Page>
         );

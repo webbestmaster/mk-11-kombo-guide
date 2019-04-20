@@ -7,11 +7,13 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import {ReduxStoreProvider} from '../../redux-store-provider/provider';
 import {System} from '../system/c-system';
 import {Auth} from '../auth/c-auth';
-import {Home} from '../../page/home/c-home';
 import {appConst} from '../../const';
-import {Login} from '../../page/login/c-login';
 import {userIsAuthenticated, userIsNotAuthenticated} from '../auth/auth-helper';
+import {HomePage} from '../../page/home-page/c-home-page';
+import {LoginPage} from '../../page/login-page/c-login-page';
 import {PageNotFound} from '../../page/page-not-found/c-page-not-found';
+
+import {CharacterPage} from '../../page/character-page/c-character-page';
 
 import {routes} from './routes';
 
@@ -27,9 +29,10 @@ export function App(): Node {
                 <System key="system">
                     <BrowserRouter>
                         <Switch key="switch">
-                            <Route component={userIsNotAuthenticated(Login)} exact path={routes.login}/>
+                            <Route component={userIsNotAuthenticated(LoginPage)} exact path={routes.login}/>
 
-                            <Route component={userIsAuthenticated(Home)} exact path={routes.index}/>
+                            <Route component={userIsAuthenticated(HomePage)} exact path={routes.index}/>
+                            <Route component={userIsAuthenticated(CharacterPage)} exact path={routes.character}/>
 
                             <Route component={PageNotFound}/>
                         </Switch>
