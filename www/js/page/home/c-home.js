@@ -12,6 +12,8 @@ import {LoadComponent} from '../../lib/c-load-component';
 import {Locale} from '../../component/locale/c-locale';
 import {getLocalizedString} from '../../component/locale/locale-helper';
 
+import {Page} from '../../component/page/c-page';
+
 import homeStyle from './home.style.scss';
 
 type PropsType = {
@@ -83,18 +85,20 @@ export class Home extends Component<void, null> {
         console.log(props, state);
 
         return (
-            <div className={homeStyle.home__wrapper}>
-                <button onClick={view.handleMouseOver} onKeyPress={view.handleMouseOver} type="button">
-                    | the button |
-                </button>
-                <br/>
-                <span>home page</span>
-                <hr/>
-                <LoadComponent load={view.loadAsyncLoadTestComponent}/>
-                <hr/>
-                <Locale stringKey="META__LANGUAGE_NAME"/>
-                <hr/>
-            </div>
+            <Page>
+                <div className={homeStyle.home__wrapper}>
+                    <button onClick={view.handleMouseOver} onKeyPress={view.handleMouseOver} type="button">
+                        | the button |
+                    </button>
+                    <br/>
+                    <span>home page</span>
+                    <hr/>
+                    <LoadComponent load={view.loadAsyncLoadTestComponent}/>
+                    <hr/>
+                    <Locale stringKey="META__LANGUAGE_NAME"/>
+                    <hr/>
+                </div>
+            </Page>
         );
     }
 }
