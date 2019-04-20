@@ -9,6 +9,8 @@ import {connect} from 'react-redux';
 import type {GlobalStateType} from '../../redux-store-provider/reducer';
 import type {SystemType} from '../system/reducer/root';
 
+import {Scroll} from '../ui/scroll/c-scroll';
+
 import pageStyle from './page.style.scss';
 
 type ReduxPropsType = {|
@@ -24,14 +26,13 @@ const reduxAction: ReduxActionType = {
 };
 
 type PassedPropsType = {|
-    +children: mixed,
+    +children: Node,
 |};
 
 type PropsType = {
-    ...PassedPropsType,
     ...ReduxActionType,
     ...ReduxPropsType,
-    +children: Node,
+    ...PassedPropsType,
 };
 
 type StateType = {|

@@ -7,7 +7,6 @@
 import type {Node} from 'react';
 import React, {Component} from 'react';
 import Swiper from 'swiper';
-import classNames from 'classnames';
 
 import style from './scroll.style.scss';
 
@@ -102,13 +101,12 @@ export class Scroll extends Component<PropsType, StateType> {
     renderSwiper(): Node {
         const view = this;
         const {props} = view;
+        const {slideClassName} = props;
 
         return (
-            <div className={classNames('swiper-container', style.swiper_container)} ref={view.node.wrapper}>
-                <div className={classNames('swiper-wrapper', style.swiper_wrapper)}>
-                    <div className={classNames('swiper-slide', style.swiper_slide, props.slideClassName)}>
-                        {props.children}
-                    </div>
+            <div className={`swiper-container ${style.swiper_container}`} ref={view.node.wrapper}>
+                <div className={`swiper-wrapper ${style.swiper_wrapper}`}>
+                    <div className={`swiper-slide ${style.swiper_slide} ${slideClassName || ''}`}>{props.children}</div>
                 </div>
                 <div className="swiper-scrollbar"/>
             </div>
@@ -118,9 +116,10 @@ export class Scroll extends Component<PropsType, StateType> {
     render(): Node {
         const view = this;
         const {props} = view;
+        const {className} = props;
 
         return (
-            <div className={classNames(style.wrapper, props.className)}>
+            <div className={`${style.wrapper} ${className || ''}`}>
                 <div className={style.container}>{view.renderSwiper()}</div>
             </div>
         );
