@@ -8,6 +8,8 @@ import React, {Component} from 'react';
 import {Locale} from '../locale/c-locale';
 import type {LangKeyType} from '../locale/translation/type';
 
+import {Menu} from './menu/c-menu';
+
 // import type {ContextRouterType} from '../../type/react-router-dom-v4';
 
 type PassedPropsType = {|
@@ -40,11 +42,14 @@ export class Header extends Component<PropsType, StateType> {
         const {props} = view;
 
         return (
-            <header>
-                <h1>
+            <div>
+                <header>
+                    <div>| back button |</div>
                     <Locale stringKey={props.title}/>
-                </h1>
-            </header>
+                    <div>| open menu button |</div>
+                </header>
+                <Menu/>
+            </div>
         );
     }
 }
