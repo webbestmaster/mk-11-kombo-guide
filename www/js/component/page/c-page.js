@@ -10,7 +10,6 @@ import type {GlobalStateType} from '../../redux-store-provider/reducer';
 import type {SystemType} from '../system/reducer/root';
 
 import pageStyle from './page.style.scss';
-// import type {ContextRouterType} from '../../type/react-router-dom-v4';
 
 type ReduxPropsType = {|
     +system: SystemType,

@@ -57,6 +57,7 @@ const alias = duplicateList.reduce((accumulator, packageName) => {
 
 const webpackConfig = {
     entry: [
+        'swiper/dist/css/swiper.css',
         './www/css/root.scss',
         './www/js/root.js',
     ],
