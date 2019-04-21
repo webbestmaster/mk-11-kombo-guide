@@ -1,11 +1,15 @@
 // @flow
 
+/* global document */
+
 /* eslint consistent-this: ["error", "view"] */
 
 import type {Node} from 'react';
 import React, {Component, Fragment} from 'react';
+import ReactDOM from 'react-dom';
 
-import menuButtonImagePath from './image/menu-button.svg';
+import menuOpenButtonImagePath from './image/menu-button.svg';
+import menuCloseButtonImagePath from './image/close-button.svg';
 import menuStyle from './menu.style.scss';
 
 type PassedPropsType = {};
@@ -36,14 +40,45 @@ export class Menu extends Component<PropsType, StateType> {
         view.setState({isOpen: true});
     };
 
-    handleCloseManu = () => {
+    handleCloseMenu = () => {
         const view = this;
 
         view.setState({isOpen: false});
     };
 
-    render(): Node {
+    renderMenuContent(): Node {
         const view = this;
+        const {state} = view;
+        const {body} = document;
+
+        if (!state.isOpen || !body) {
+            return null;
+        }
+
+        return ReactDOM.createPortal(view.getMenuContent(), body);
+    }
+
+    getMenuContent(): Node {
+        return <h1>menu content is here</h1>;
+    }
+
+    renderMenuButton(): Node {
+        const view = this;
+        const {state} = view;
+        const {isOpen} = state;
+
+        if (isOpen) {
+            return (
+                <button
+                    className={menuStyle.menu_wrapper}
+                    onClick={view.handleCloseMenu}
+                    onKeyPress={view.handleCloseMenu}
+                    type="button"
+                >
+                    <img alt="close menu" className={menuStyle.menu_button_icon} src={menuCloseButtonImagePath}/>
+                </button>
+            );
+        }
 
         return (
             <button
@@ -52,8 +87,19 @@ export class Menu extends Component<PropsType, StateType> {
                 onKeyPress={view.handleOpenMenu}
                 type="button"
             >
-                <img alt="menu" className={menuStyle.menu_button_icon} src={menuButtonImagePath}/>
+                <img alt="open menu" className={menuStyle.menu_button_icon} src={menuOpenButtonImagePath}/>
             </button>
+        );
+    }
+
+    render(): Node {
+        const view = this;
+
+        return (
+            <>
+                {view.renderMenuButton()}
+                {view.renderMenuContent()}
+            </>
         );
     }
 }
