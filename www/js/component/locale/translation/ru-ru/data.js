@@ -9,6 +9,8 @@ export const ruRu: LangDataType = {
     /* eslint-disable id-match, id-length */
     META__LANGUAGE_NAME: 'Русский',
 
+    APP_NAME: 'MK11 Комбо Справочник',
+
     LOGIN_POPUP__PLEASE_LOG_IN_OR_JOIN_NOW: 'Пожалуйста, войдите в систему или зарегистрируйтесь.',
     LOGIN_POPUP__INPUT_USERNAME: 'Логин',
     LOGIN_POPUP__INPUT_PASSWORD: 'Пароль',

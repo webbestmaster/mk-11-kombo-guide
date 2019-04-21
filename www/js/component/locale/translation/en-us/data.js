@@ -17,5 +17,10 @@ export const enUs: LangDataType = {
 
     // spec symbols
     SPACE: ' ',
+
+    // characters
+    CHARACTER__MOCK_UP_MAN__NAME: 'Mock up Man',
+    CHARACTER__MOCK_UP_MAN__DESCRIPTION: 'Mock up Man description.',
+
     /* eslint-enable id-match, id-length */
 };

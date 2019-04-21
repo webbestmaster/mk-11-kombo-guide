@@ -14,6 +14,11 @@ export type LangDataType = {|
 
     // spec symbols
     +SPACE: ' ',
+
+    // characters
+    CHARACTER__MOCK_UP_MAN__NAME: string,
+    CHARACTER__MOCK_UP_MAN__DESCRIPTION: string,
+
     /* eslint-enable id-match */
 |};
 
