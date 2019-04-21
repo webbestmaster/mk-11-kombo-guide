@@ -8,6 +8,8 @@ import type {Node} from 'react';
 import React, {Component, Fragment} from 'react';
 import ReactDOM from 'react-dom';
 
+import {selector} from '../../const';
+
 import menuOpenButtonImagePath from './image/menu-button.svg';
 import menuCloseButtonImagePath from './image/close-button.svg';
 import menuStyle from './menu.style.scss';
@@ -49,13 +51,13 @@ export class Menu extends Component<PropsType, StateType> {
     renderMenuContent(): Node {
         const view = this;
         const {state} = view;
-        const {body} = document;
+        const appWrapper = document.querySelector(selector.appWrapper);
 
-        if (!state.isOpen || !body) {
+        if (!state.isOpen || !appWrapper) {
             return null;
         }
 
-        return ReactDOM.createPortal(view.getMenuContent(), body);
+        return ReactDOM.createPortal(view.getMenuContent(), appWrapper);
     }
 
     getMenuContent(): Node {
