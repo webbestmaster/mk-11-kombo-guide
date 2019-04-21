@@ -1,0 +1,12 @@
+@import './../../../../css/var';
+
+.back_button_wrapper {
+    flex-shrink: 0;
+    height: $header-height;
+    transition: opacity 0.3s linear;
+    width: $header-height;
+
+    &:hover {
+        opacity: 0.75;
+    }
+}

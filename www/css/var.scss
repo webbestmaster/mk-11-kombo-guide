@@ -1,11 +1,16 @@
 //$main-font-family: 'MS Trebuchet', sans-serif;
-$main-font-family: 'Lucida Console', Monaco, monospace;
+//$main-font-family: 'Lucida Console', Monaco, monospace;
+$main-font-family: Helvetica, 'MS Trebuchet', sans-serif;
 $main-font-size: 14px;
 $main-line-height: 1.25;
 $main-text-color: #333;
 
-$header-z-index: 5;
-$header-menu-fade-z-index: 6;
-$header-menu-content-z-index: 7;
+$header-height: 64px;
+$header-bg-color: #212121;
+$header-text-color: #f5f5f5;
+
+//$header-z-index: 5;
+//$header-menu-fade-z-index: 6;
+//$header-menu-content-z-index: 7;
 
 //$main-shadow-color: #212121;

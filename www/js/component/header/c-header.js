@@ -7,10 +7,12 @@ import React, {Component} from 'react';
 
 import {Locale} from '../locale/c-locale';
 import type {LangKeyType} from '../locale/translation/type';
+import {Menu} from '../menu/c-menu';
 
-import {Menu} from './menu/c-menu';
+import serviceStyle from '../../../css/service.scss';
 
-// import type {ContextRouterType} from '../../type/react-router-dom-v4';
+import {BackButton} from './back-button/c-back-button';
+import headerStyle from './header.style.scss';
 
 type PassedPropsType = {|
     +title: LangKeyType,
@@ -42,14 +44,15 @@ export class Header extends Component<PropsType, StateType> {
         const {props} = view;
 
         return (
-            <div>
-                <header>
-                    <div>| back button |</div>
-                    <Locale stringKey={props.title}/>
-                    <div>| open menu button |</div>
-                </header>
+            <header className={headerStyle.header_wrapper}>
+                <BackButton/>
+                <div className={headerStyle.header_title_wrapper}>
+                    <h1 className={serviceStyle.ellipsis}>
+                        <Locale stringKey={props.title}/>
+                    </h1>
+                </div>
                 <Menu/>
-            </div>
+            </header>
         );
     }
 }

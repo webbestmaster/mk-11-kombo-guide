@@ -1,1 +1,20 @@
-// scss
+@import './../../../css/var';
+@import './../../../css/service';
+
+.header_wrapper {
+    align-items: center;
+    background-color: $header-bg-color;
+    color: $header-text-color;
+    display: flex;
+    flex-direction: row;
+    height: $header-height;
+    width: 100%;
+}
+
+.header_title_wrapper {
+    display: block;
+    flex-grow: 1;
+    //box-sizing: border-box;
+    overflow: hidden;
+    padding: 10px;
+}
