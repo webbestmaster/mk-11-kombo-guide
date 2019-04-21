@@ -1,12 +1,22 @@
 @import './../../../../css/var';
 
 .back_button_wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
     flex-shrink: 0;
     height: $header-height;
+    justify-content: center;
     transition: opacity 0.3s linear;
     width: $header-height;
 
     &:hover {
         opacity: 0.75;
     }
+}
+
+.back_button_icon {
+    display: block;
+    height: 50%;
+    width: 50%;
 }

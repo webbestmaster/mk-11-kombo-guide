@@ -7,6 +7,7 @@
 import type {Node} from 'react';
 import React, {Component} from 'react';
 
+import backButtonImagePath from './image/back-button.svg';
 import backButtonStyle from './back-button.style.scss';
 
 type PassedPropsType = {};
@@ -36,7 +37,7 @@ export class BackButton extends Component<PropsType, StateType> {
                 onClick={view.handleRouteBack}
                 onKeyPress={view.handleRouteBack}
             >
-                &lt;-
+                <img alt="back" className={backButtonStyle.back_button_icon} src={backButtonImagePath}/>
             </a>
         );
     }
