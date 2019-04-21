@@ -42,13 +42,14 @@ export class Header extends Component<PropsType, StateType> {
     render(): Node {
         const view = this;
         const {props} = view;
+        const {hasBackButton, title} = props;
 
         return (
             <header className={headerStyle.header_wrapper}>
-                <BackButton/>
+                {hasBackButton ? <BackButton/> : <center>app logo</center>}
                 <div className={headerStyle.header_title_wrapper}>
                     <h1 className={serviceStyle.ellipsis}>
-                        <Locale stringKey={props.title}/>
+                        <Locale stringKey={title}/>
                     </h1>
                 </div>
                 <Menu/>
