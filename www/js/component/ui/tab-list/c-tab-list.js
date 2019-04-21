@@ -60,9 +60,9 @@ export class TabList extends Component<PropsType, StateType> {
 
         const handleOnClick = view.createChangeHandler(index);
 
-        const isActive = state.activeIndex === index;
+        const isActive = index === state.activeIndex;
         const isFirst = index === 0;
-        const isLast = titleList.length === index - 1;
+        const isLast = index === titleList.length - 1;
 
         return (
             <button
@@ -101,10 +101,12 @@ export class TabList extends Component<PropsType, StateType> {
         const view = this;
 
         return (
-            <div>
-                <HorizontalScroll>{view.renderTitleList()}</HorizontalScroll>
+            <>
+                <HorizontalScroll className={tabListStyle.tab_list__top_menu}>
+                    {view.renderTitleList()}
+                </HorizontalScroll>
                 {view.renderContent()}
-            </div>
+            </>
         );
     }
 }

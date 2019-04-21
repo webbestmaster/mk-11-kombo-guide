@@ -1,5 +1,4 @@
 /* stylelint-disable selector-pseudo-class-no-unknown */
-
 @import './var';
 
 html,
@@ -8,6 +7,7 @@ body {
 }
 
 body {
+    background-color: $main-bg-color;
     color: $main-text-color;
     font-family: $main-font-family;
     font-size: $main-font-size;
@@ -17,4 +17,16 @@ body {
 
 :global .app-wrapper {
     min-height: 100%;
+}
+
+.limit,
+.hug {
+    box-sizing: border-box;
+    display: block;
+    max-width: $desktop-width;
+}
+
+.hug {
+    padding-left: 10px;
+    padding-right: 10px;
 }

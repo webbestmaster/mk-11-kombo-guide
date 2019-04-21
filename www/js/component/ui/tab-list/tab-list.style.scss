@@ -1,17 +1,30 @@
-.tab_list__tab_item {
+@import './../../../../css/var';
+
+$border-color: #c00;
+
+.tab_list__top_menu {
+    background-color: #666;
+    border-bottom: 2px solid $border-color;
     display: block;
-    margin: 0 10px;
-    padding: 10px 0;
+}
+
+.tab_list__tab_item {
+    border-bottom: 3px solid transparent;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    margin: 0 $main-side-padding * 2 0 0;
+    padding: 14px 0 7px;
 
     &.tab_list__tab_item__active {
-        background-color: #c00;
+        border-bottom-color: $border-color;
     }
 
     &.tab_list__tab_item__first {
-        margin-left: 0;
+        margin-left: $main-side-padding;
     }
 
     &.tab_list__tab_item__last {
-        margin-right: 0;
+        margin-right: $main-side-padding;
     }
 }
