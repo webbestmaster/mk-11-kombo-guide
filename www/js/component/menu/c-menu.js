@@ -5,14 +5,15 @@
 import type {Node} from 'react';
 import React, {Component, Fragment} from 'react';
 
-import manuStyle from './manu.style.scss';
+import menuButtonImagePath from './image/menu-button.svg';
+import menuStyle from './menu.style.scss';
 
 type PassedPropsType = {};
 
 type PropsType = PassedPropsType;
 
 type StateType = {|
-    +state: number,
+    +isOpen: boolean,
 |};
 
 export class Menu extends Component<PropsType, StateType> {
@@ -22,18 +23,37 @@ export class Menu extends Component<PropsType, StateType> {
         const view = this;
 
         view.state = {
-            state: 0,
+            isOpen: false,
         };
     }
 
     state: StateType;
     props: PropsType;
 
+    handleOpenMenu = () => {
+        const view = this;
+
+        view.setState({isOpen: true});
+    };
+
+    handleCloseManu = () => {
+        const view = this;
+
+        view.setState({isOpen: false});
+    };
+
     render(): Node {
+        const view = this;
+
         return (
-            <div className={manuStyle.menu}>
-                <h1>menu</h1>
-            </div>
+            <button
+                className={menuStyle.menu_wrapper}
+                onClick={view.handleOpenMenu}
+                onKeyPress={view.handleOpenMenu}
+                type="button"
+            >
+                <img alt="menu" className={menuStyle.menu_button_icon} src={menuButtonImagePath}/>
+            </button>
         );
     }
 }
