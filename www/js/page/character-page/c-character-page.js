@@ -11,6 +11,7 @@ import {Character} from '../../component/character/c-character';
 import {Page} from '../../component/page/c-page';
 import {Header} from '../../component/header/c-header';
 import {Scroll} from '../../component/ui/scroll/c-scroll';
+import {getCharacterById} from '../../character-data/character-data';
 // import style from './style.scss';
 
 type PassedPropsType = {};
@@ -42,9 +43,16 @@ export class CharacterPage extends Component<PropsType, StateType> {
             return <h1>You should pass valid character id!</h1>;
         }
 
+        const characterData = getCharacterById(characterId);
+
+        if (characterData === null) {
+            console.error('Can not find character by id!', characterId);
+            return <h1>Can not find character by id! characterId: {characterId}</h1>;
+        }
+
         return (
             <Page>
-                <Header hasBackButton title="APP_NAME"/>
+                <Header hasBackButton title={characterData.name}/>
                 <Scroll>
                     <Character characterId={characterId}/>
                 </Scroll>

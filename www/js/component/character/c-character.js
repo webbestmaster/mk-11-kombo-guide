@@ -7,7 +7,7 @@ import React, {Component, Fragment} from 'react';
 
 import type {ContextRouterType} from '../../type/react-router-dom-v4';
 import type {CharacterType} from '../../character-data/type';
-import {characterList} from '../../character-data/character-data';
+import {characterList, getCharacterById} from '../../character-data/character-data';
 import {PageNotFound} from '../../page/page-not-found/c-page-not-found';
 // import style from './style.scss';
 
@@ -28,13 +28,7 @@ export class Character extends Component<PropsType, StateType> {
         const {props} = view;
         const {characterId} = props;
 
-        return (
-            characterList.find(
-                (characterData: CharacterType): boolean => {
-                    return characterData.id === characterId;
-                }
-            ) || null
-        );
+        return getCharacterById(characterId);
     }
 
     render(): Node {
