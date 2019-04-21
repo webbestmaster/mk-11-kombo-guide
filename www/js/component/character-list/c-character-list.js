@@ -16,14 +16,18 @@ type PropsType = {};
 type StateType = void;
 
 export class CharacterList extends Component<PropsType, StateType> {
+    static renderListItem(characterData: CharacterType): Node {
+        return (
+            <li key={characterData.id}>
+                <CharacterListItem characterData={characterData}/>
+            </li>
+        );
+    }
+
     state: StateType;
     props: PropsType;
 
-    render(): Array<Node> {
-        return characterList.map(
-            (characterData: CharacterType): Node => {
-                return <CharacterListItem characterData={characterData} key={characterData.id}/>;
-            }
-        );
+    render(): Node {
+        return <ul>{characterList.map(CharacterList.renderListItem)}</ul>;
     }
 }

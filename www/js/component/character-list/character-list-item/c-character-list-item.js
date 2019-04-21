@@ -9,6 +9,7 @@ import {Link} from 'react-router-dom';
 
 import type {CharacterType} from '../../../character-data/type';
 import {getCharacterPath} from '../../app/routes';
+import {Locale} from '../../locale/c-locale';
 // import type {ContextRouterType} from '../../type/react-router-dom-v4';
 // import style from './style.scss';
 
@@ -29,6 +30,10 @@ export class CharacterListItem extends Component<PropsType, StateType> {
         const {props} = view;
         const {characterData} = props;
 
-        return <Link to={getCharacterPath(characterData.id)}>{characterData.id}</Link>;
+        return (
+            <Link to={getCharacterPath(characterData.id)}>
+                <Locale stringKey={characterData.name}/>
+            </Link>
+        );
     }
 }
