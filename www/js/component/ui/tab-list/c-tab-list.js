@@ -7,8 +7,7 @@ import React, {Component, Fragment} from 'react';
 
 import {Locale} from '../../locale/c-locale';
 import type {LangKeyType} from '../../locale/translation/type';
-
-import {Scroll} from '../scroll/c-scroll';
+import {HorizontalScroll} from '../horizontal-scroll/c-horizontal-scroll';
 
 import tabListStyle from './tab-list.style.scss';
 
@@ -89,7 +88,7 @@ export class TabList extends Component<PropsType, StateType> {
 
         return (
             <div>
-                <Scroll>{view.renderTitleList()}</Scroll>
+                <HorizontalScroll>{view.renderTitleList()}</HorizontalScroll>
                 {view.renderContent()}
             </div>
         );

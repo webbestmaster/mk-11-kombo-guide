@@ -1,29 +1,25 @@
-.wrapper {
+.scroll_wrapper {
     flex-grow: 1;
     overflow: hidden;
     position: relative;
 }
 
-.container {
+.scroll_container {
     height: 100%;
     position: absolute;
     width: 100%;
 }
 
-.swiper_container {
+.scroll_swiper_container {
     height: 100%;
     position: relative;
 }
 
-.swiper_wrapper {
+.scroll_swiper_wrapper {
     display: block;
 }
 
-.swiper_slide {
+.scroll_swiper_slide {
     display: block;
     height: auto;
-    //padding-bottom: 40px;
-    &.swiper_slide__bottom_padding {
-        padding-bottom: 50px;
-    }
 }

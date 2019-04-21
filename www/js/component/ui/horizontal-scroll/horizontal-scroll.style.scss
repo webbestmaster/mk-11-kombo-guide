@@ -1,0 +1,21 @@
+.horizontal_scroll_wrapper {
+    display: block;
+}
+
+.horizontal_scroll_container {
+    display: block;
+}
+
+.horizontal_scroll_swiper_container {
+    display: block;
+}
+
+.horizontal_scroll_swiper_wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.horizontal_scroll_swiper_slide {
+    display: block;
+    width: auto;
+}

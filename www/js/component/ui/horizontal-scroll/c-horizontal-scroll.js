@@ -8,9 +8,9 @@ import type {Node} from 'react';
 import React, {Component} from 'react';
 import Swiper from 'swiper';
 
-import {forceResize} from './helper';
+import {forceResize} from '../scroll/helper';
 
-import scrollStyle from './scroll.style.scss';
+import horizontalScrollStyle from './horizontal-scroll.style.scss';
 
 type StateType = void;
 
@@ -29,7 +29,7 @@ type AttrType = {|
     swiperId: string,
 |};
 
-export class Scroll extends Component<PropsType, StateType> {
+export class HorizontalScroll extends Component<PropsType, StateType> {
     constructor() {
         super();
 
@@ -41,7 +41,7 @@ export class Scroll extends Component<PropsType, StateType> {
 
         view.attr = {
             swiper: null,
-            swiperId: 'swiper-id-' + String(Math.random()).substr(2),
+            swiperId: 'horizontal-swiper-id-' + String(Math.random()).substr(2),
         };
     }
 
@@ -77,7 +77,7 @@ export class Scroll extends Component<PropsType, StateType> {
         }
 
         view.attr.swiper = new Swiper(wrapper.current, {
-            direction: 'vertical',
+            direction: 'horizontal',
             slidesPerView: 'auto',
             freeMode: true,
             watchOverflow: true, // disable this cause swiper has scroll bar and bug after resize
@@ -96,13 +96,28 @@ export class Scroll extends Component<PropsType, StateType> {
         const {props} = view;
         const {slideClassName} = props;
 
+        const itemClassName = `swiper-slide ${horizontalScrollStyle.horizontal_scroll_swiper_slide} ${slideClassName
+            || ''}`;
+
+        const childArray: Array<Node> = React.Children.toArray(props.children);
+
         return (
-            <div className={`swiper-container ${scrollStyle.scroll_swiper_container}`} ref={view.node.wrapper}>
-                <div className={`swiper-wrapper ${scrollStyle.scroll_swiper_wrapper}`}>
-                    <div className={`swiper-slide ${scrollStyle.scroll_swiper_slide} ${slideClassName || ''}`}>
-                        {props.children}
-                    </div>
-                </div>
+            <div
+                className={`swiper-container ${horizontalScrollStyle.horizontal_scroll_swiper_container}`}
+                ref={view.node.wrapper}
+            >
+                <ul className={`swiper-wrapper ${horizontalScrollStyle.horizontal_scroll_swiper_wrapper}`}>
+                    {childArray.map(
+                        (child: Node, index: number): Node => {
+                            return (
+                                // eslint-disable-next-line react/no-array-index-key
+                                <li className={itemClassName} key={index}>
+                                    {child}
+                                </li>
+                            );
+                        }
+                    )}
+                </ul>
                 <div className={`${view.attr.swiperId} swiper-scrollbar`}/>
             </div>
         );
@@ -110,12 +125,12 @@ export class Scroll extends Component<PropsType, StateType> {
 
     render(): Node {
         const view = this;
-        const {props, attr} = view;
+        const {props} = view;
         const {className} = props;
 
         return (
-            <div className={`${scrollStyle.scroll_wrapper} ${className || ''}`}>
-                <div className={scrollStyle.scroll_container}>{view.renderSwiper()}</div>
+            <div className={`${horizontalScrollStyle.horizontal_scroll_wrapper} ${className || ''}`}>
+                <div className={horizontalScrollStyle.horizontal_scroll_container}>{view.renderSwiper()}</div>
             </div>
         );
     }
