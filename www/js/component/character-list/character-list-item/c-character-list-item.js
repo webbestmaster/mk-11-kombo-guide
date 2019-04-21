@@ -32,7 +32,11 @@ export class CharacterListItem extends Component<PropsType, StateType> {
 
         return (
             <Link to={getCharacterPath(characterData.id)}>
+                <img alt="" src={characterData.imagePath}/>
+                <br/>
                 <Locale stringKey={characterData.name}/>
+                <br/>
+                <br/>
             </Link>
         );
     }
