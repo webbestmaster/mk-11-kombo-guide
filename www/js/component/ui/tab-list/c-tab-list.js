@@ -4,6 +4,7 @@
 
 import type {Node} from 'react';
 import React, {Component, Fragment} from 'react';
+import classNames from 'classnames';
 
 import {Locale} from '../../locale/c-locale';
 import type {LangKeyType} from '../../locale/translation/type';
@@ -53,15 +54,28 @@ export class TabList extends Component<PropsType, StateType> {
         };
     }
 
-    renderTitle = (title: LangKeyType, index: number): Node => {
+    renderTitle = (title: LangKeyType, index: number, titleList: Array<LangKeyType>): Node => {
         const view = this;
         const {state} = view;
 
         const handleOnClick = view.createChangeHandler(index);
 
+        const isActive = state.activeIndex === index;
+        const isFirst = index === 0;
+        const isLast = titleList.length === index - 1;
+
         return (
-            <button key={title} onClick={handleOnClick} onKeyPress={handleOnClick} type="button">
-                {state.activeIndex === index ? 'active' : 'no'}
+            <button
+                className={classNames(tabListStyle.tab_list__tab_item, {
+                    [tabListStyle.tab_list__tab_item__active]: isActive,
+                    [tabListStyle.tab_list__tab_item__first]: isFirst,
+                    [tabListStyle.tab_list__tab_item__last]: isLast,
+                })}
+                key={title}
+                onClick={handleOnClick}
+                onKeyPress={handleOnClick}
+                type="button"
+            >
                 <Locale stringKey={title}/>
             </button>
         );

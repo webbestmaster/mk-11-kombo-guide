@@ -34,11 +34,17 @@ export class Character extends Component<PropsType, StateType> {
 
     renderTabList(): Node {
         const titleList = [
-            'CHARACTER__MOCK_UP_MAN__NAME',
-            'CHARACTER__MOCK_UP_MAN__VARIATION__KILLER',
-            'CHARACTER__MOCK_UP_MAN__VARIATION__MAN_WTH_GUN',
+            'CHARACTER_DATA__TOP_MENU__NORMAL',
+            'CHARACTER_DATA__TOP_MENU__COMBO',
+            'CHARACTER_DATA__TOP_MENU__SPECIAL',
         ];
-        const contentList = [<h1 key={1}>1</h1>, <h1 key={2}>2</h1>, <h1 key={3}>3</h1>];
+
+        const contentList = [
+            <h1 key={1}>CHARACTER_DATA__TOP_MENU__NORMAL</h1>,
+            <h1 key={2}>CHARACTER_DATA__TOP_MENU__COMBO</h1>,
+            <h1 key={3}>CHARACTER_DATA__TOP_MENU__SPECIAL</h1>,
+        ];
+
         const activeIndex = 0;
 
         return (

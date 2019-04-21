@@ -1,1 +1,17 @@
-// scss
+.tab_list__tab_item {
+    display: block;
+    margin: 0 10px;
+    padding: 10px 0;
+
+    &.tab_list__tab_item__active {
+        background-color: #c00;
+    }
+
+    &.tab_list__tab_item__first {
+        margin-left: 0;
+    }
+
+    &.tab_list__tab_item__last {
+        margin-right: 0;
+    }
+}

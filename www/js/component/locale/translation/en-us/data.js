@@ -18,6 +18,11 @@ export const enUs: LangDataType = {
     // spec symbols
     SPACE: ' ',
 
+    // character data
+    CHARACTER_DATA__TOP_MENU__NORMAL: 'Normal',
+    CHARACTER_DATA__TOP_MENU__COMBO: 'Kombo',
+    CHARACTER_DATA__TOP_MENU__SPECIAL: 'Special',
+
     // characters
     CHARACTER__MOCK_UP_MAN__NAME: 'Mock up Man',
     CHARACTER__MOCK_UP_MAN__DESCRIPTION: 'Mock up Man description.',

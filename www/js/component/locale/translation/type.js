@@ -15,6 +15,11 @@ export type LangDataType = {|
     // spec symbols
     +SPACE: ' ',
 
+    // character data
+    +CHARACTER_DATA__TOP_MENU__NORMAL: string,
+    +CHARACTER_DATA__TOP_MENU__COMBO: string,
+    +CHARACTER_DATA__TOP_MENU__SPECIAL: string,
+
     // characters
     +CHARACTER__MOCK_UP_MAN__NAME: string,
     +CHARACTER__MOCK_UP_MAN__DESCRIPTION: string,
