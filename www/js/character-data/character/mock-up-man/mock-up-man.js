@@ -12,5 +12,9 @@ export const mockUpMan: CharacterType = {
     normalMoveList: [],
     comboList: [],
     specialMoveList: [],
-    variationList: [],
+    variationList: [
+        'CHARACTER__MOCK_UP_MAN__VARIATION__KILLER',
+        'CHARACTER__MOCK_UP_MAN__VARIATION__LOVER',
+        'CHARACTER__MOCK_UP_MAN__VARIATION__MAN_WTH_GUN',
+    ],
 };
