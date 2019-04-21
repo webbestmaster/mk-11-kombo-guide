@@ -9,6 +9,7 @@ import type {ContextRouterType} from '../../type/react-router-dom-v4';
 import type {CharacterType} from '../../character-data/type';
 import {characterList, getCharacterById} from '../../character-data/character-data';
 import {PageNotFound} from '../../page/page-not-found/c-page-not-found';
+import {TabList} from '../ui/tab-list/c-tab-list';
 // import style from './style.scss';
 
 type PassedPropsType = {|
@@ -31,6 +32,20 @@ export class Character extends Component<PropsType, StateType> {
         return getCharacterById(characterId);
     }
 
+    renderTabList(): Node {
+        const titleList = [
+            'CHARACTER__MOCK_UP_MAN__NAME',
+            'CHARACTER__MOCK_UP_MAN__VARIATION__KILLER',
+            'CHARACTER__MOCK_UP_MAN__VARIATION__MAN_WTH_GUN',
+        ];
+        const contentList = [<h1 key={1}>1</h1>, <h1 key={2}>2</h1>, <h1 key={3}>3</h1>];
+        const activeIndex = 0;
+
+        return (
+            <TabList activeIndex={activeIndex} contentList={contentList} onChange={() => null} titleList={titleList}/>
+        );
+    }
+
     render(): Node {
         const view = this;
         const characterData = view.getCharacterData();
@@ -41,6 +56,11 @@ export class Character extends Component<PropsType, StateType> {
             return <h1>You should pass valid character id!</h1>;
         }
 
-        return <div>{JSON.stringify(characterData)}</div>;
+        return (
+            <>
+                {view.renderTabList()}
+                {JSON.stringify(characterData)}
+            </>
+        );
     }
 }
