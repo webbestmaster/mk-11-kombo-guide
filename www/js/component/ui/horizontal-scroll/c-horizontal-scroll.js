@@ -91,13 +91,26 @@ export class HorizontalScroll extends Component<PropsType, StateType> {
         return forceResize();
     }
 
+    renderItem = (child: Node, index: number): Node => {
+        const view = this;
+        const {props} = view;
+
+        const itemClassName = [
+            'swiper-slide',
+            horizontalScrollStyle.horizontal_scroll_swiper_slide,
+            props.slideClassName || '',
+        ].join(' ');
+
+        return (
+            <li className={itemClassName} key={index}>
+                {child}
+            </li>
+        );
+    };
+
     renderSwiper(): Node {
         const view = this;
         const {props} = view;
-        const {slideClassName} = props;
-
-        const itemClassName = `swiper-slide ${horizontalScrollStyle.horizontal_scroll_swiper_slide} ${slideClassName
-            || ''}`;
 
         const childArray: Array<Node> = React.Children.toArray(props.children);
 
@@ -107,16 +120,7 @@ export class HorizontalScroll extends Component<PropsType, StateType> {
                 ref={view.node.wrapper}
             >
                 <ul className={`swiper-wrapper ${horizontalScrollStyle.horizontal_scroll_swiper_wrapper}`}>
-                    {childArray.map(
-                        (child: Node, index: number): Node => {
-                            return (
-                                // eslint-disable-next-line react/no-array-index-key
-                                <li className={itemClassName} key={index}>
-                                    {child}
-                                </li>
-                            );
-                        }
-                    )}
+                    {childArray.map(this.renderItem)}
                 </ul>
                 <div className={`${view.attr.swiperId} swiper-scrollbar`}/>
             </div>
