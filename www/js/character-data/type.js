@@ -39,7 +39,7 @@ type FrameDataType = {|
     +cancel: number | NaType,
 |};
 
-type MoveType = 'low' | 'mid' | 'high' | 'overhead' | 'throw';
+type MoveType = 'low' | 'mid' | 'high' | 'overhead' | 'throw' | 'unblockable';
 
 export const moveTypeMap: {+[key: string]: MoveType} = {
     low: 'low',
@@ -47,6 +47,7 @@ export const moveTypeMap: {+[key: string]: MoveType} = {
     hgh: 'high',
     ovh: 'overhead',
     thr: 'throw',
+    unb: 'unblockable',
 };
 
 type MoveDataType = {|
