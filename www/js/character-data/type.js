@@ -57,10 +57,10 @@ type MoveDataType = {|
 |};
 
 type ComboType = {|
+    +name: LangKeyType,
     +sequence: Array<ComboInputType | [ComboInputType, ComboInputType]>,
-    +variationList: Array<LangKeyType>,
-    +frameData: FrameDataType,
     +moveData: MoveDataType,
+    +frameData: FrameDataType,
     +availableForVariationList: Array<LangKeyType>,
 |};
 
