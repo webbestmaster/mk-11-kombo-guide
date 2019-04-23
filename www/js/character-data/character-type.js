@@ -56,7 +56,7 @@ type MoveDataType = {|
     +blockDamage: number | NaType,
 |};
 
-type ComboType = {|
+export type ComboType = {|
     +name: LangKeyType,
     +sequence: Array<ComboInputType | [ComboInputType, ComboInputType]>,
     +moveData: MoveDataType,

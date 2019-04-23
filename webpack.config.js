@@ -278,7 +278,7 @@ const webpackConfig = {
     devServer: {
         contentBase: path.join(CWD, pathToDist),
         host: '0.0.0.0',
-        port: 8181,
+        port: 8787,
         historyApiFallback: {
             disableDotRule: true,
         },
