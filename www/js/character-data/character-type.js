@@ -4,7 +4,12 @@ import type {LangKeyType} from '../component/locale/translation/type';
 
 type ComboInputDirectionType = 'u' | 'd' | 'l' | 'r' | 'ur' | 'dr' | 'ul' | 'dl';
 type ComboInputMoveType = '1' | '2' | '3' | '4';
-export type ComboInputType = ComboInputDirectionType | ComboInputMoveType;
+type ComboInputAdditionalType = '+';
+export type ComboInputSingleType = ComboInputDirectionType | ComboInputMoveType | ComboInputAdditionalType;
+export type ComboInputType =
+    | ComboInputSingleType
+    | [ComboInputSingleType, ComboInputSingleType]
+    | [ComboInputSingleType, ComboInputSingleType, ComboInputSingleType];
 
 type NaType = 'N/A';
 export const naValue: NaType = 'N/A';
@@ -27,6 +32,9 @@ export type InputMoveMapType = {|
     +i2n: '2',
     +i3n: '3',
     +i4n: '4',
+
+    // additional move icon
+    +plus: '+',
 |};
 
 export const inputMoveMap: InputMoveMapType = {
@@ -45,6 +53,9 @@ export const inputMoveMap: InputMoveMapType = {
     i2n: '2',
     i3n: '3',
     i4n: '4',
+
+    // additional move icon
+    plus: '+',
 };
 
 type FrameDataType = {|

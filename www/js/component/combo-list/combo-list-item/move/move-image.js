@@ -26,6 +26,8 @@ import xBox2 from './image/xbox/2.svg';
 import xBox3 from './image/xbox/3.svg';
 import xBox4 from './image/xbox/4.svg';
 
+import signPlus from './image/main/sign-plus.svg';
+
 /*
 export type InputImageMapType = {|
     // ComboInputDirectionType
@@ -57,9 +59,17 @@ const directionImageMap = {
     [inputMoveMap.iDnLt]: arrowDownLeft,
 };
 
-export const imageInputMapPc = {
-    // ComboInputDirectionType
+const additiopnalImageMap = {
+    [inputMoveMap.plus]: signPlus,
+};
+
+const mainImageMap = {
     ...directionImageMap,
+    ...additiopnalImageMap,
+};
+
+export const imageInputMapPc = {
+    ...mainImageMap,
 
     // ComboInputMoveType
     [inputMoveMap.i1n]: pc1,
@@ -69,8 +79,7 @@ export const imageInputMapPc = {
 };
 
 export const imageInputMapPs = {
-    // ComboInputDirectionType
-    ...directionImageMap,
+    ...mainImageMap,
 
     // ComboInputMoveType
     [inputMoveMap.i1n]: ps1,
@@ -80,8 +89,7 @@ export const imageInputMapPs = {
 };
 
 export const imageInputMapXBox = {
-    // ComboInputDirectionType
-    ...directionImageMap,
+    ...mainImageMap,
 
     // ComboInputMoveType
     [inputMoveMap.i1n]: xBox1,

@@ -8,7 +8,7 @@ import {connect} from 'react-redux';
 
 // import type {GlobalStateType} from '../../redux-store-provider/reducer';
 // import type {ContextRouterType} from '../../type/react-router-dom-v4';
-import type {ComboInputType} from '../../../../character-data/character-type';
+import type {ComboInputSingleType, ComboInputType} from '../../../../character-data/character-type';
 
 import {imageInputMapPc, imageInputMapPs, imageInputMapXBox} from './move-image';
 
@@ -29,7 +29,7 @@ const reduxAction: ReduxActionType = {
 };
 
 type PassedPropsType = {|
-    +input: ComboInputType,
+    +input: ComboInputSingleType,
 |};
 
 type PropsType = {

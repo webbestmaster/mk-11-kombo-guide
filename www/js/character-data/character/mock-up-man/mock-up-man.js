@@ -22,6 +22,8 @@ const {
     i2n,
     i3n,
     i4n,
+    // additional move icon
+    plus,
 } = inputMoveMap;
 
 export const mockUpMan: CharacterType = {
@@ -31,7 +33,7 @@ export const mockUpMan: CharacterType = {
     normalMoveList: [
         {
             name: 'CHARACTER__MOCK_UP_MAN__NAME',
-            sequence: [iDn, i2n],
+            sequence: [iDn, i2n, [iUpRt, iUpRt], i3n],
             moveData: {
                 type: moveTypeMap.low,
                 hitDamage: naValue,

@@ -9,10 +9,12 @@ import {connect} from 'react-redux';
 import type {GlobalStateType} from '../../../redux-store-provider/reducer';
 
 // import type {ContextRouterType} from '../../type/react-router-dom-v4';
-import type {ComboInputType, ComboType} from '../../../character-data/character-type';
+import type {ComboInputSingleType, ComboInputType, ComboType} from '../../../character-data/character-type';
 
 import {Locale} from '../../locale/c-locale';
 import serviceStyle from '../../../../css/service.scss';
+
+import {inputMoveMap} from '../../../character-data/character-type';
 
 import comboListItemStyle from './combo-list-item.style.scss';
 import {Move} from './move/c-move';
@@ -71,10 +73,32 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         );
     }
 
-    renderMoveItem(inputType: ComboInputType, index: number): Node {
-        // TODO: check is array here, add ',' here too
-
+    static renderSingleMoveItem(inputType: ComboInputSingleType, index: number): Node {
         return <Move input={inputType} key={index}/>;
+    }
+
+    static renderMoveItem(inputType: ComboInputType, index: number): Node | Array<Node> {
+        if (!Array.isArray(inputType)) {
+            return ComboListItem.renderSingleMoveItem(inputType, index);
+        }
+
+        const inputLength = inputType.length;
+
+        const newInputTypeList: Array<ComboInputSingleType> = [];
+
+        inputType.forEach((inputTypeInList: ComboInputSingleType, innerIndex: number) => {
+            const isLast = inputLength - 1 === innerIndex;
+
+            if (isLast) {
+                newInputTypeList.push(inputTypeInList);
+                return;
+            }
+
+            newInputTypeList.push(inputTypeInList);
+            newInputTypeList.push(inputMoveMap.plus);
+        });
+
+        return newInputTypeList.map(ComboListItem.renderSingleMoveItem);
     }
 
     renderMoveList(): Node {
@@ -82,7 +106,11 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         const {props, state} = view;
         const {combo} = props;
 
-        return <div className={comboListItemStyle.combo_move_wrapper}>{combo.sequence.map(view.renderMoveItem)}</div>;
+        return (
+            <div className={comboListItemStyle.combo_move_wrapper}>
+                {combo.sequence.map(ComboListItem.renderMoveItem)}
+            </div>
+        );
     }
 
     render(): Node {
