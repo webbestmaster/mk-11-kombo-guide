@@ -25,10 +25,6 @@ export const enUs: LangDataType = {
 
     // characters
     CHARACTER__MOCK_UP_MAN__NAME: 'Mock up Man',
-    CHARACTER__MOCK_UP_MAN__DESCRIPTION: 'Mock up Man description.',
-    CHARACTER__MOCK_UP_MAN__VARIATION__KILLER: 'Killer',
-    CHARACTER__MOCK_UP_MAN__VARIATION__LOVER: 'Lover',
-    CHARACTER__MOCK_UP_MAN__VARIATION__MAN_WTH_GUN: 'The Man With The Gun',
 
     /* eslint-enable id-match, id-length */
 };

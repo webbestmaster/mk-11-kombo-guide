@@ -29,7 +29,6 @@ export const mockUpMan: CharacterType = {
     id: 'mock-up-man',
     imagePath: mockUpMapImagePath,
     name: 'CHARACTER__MOCK_UP_MAN__NAME',
-    description: 'CHARACTER__MOCK_UP_MAN__DESCRIPTION',
     normalMoveList: [
         {
             name: 'CHARACTER__MOCK_UP_MAN__NAME',
@@ -38,6 +37,7 @@ export const mockUpMan: CharacterType = {
                 type: moveTypeMap.low,
                 hitDamage: naValue,
                 blockDamage: 20,
+                flawlessBlockDamage: 1,
             },
             frameData: {
                 startUp: 15,
@@ -45,16 +45,11 @@ export const mockUpMan: CharacterType = {
                 recover: 36,
                 hitAdvance: 14,
                 blockAdvance: -6,
+                flawlessBlockAdvance: -10,
                 cancel: 30,
             },
-            availableForVariationList: ['CHARACTER__MOCK_UP_MAN__NAME'],
         },
     ],
-    comboList: [],
+    comboMoveList: [],
     specialMoveList: [],
-    variationList: [
-        'CHARACTER__MOCK_UP_MAN__VARIATION__KILLER',
-        'CHARACTER__MOCK_UP_MAN__VARIATION__LOVER',
-        'CHARACTER__MOCK_UP_MAN__VARIATION__MAN_WTH_GUN',
-    ],
 };

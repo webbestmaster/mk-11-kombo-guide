@@ -10,6 +10,8 @@ type ComboInputType = ComboInputDirectionType | ComboInputMoveType | ComboInputC
 type NaType = 'N/A';
 export const naValue: NaType = 'N/A';
 
+type MayBeNaType<T> = T | NaType;
+
 export const inputMoveMap: {+[key: string]: ComboInputType} = {
     // ComboInputDirectionType
     iUp: 'u',
@@ -31,12 +33,13 @@ export const inputMoveMap: {+[key: string]: ComboInputType} = {
 };
 
 type FrameDataType = {|
-    +startUp: number | NaType,
-    +active: number | NaType,
-    +recover: number | NaType,
-    +hitAdvance: number | NaType,
-    +blockAdvance: number | NaType,
-    +cancel: number | NaType,
+    +startUp: MayBeNaType<number>,
+    +active: MayBeNaType<number>,
+    +recover: MayBeNaType<number>,
+    +hitAdvance: MayBeNaType<number>,
+    +blockAdvance: MayBeNaType<number>,
+    +flawlessBlockAdvance: MayBeNaType<number>,
+    +cancel: MayBeNaType<number>,
 |};
 
 type MoveType = 'low' | 'mid' | 'high' | 'overhead' | 'throw' | 'unblockable';
@@ -51,9 +54,10 @@ export const moveTypeMap: {+[key: string]: MoveType} = {
 };
 
 type MoveDataType = {|
-    +type: MoveType | NaType,
-    +hitDamage: number | NaType,
-    +blockDamage: number | NaType,
+    +type: MayBeNaType<MoveType>,
+    +hitDamage: MayBeNaType<number>,
+    +blockDamage: MayBeNaType<number>,
+    +flawlessBlockDamage: MayBeNaType<number>,
 |};
 
 export type ComboType = {|
@@ -61,16 +65,16 @@ export type ComboType = {|
     +sequence: Array<ComboInputType | [ComboInputType, ComboInputType]>,
     +moveData: MoveDataType,
     +frameData: FrameDataType,
-    +availableForVariationList: Array<LangKeyType>,
+    // +availableForVariationList: Array<LangKeyType> | null,
 |};
 
 export type CharacterType = {|
     +id: string,
     +imagePath: string,
     +name: LangKeyType,
-    +description: LangKeyType,
+    // +description: LangKeyType,
     +normalMoveList: Array<ComboType>,
-    +comboList: Array<ComboType>,
+    +comboMoveList: Array<ComboType>,
     +specialMoveList: Array<ComboType>,
-    +variationList: Array<LangKeyType>,
+    // +variationList: Array<LangKeyType>,
 |};

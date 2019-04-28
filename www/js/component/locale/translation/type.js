@@ -22,10 +22,6 @@ export type LangDataType = {|
 
     // characters
     +CHARACTER__MOCK_UP_MAN__NAME: string,
-    +CHARACTER__MOCK_UP_MAN__DESCRIPTION: string,
-    +CHARACTER__MOCK_UP_MAN__VARIATION__KILLER: string,
-    +CHARACTER__MOCK_UP_MAN__VARIATION__LOVER: string,
-    +CHARACTER__MOCK_UP_MAN__VARIATION__MAN_WTH_GUN: string,
 
     /* eslint-enable id-match */
 |};
