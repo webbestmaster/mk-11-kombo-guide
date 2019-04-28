@@ -13,6 +13,10 @@ const {
     iDn,
     iLt,
     iRt,
+    iUpRt,
+    iDnRt,
+    iUpLt,
+    iDnLt,
     // ComboInputMoveType
     i1n,
     i2n,

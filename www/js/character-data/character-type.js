@@ -2,7 +2,7 @@
 
 import type {LangKeyType} from '../component/locale/translation/type';
 
-type ComboInputDirectionType = 'u' | 'd' | 'l' | 'r';
+type ComboInputDirectionType = 'u' | 'd' | 'l' | 'r' | 'ur' | 'dr' | 'ul' | 'dl';
 type ComboInputMoveType = '1' | '2' | '3' | '4';
 type ComboInputCompoundMoveType = '1+2' | '2+4' | '4+3' | '3+1';
 export type ComboInputType = ComboInputDirectionType | ComboInputMoveType | ComboInputCompoundMoveType;
@@ -18,6 +18,10 @@ export const inputMoveMap: {+[key: string]: ComboInputType} = {
     iDn: 'd',
     iLt: 'l',
     iRt: 'r',
+    iUpRt: 'ur',
+    iDnRt: 'dr',
+    iUpLt: 'ul',
+    iDnLt: 'dl',
 
     // ComboInputMoveType
     i1n: '1',
