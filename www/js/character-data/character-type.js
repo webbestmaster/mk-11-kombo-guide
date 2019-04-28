@@ -5,7 +5,7 @@ import type {LangKeyType} from '../component/locale/translation/type';
 type ComboInputDirectionType = 'u' | 'd' | 'l' | 'r';
 type ComboInputMoveType = '1' | '2' | '3' | '4';
 type ComboInputCompoundMoveType = '1+2' | '2+4' | '4+3' | '3+1';
-type ComboInputType = ComboInputDirectionType | ComboInputMoveType | ComboInputCompoundMoveType;
+export type ComboInputType = ComboInputDirectionType | ComboInputMoveType | ComboInputCompoundMoveType;
 
 type NaType = 'N/A';
 export const naValue: NaType = 'N/A';

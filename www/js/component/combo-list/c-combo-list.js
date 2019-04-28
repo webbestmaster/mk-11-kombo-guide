@@ -10,7 +10,7 @@ import type {ContextRouterType} from '../../type/react-router-dom-v4';
 import type {ComboType} from '../../character-data/character-type';
 
 import comboListStyle from './combo-list.style.scss';
-import {ComboListItem} from './combo-list-item/combo-list-item';
+import {ComboListItem} from './combo-list-item/c-combo-list-item';
 
 type PassedPropsType = {|
     +list: Array<ComboType>,
@@ -24,14 +24,18 @@ export class ComboList extends Component<PropsType, StateType> {
     state: StateType;
     props: PropsType;
 
-    renderComboItem(combo: ComboType) {
-        return <ComboListItem combo={combo} key={JSON.stringify(combo)}/>;
+    renderComboItem(combo: ComboType): Node {
+        return (
+            <li className={comboListStyle.list_item} key={JSON.stringify(combo)}>
+                <ComboListItem combo={combo}/>
+            </li>
+        );
     }
 
     render(): Node {
         const view = this;
         const {props, state} = view;
 
-        return <div>{props.list.map(view.renderComboItem)}</div>;
+        return <ul className={comboListStyle.list_wrapper}>{props.list.map(view.renderComboItem)}</ul>;
     }
 }

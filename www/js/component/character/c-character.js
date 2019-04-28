@@ -60,7 +60,12 @@ export class Character extends Component<PropsType, StateType> {
         const activeIndex = 0;
 
         return (
-            <TabList activeIndex={activeIndex} contentList={contentList} onChange={() => null} titleList={titleList}/>
+            <TabList
+                activeIndex={activeIndex}
+                contentList={contentList}
+                onChange={(tabIndex: number): mixed => null}
+                titleList={titleList}
+            />
         );
     }
 
@@ -77,77 +82,6 @@ export class Character extends Component<PropsType, StateType> {
         return (
             <>
                 {view.renderTabList()}
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
                 <br/>
                 <br/>
                 <br/>

@@ -6,12 +6,11 @@ import type {ComponentType, Node} from 'react';
 import React, {Component, Fragment} from 'react';
 import {connect} from 'react-redux';
 
-import type {GlobalStateType} from '../../../redux-store-provider/reducer';
-
+// import type {GlobalStateType} from '../../redux-store-provider/reducer';
 // import type {ContextRouterType} from '../../type/react-router-dom-v4';
-import type {ComboType} from '../../../character-data/character-type';
+import type {ComboInputType} from '../../../../character-data/character-type';
 
-import comboListItemStyle from './combo-list-item.style.scss';
+import moveStyle from './move.style.scss';
 
 type ReduxPropsType = {|
     +reduxProp: boolean,
@@ -26,20 +25,20 @@ const reduxAction: ReduxActionType = {
 };
 
 type PassedPropsType = {|
-    +combo: ComboType,
+    +input: ComboInputType,
 |};
 
 type PropsType = {
-    ...PassedPropsType,
     ...ReduxPropsType,
     ...ReduxActionType,
+    ...PassedPropsType,
 };
 
 type StateType = {|
     +state: number,
 |};
 
-class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType> {
+class Move extends Component<ReduxPropsType, PassedPropsType, StateType> {
     constructor(props: PropsType) {
         super(props);
 
@@ -56,22 +55,16 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
     render(): Node {
         const view = this;
         const {props, state} = view;
-        const {combo} = props;
 
-        return (
-            <div>
-                <h1>combo data</h1>
-                <div>{JSON.stringify(combo)}</div>
-            </div>
-        );
+        return <div className={moveStyle.move_wrapper}>{props.input}</div>;
     }
 }
 
-const ConnectedComponent = connect<ComponentType<ComboListItem>, PassedPropsType, ReduxPropsType, ReduxActionType>(
+const ConnectedComponent = connect<ComponentType<Move>, PassedPropsType, ReduxPropsType, ReduxActionType>(
     (state: GlobalStateType, props: PassedPropsType): ReduxPropsType => ({
         reduxProp: true,
     }),
     reduxAction
-)(ComboListItem);
+)(Move);
 
-export {ConnectedComponent as ComboListItem};
+export {ConnectedComponent as Move};
