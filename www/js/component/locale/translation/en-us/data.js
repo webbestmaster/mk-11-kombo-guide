@@ -24,7 +24,8 @@ export const enUs: LangDataType = {
     CHARACTER_DATA__TOP_MENU__SPECIAL: 'Special',
 
     // characters
-    CHARACTER__MOCK_UP_MAN__NAME: 'Mock up Man',
+    CHARACTER__MOCK_UP_MAN__NAME:
+        'Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man',
 
     /* eslint-enable id-match, id-length */
 };

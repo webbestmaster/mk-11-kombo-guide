@@ -10,8 +10,11 @@ import {Link} from 'react-router-dom';
 import type {CharacterType} from '../../../character-data/character-type';
 import {getCharacterPath} from '../../app/routes';
 import {Locale} from '../../locale/c-locale';
+
 // import type {ContextRouterType} from '../../type/react-router-dom-v4';
-// import style from './style.scss';
+import serviceStyle from '../../../../css/service.scss';
+
+import characterListItemStyle from './character-list-item.style.scss';
 
 type PassedPropsType = {|
     +characterData: CharacterType,
@@ -31,12 +34,13 @@ export class CharacterListItem extends Component<PropsType, StateType> {
         const {characterData} = props;
 
         return (
-            <Link to={getCharacterPath(characterData.id)}>
-                <img alt="" src={characterData.imagePath}/>
-                <br/>
-                <Locale stringKey={characterData.name}/>
-                <br/>
-                <br/>
+            <Link className={characterListItemStyle.character_wrapper} to={getCharacterPath(characterData.id)}>
+                <div className={characterListItemStyle.character_name}>
+                    <p className={serviceStyle.ellipsis}>
+                        <Locale stringKey={characterData.name}/>
+                    </p>
+                </div>
+                <img alt="" className={characterListItemStyle.character_image} src={characterData.imagePath}/>
             </Link>
         );
     }

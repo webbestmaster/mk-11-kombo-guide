@@ -10,7 +10,7 @@ type ComboInputType = ComboInputDirectionType | ComboInputMoveType | ComboInputC
 type NaType = 'N/A';
 export const naValue: NaType = 'N/A';
 
-type MayBeNaType<T> = T | NaType;
+type MayBeNaType<BasicType> = BasicType | NaType;
 
 export const inputMoveMap: {+[key: string]: ComboInputType} = {
     // ComboInputDirectionType

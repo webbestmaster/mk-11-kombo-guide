@@ -9,7 +9,7 @@ import {characterList} from '../../character-data/character-data';
 import type {CharacterType} from '../../character-data/character-type';
 
 import {CharacterListItem} from './character-list-item/c-character-list-item';
-// import style from './style.scss';
+import characterListStyle from './character-list.style.scss';
 
 type PropsType = {};
 
@@ -18,7 +18,7 @@ type StateType = void;
 export class CharacterList extends Component<PropsType, StateType> {
     static renderListItem(characterData: CharacterType): Node {
         return (
-            <li key={characterData.id}>
+            <li className={characterListStyle.list_item} key={characterData.id}>
                 <CharacterListItem characterData={characterData}/>
             </li>
         );
@@ -28,6 +28,6 @@ export class CharacterList extends Component<PropsType, StateType> {
     props: PropsType;
 
     render(): Node {
-        return <ul>{characterList.map(CharacterList.renderListItem)}</ul>;
+        return <ul className={characterListStyle.list_wrapper}>{characterList.map(CharacterList.renderListItem)}</ul>;
     }
 }
