@@ -11,9 +11,10 @@ import {connect} from 'react-redux';
 import type {ComboInputType} from '../../../../character-data/character-type';
 
 import moveStyle from './move.style.scss';
+import type {PlatformType} from './reducer';
 
 type ReduxPropsType = {|
-    +reduxProp: boolean,
+    +platform: PlatformType,
 |};
 
 type ReduxActionType = {
@@ -29,8 +30,8 @@ type PassedPropsType = {|
 |};
 
 type PropsType = {
-    ...ReduxPropsType,
     ...ReduxActionType,
+    ...ReduxPropsType,
     ...PassedPropsType,
 };
 
@@ -56,13 +57,17 @@ class Move extends Component<ReduxPropsType, PassedPropsType, StateType> {
         const view = this;
         const {props, state} = view;
 
-        return <div className={moveStyle.move_wrapper}>{props.input}</div>;
+        return (
+            <div className={moveStyle.move_wrapper}>
+                {props.input} - {props.platform.name}
+            </div>
+        );
     }
 }
 
 const ConnectedComponent = connect<ComponentType<Move>, PassedPropsType, ReduxPropsType, ReduxActionType>(
     (state: GlobalStateType, props: PassedPropsType): ReduxPropsType => ({
-        reduxProp: true,
+        platform: state.platform,
     }),
     reduxAction
 )(Move);
