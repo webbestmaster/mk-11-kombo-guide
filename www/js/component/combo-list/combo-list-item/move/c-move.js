@@ -10,8 +10,11 @@ import {connect} from 'react-redux';
 // import type {ContextRouterType} from '../../type/react-router-dom-v4';
 import type {ComboInputType} from '../../../../character-data/character-type';
 
+import {imageInputMapPc, imageInputMapPs, imageInputMapXBox} from './move-image';
+
 import moveStyle from './move.style.scss';
 import type {PlatformType} from './reducer';
+import {platformNameMap} from './action';
 
 type ReduxPropsType = {|
     +platform: PlatformType,
@@ -53,13 +56,33 @@ class Move extends Component<ReduxPropsType, PassedPropsType, StateType> {
     state: StateType;
     props: PropsType;
 
+    getImagePath(): string {
+        const view = this;
+        const {props, state} = view;
+        const {input, platform} = props;
+
+        switch (platform.name) {
+            case platformNameMap.computer:
+                return imageInputMapPc[input];
+
+            case platformNameMap.playStation:
+                return imageInputMapPs[input];
+
+            case platformNameMap.xBox:
+                return imageInputMapXBox[input];
+
+            default:
+                throw new Error('Can not get image!');
+        }
+    }
+
     render(): Node {
         const view = this;
         const {props, state} = view;
 
         return (
             <div className={moveStyle.move_wrapper}>
-                {props.input} - {props.platform.name}
+                <img alt="" src={view.getImagePath()}/>
             </div>
         );
     }

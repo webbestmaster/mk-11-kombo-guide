@@ -4,15 +4,32 @@ import type {LangKeyType} from '../component/locale/translation/type';
 
 type ComboInputDirectionType = 'u' | 'd' | 'l' | 'r' | 'ur' | 'dr' | 'ul' | 'dl';
 type ComboInputMoveType = '1' | '2' | '3' | '4';
-type ComboInputCompoundMoveType = '1+2' | '2+4' | '4+3' | '3+1';
-export type ComboInputType = ComboInputDirectionType | ComboInputMoveType | ComboInputCompoundMoveType;
+export type ComboInputType = ComboInputDirectionType | ComboInputMoveType;
 
 type NaType = 'N/A';
 export const naValue: NaType = 'N/A';
 
 type MayBeNaType<BasicType> = BasicType | NaType;
 
-export const inputMoveMap: {+[key: string]: ComboInputType} = {
+export type InputMoveMapType = {|
+    // ComboInputDirectionType
+    +iUp: 'u',
+    +iDn: 'd',
+    +iLt: 'l',
+    +iRt: 'r',
+    +iUpRt: 'ur',
+    +iDnRt: 'dr',
+    +iUpLt: 'ul',
+    +iDnLt: 'dl',
+
+    // ComboInputMoveType
+    +i1n: '1',
+    +i2n: '2',
+    +i3n: '3',
+    +i4n: '4',
+|};
+
+export const inputMoveMap: InputMoveMapType = {
     // ComboInputDirectionType
     iUp: 'u',
     iDn: 'd',
@@ -28,12 +45,6 @@ export const inputMoveMap: {+[key: string]: ComboInputType} = {
     i2n: '2',
     i3n: '3',
     i4n: '4',
-
-    // ComboInputCompoundMoveType
-    i12: '1+2',
-    i24: '2+4',
-    i43: '4+3',
-    i31: '3+1',
 };
 
 type FrameDataType = {|

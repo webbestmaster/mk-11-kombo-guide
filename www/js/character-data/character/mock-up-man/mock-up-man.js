@@ -22,11 +22,6 @@ const {
     i2n,
     i3n,
     i4n,
-    // ComboInputCompoundMoveType
-    i12,
-    i24,
-    i43,
-    i31,
 } = inputMoveMap;
 
 export const mockUpMan: CharacterType = {

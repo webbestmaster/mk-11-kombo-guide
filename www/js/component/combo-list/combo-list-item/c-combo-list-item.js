@@ -72,6 +72,8 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
     }
 
     renderMoveItem(inputType: ComboInputType, index: number): Node {
+        // TODO: check is array here, add ',' here too
+
         return <Move input={inputType} key={index}/>;
     }
 
@@ -92,6 +94,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
             <div className={comboListItemStyle.combo_wrapper}>
                 {view.renderComboTitle()}
                 {view.renderMoveList()}
+                {/* <h5>show frame data here</h5>*/}
                 {/* <div>{JSON.stringify(combo)}</div>*/}
             </div>
         );
