@@ -63,6 +63,18 @@ export class HorizontalScroll extends Component<PropsType, StateType> {
         });
     }
 
+    componentWillUnmount() {
+        const view = this;
+
+        const {swiper} = view.attr;
+
+        if (swiper === null) {
+            return;
+        }
+
+        swiper.destroy();
+    }
+
     attr: AttrType;
     node: NodeType;
     props: PropsType;

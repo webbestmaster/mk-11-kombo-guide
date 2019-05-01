@@ -24,5 +24,6 @@ type SwiperOptionsType = {|
 declare module 'swiper' {
     declare export default class Swiper {
         constructor(node: HTMLElement, options: SwiperOptionsType): Swiper,
+        destroy(deleteInstance?: boolean, cleanStyles: ? boolean): mixed, // default deleteInstance = true, cleanStyles = true
     }
 }
