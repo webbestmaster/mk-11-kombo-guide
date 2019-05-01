@@ -11,6 +11,7 @@ import {characterList, getCharacterById} from '../../character-data/character-da
 import {PageNotFound} from '../../page/page-not-found/c-page-not-found';
 import {TabList} from '../ui/tab-list/c-tab-list';
 import {ComboList} from '../combo-list/c-combo-list';
+import {ComboListHeader} from '../combo-list-header/c-combo-list-header';
 // import style from './style.scss';
 
 type PassedPropsType = {|
@@ -51,6 +52,8 @@ export class Character extends Component<PropsType, StateType> {
 
         const contentList = [
             <div key={1}>
+                <ComboList list={characterData.normalMoveList}/>
+                <ComboListHeader title="CHARACTER__MOCK_UP_MAN__NAME"/>
                 <ComboList list={characterData.normalMoveList}/>
             </div>,
             <h1 key={2}>CHARACTER_DATA__TOP_MENU__COMBO</h1>,
