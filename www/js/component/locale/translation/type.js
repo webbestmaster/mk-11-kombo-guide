@@ -20,9 +20,20 @@ export type LangDataType = {|
     +CHARACTER_DATA__TOP_MENU__COMBO: string,
     +CHARACTER_DATA__TOP_MENU__SPECIAL: string,
 
+    // frame data
+    +FRAME_DATA__MOVE_TYPE: string,
+    +FRAME_DATA__DAMAGE: string,
+    +FRAME_DATA__BLOCK_DAMAGE: string,
+    +FRAME_DATA__FLAWLESS_BLOCK_DAMAGE: string,
+    +FRAME_DATA__START_UP: string,
+    +FRAME_DATA__ACTIVE: string,
+    +FRAME_DATA__RECOVER: string,
+    +FRAME_DATA__BLOCK_ADVANTAGE: string,
+    +FRAME_DATA__HIT_ADVANTAGE: string,
+    +FRAME_DATA__CANCEL: string,
+
     // characters
     +CHARACTER__MOCK_UP_MAN__NAME: string,
-
     /* eslint-enable id-match */
 |};
 

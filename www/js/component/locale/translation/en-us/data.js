@@ -23,9 +23,20 @@ export const enUs: LangDataType = {
     CHARACTER_DATA__TOP_MENU__COMBO: 'Kombo',
     CHARACTER_DATA__TOP_MENU__SPECIAL: 'Special',
 
+    // frame data
+    FRAME_DATA__MOVE_TYPE: 'Move type',
+    FRAME_DATA__DAMAGE: 'Damage',
+    FRAME_DATA__BLOCK_DAMAGE: 'Block damage',
+    FRAME_DATA__FLAWLESS_BLOCK_DAMAGE: 'Block flawless damage',
+    FRAME_DATA__START_UP: 'Start-up',
+    FRAME_DATA__ACTIVE: 'Active',
+    FRAME_DATA__RECOVER: 'Recover',
+    FRAME_DATA__BLOCK_ADVANTAGE: 'Block advantage',
+    FRAME_DATA__HIT_ADVANTAGE: 'Hit advantage',
+    FRAME_DATA__CANCEL: 'Cancel',
+
     // characters
     CHARACTER__MOCK_UP_MAN__NAME:
         'Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man',
-
     /* eslint-enable id-match, id-length */
 };
