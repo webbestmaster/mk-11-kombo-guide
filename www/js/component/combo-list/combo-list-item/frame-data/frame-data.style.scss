@@ -1,6 +1,33 @@
 @import './../../../../../css/var';
 
 .frame_data_wrapper {
-    background-color: $header-border-bottom-color;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.frame_data_table {
+    outline: none;
+}
+
+.frame_data_table_body {
+    outline: none;
+}
+
+.frame_data_table_tr {
+    outline: none;
+}
+
+.frame_data_table_td,
+.frame_data_table_th {
+    outline: none;
+    text-align: center;
+}
+
+.frame_data_table_td {
+    outline: none;
+}
+
+.frame_data_table_th {
+    outline: none;
 }
