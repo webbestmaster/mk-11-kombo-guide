@@ -7,17 +7,15 @@ import React, {Component, Fragment} from 'react';
 import {connect} from 'react-redux';
 
 import type {GlobalStateType} from '../../../redux-store-provider/reducer';
-
-// import type {ContextRouterType} from '../../type/react-router-dom-v4';
 import type {ComboInputSingleType, ComboInputType, ComboType} from '../../../character-data/character-type';
-
 import {Locale} from '../../locale/c-locale';
 import serviceStyle from '../../../../css/service.scss';
-
 import {inputMoveMap} from '../../../character-data/character-type';
+import {forceResize} from '../../ui/scroll/helper';
 
 import comboListItemStyle from './combo-list-item.style.scss';
 import {Move} from './move/c-move';
+import {FrameData} from './frame-data/c-frame-data';
 
 type ReduxPropsType = {|
     +reduxProp: boolean,
@@ -42,7 +40,7 @@ type PropsType = {
 };
 
 type StateType = {|
-    +state: number,
+    +isShowFrameData: boolean,
 |};
 
 class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType> {
@@ -80,7 +78,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         const view = this;
 
         view.state = {
-            state: 0,
+            isShowFrameData: false,
         };
     }
 
@@ -113,18 +111,34 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         );
     }
 
+    handleWrapperClick = () => {
+        const view = this;
+        const {props, state} = view;
+        const {isShowFrameData} = state;
+
+        view.setState({isShowFrameData: !isShowFrameData}, (): mixed => forceResize);
+    };
+
     render(): Node {
         const view = this;
         const {props, state} = view;
         const {combo} = props;
+        const {isShowFrameData} = state;
 
         return (
-            <div className={comboListItemStyle.combo_wrapper}>
-                {view.renderComboTitle()}
-                {view.renderMoveList()}
-                {/* <h5>show frame data here</h5>*/}
-                {/* <div>{JSON.stringify(combo)}</div>*/}
-            </div>
+            <>
+                <div
+                    className={comboListItemStyle.combo_wrapper}
+                    onClick={view.handleWrapperClick}
+                    onKeyPress={view.handleWrapperClick}
+                    role="button"
+                    tabIndex="0"
+                >
+                    {view.renderComboTitle()}
+                    {view.renderMoveList()}
+                </div>
+                {isShowFrameData ? <FrameData combo={combo}/> : null}
+            </>
         );
     }
 }

@@ -2,7 +2,7 @@
 
 .tab_list__top_menu {
     background-color: #666;
-    border-bottom: 1px solid $header-border-color;
+    border-bottom: 1px solid $header-border-bottom-color;
     display: block;
 }
 
@@ -15,7 +15,7 @@
     padding: 8px 0 6px;
 
     &.tab_list__tab_item__active {
-        border-bottom-color: $header-border-color;
+        border-bottom-color: $header-border-bottom-color;
     }
 
     &.tab_list__tab_item__first {
