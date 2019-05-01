@@ -3,8 +3,8 @@
 import type {LangKeyType} from '../component/locale/translation/type';
 
 type ComboInputDirectionType = 'u' | 'd' | 'l' | 'r' | 'ur' | 'dr' | 'ul' | 'dl';
-type ComboInputMoveType = '1' | '2' | '3' | '4';
-type ComboInputAdditionalType = '+';
+type ComboInputMoveType = '1' | '2' | '3' | '4' | 'l1' | 'l2' | 'r1' | 'r2';
+type ComboInputAdditionalType = '+' | 'or' | 'hold';
 export type ComboInputSingleType = ComboInputDirectionType | ComboInputMoveType | ComboInputAdditionalType;
 export type ComboInputType =
     | ComboInputSingleType
@@ -32,9 +32,15 @@ export type InputMoveMapType = {|
     +i2n: '2',
     +i3n: '3',
     +i4n: '4',
+    +iL1: 'l1',
+    +iL2: 'l2',
+    +iR1: 'r1',
+    +iR2: 'r2',
 
     // additional move icon
     +plus: '+',
+    +ori: 'or',
+    +hold: 'hold',
 |};
 
 export const inputMoveMap: InputMoveMapType = {
@@ -53,9 +59,15 @@ export const inputMoveMap: InputMoveMapType = {
     i2n: '2',
     i3n: '3',
     i4n: '4',
+    iL1: 'l1',
+    iL2: 'l2',
+    iR1: 'r1',
+    iR2: 'r2',
 
     // additional move icon
     plus: '+',
+    ori: 'or',
+    hold: 'hold',
 };
 
 type FrameDataType = {|

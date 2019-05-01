@@ -5,6 +5,11 @@
     display: none !important;
 }
 
+%bordered {
+    border-bottom: 2px solid #898a8c;
+    border-top: 2px solid #5b5b5b;
+}
+
 /*
 .disabled {
     opacity: 0.5;
