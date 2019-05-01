@@ -44,13 +44,13 @@ export class FrameData extends Component<PropsType, StateType> {
         return (
             <>
                 <tr className={frameDataStyle.frame_data_table_tr}>
-                    <td className={frameDataStyle.frame_data_table_td}>
+                    <td className={frameDataStyle.frame_data_table_th}>
                         <Locale stringKey="FRAME_DATA__MOVE_TYPE"/>
                     </td>
-                    <td className={frameDataStyle.frame_data_table_td}>
+                    <td className={frameDataStyle.frame_data_table_th}>
                         <Locale stringKey="FRAME_DATA__HIT_DAMAGE"/>
                     </td>
-                    <td className={frameDataStyle.frame_data_table_td}>
+                    <td className={frameDataStyle.frame_data_table_th}>
                         <Locale stringKey="FRAME_DATA__BLOCK_DAMAGE"/>
                     </td>
                 </tr>
@@ -73,13 +73,13 @@ export class FrameData extends Component<PropsType, StateType> {
         return (
             <>
                 <tr className={frameDataStyle.frame_data_table_tr}>
-                    <td className={frameDataStyle.frame_data_table_td}>
+                    <td className={frameDataStyle.frame_data_table_th}>
                         <Locale stringKey="FRAME_DATA__START_UP"/>
                     </td>
-                    <td className={frameDataStyle.frame_data_table_td}>
+                    <td className={frameDataStyle.frame_data_table_th}>
                         <Locale stringKey="FRAME_DATA__ACTIVE"/>
                     </td>
-                    <td className={frameDataStyle.frame_data_table_td}>
+                    <td className={frameDataStyle.frame_data_table_th}>
                         <Locale stringKey="FRAME_DATA__RECOVER"/>
                     </td>
                 </tr>
@@ -89,16 +89,13 @@ export class FrameData extends Component<PropsType, StateType> {
                     <td className={frameDataStyle.frame_data_table_td}>{recover}</td>
                 </tr>
                 <tr className={frameDataStyle.frame_data_table_tr}>
-                    <td className={frameDataStyle.frame_data_table_td}>
-                        {' '}
+                    <td className={frameDataStyle.frame_data_table_th}>
                         <Locale stringKey="FRAME_DATA__HIT_ADVANTAGE"/>
                     </td>
-                    <td className={frameDataStyle.frame_data_table_td}>
-                        {' '}
+                    <td className={frameDataStyle.frame_data_table_th}>
                         <Locale stringKey="FRAME_DATA__BLOCK_ADVANTAGE"/>
                     </td>
-                    <td className={frameDataStyle.frame_data_table_td}>
-                        {' '}
+                    <td className={frameDataStyle.frame_data_table_th}>
                         <Locale stringKey="FRAME_DATA__CANCEL"/>
                     </td>
                 </tr>

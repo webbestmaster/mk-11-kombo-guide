@@ -24,10 +24,12 @@
     text-align: center;
 }
 
-.frame_data_table_td {
+.frame_data_table_th {
+    background-color: #ccc;
     outline: none;
 }
 
-.frame_data_table_th {
+.frame_data_table_td {
+    background-color: #fff;
     outline: none;
 }
