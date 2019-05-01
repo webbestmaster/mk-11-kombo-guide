@@ -24,9 +24,6 @@ type StateType = {|
 |};
 
 export class ComboListHeader extends Component<PropsType, StateType> {
-    props: PropsType;
-    state: StateType;
-
     constructor(props: PropsType) {
         super(props);
 
@@ -36,6 +33,9 @@ export class ComboListHeader extends Component<PropsType, StateType> {
             state: 0,
         };
     }
+
+    state: StateType;
+    props: PropsType;
 
     render(): Node {
         const view = this;

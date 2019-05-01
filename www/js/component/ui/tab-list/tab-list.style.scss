@@ -1,10 +1,8 @@
 @import './../../../../css/var';
 
-$border-color: #ec1c24;
-
 .tab_list__top_menu {
     background-color: #666;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid $header-border-color;
     display: block;
 }
 
@@ -17,7 +15,7 @@ $border-color: #ec1c24;
     padding: 8px 0 6px;
 
     &.tab_list__tab_item__active {
-        border-bottom-color: $border-color;
+        border-bottom-color: $header-border-color;
     }
 
     &.tab_list__tab_item__first {

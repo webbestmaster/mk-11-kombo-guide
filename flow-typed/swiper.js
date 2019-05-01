@@ -6,6 +6,7 @@ type SwiperOptionsType = {|
     +freeMode?: boolean,
     +loop?: boolean,
     +watchOverflow?: boolean,
+    +roundLengths?: boolean,
     +scrollbar?: {|
         // eslint-disable-next-line id-length
         +el: string,

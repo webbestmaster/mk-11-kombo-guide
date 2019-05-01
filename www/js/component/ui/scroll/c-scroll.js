@@ -93,6 +93,7 @@ export class Scroll extends Component<PropsType, StateType> {
             slidesPerView: 'auto',
             freeMode: true,
             watchOverflow: true, // disable this cause swiper has scroll bar and bug after resize
+            roundLengths: true,
             scrollbar: {
                 // eslint-disable-next-line id-length, unicorn/prevent-abbreviations
                 el: `.${view.attr.swiperId}.swiper-scrollbar`,

@@ -3,7 +3,7 @@
 /* eslint consistent-this: ["error", "view"] */
 
 import type {Node} from 'react';
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 import classNames from 'classnames';
 
 import {Locale} from '../../locale/c-locale';
@@ -16,7 +16,7 @@ type PassedPropsType = {|
     +titleList: Array<LangKeyType>,
     +contentList: Array<Node>,
     +activeIndex: number,
-    +onChange: (tabIndex: number) => mixed,
+    +onChange?: (tabIndex: number) => mixed,
 |};
 
 type PropsType = PassedPropsType;
@@ -44,13 +44,18 @@ export class TabList extends Component<PropsType, StateType> {
             const view = this;
 
             const {props, state} = view;
+            const {onChange} = props;
 
             if (state.activeIndex === activeIndex) {
                 return;
             }
 
             // eslint-disable-next-line react/no-set-state
-            this.setState({activeIndex}, (): mixed => props.onChange(activeIndex));
+            this.setState({activeIndex}, () => {
+                if (onChange instanceof Function) {
+                    onChange(activeIndex);
+                }
+            });
         };
     }
 

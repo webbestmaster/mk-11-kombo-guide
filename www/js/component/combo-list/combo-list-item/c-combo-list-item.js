@@ -46,33 +46,6 @@ type StateType = {|
 |};
 
 class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType> {
-    constructor(props: PropsType) {
-        super(props);
-
-        const view = this;
-
-        view.state = {
-            state: 0,
-        };
-    }
-
-    state: StateType;
-    props: PropsType;
-
-    renderComboTitle(): Node {
-        const view = this;
-        const {props, state} = view;
-        const {combo} = props;
-
-        return (
-            <div className={comboListItemStyle.combo_name}>
-                <h3 className={serviceStyle.ellipsis}>
-                    <Locale stringKey={combo.name}/>
-                </h3>
-            </div>
-        );
-    }
-
     static renderSingleMoveItem(inputType: ComboInputSingleType, index: number): Node {
         return <Move input={inputType} key={index}/>;
     }
@@ -99,6 +72,33 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         });
 
         return newInputTypeList.map(ComboListItem.renderSingleMoveItem);
+    }
+
+    constructor(props: PropsType) {
+        super(props);
+
+        const view = this;
+
+        view.state = {
+            state: 0,
+        };
+    }
+
+    state: StateType;
+    props: PropsType;
+
+    renderComboTitle(): Node {
+        const view = this;
+        const {props, state} = view;
+        const {combo} = props;
+
+        return (
+            <div className={comboListItemStyle.combo_name}>
+                <h3 className={serviceStyle.ellipsis}>
+                    <Locale stringKey={combo.name}/>
+                </h3>
+            </div>
+        );
     }
 
     renderMoveList(): Node {
