@@ -1,20 +1,20 @@
 @import './../../../../css/var';
 
-$border-color: #c00;
+$border-color: #ec1c24;
 
 .tab_list__top_menu {
     background-color: #666;
-    border-bottom: 2px solid $border-color;
+    border-bottom: 1px solid $border-color;
     display: block;
 }
 
 .tab_list__tab_item {
-    border-bottom: 3px solid transparent;
+    border-bottom: 2px solid transparent;
     color: #fff;
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0 $main-side-padding * 2 0 0;
-    padding: 14px 0 7px;
+    padding: 8px 0 6px;
 
     &.tab_list__tab_item__active {
         border-bottom-color: $border-color;

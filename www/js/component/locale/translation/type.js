@@ -16,7 +16,7 @@ export type LangDataType = {|
     +SPACE: ' ',
 
     // character data
-    +CHARACTER_DATA__TOP_MENU__NORMAL: string,
+    +CHARACTER_DATA__TOP_MENU__BASIC: string,
     +CHARACTER_DATA__TOP_MENU__COMBO: string,
     +CHARACTER_DATA__TOP_MENU__SPECIAL: string,
 

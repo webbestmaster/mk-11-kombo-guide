@@ -5,7 +5,7 @@ import type {CharacterType} from '../../character-type';
 import type {LangKeyType} from '../../../component/locale/translation/type';
 import {inputMoveMap, moveTypeMap, naValue} from '../../character-type';
 
-import mockUpMapImagePath from './face.png';
+import mockUpMapImagePath from './image/face.png';
 
 const {
     // ComboInputDirectionType

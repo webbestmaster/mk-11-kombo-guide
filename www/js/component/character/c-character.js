@@ -44,7 +44,7 @@ export class Character extends Component<PropsType, StateType> {
         }
 
         const titleList = [
-            'CHARACTER_DATA__TOP_MENU__NORMAL',
+            'CHARACTER_DATA__TOP_MENU__BASIC',
             'CHARACTER_DATA__TOP_MENU__COMBO',
             'CHARACTER_DATA__TOP_MENU__SPECIAL',
         ];

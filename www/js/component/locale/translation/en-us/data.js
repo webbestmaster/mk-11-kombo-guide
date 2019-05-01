@@ -19,7 +19,7 @@ export const enUs: LangDataType = {
     SPACE: ' ',
 
     // character data
-    CHARACTER_DATA__TOP_MENU__NORMAL: 'Normal',
+    CHARACTER_DATA__TOP_MENU__BASIC: 'Basic',
     CHARACTER_DATA__TOP_MENU__COMBO: 'Kombo',
     CHARACTER_DATA__TOP_MENU__SPECIAL: 'Special',
 
