@@ -115,6 +115,7 @@ export type ComboType = {|
     +description: LangKeyType | '',
     +moveData: MoveDataType,
     +frameData: FrameDataType,
+    +extendedList: Array<ComboType>,
 |};
 
 export type CharacterType = {|
