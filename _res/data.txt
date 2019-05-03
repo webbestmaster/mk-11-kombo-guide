@@ -5,6 +5,5 @@
 5 - сделать у комбы поле расширение комбы (comboExtended) - это будет массив с другими комбами
 
 
-
 Get frame data from here OR google more
 http://fatalgaming.be/mk11/reveal-build/
