@@ -112,6 +112,7 @@ type MoveDataType = {|
 export type ComboType = {|
     +name: LangKeyType,
     +sequence: Array<ComboInputType>,
+    +description: LangKeyType | '',
     +moveData: MoveDataType,
     +frameData: FrameDataType,
 |};

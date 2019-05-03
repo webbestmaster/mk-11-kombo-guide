@@ -126,17 +126,34 @@ export class FrameData extends Component<PropsType, StateType> {
         );
     }
 
+    renderDescription(): Node {
+        const view = this;
+        const {props} = view;
+        const {combo} = props;
+        const {description} = combo;
+
+        if (!description) {
+            return null;
+        }
+
+        return <Locale stringKey={description}/>;
+    }
+
     render(): Node {
         const view = this;
 
         return (
             <div className={frameDataStyle.frame_data_wrapper}>
-                <table className={frameDataStyle.frame_data_table}>
-                    <tbody className={frameDataStyle.frame_data_table_body}>
-                        {view.renderMoveData()}
-                        {view.renderFrameData()}
-                    </tbody>
-                </table>
+                <div>
+                    <table className={frameDataStyle.frame_data_table}>
+                        <tbody className={frameDataStyle.frame_data_table_body}>
+                            {view.renderMoveData()}
+                            {view.renderFrameData()}
+                        </tbody>
+                    </table>
+
+                    {view.renderDescription()}
+                </div>
             </div>
         );
     }

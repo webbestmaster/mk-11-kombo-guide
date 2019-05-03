@@ -34,6 +34,7 @@ export const mockUpMan: CharacterType = {
         {
             name: 'CHARACTER__MOCK_UP_MAN__NAME',
             sequence: [iDn, i2n, [iUpRt, iUpRt], i3n],
+            description: 'CHARACTER__MOCK_UP_MAN__DESCRIPTION',
             moveData: {
                 type: moveTypeMap.low,
                 hitDamage: naValue,
