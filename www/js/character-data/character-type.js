@@ -14,7 +14,7 @@ export type ComboInputType =
 type NaType = 'N/A';
 export const naValue: NaType = 'N/A';
 
-type MayBeNaType<BasicType> = BasicType | NaType;
+export type MayBeNaType<BasicType> = BasicType | NaType;
 
 export type InputMoveMapType = {|
     // ComboInputDirectionType
@@ -80,7 +80,7 @@ type FrameDataType = {|
     +cancel: MayBeNaType<number>,
 |};
 
-type MoveType = 'low' | 'mid' | 'high' | 'overhead' | 'throw' | 'unblockable';
+export type MoveType = MayBeNaType<'low' | 'mid' | 'high' | 'overhead' | 'throw' | 'unblockable'>;
 
 export const moveTypeMap: {+[key: string]: MoveType} = {
     low: 'low',
@@ -89,10 +89,21 @@ export const moveTypeMap: {+[key: string]: MoveType} = {
     ovh: 'overhead',
     thr: 'throw',
     unb: 'unblockable',
+    nta: naValue,
+};
+
+export const moveTypeTranslationMap: {[key: MoveType | NaType]: LangKeyType} = {
+    [moveTypeMap.low]: 'MOVE_TYPE__LOW',
+    [moveTypeMap.mid]: 'MOVE_TYPE__MID',
+    [moveTypeMap.hgh]: 'MOVE_TYPE__HIGH',
+    [moveTypeMap.ovh]: 'MOVE_TYPE__OVERHEAD',
+    [moveTypeMap.thr]: 'MOVE_TYPE__THROW',
+    [moveTypeMap.unb]: 'MOVE_TYPE__UNBLOCKABLE',
+    [moveTypeMap.nta]: 'MOVE_TYPE__NOT_AVAILABLE',
 };
 
 type MoveDataType = {|
-    +type: MayBeNaType<MoveType>,
+    +type: MoveType,
     +hitDamage: MayBeNaType<number>,
     +blockDamage: MayBeNaType<number>,
     +flawlessBlockDamage: MayBeNaType<number>,

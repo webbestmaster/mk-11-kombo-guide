@@ -43,7 +43,7 @@ export const mockUpMan: CharacterType = {
             frameData: {
                 startUp: 15,
                 active: 5,
-                recover: 36,
+                recover: naValue,
                 hitAdvance: 14,
                 blockAdvance: -6,
                 flawlessBlockAdvance: -10,

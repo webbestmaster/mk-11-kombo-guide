@@ -32,6 +32,16 @@ export type LangDataType = {|
     +FRAME_DATA__FLAWLESS_BLOCK_ADVANTAGE: string,
     +FRAME_DATA__HIT_ADVANTAGE: string,
     +FRAME_DATA__CANCEL: string,
+    +FRAME_DATA__NOT_AVAILABLE_VALUE: string,
+
+    // move type
+    +MOVE_TYPE__LOW: string,
+    +MOVE_TYPE__MID: string,
+    +MOVE_TYPE__HIGH: string,
+    +MOVE_TYPE__OVERHEAD: string,
+    +MOVE_TYPE__THROW: string,
+    +MOVE_TYPE__UNBLOCKABLE: string,
+    +MOVE_TYPE__NOT_AVAILABLE: string,
 
     // characters
     +CHARACTER__MOCK_UP_MAN__NAME: string,
