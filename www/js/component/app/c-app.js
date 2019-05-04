@@ -12,7 +12,7 @@ import {userIsAuthenticated, userIsNotAuthenticated} from '../auth/auth-helper';
 import {HomePage} from '../../page/home-page/c-home-page';
 import {LoginPage} from '../../page/login-page/c-login-page';
 import {PageNotFound} from '../../page/page-not-found/c-page-not-found';
-
+import {SettingsPage} from '../../page/settings-page/c-settings-page';
 import {CharacterPage} from '../../page/character-page/c-character-page';
 
 import {routes} from './routes';
@@ -32,6 +32,7 @@ export function App(): Node {
                             <Route component={userIsNotAuthenticated(LoginPage)} exact path={routes.login}/>
 
                             <Route component={userIsAuthenticated(HomePage)} exact path={routes.index}/>
+                            <Route component={userIsAuthenticated(SettingsPage)} exact path={routes.settings}/>
                             <Route component={userIsAuthenticated(CharacterPage)} exact path={routes.character}/>
 
                             <Route component={PageNotFound}/>

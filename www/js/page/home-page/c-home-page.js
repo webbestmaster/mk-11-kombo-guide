@@ -15,6 +15,8 @@ import {Header} from '../../component/header/c-header';
 import {Scroll} from '../../component/ui/scroll/c-scroll';
 import {CharacterList} from '../../component/character-list/c-character-list';
 
+import homePageStyle from './home-page.style.scss';
+
 type PropsType = ContextRouterType;
 
 class Mega<S, N: number> {

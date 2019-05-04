@@ -7,5 +7,6 @@ export function getCharacterPath(characterId: string): string {
 export const routes = {
     index: '/',
     login: '/login',
+    settings: '/settings',
     character: getCharacterPath(':characterId'),
 };
