@@ -16,6 +16,7 @@ import {forceResize} from '../../ui/scroll/helper';
 import comboListItemStyle from './combo-list-item.style.scss';
 import {Move} from './move/c-move';
 import {FrameData} from './frame-data/c-frame-data';
+import {AdditionalInfo} from './additional-info/c-additional-info';
 
 type ReduxPropsType = {|
     +reduxProp: boolean,
@@ -123,15 +124,15 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         const view = this;
         const {props, state} = view;
         const {combo} = props;
-        const {extendedList} = combo;
+        const {extendedComboList} = combo;
 
-        if (extendedList.length === 0) {
+        if (extendedComboList.length === 0) {
             return null;
         }
 
         return (
             <div>
-                {extendedList.map(
+                {extendedComboList.map(
                     (comboInList: ComboType): Node => {
                         return <ConnectedComponent combo={comboInList} key={JSON.stringify(comboInList)}/>;
                     }
@@ -159,6 +160,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
                     {view.renderMoveList()}
                 </div>
                 {isShowFrameData ? <FrameData combo={combo}/> : null}
+                {isShowFrameData ? <AdditionalInfo combo={combo}/> : null}
                 {view.renderExtendedComboList()}
             </>
         );

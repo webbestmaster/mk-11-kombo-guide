@@ -80,26 +80,26 @@ type FrameDataType = {|
     +cancel: MayBeNaType<number>,
 |};
 
-export type MoveType = MayBeNaType<'low' | 'mid' | 'high' | 'overhead' | 'throw' | 'unblockable'>;
+export type MoveType = 'low' | 'mid' | 'high' | 'overhead' | 'throw' | 'unblockable' | 'N/A Move';
 
 export const moveTypeMap: {+[key: string]: MoveType} = {
     low: 'low',
     mid: 'mid',
-    hgh: 'high',
-    ovh: 'overhead',
-    thr: 'throw',
-    unb: 'unblockable',
-    nta: naValue,
+    high: 'high',
+    overhead: 'overhead',
+    throwMove: 'throw',
+    unblockable: 'unblockable',
+    notAvailableMove: 'N/A Move',
 };
 
-export const moveTypeTranslationMap: {[key: MoveType | NaType]: LangKeyType} = {
+export const moveTypeTranslationMap: {[key: MoveType]: LangKeyType} = {
     [moveTypeMap.low]: 'MOVE_TYPE__LOW',
     [moveTypeMap.mid]: 'MOVE_TYPE__MID',
-    [moveTypeMap.hgh]: 'MOVE_TYPE__HIGH',
-    [moveTypeMap.ovh]: 'MOVE_TYPE__OVERHEAD',
-    [moveTypeMap.thr]: 'MOVE_TYPE__THROW',
-    [moveTypeMap.unb]: 'MOVE_TYPE__UNBLOCKABLE',
-    [moveTypeMap.nta]: 'MOVE_TYPE__NOT_AVAILABLE',
+    [moveTypeMap.high]: 'MOVE_TYPE__HIGH',
+    [moveTypeMap.overhead]: 'MOVE_TYPE__OVERHEAD',
+    [moveTypeMap.throwMove]: 'MOVE_TYPE__THROW',
+    [moveTypeMap.unblockable]: 'MOVE_TYPE__UNBLOCKABLE',
+    [moveTypeMap.notAvailableMove]: 'MOVE_TYPE__NOT_AVAILABLE',
 };
 
 type MoveDataType = {|
@@ -109,13 +109,42 @@ type MoveDataType = {|
     +flawlessBlockDamage: MayBeNaType<number>,
 |};
 
+export type MoveFeatureType = 'invulnerability' | 'parry' | 'projectile';
+
+export const moveFeatureMap: {[key: string]: MoveFeatureType} = {
+    projectile: 'projectile',
+    parry: 'parry',
+    invul: 'invulnerability',
+};
+
+export type MoveFeatureDataType = {|
+    +image: string,
+    +name: LangKeyType,
+|};
+
+export const moveFeatureDataMap: {[key: MoveFeatureType]: MoveFeatureDataType} = {
+    [moveFeatureMap.projectile]: {
+        image: 'image projectile path',
+        name: 'MOVE_FEATURE__PROJECTILE',
+    },
+    [moveFeatureMap.parry]: {
+        image: 'image parry path',
+        name: 'MOVE_FEATURE__PARRY',
+    },
+    [moveFeatureMap.invul]: {
+        image: 'image invul path',
+        name: 'MOVE_FEATURE__INVULNERABILITY',
+    },
+};
+
 export type ComboType = {|
     +name: LangKeyType,
     +sequence: Array<ComboInputType>,
     +description: LangKeyType | '',
     +moveData: MoveDataType,
     +frameData: FrameDataType,
-    +extendedList: Array<ComboType>,
+    +moveFeatureList: Array<MoveFeatureType>,
+    +extendedComboList: Array<ComboType>,
 |};
 
 export type CharacterType = {|

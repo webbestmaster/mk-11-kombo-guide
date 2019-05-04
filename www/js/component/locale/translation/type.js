@@ -43,6 +43,11 @@ export type LangDataType = {|
     +MOVE_TYPE__UNBLOCKABLE: string,
     +MOVE_TYPE__NOT_AVAILABLE: string,
 
+    // move feature
+    +MOVE_FEATURE__PARRY: string,
+    +MOVE_FEATURE__INVULNERABILITY: string,
+    +MOVE_FEATURE__PROJECTILE: string,
+
     // characters
     +CHARACTER__MOCK_UP_MAN__NAME: string,
     +CHARACTER__MOCK_UP_MAN__DESCRIPTION: string,

@@ -3,7 +3,7 @@
 import type {CharacterType} from '../../character-type';
 
 import type {LangKeyType} from '../../../component/locale/translation/type';
-import {inputMoveMap, moveTypeMap, naValue} from '../../character-type';
+import {inputMoveMap, moveTypeMap, naValue, moveFeatureMap} from '../../character-type';
 
 import mockUpMapImagePath from './image/face.png';
 
@@ -26,6 +26,9 @@ const {
     plus,
 } = inputMoveMap;
 
+const {low, mid, high, overhead, throwMove, unblockable, notAvailableMove} = moveTypeMap;
+const {invul, parry, projectile} = moveFeatureMap;
+
 export const mockUpMan: CharacterType = {
     id: 'mock-up-man',
     imagePath: mockUpMapImagePath,
@@ -36,7 +39,7 @@ export const mockUpMan: CharacterType = {
             sequence: [iDn, i2n, [iUpRt, iUpRt], i3n],
             description: 'CHARACTER__MOCK_UP_MAN__DESCRIPTION',
             moveData: {
-                type: moveTypeMap.low,
+                type: notAvailableMove,
                 hitDamage: naValue,
                 blockDamage: 20,
                 flawlessBlockDamage: 1,
@@ -50,13 +53,14 @@ export const mockUpMan: CharacterType = {
                 flawlessBlockAdvance: -10,
                 cancel: 30,
             },
-            extendedList: [
+            moveFeatureList: [parry],
+            extendedComboList: [
                 {
                     name: 'CHARACTER__MOCK_UP_MAN__NAME',
                     sequence: [iDn, i3n],
                     description: 'CHARACTER__MOCK_UP_MAN__DESCRIPTION',
                     moveData: {
-                        type: moveTypeMap.hgh,
+                        type: high,
                         hitDamage: naValue,
                         blockDamage: 2,
                         flawlessBlockDamage: 10,
@@ -70,7 +74,8 @@ export const mockUpMan: CharacterType = {
                         flawlessBlockAdvance: 10,
                         cancel: 3,
                     },
-                    extendedList: [],
+                    extendedComboList: [],
+                    moveFeatureList: [invul],
                 },
             ],
         },

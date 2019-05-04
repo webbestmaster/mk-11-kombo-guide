@@ -35,7 +35,7 @@ export const enUs: LangDataType = {
     FRAME_DATA__FLAWLESS_BLOCK_ADVANTAGE: 'Block flawless advantage',
     FRAME_DATA__HIT_ADVANTAGE: 'Hit advantage',
     FRAME_DATA__CANCEL: 'Cancel',
-    FRAME_DATA__NOT_AVAILABLE_VALUE: 'Value N/A',
+    FRAME_DATA__NOT_AVAILABLE_VALUE: 'N/A Value',
 
     // move type
     MOVE_TYPE__LOW: 'Low',
@@ -44,7 +44,12 @@ export const enUs: LangDataType = {
     MOVE_TYPE__OVERHEAD: 'Overhead',
     MOVE_TYPE__THROW: 'Throw',
     MOVE_TYPE__UNBLOCKABLE: 'Unblockable',
-    MOVE_TYPE__NOT_AVAILABLE: 'Type N/A',
+    MOVE_TYPE__NOT_AVAILABLE: 'N/A Type',
+
+    // move feature
+    MOVE_FEATURE__PARRY: 'Parry',
+    MOVE_FEATURE__INVULNERABILITY: 'Invulnerability',
+    MOVE_FEATURE__PROJECTILE: 'Projectile',
 
     // characters
     CHARACTER__MOCK_UP_MAN__NAME:
