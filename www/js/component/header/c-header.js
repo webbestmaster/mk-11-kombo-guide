@@ -17,6 +17,7 @@ import headerStyle from './header.style.scss';
 type PassedPropsType = {|
     +title: LangKeyType,
     +hasBackButton: boolean,
+    +hasMenuButton: boolean,
 |};
 
 type PropsType = PassedPropsType;
@@ -42,7 +43,7 @@ export class Header extends Component<PropsType, StateType> {
     render(): Node {
         const view = this;
         const {props} = view;
-        const {hasBackButton, title} = props;
+        const {hasBackButton, hasMenuButton, title} = props;
 
         return (
             <header className={headerStyle.header_wrapper}>
@@ -52,7 +53,7 @@ export class Header extends Component<PropsType, StateType> {
                         <Locale stringKey={title}/>
                     </h1>
                 </div>
-                <Menu/>
+                {hasMenuButton ? <Menu/> : null}
             </header>
         );
     }

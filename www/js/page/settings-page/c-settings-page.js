@@ -3,7 +3,12 @@
 /* eslint consistent-this: ["error", "view"] */
 
 import type {Node} from 'react';
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
+
+import {Page} from '../../component/page/c-page';
+import {Header} from '../../component/header/c-header';
+import {Scroll} from '../../component/ui/scroll/c-scroll';
+import {Locale} from '../../component/locale/c-locale';
 
 import settingsPageStyle from './settings-page.style.scss';
 
@@ -31,9 +36,12 @@ export class SettingsPage extends Component<PropsType, StateType> {
 
     render(): Node {
         return (
-            <div>
-                <h1>settings</h1>
-            </div>
+            <Page>
+                <Header hasBackButton hasMenuButton={false} title="SETTING__TITLE"/>
+                <Scroll>
+                    <Locale stringKey="SETTING__SELECT_PLATFORM"/>
+                </Scroll>
+            </Page>
         );
     }
 }

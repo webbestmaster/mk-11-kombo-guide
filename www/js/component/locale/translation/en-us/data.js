@@ -51,6 +51,10 @@ export const enUs: LangDataType = {
     MOVE_FEATURE__INVULNERABILITY: 'Invulnerability',
     MOVE_FEATURE__PROJECTILE: 'Projectile',
 
+    // setting page
+    SETTING__TITLE: 'Settings',
+    SETTING__SELECT_PLATFORM: 'Select platform',
+
     // characters
     CHARACTER__MOCK_UP_MAN__NAME:
         'Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man',

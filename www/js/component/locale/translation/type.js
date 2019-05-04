@@ -48,6 +48,10 @@ export type LangDataType = {|
     +MOVE_FEATURE__INVULNERABILITY: string,
     +MOVE_FEATURE__PROJECTILE: string,
 
+    // setting page
+    +SETTING__TITLE: string,
+    +SETTING__SELECT_PLATFORM: string,
+
     // characters
     +CHARACTER__MOCK_UP_MAN__NAME: string,
     +CHARACTER__MOCK_UP_MAN__DESCRIPTION: string,

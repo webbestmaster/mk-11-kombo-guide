@@ -83,7 +83,7 @@ export class HomePage extends Component<void, null> {
 
         return (
             <Page>
-                <Header hasBackButton={false} title="APP_NAME"/>
+                <Header hasBackButton={false} hasMenuButton title="APP_NAME"/>
                 <Scroll>
                     <CharacterList/>
                 </Scroll>
