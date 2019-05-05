@@ -176,7 +176,7 @@ export type LangDataType = {|
     // Quick Jumping Attacks
     +CHARACTER__Scorpion__Spear_Stab: string,
     +CHARACTER__Scorpion__Corckscrew_Kick: string,
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
     +CHARACTER__Scorpion__Rising_Blade: string,
     +CHARACTER__Scorpion__Spear_Slice: string,
 
