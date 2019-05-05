@@ -42,35 +42,15 @@ import signPlus from './image/main/sign-plus.svg';
 import signOr from './image/main/sign-or.svg';
 import signHold from './image/main/sign-hold.svg';
 
-/*
-export type InputImageMapType = {|
-    // ComboInputDirectionType
-    +iUp: string,
-    +iDn: string,
-    +iLt: string,
-    +iRt: string,
-    +iUpRt: string,
-    +iDnRt: string,
-    +iUpLt: string,
-    +iDnLt: string,
-
-    // ComboInputMoveType
-    +i1n: string,
-    +i2n: string,
-    +i3n: string,
-    +i4n: string,
-|};
-*/
-
 const directionImageMap = {
-    [inputMoveMap.iUp]: arrowUp,
-    [inputMoveMap.iDn]: arrowDown,
-    [inputMoveMap.iLt]: arrowLeft,
-    [inputMoveMap.iRt]: arrowRight,
-    [inputMoveMap.iUpRt]: arrowUpRight,
-    [inputMoveMap.iDnRt]: arrowDownRight,
-    [inputMoveMap.iUpLt]: arrowUpLeft,
-    [inputMoveMap.iDnLt]: arrowDownLeft,
+    [inputMoveMap.up]: arrowUp,
+    [inputMoveMap.down]: arrowDown,
+    [inputMoveMap.back]: arrowLeft,
+    [inputMoveMap.ford]: arrowRight,
+    [inputMoveMap.upFord]: arrowUpRight,
+    [inputMoveMap.downFord]: arrowDownRight,
+    [inputMoveMap.upBack]: arrowUpLeft,
+    [inputMoveMap.downBack]: arrowDownLeft,
     [inputMoveMap.ori]: signOr,
     [inputMoveMap.hold]: signHold,
 };

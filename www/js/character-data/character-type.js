@@ -2,7 +2,7 @@
 
 import type {LangKeyType} from '../component/locale/translation/type';
 
-type ComboInputDirectionType = 'u' | 'd' | 'l' | 'r' | 'ur' | 'dr' | 'ul' | 'dl';
+type ComboInputDirectionType = 'u' | 'd' | 'b' | 'f' | 'uf' | 'df' | 'ub' | 'db';
 type ComboInputMoveType = '1' | '2' | '3' | '4' | 'l1' | 'l2' | 'r1' | 'r2';
 type ComboInputAdditionalType = '+' | 'or' | 'hold';
 export type ComboInputSingleType = ComboInputDirectionType | ComboInputMoveType | ComboInputAdditionalType;
@@ -18,14 +18,14 @@ export type MayBeNaType<BasicType> = BasicType | NaType;
 
 export type InputMoveMapType = {|
     // ComboInputDirectionType
-    +iUp: 'u',
-    +iDn: 'd',
-    +iLt: 'l',
-    +iRt: 'r',
-    +iUpRt: 'ur',
-    +iDnRt: 'dr',
-    +iUpLt: 'ul',
-    +iDnLt: 'dl',
+    +up: 'u',
+    +down: 'd',
+    +back: 'b',
+    +ford: 'f',
+    +upFord: 'uf',
+    +downFord: 'df',
+    +upBack: 'ub',
+    +downBack: 'db',
 
     // ComboInputMoveType
     +i1n: '1',
@@ -45,14 +45,14 @@ export type InputMoveMapType = {|
 
 export const inputMoveMap: InputMoveMapType = {
     // ComboInputDirectionType
-    iUp: 'u',
-    iDn: 'd',
-    iLt: 'l',
-    iRt: 'r',
-    iUpRt: 'ur',
-    iDnRt: 'dr',
-    iUpLt: 'ul',
-    iDnLt: 'dl',
+    up: 'u',
+    down: 'd',
+    back: 'b',
+    ford: 'f',
+    upFord: 'uf',
+    downFord: 'df',
+    upBack: 'ub',
+    downBack: 'db',
 
     // ComboInputMoveType
     i1n: '1',

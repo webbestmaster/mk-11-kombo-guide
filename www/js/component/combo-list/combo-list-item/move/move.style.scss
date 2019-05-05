@@ -1,25 +1,30 @@
 @import './../../../../../css/var';
 
-$move-image-size: 28px;
+$move-image-size: 26px;
 
 .move__image {
     background-color: $header-bg-color;
+    border: 1px solid $header-bg-color;
     border-radius: 50%;
+    box-sizing: border-box;
     display: block;
     height: $move-image-size;
     margin-right: 3px;
     width: auto;
 
-    &[data-input='+'],
     &[data-input='u'],
     &[data-input='d'],
-    &[data-input='l'],
-    &[data-input='r'],
-    &[data-input='ur'],
-    &[data-input='dr'],
-    &[data-input='ul'],
-    &[data-input='dl'] {
+    &[data-input='b'],
+    &[data-input='f'],
+    &[data-input='uf'],
+    &[data-input='df'],
+    &[data-input='ub'],
+    &[data-input='db'],
+    &[data-input='+'],
+    &[data-input='or'],
+    &[data-input='hold'] {
         background-color: transparent;
+        border: 0;
         border-radius: 0;
         height: $move-image-size * 0.9;
         margin-right: 1px;

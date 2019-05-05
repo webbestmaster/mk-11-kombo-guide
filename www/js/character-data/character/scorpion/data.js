@@ -4,26 +4,29 @@ import type {CharacterType} from '../../character-type';
 
 import type {LangKeyType} from '../../../component/locale/translation/type';
 import {inputMoveMap, moveTypeMap, naValue, moveFeatureMap} from '../../character-type';
-
 import {defaultMoveData} from '../../default/character-default-data';
 
 import faceImagePath from './face.png';
 
 const {
     // ComboInputDirectionType
-    iUp,
-    iDn,
-    iLt,
-    iRt,
-    iUpRt,
-    iDnRt,
-    iUpLt,
-    iDnLt,
+    up,
+    down,
+    back,
+    ford,
+    upFord,
+    downFord,
+    upBack,
+    downBack,
     // ComboInputMoveType
     i1n,
     i2n,
     i3n,
     i4n,
+    iL1,
+    iL2,
+    iR1,
+    iR2,
     // additional move icon
     plus,
     hold,

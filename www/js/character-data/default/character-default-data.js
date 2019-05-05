@@ -7,19 +7,23 @@ import {inputMoveMap, moveTypeMap, naValue, moveFeatureMap} from '../character-t
 
 const {
     // ComboInputDirectionType
-    iUp,
-    iDn,
-    iLt,
-    iRt,
-    iUpRt,
-    iDnRt,
-    iUpLt,
-    iDnLt,
+    up,
+    down,
+    back,
+    ford,
+    upFord,
+    downFord,
+    upBack,
+    downBack,
     // ComboInputMoveType
     i1n,
     i2n,
     i3n,
     i4n,
+    iL1,
+    iL2,
+    iR1,
+    iR2,
     // additional move icon
     plus,
     hold,
@@ -55,7 +59,7 @@ const defaultCombo: ComboType = {
 const throwList: Array<ComboType> = [
     {
         name: 'DEFAULT_MOVE__TOWARD_THROW',
-        sequence: [],
+        sequence: [[ford, iL1], ori, [ford, i1n, i3n]],
         description: '',
         moveData: {
             type: notAvailableMove,
@@ -77,7 +81,7 @@ const throwList: Array<ComboType> = [
     },
     {
         name: 'DEFAULT_MOVE__BACK_THROW',
-        sequence: [],
+        sequence: [iL1, ori, [i1n, i3n]],
         description: '',
         moveData: {
             type: notAvailableMove,
@@ -102,7 +106,7 @@ const throwList: Array<ComboType> = [
 const rollEscapeList: Array<ComboType> = [
     {
         name: 'DEFAULT_MOVE__FORWARD_ROLL_ESCAPE',
-        sequence: [],
+        sequence: [[ford, iL2]],
         description: '',
         moveData: {
             type: notAvailableMove,
@@ -124,7 +128,7 @@ const rollEscapeList: Array<ComboType> = [
     },
     {
         name: 'DEFAULT_MOVE__AWAY_ROLL_ESCAPE',
-        sequence: [],
+        sequence: [[back, iL2]],
         description: '',
         moveData: {
             type: notAvailableMove,
@@ -149,7 +153,7 @@ const rollEscapeList: Array<ComboType> = [
 const airEscapeList: Array<ComboType> = [
     {
         name: 'DEFAULT_MOVE__AIR_BREAKAWAY',
-        sequence: [],
+        sequence: [[down, iR2]],
         description: '',
         moveData: {
             type: notAvailableMove,
