@@ -8,7 +8,7 @@ import type {PlatformNameType} from './action';
 import {moveConst} from './move-const';
 import {platformNameMap} from './action';
 
-const defaultPlatformName: PlatformNameType = platformNameMap.computer;
+const defaultPlatformName: PlatformNameType = platformNameMap.universal;
 
 export type PlatformType = {|
     +name: PlatformNameType,

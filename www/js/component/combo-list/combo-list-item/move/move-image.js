@@ -11,14 +11,14 @@ import arrowUpRight from './image/main/arrow-up-right.svg';
 import arrowDownLeft from './image/main/arrow-down-left.svg';
 import arrowDownRight from './image/main/arrow-down-right.svg';
 
-import pc1 from './image/pc/1.svg';
-import pc2 from './image/pc/2.svg';
-import pc3 from './image/pc/3.svg';
-import pc4 from './image/pc/4.svg';
-import pcL1 from './image/pc/l-1.svg';
-import pcL2 from './image/pc/l-2.svg';
-import pcR1 from './image/pc/r-1.svg';
-import pcR2 from './image/pc/r-2.svg';
+import uni1 from './image/universal/1.svg';
+import uni2 from './image/universal/2.svg';
+import uni3 from './image/universal/3.svg';
+import uni4 from './image/universal/4.svg';
+import uniL1 from './image/universal/l-1.svg';
+import uniL2 from './image/universal/l-2.svg';
+import uniR1 from './image/universal/r-1.svg';
+import uniR2 from './image/universal/r-2.svg';
 
 import ps1 from './image/ps/1.svg';
 import ps2 from './image/ps/2.svg';
@@ -88,14 +88,14 @@ export const imageInputMapPc = {
     ...mainImageMap,
 
     // ComboInputMoveType
-    [inputMoveMap.i1n]: pc1,
-    [inputMoveMap.i2n]: pc2,
-    [inputMoveMap.i3n]: pc3,
-    [inputMoveMap.i4n]: pc4,
-    [inputMoveMap.iL1]: pcL1,
-    [inputMoveMap.iL2]: pcL2,
-    [inputMoveMap.iR1]: pcR1,
-    [inputMoveMap.iR2]: pcR2,
+    [inputMoveMap.i1n]: uni1,
+    [inputMoveMap.i2n]: uni2,
+    [inputMoveMap.i3n]: uni3,
+    [inputMoveMap.i4n]: uni4,
+    [inputMoveMap.iL1]: uniL1,
+    [inputMoveMap.iL2]: uniL2,
+    [inputMoveMap.iR1]: uniR1,
+    [inputMoveMap.iR2]: uniR2,
 };
 
 export const imageInputMapPs = {

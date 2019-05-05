@@ -62,7 +62,7 @@ class Move extends Component<ReduxPropsType, PassedPropsType, StateType> {
         const {input, platform} = props;
 
         switch (platform.name) {
-            case platformNameMap.computer:
+            case platformNameMap.universal:
                 return imageInputMapPc[input];
 
             case platformNameMap.playStation:
@@ -80,11 +80,7 @@ class Move extends Component<ReduxPropsType, PassedPropsType, StateType> {
         const view = this;
         const {props, state} = view;
 
-        return (
-            <div className={moveStyle.move_wrapper}>
-                <img alt="" src={view.getImagePath()}/>
-            </div>
-        );
+        return <img alt="" className={moveStyle.move_wrapper} src={view.getImagePath()}/>;
     }
 }
 

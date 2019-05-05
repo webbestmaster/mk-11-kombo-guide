@@ -1,6 +1,8 @@
+$move-image-size: 24px;
+
 .move_wrapper {
-    background-color: #c00;
+    //background-color: #c00;
     display: block;
-    height: 30px;
-    width: 30px;
+    height: $move-image-size;
+    width: $move-image-size;
 }
