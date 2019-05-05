@@ -148,16 +148,14 @@ export class FrameData extends Component<PropsType, StateType> {
 
         return (
             <div className={frameDataStyle.frame_data_wrapper}>
-                <div>
-                    <table className={frameDataStyle.frame_data_table}>
-                        <tbody className={frameDataStyle.frame_data_table_body}>
-                            {view.renderMoveData()}
-                            {view.renderFrameData()}
-                        </tbody>
-                    </table>
+                <table className={frameDataStyle.frame_data_table}>
+                    <tbody className={frameDataStyle.frame_data_table_body}>
+                        {view.renderMoveData()}
+                        {view.renderFrameData()}
+                    </tbody>
+                </table>
 
-                    {view.renderDescription()}
-                </div>
+                {view.renderDescription()}
             </div>
         );
     }
