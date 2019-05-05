@@ -92,7 +92,7 @@ export const moveTypeMap: {+[key: string]: MoveType} = {
     notAvailableMove: 'N/A Move',
 };
 
-export const moveTypeTranslationMap: {[key: MoveType]: LangKeyType} = {
+export const moveTypeTranslationMap: {+[key: MoveType]: LangKeyType} = {
     [moveTypeMap.low]: 'MOVE_TYPE__LOW',
     [moveTypeMap.mid]: 'MOVE_TYPE__MID',
     [moveTypeMap.high]: 'MOVE_TYPE__HIGH',
@@ -109,12 +109,12 @@ type MoveDataType = {|
     +flawlessBlockDamage: MayBeNaType<number>,
 |};
 
-export type MoveFeatureType = 'invulnerability' | 'parry' | 'projectile';
+export type MoveFeatureType = 'invulnerable' | 'parry' | 'projectile';
 
-export const moveFeatureMap: {[key: string]: MoveFeatureType} = {
+export const moveFeatureMap: {+[key: string]: MoveFeatureType} = {
     projectile: 'projectile',
     parry: 'parry',
-    invul: 'invulnerability',
+    invul: 'invulnerable',
 };
 
 export type MoveFeatureDataType = {|
@@ -122,7 +122,7 @@ export type MoveFeatureDataType = {|
     +name: LangKeyType,
 |};
 
-export const moveFeatureDataMap: {[key: MoveFeatureType]: MoveFeatureDataType} = {
+export const moveFeatureDataMap: {+[key: MoveFeatureType]: MoveFeatureDataType} = {
     [moveFeatureMap.projectile]: {
         image: 'image projectile path',
         name: 'MOVE_FEATURE__PROJECTILE',

@@ -24,6 +24,8 @@ const {
     i4n,
     // additional move icon
     plus,
+    hold,
+    ori,
 } = inputMoveMap;
 
 const {low, mid, high, overhead, throwMove, unblockable, notAvailableMove} = moveTypeMap;
