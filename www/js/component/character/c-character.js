@@ -50,19 +50,39 @@ export class Character extends Component<PropsType, StateType> {
             'CHARACTER_DATA__TOP_MENU__SPECIAL',
         ];
 
+        const {
+            basicList,
+            jumpingAttackList,
+            hopAttackList,
+            getUpAttackList,
+            flawlessBlockAttacksList,
+            throwsList,
+            rollEscapeList,
+            airEscapeList,
+            comboList,
+            specialList,
+        } = characterData.move;
+
         const contentList = [
-            <div key={1}>
-                <ComboList list={characterData.move.basicList}/>
+            <div key={titleList[0]}>
+                <ComboList list={basicList}/>
                 <ComboListHeader title="COMBO_LIST__JUMPING_ATTACKS"/>
+                <ComboList list={jumpingAttackList}/>
                 <ComboListHeader title="COMBO_LIST__HOP_ATTACKS"/>
+                <ComboList list={hopAttackList}/>
                 <ComboListHeader title="COMBO_LIST__GETUP_ATTACKS"/>
+                <ComboList list={getUpAttackList}/>
                 <ComboListHeader title="COMBO_LIST__FLAWLESS_BLOCK_ATTACKS"/>
+                <ComboList list={flawlessBlockAttacksList}/>
                 <ComboListHeader title="COMBO_LIST__THROWS"/>
+                <ComboList list={throwsList}/>
                 <ComboListHeader title="COMBO_LIST__ROLL_ESCAPES"/>
+                <ComboList list={rollEscapeList}/>
                 <ComboListHeader title="COMBO_LIST__AIR_ESCAPE"/>
+                <ComboList list={airEscapeList}/>
             </div>,
-            <h1 key={2}>CHARACTER_DATA__TOP_MENU__COMBO</h1>,
-            <h1 key={3}>CHARACTER_DATA__TOP_MENU__SPECIAL</h1>,
+            <h1 key={titleList[1]}>{JSON.stringify(comboList)}</h1>,
+            <h1 key={titleList[2]}>{JSON.stringify(specialList)}</h1>,
         ];
 
         const activeIndex = 0;
