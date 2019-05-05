@@ -51,6 +51,7 @@ export const scorpion: CharacterType = {
         airEscapeList: defaultMoveData.airEscapeList,
         comboList: [],
         specialList: [],
+        fatalBlowList: [],
     },
 
     /*

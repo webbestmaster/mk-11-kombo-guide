@@ -61,6 +61,7 @@ export class Character extends Component<PropsType, StateType> {
             airEscapeList,
             comboList,
             specialList,
+            fatalBlowList,
         } = characterData.move;
 
         const contentList = [
@@ -82,7 +83,11 @@ export class Character extends Component<PropsType, StateType> {
                 <ComboList list={airEscapeList}/>
             </div>,
             <h1 key={titleList[1]}>{JSON.stringify(comboList)}</h1>,
-            <h1 key={titleList[2]}>{JSON.stringify(specialList)}</h1>,
+            <h1 key={titleList[2]}>
+                {JSON.stringify(specialList)}
+                <ComboListHeader title="COMBO_LIST__FATAL_BLOW"/>
+                {JSON.stringify(fatalBlowList)}
+            </h1>,
         ];
 
         const activeIndex = 0;
