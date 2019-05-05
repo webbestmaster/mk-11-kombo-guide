@@ -81,6 +81,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Cassie Cage
     CHARACTER__Cassie_Cage__NAME: 'Cassie Cage',
@@ -89,6 +91,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Cetrion
     CHARACTER__Cetrion__NAME: 'Cetrion',
@@ -97,6 +101,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> D'vorah
     CHARACTER__D_vorah__NAME: 'D\'vorah',
@@ -105,6 +111,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Erron Black
     CHARACTER__Erron_Black__NAME: 'Erron Black',
@@ -113,6 +121,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Frost
     CHARACTER__Frost__NAME: 'Frost',
@@ -121,6 +131,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Geras
     CHARACTER__Geras__NAME: 'Geras',
@@ -129,6 +141,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Jade
     CHARACTER__Jade__NAME: 'Jade',
@@ -137,6 +151,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Jacqui Briggs
     CHARACTER__Jacqui_Briggs__NAME: 'Jacqui Briggs',
@@ -145,6 +161,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Jax Briggs
     CHARACTER__Jax_Briggs__NAME: 'Jax Briggs',
@@ -153,6 +171,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Johnny Cage
     CHARACTER__Johnny_Cage__NAME: 'Johnny Cage',
@@ -161,6 +181,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Kabal
     CHARACTER__Kabal__NAME: 'Kabal',
@@ -169,6 +191,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Kano
     CHARACTER__Kano__NAME: 'Kano',
@@ -177,6 +201,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Kollector
     CHARACTER__Kollector__NAME: 'Kollector',
@@ -185,6 +211,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Kotal Kahn
     CHARACTER__Kotal_Kahn__NAME: 'Kotal Kahn',
@@ -193,6 +221,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Kitana
     CHARACTER__Kitana__NAME: 'Kitana',
@@ -201,6 +231,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Kung Lao
     CHARACTER__Kung_Lao__NAME: 'Kung Lao',
@@ -209,6 +241,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Liu Kang
     CHARACTER__Liu_Kang__NAME: 'Liu Kang',
@@ -217,6 +251,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Noob Saibot
     CHARACTER__Noob_Saibot__NAME: 'Noob Saibot',
@@ -225,6 +261,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Raiden
     CHARACTER__Raiden__NAME: 'Raiden',
@@ -233,6 +271,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Scorpion
     CHARACTER__Scorpion__NAME: 'Scorpion',
@@ -262,6 +302,9 @@ export const enUs: LangDataType = {
     // Getup Attacks
     CHARACTER__Scorpion__Rising_Blade: 'Rising Blade',
     CHARACTER__Scorpion__Spear_Slice: 'Spear Slice',
+    // Special Attacks
+    // Fatal Blow
+    CHARACTER__Scorpion__Get_Over_Here: 'Get Over Here',
 
     // -> Skarlet
     CHARACTER__Skarlet__NAME: 'Skarlet',
@@ -270,6 +313,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Shao Kahn
     CHARACTER__Shao_Kahn__NAME: 'Shao Kahn',
@@ -278,6 +323,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Sonya Blade
     CHARACTER__Sonya_Blade__NAME: 'Sonya Blade',
@@ -286,6 +333,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Sub-Zero
     CHARACTER__Sub_Zero__NAME: 'Sub-Zero',
@@ -294,6 +343,8 @@ export const enUs: LangDataType = {
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     /* eslint-enable id-match, id-length, camelcase */
 };

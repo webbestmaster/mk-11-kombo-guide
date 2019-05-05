@@ -74,6 +74,12 @@ export type LangDataType = {|
     // -> Baraka
     +CHARACTER__Baraka__NAME: string,
     +CHARACTER__Baraka__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks
+    // Special Attacks
+    // Fatal Blow
 
     // -> Cassie Cage
     +CHARACTER__Cassie_Cage__NAME: string,
@@ -179,6 +185,9 @@ export type LangDataType = {|
     // Getup Attacks / Flawless Block Attacks
     +CHARACTER__Scorpion__Rising_Blade: string,
     +CHARACTER__Scorpion__Spear_Slice: string,
+    // Special Attacks
+    // Fatal Blow
+    +CHARACTER__Scorpion__Get_Over_Here: string,
 
     // -> Skarlet
     +CHARACTER__Skarlet__NAME: string,

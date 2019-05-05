@@ -82,11 +82,13 @@ export class Character extends Component<PropsType, StateType> {
                 <ComboListHeader title="COMBO_LIST__AIR_ESCAPE"/>
                 <ComboList list={airEscapeList}/>
             </div>,
-            <div key={titleList[1]}>{JSON.stringify(comboList)}</div>,
+            <div key={titleList[1]}>
+                <ComboList list={comboList}/>
+            </div>,
             <div key={titleList[2]}>
-                {JSON.stringify(specialList)}
+                <ComboList list={specialList}/>
                 <ComboListHeader title="COMBO_LIST__FATAL_BLOW"/>
-                {JSON.stringify(fatalBlowList)}
+                <ComboList list={fatalBlowList}/>
             </div>,
         ];
 

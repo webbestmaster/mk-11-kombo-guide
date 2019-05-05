@@ -562,6 +562,29 @@ export const scorpion: CharacterType = {
         airEscapeList: defaultMoveData.airEscapeList,
         comboList: [],
         specialList: [],
-        fatalBlowList: [],
+        fatalBlowList: [
+            {
+                name: 'CHARACTER__Scorpion__Get_Over_Here',
+                sequence: [iR1, plus, iR2],
+                description: '',
+                moveData: {
+                    hitDamage: naValue,
+                    blockDamage: naValue,
+                    flawlessBlockDamage: naValue,
+                    type: notAvailableMove,
+                },
+                frameData: {
+                    startUp: naValue,
+                    active: naValue,
+                    recover: naValue,
+                    cancel: naValue,
+                    hitAdvance: naValue,
+                    blockAdvance: naValue,
+                    flawlessBlockAdvance: naValue,
+                },
+                moveFeatureList: [],
+                extendedComboList: [],
+            },
+        ],
     },
 };
