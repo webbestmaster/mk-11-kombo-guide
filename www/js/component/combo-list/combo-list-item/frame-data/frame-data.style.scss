@@ -5,30 +5,31 @@
     padding: 0 $main-side-padding;
 }
 
-.frame_data_table {
-    outline: none;
-}
-
-.frame_data_table_body {
-    outline: none;
-}
-
+.frame_data_table,
+.frame_data_table_body,
 .frame_data_table_tr {
     outline: none;
 }
 
-.frame_data_table_td,
-.frame_data_table_th {
-    outline: none;
+%frame-data-table-cell {
+    border-right: 1px solid $main-text-color;
+    font-size: 14px;
+    padding: 3px 4px;
     text-align: center;
+
+    &:last-child {
+        border-right: 0;
+    }
 }
 
 .frame_data_table_th {
+    @extend %frame-data-table-cell;
+
     background-color: #ccc;
-    outline: none;
 }
 
 .frame_data_table_td {
+    @extend %frame-data-table-cell;
+
     background-color: #fff;
-    outline: none;
 }
