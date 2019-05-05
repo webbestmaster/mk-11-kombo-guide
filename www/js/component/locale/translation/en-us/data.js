@@ -239,7 +239,7 @@ export const enUs: LangDataType = {
     CHARACTER__Scorpion__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Scorpion__Straight_Punch: 'Straight Punch',
-    CHARACTER__Scorpion__Gut_Slice: 'Gut_Slice',
+    CHARACTER__Scorpion__Gut_Slice: 'Gut Slice',
     CHARACTER__Scorpion__Low_Jab: 'Low Jab',
     CHARACTER__Scorpion__Specter_Strike: 'Specter Strike',
     CHARACTER__Scorpion__Rising_Cut: 'Rising Cut',
