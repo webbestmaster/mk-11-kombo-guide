@@ -61,6 +61,13 @@ export const enUs: LangDataType = {
     MOVE_FEATURE__INVULNERABLE: 'Invulnerable',
     MOVE_FEATURE__PROJECTILE: 'Projectile',
 
+    // default move
+    DEFAULT_MOVE__TOWARD_THROW: 'Toward Throw',
+    DEFAULT_MOVE__BACK_THROW: 'Back Throw',
+    DEFAULT_MOVE__FORWARD_ROLL_ESCAPE: 'Forward Roll Escape',
+    DEFAULT_MOVE__AWAY_ROLL_ESCAPE: 'Away Roll Escape',
+    DEFAULT_MOVE__AIR_BREAKAWAY: '(Air) Breakaway',
+
     // setting page
     SETTING__TITLE: 'Settings',
     SETTING__SELECT_PLATFORM: 'Select platform',

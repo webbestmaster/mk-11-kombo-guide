@@ -58,6 +58,13 @@ export type LangDataType = {|
     +MOVE_FEATURE__INVULNERABLE: string,
     +MOVE_FEATURE__PROJECTILE: string,
 
+    // default move
+    +DEFAULT_MOVE__TOWARD_THROW: string,
+    +DEFAULT_MOVE__BACK_THROW: string,
+    +DEFAULT_MOVE__FORWARD_ROLL_ESCAPE: string,
+    +DEFAULT_MOVE__AWAY_ROLL_ESCAPE: string,
+    +DEFAULT_MOVE__AIR_BREAKAWAY: string,
+
     // setting page
     +SETTING__TITLE: string,
     +SETTING__SELECT_PLATFORM: string,

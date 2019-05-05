@@ -32,56 +32,73 @@ const {low, mid, high, overhead, throwMove, unblockable, notAvailableMove} = mov
 const {invul, parry, projectile} = moveFeatureMap;
 
 export const scorpion: CharacterType = {
-    id: 'mock-up-man',
+    id: 'scorpion',
     imagePath: faceImagePath,
     name: 'CHARACTER__Scorpion__NAME',
-    basicMoveList: [
-        {
-            name: 'CHARACTER__Scorpion__NAME',
-            sequence: [iDn, i2n, [iUpRt, iUpRt], i3n],
-            description: 'CHARACTER__Scorpion__DESCRIPTION',
-            moveData: {
-                type: notAvailableMove,
-                hitDamage: naValue,
-                blockDamage: 20,
-                flawlessBlockDamage: 1,
-            },
-            frameData: {
-                startUp: 15,
-                active: 5,
-                recover: naValue,
-                hitAdvance: 14,
-                blockAdvance: -6,
-                flawlessBlockAdvance: -10,
-                cancel: 30,
-            },
-            moveFeatureList: [parry],
-            extendedComboList: [
+    move: {
+        basicList: [],
+        jumpingAttackList: [],
+        hopAttackList: [],
+        getUpAttackList: [],
+        flawlessBlockAttacksList: [],
+        throwsList: [],
+        rollEscapeList: [],
+        airEscapeList: [],
+        comboList: [],
+        specialList: [],
+    },
+
+    /*
+        move: {
+            basicMoveList: [
                 {
                     name: 'CHARACTER__Scorpion__NAME',
-                    sequence: [iDn, i3n],
+                    sequence: [iDn, i2n, [iUpRt, iUpRt], i3n],
                     description: 'CHARACTER__Scorpion__DESCRIPTION',
                     moveData: {
-                        type: high,
+                        type: notAvailableMove,
                         hitDamage: naValue,
-                        blockDamage: 2,
-                        flawlessBlockDamage: 10,
+                        blockDamage: 20,
+                        flawlessBlockDamage: 1,
                     },
                     frameData: {
                         startUp: 15,
                         active: 5,
                         recover: naValue,
-                        hitAdvance: 1,
-                        blockAdvance: 6,
-                        flawlessBlockAdvance: 10,
-                        cancel: 3,
+                        hitAdvance: 14,
+                        blockAdvance: -6,
+                        flawlessBlockAdvance: -10,
+                        cancel: 30,
                     },
-                    extendedComboList: [],
-                    moveFeatureList: [invul],
+                    moveFeatureList: [parry],
+                    extendedComboList: [
+                        {
+                            name: 'CHARACTER__Scorpion__NAME',
+                            sequence: [iDn, i3n],
+                            description: 'CHARACTER__Scorpion__DESCRIPTION',
+                            moveData: {
+                                type: high,
+                                hitDamage: naValue,
+                                blockDamage: 2,
+                                flawlessBlockDamage: 10,
+                            },
+                            frameData: {
+                                startUp: 15,
+                                active: 5,
+                                recover: naValue,
+                                hitAdvance: 1,
+                                blockAdvance: 6,
+                                flawlessBlockAdvance: 10,
+                                cancel: 3,
+                            },
+                            extendedComboList: [],
+                            moveFeatureList: [invul],
+                        },
+                    ],
                 },
             ],
+            comboMoveList: [],
+            specialMoveList: [],
         },
-    ],
-    comboMoveList: [],
-    specialMoveList: [],
+    */
 };

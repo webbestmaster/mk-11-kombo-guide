@@ -70,7 +70,7 @@ export const inputMoveMap: InputMoveMapType = {
     hold: 'hold',
 };
 
-type FrameDataType = {|
+export type FrameDataType = {|
     +startUp: MayBeNaType<number>,
     +active: MayBeNaType<number>,
     +recover: MayBeNaType<number>,
@@ -151,7 +151,16 @@ export type CharacterType = {|
     +id: string,
     +imagePath: string,
     +name: LangKeyType,
-    +basicMoveList: Array<ComboType>,
-    +comboMoveList: Array<ComboType>,
-    +specialMoveList: Array<ComboType>,
+    +move: {
+        +basicList: Array<ComboType>,
+        +jumpingAttackList: Array<ComboType>,
+        +hopAttackList: Array<ComboType>,
+        +getUpAttackList: Array<ComboType>,
+        +flawlessBlockAttacksList: Array<ComboType>,
+        +throwsList: Array<ComboType>,
+        +rollEscapeList: Array<ComboType>,
+        +airEscapeList: Array<ComboType>,
+        +comboList: Array<ComboType>,
+        +specialList: Array<ComboType>,
+    },
 |};
