@@ -23,6 +23,15 @@ export const enUs: LangDataType = {
     CHARACTER_DATA__TOP_MENU__COMBO: 'Kombo',
     CHARACTER_DATA__TOP_MENU__SPECIAL: 'Special',
 
+    // combo list
+    COMBO_LIST__JUMPING_ATTACKS: 'Jumping Attacks',
+    COMBO_LIST__HOP_ATTACKS: 'Hop Attacks',
+    COMBO_LIST__GETUP_ATTACKS: 'Getup Attacks',
+    COMBO_LIST__FLAWLESS_BLOCK_ATTACKS: 'Flawless Block Attacks',
+    COMBO_LIST__THROWS: 'Throws',
+    COMBO_LIST__ROLL_ESCAPES: 'Roll Escapes',
+    COMBO_LIST__AIR_ESCAPE: 'Air Escape',
+
     // frame data
     FRAME_DATA__MOVE_TYPE: 'Move type',
     FRAME_DATA__HIT_DAMAGE: 'Hit damage',

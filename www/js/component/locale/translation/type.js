@@ -20,6 +20,15 @@ export type LangDataType = {|
     +CHARACTER_DATA__TOP_MENU__COMBO: string,
     +CHARACTER_DATA__TOP_MENU__SPECIAL: string,
 
+    // combo list
+    +COMBO_LIST__JUMPING_ATTACKS: string,
+    +COMBO_LIST__HOP_ATTACKS: string,
+    +COMBO_LIST__GETUP_ATTACKS: string,
+    +COMBO_LIST__FLAWLESS_BLOCK_ATTACKS: string,
+    +COMBO_LIST__THROWS: string,
+    +COMBO_LIST__ROLL_ESCAPES: string,
+    +COMBO_LIST__AIR_ESCAPE: string,
+
     // frame data
     +FRAME_DATA__MOVE_TYPE: string,
     +FRAME_DATA__HIT_DAMAGE: string,
