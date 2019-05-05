@@ -53,7 +53,13 @@ export class Character extends Component<PropsType, StateType> {
         const contentList = [
             <div key={1}>
                 <ComboList list={characterData.basicMoveList}/>
-                <ComboListHeader title="CHARACTER__Scorpion__NAME"/>
+                <ComboListHeader title="COMBO_LIST__JUMPING_ATTACKS"/>
+                <ComboListHeader title="COMBO_LIST__HOP_ATTACKS"/>
+                <ComboListHeader title="COMBO_LIST__GETUP_ATTACKS"/>
+                <ComboListHeader title="COMBO_LIST__FLAWLESS_BLOCK_ATTACKS"/>
+                <ComboListHeader title="COMBO_LIST__THROWS"/>
+                <ComboListHeader title="COMBO_LIST__ROLL_ESCAPES"/>
+                <ComboListHeader title="COMBO_LIST__AIR_ESCAPE"/>
                 <ComboList list={characterData.basicMoveList}/>
             </div>,
             <h1 key={2}>CHARACTER_DATA__TOP_MENU__COMBO</h1>,
