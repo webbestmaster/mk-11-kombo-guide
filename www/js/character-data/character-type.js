@@ -74,10 +74,10 @@ export type FrameDataType = {|
     +startUp: MayBeNaType<number>,
     +active: MayBeNaType<number>,
     +recover: MayBeNaType<number>,
+    +cancel: MayBeNaType<number>,
     +hitAdvance: MayBeNaType<number>,
     +blockAdvance: MayBeNaType<number>,
     +flawlessBlockAdvance: MayBeNaType<number>,
-    +cancel: MayBeNaType<number>,
 |};
 
 export type MoveType = 'low' | 'mid' | 'high' | 'overhead' | 'throw' | 'unblockable' | 'N/A Move';
@@ -103,10 +103,10 @@ export const moveTypeTranslationMap: {+[key: MoveType]: LangKeyType} = {
 };
 
 type MoveDataType = {|
-    +type: MoveType,
     +hitDamage: MayBeNaType<number>,
     +blockDamage: MayBeNaType<number>,
     +flawlessBlockDamage: MayBeNaType<number>,
+    +type: MoveType,
 |};
 
 export type MoveFeatureType = 'invulnerable' | 'parry' | 'projectile';
