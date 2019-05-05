@@ -5,6 +5,8 @@ import type {CharacterType} from '../../character-type';
 import type {LangKeyType} from '../../../component/locale/translation/type';
 import {inputMoveMap, moveTypeMap, naValue, moveFeatureMap} from '../../character-type';
 
+import {defaultMoveData} from '../../default/character-default-data';
+
 import faceImagePath from './face.png';
 
 const {
@@ -41,9 +43,9 @@ export const scorpion: CharacterType = {
         hopAttackList: [],
         getUpAttackList: [],
         flawlessBlockAttacksList: [],
-        throwsList: [],
-        rollEscapeList: [],
-        airEscapeList: [],
+        throwsList: defaultMoveData.throwList,
+        rollEscapeList: defaultMoveData.rollEscapeList,
+        airEscapeList: defaultMoveData.airEscapeList,
         comboList: [],
         specialList: [],
     },
