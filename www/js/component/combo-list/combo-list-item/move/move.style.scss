@@ -1,8 +1,19 @@
 $move-image-size: 24px;
 
-.move_wrapper {
+.move__image {
     //background-color: #c00;
     display: block;
     height: $move-image-size;
-    width: $move-image-size;
+    width: auto;
+
+    &[data-input='u'],
+    &[data-input='d'],
+    &[data-input='l'],
+    &[data-input='r'],
+    &[data-input='ur'],
+    &[data-input='dr'],
+    &[data-input='ul'],
+    &[data-input='dl'] {
+        height: $move-image-size * 0.9;
+    }
 }

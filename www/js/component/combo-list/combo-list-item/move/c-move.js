@@ -79,8 +79,9 @@ class Move extends Component<ReduxPropsType, PassedPropsType, StateType> {
     render(): Node {
         const view = this;
         const {props, state} = view;
+        const {input} = props;
 
-        return <img alt="" className={moveStyle.move_wrapper} src={view.getImagePath()}/>;
+        return <img alt={input} className={moveStyle.move__image} data-input={input} src={view.getImagePath()}/>;
     }
 }
 
