@@ -54,8 +54,106 @@ export type LangDataType = {|
     +SETTING__SELECT_PLATFORM: string,
 
     // characters
-    +CHARACTER__SCORPION__NAME: string,
-    +CHARACTER__SCORPION__DESCRIPTION: string,
+    // -> Baraka
+    +CHARACTER__Baraka__NAME: string,
+    +CHARACTER__Baraka__DESCRIPTION: string,
+
+    // -> Cassie Cage
+    +CHARACTER__Cassie_Cage__NAME: string,
+    +CHARACTER__Cassie_Cage__DESCRIPTION: string,
+
+    // -> Cetrion
+    +CHARACTER__Cetrion__NAME: string,
+    +CHARACTER__Cetrion__DESCRIPTION: string,
+
+    // -> D'vorah
+    +CHARACTER__D_vorah__NAME: string,
+    +CHARACTER__D_vorah__DESCRIPTION: string,
+
+    // -> Erron Black
+    +CHARACTER__Erron_Black__NAME: string,
+    +CHARACTER__Erron_Black__DESCRIPTION: string,
+
+    // -> Frost
+    +CHARACTER__Frost__NAME: string,
+    +CHARACTER__Frost__DESCRIPTION: string,
+
+    // -> Geras
+    +CHARACTER__Geras__NAME: string,
+    +CHARACTER__Geras__DESCRIPTION: string,
+
+    // -> Jade
+    +CHARACTER__Jade__NAME: string,
+    +CHARACTER__Jade__DESCRIPTION: string,
+
+    // -> Jacqui Briggs
+    +CHARACTER__Jacqui_Briggs__NAME: string,
+    +CHARACTER__Jacqui_Briggs__DESCRIPTION: string,
+
+    // -> Jax Briggs
+    +CHARACTER__Jax_Briggs__NAME: string,
+    +CHARACTER__Jax_Briggs__DESCRIPTION: string,
+
+    // -> Johnny Cage
+    +CHARACTER__Johnny_Cage__NAME: string,
+    +CHARACTER__Johnny_Cage__DESCRIPTION: string,
+
+    // -> Kabal
+    +CHARACTER__Kabal__NAME: string,
+    +CHARACTER__Kabal__DESCRIPTION: string,
+
+    // -> Kano
+    +CHARACTER__Kano__NAME: string,
+    +CHARACTER__Kano__DESCRIPTION: string,
+
+    // -> Kollector
+    +CHARACTER__Kollector__NAME: string,
+    +CHARACTER__Kollector__DESCRIPTION: string,
+
+    // -> Kotal Kahn
+    +CHARACTER__Kotal_Kahn__NAME: string,
+    +CHARACTER__Kotal_Kahn__DESCRIPTION: string,
+
+    // -> Kitana
+    +CHARACTER__Kitana__NAME: string,
+    +CHARACTER__Kitana__DESCRIPTION: string,
+
+    // -> Kung Lao
+    +CHARACTER__Kung_Lao__NAME: string,
+    +CHARACTER__Kung_Lao__DESCRIPTION: string,
+
+    // -> Liu Kang
+    +CHARACTER__Liu_Kang__NAME: string,
+    +CHARACTER__Liu_Kang__DESCRIPTION: string,
+
+    // -> Noob Saibot
+    +CHARACTER__Noob_Saibot__NAME: string,
+    +CHARACTER__Noob_Saibot__DESCRIPTION: string,
+
+    // -> Raiden
+    +CHARACTER__Raiden__NAME: string,
+    +CHARACTER__Raiden__DESCRIPTION: string,
+
+    // -> Scorpion
+    +CHARACTER__Scorpion__NAME: string,
+    +CHARACTER__Scorpion__DESCRIPTION: string,
+
+    // -> Skarlet
+    +CHARACTER__Skarlet__NAME: string,
+    +CHARACTER__Skarlet__DESCRIPTION: string,
+
+    // -> Shao Kahn
+    +CHARACTER__Shao_Kahn__NAME: string,
+    +CHARACTER__Shao_Kahn__DESCRIPTION: string,
+
+    // -> Sonya Blade
+    +CHARACTER__Sonya_Blade__NAME: string,
+    +CHARACTER__Sonya_Blade__DESCRIPTION: string,
+
+    // -> Sub-Zero
+    +CHARACTER__Sub_Zero__NAME: string,
+    +CHARACTER__Sub_Zero__DESCRIPTION: string,
+
     /* eslint-enable id-match */
 |};
 

@@ -34,12 +34,12 @@ const {invul, parry, projectile} = moveFeatureMap;
 export const scorpion: CharacterType = {
     id: 'mock-up-man',
     imagePath: faceImagePath,
-    name: 'CHARACTER__SCORPION__NAME',
-    normalMoveList: [
+    name: 'CHARACTER__Scorpion__NAME',
+    basicMoveList: [
         {
-            name: 'CHARACTER__SCORPION__NAME',
+            name: 'CHARACTER__Scorpion__NAME',
             sequence: [iDn, i2n, [iUpRt, iUpRt], i3n],
-            description: 'CHARACTER__SCORPION__DESCRIPTION',
+            description: 'CHARACTER__Scorpion__DESCRIPTION',
             moveData: {
                 type: notAvailableMove,
                 hitDamage: naValue,
@@ -58,9 +58,9 @@ export const scorpion: CharacterType = {
             moveFeatureList: [parry],
             extendedComboList: [
                 {
-                    name: 'CHARACTER__SCORPION__NAME',
+                    name: 'CHARACTER__Scorpion__NAME',
                     sequence: [iDn, i3n],
-                    description: 'CHARACTER__SCORPION__DESCRIPTION',
+                    description: 'CHARACTER__Scorpion__DESCRIPTION',
                     moveData: {
                         type: high,
                         hitDamage: naValue,

@@ -151,7 +151,7 @@ export type CharacterType = {|
     +id: string,
     +imagePath: string,
     +name: LangKeyType,
-    +normalMoveList: Array<ComboType>,
+    +basicMoveList: Array<ComboType>,
     +comboMoveList: Array<ComboType>,
     +specialMoveList: Array<ComboType>,
 |};

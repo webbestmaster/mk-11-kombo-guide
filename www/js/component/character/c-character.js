@@ -52,9 +52,9 @@ export class Character extends Component<PropsType, StateType> {
 
         const contentList = [
             <div key={1}>
-                <ComboList list={characterData.normalMoveList}/>
-                <ComboListHeader title="CHARACTER__SCORPION__NAME"/>
-                <ComboList list={characterData.normalMoveList}/>
+                <ComboList list={characterData.basicMoveList}/>
+                <ComboListHeader title="CHARACTER__Scorpion__NAME"/>
+                <ComboList list={characterData.basicMoveList}/>
             </div>,
             <h1 key={2}>CHARACTER_DATA__TOP_MENU__COMBO</h1>,
             <h1 key={3}>CHARACTER_DATA__TOP_MENU__SPECIAL</h1>,

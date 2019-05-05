@@ -3,7 +3,7 @@
 import type {LangDataType} from '../type';
 
 export const enUs: LangDataType = {
-    /* eslint-disable id-match, id-length */
+    /* eslint-disable id-match, id-length, camelcase */
     META__LANGUAGE_NAME: 'English',
 
     APP_NAME: 'MK11 Kombo Reference',
@@ -57,7 +57,104 @@ export const enUs: LangDataType = {
     SETTING__SELECT_PLATFORM: 'Select platform',
 
     // characters
-    CHARACTER__SCORPION__NAME: 'Scorpion',
-    CHARACTER__SCORPION__DESCRIPTION: 'Scorpion description',
-    /* eslint-enable id-match, id-length */
+    // -> Baraka
+    CHARACTER__Baraka__NAME: 'Baraka',
+    CHARACTER__Baraka__DESCRIPTION: '',
+
+    // -> Cassie Cage
+    CHARACTER__Cassie_Cage__NAME: 'Cassie Cage',
+    CHARACTER__Cassie_Cage__DESCRIPTION: '',
+
+    // -> Cetrion
+    CHARACTER__Cetrion__NAME: 'Cetrion',
+    CHARACTER__Cetrion__DESCRIPTION: '',
+
+    // -> D'vorah
+    CHARACTER__D_vorah__NAME: 'D\'vorah',
+    CHARACTER__D_vorah__DESCRIPTION: '',
+
+    // -> Erron Black
+    CHARACTER__Erron_Black__NAME: 'Erron Black',
+    CHARACTER__Erron_Black__DESCRIPTION: '',
+
+    // -> Frost
+    CHARACTER__Frost__NAME: 'Frost',
+    CHARACTER__Frost__DESCRIPTION: '',
+
+    // -> Geras
+    CHARACTER__Geras__NAME: 'Geras',
+    CHARACTER__Geras__DESCRIPTION: '',
+
+    // -> Jade
+    CHARACTER__Jade__NAME: 'Jade',
+    CHARACTER__Jade__DESCRIPTION: '',
+
+    // -> Jacqui Briggs
+    CHARACTER__Jacqui_Briggs__NAME: 'Jacqui Briggs',
+    CHARACTER__Jacqui_Briggs__DESCRIPTION: '',
+
+    // -> Jax Briggs
+    CHARACTER__Jax_Briggs__NAME: 'Jax Briggs',
+    CHARACTER__Jax_Briggs__DESCRIPTION: '',
+
+    // -> Johnny Cage
+    CHARACTER__Johnny_Cage__NAME: 'Johnny Cage',
+    CHARACTER__Johnny_Cage__DESCRIPTION: '',
+
+    // -> Kabal
+    CHARACTER__Kabal__NAME: 'Kabal',
+    CHARACTER__Kabal__DESCRIPTION: '',
+
+    // -> Kano
+    CHARACTER__Kano__NAME: 'Kano',
+    CHARACTER__Kano__DESCRIPTION: '',
+
+    // -> Kollector
+    CHARACTER__Kollector__NAME: 'Kollector',
+    CHARACTER__Kollector__DESCRIPTION: '',
+
+    // -> Kotal Kahn
+    CHARACTER__Kotal_Kahn__NAME: 'Kotal Kahn',
+    CHARACTER__Kotal_Kahn__DESCRIPTION: '',
+
+    // -> Kitana
+    CHARACTER__Kitana__NAME: 'Kitana',
+    CHARACTER__Kitana__DESCRIPTION: '',
+
+    // -> Kung Lao
+    CHARACTER__Kung_Lao__NAME: 'Kung Lao',
+    CHARACTER__Kung_Lao__DESCRIPTION: '',
+
+    // -> Liu Kang
+    CHARACTER__Liu_Kang__NAME: 'Liu Kang',
+    CHARACTER__Liu_Kang__DESCRIPTION: '',
+
+    // -> Noob Saibot
+    CHARACTER__Noob_Saibot__NAME: 'Noob Saibot',
+    CHARACTER__Noob_Saibot__DESCRIPTION: '',
+
+    // -> Raiden
+    CHARACTER__Raiden__NAME: 'Raiden',
+    CHARACTER__Raiden__DESCRIPTION: '',
+
+    // -> Scorpion
+    CHARACTER__Scorpion__NAME: 'Scorpion',
+    CHARACTER__Scorpion__DESCRIPTION: '',
+
+    // -> Skarlet
+    CHARACTER__Skarlet__NAME: 'Skarlet',
+    CHARACTER__Skarlet__DESCRIPTION: '',
+
+    // -> Shao Kahn
+    CHARACTER__Shao_Kahn__NAME: 'Shao Kahn',
+    CHARACTER__Shao_Kahn__DESCRIPTION: '',
+
+    // -> Sonya Blade
+    CHARACTER__Sonya_Blade__NAME: 'Sonya Blade',
+    CHARACTER__Sonya_Blade__DESCRIPTION: '',
+
+    // -> Sub-Zero
+    CHARACTER__Sub_Zero__NAME: 'Sub-Zero',
+    CHARACTER__Sub_Zero__DESCRIPTION: '',
+    /* eslint-enable id-match, id-length, camelcase */
 };
