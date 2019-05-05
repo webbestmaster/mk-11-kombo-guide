@@ -57,9 +57,7 @@ export const enUs: LangDataType = {
     SETTING__SELECT_PLATFORM: 'Select platform',
 
     // characters
-    CHARACTER__MOCK_UP_MAN__NAME:
-        'Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man Mock up Man',
-    CHARACTER__MOCK_UP_MAN__DESCRIPTION:
-        'Mock up Man DESCRIPTION Mock up Man Mock DESCRIPTION up Man Mock up Man Mock up Man Mock up Man Mock',
+    CHARACTER__SCORPION__NAME: 'Scorpion',
+    CHARACTER__SCORPION__DESCRIPTION: 'Scorpion description',
     /* eslint-enable id-match, id-length */
 };

@@ -47,7 +47,7 @@ export class Header extends Component<PropsType, StateType> {
 
         return (
             <header className={headerStyle.header_wrapper}>
-                {hasBackButton ? <BackButton/> : <center>app logo</center>}
+                {hasBackButton ? <BackButton/> : null}
                 <div className={headerStyle.header_title_wrapper}>
                     <h1 className={serviceStyle.ellipsis}>
                         <Locale stringKey={title}/>

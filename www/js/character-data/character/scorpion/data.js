@@ -5,7 +5,7 @@ import type {CharacterType} from '../../character-type';
 import type {LangKeyType} from '../../../component/locale/translation/type';
 import {inputMoveMap, moveTypeMap, naValue, moveFeatureMap} from '../../character-type';
 
-import mockUpMapImagePath from './image/face.png';
+import faceImagePath from './face.png';
 
 const {
     // ComboInputDirectionType
@@ -31,15 +31,15 @@ const {
 const {low, mid, high, overhead, throwMove, unblockable, notAvailableMove} = moveTypeMap;
 const {invul, parry, projectile} = moveFeatureMap;
 
-export const mockUpMan: CharacterType = {
+export const scorpion: CharacterType = {
     id: 'mock-up-man',
-    imagePath: mockUpMapImagePath,
-    name: 'CHARACTER__MOCK_UP_MAN__NAME',
+    imagePath: faceImagePath,
+    name: 'CHARACTER__SCORPION__NAME',
     normalMoveList: [
         {
-            name: 'CHARACTER__MOCK_UP_MAN__NAME',
+            name: 'CHARACTER__SCORPION__NAME',
             sequence: [iDn, i2n, [iUpRt, iUpRt], i3n],
-            description: 'CHARACTER__MOCK_UP_MAN__DESCRIPTION',
+            description: 'CHARACTER__SCORPION__DESCRIPTION',
             moveData: {
                 type: notAvailableMove,
                 hitDamage: naValue,
@@ -58,9 +58,9 @@ export const mockUpMan: CharacterType = {
             moveFeatureList: [parry],
             extendedComboList: [
                 {
-                    name: 'CHARACTER__MOCK_UP_MAN__NAME',
+                    name: 'CHARACTER__SCORPION__NAME',
                     sequence: [iDn, i3n],
-                    description: 'CHARACTER__MOCK_UP_MAN__DESCRIPTION',
+                    description: 'CHARACTER__SCORPION__DESCRIPTION',
                     moveData: {
                         type: high,
                         hitDamage: naValue,

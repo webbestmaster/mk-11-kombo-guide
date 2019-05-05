@@ -1,9 +1,10 @@
 // @flow
 
 import type {CharacterType} from './character-type';
-import {mockUpMan} from './character/mock-up-man/mock-up-man';
+// import {mockUpMan} from './character/mock-up-man/mock-up-man';
+import {scorpion} from './character/scorpion/data.js';
 
-export const characterList: Array<CharacterType> = [mockUpMan];
+export const characterList: Array<CharacterType> = [scorpion];
 
 export function getCharacterById(characterId: string): CharacterType | null {
     return (

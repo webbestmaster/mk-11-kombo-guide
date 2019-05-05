@@ -54,8 +54,8 @@ export type LangDataType = {|
     +SETTING__SELECT_PLATFORM: string,
 
     // characters
-    +CHARACTER__MOCK_UP_MAN__NAME: string,
-    +CHARACTER__MOCK_UP_MAN__DESCRIPTION: string,
+    +CHARACTER__SCORPION__NAME: string,
+    +CHARACTER__SCORPION__DESCRIPTION: string,
     /* eslint-enable id-match */
 |};
 

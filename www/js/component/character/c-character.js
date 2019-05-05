@@ -53,7 +53,7 @@ export class Character extends Component<PropsType, StateType> {
         const contentList = [
             <div key={1}>
                 <ComboList list={characterData.normalMoveList}/>
-                <ComboListHeader title="CHARACTER__MOCK_UP_MAN__NAME"/>
+                <ComboListHeader title="CHARACTER__SCORPION__NAME"/>
                 <ComboList list={characterData.normalMoveList}/>
             </div>,
             <h1 key={2}>CHARACTER_DATA__TOP_MENU__COMBO</h1>,

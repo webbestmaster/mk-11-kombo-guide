@@ -78,7 +78,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         const view = this;
 
         view.state = {
-            isShowFrameData: true,
+            isShowFrameData: false,
         };
     }
 
