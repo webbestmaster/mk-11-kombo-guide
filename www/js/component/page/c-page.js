@@ -13,9 +13,9 @@ import {Scroll} from '../ui/scroll/c-scroll';
 
 import pageStyle from './page.style.scss';
 
-type ReduxPropsType = {|
-    +system: SystemType,
-|};
+type ReduxPropsType = {
+    // +system: SystemType,
+};
 
 type ReduxActionType = {
     // +setSmth: (smth: string) => string,
@@ -53,6 +53,7 @@ class Page extends Component<ReduxPropsType, PassedPropsType, StateType> {
     state: StateType;
     props: PropsType;
 
+    /*
     getSize(): {width: number, height: number} {
         const view = this;
         const {props} = view;
@@ -63,24 +64,21 @@ class Page extends Component<ReduxPropsType, PassedPropsType, StateType> {
 
         return {width, height};
     }
+*/
 
     render(): Node {
         const view = this;
         const {props} = view;
         const {children} = props;
-        const {width, height} = this.getSize();
+        // const {width, height} = this.getSize();
 
-        return (
-            <div className={pageStyle.page} style={{width, height}}>
-                {children}
-            </div>
-        );
+        return <div className={pageStyle.page}>{children}</div>;
     }
 }
 
 const ConnectedComponent = connect<ComponentType<Page>, PassedPropsType, ReduxPropsType, ReduxActionType>(
     (state: GlobalStateType, props: PassedPropsType): ReduxPropsType => ({
-        system: state.system,
+        // system: state.system,
     }),
     reduxAction
 )(Page);

@@ -117,7 +117,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         const {props, state} = view;
         const {isShowFrameData} = state;
 
-        view.setState({isShowFrameData: !isShowFrameData}, (): mixed => forceResize);
+        view.setState({isShowFrameData: !isShowFrameData}, forceResize);
     };
 
     renderExtendedComboList(): Node {
