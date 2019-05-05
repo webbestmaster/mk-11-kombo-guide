@@ -153,6 +153,31 @@ export type LangDataType = {|
     // -> Scorpion
     +CHARACTER__Scorpion__NAME: string,
     +CHARACTER__Scorpion__DESCRIPTION: string,
+    // Basic Attacks
+    +CHARACTER__Scorpion__Straight_Punch: string,
+    +CHARACTER__Scorpion__Gut_Slice: string,
+    +CHARACTER__Scorpion__Low_Jab: string,
+    +CHARACTER__Scorpion__Specter_Strike: string,
+    +CHARACTER__Scorpion__Rising_Cut: string,
+    +CHARACTER__Scorpion__Rising_Spear: string,
+    +CHARACTER__Scorpion__Hinge_Kick: string,
+    +CHARACTER__Scorpion__Flip_Kick: string,
+    +CHARACTER__Scorpion__Flick_Kick: string,
+    +CHARACTER__Scorpion__Side_Strike: string,
+    +CHARACTER__Scorpion__Step_Kick: string,
+    +CHARACTER__Scorpion__Scorpion_Sting: string,
+    +CHARACTER__Scorpion__Shin_Strike: string,
+    +CHARACTER__Scorpion__Quick_Kick: string,
+    // Jumping Attacks
+    +CHARACTER__Scorpion__Hell_Hook: string,
+    +CHARACTER__Scorpion__Straight_Stab: string,
+    +CHARACTER__Scorpion__Devil_Kick: string,
+    // Quick Jumping Attacks
+    +CHARACTER__Scorpion__Spear_Stab: string,
+    +CHARACTER__Scorpion__Corckscrew_Kick: string,
+    // Getup Attacks
+    +CHARACTER__Scorpion__Rising_Blade: string,
+    +CHARACTER__Scorpion__Spear_Slice: string,
 
     // -> Skarlet
     +CHARACTER__Skarlet__NAME: string,
