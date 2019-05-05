@@ -1,13 +1,17 @@
 @import './../../../../../css/var';
 
-.frame_data_wrapper {
+.frame_data__wrapper {
     display: block;
-    padding: 0 $main-side-padding;
+    padding: 0 $main-side-padding * 1.5 0 $main-side-padding;
 }
 
-.frame_data_table,
-.frame_data_table_body,
-.frame_data_table_tr {
+.frame_data__table {
+    margin-bottom: $main-side-padding;
+}
+
+.frame_data__table,
+.frame_data__table_body,
+.frame_data__table_tr {
     outline: none;
 }
 
@@ -22,14 +26,20 @@
     }
 }
 
-.frame_data_table_th {
+.frame_data__table_th {
     @extend %frame-data-table-cell;
 
     background-color: #ccc;
 }
 
-.frame_data_table_td {
+.frame_data__table_td {
     @extend %frame-data-table-cell;
 
     background-color: #fff;
+}
+
+.frame_data__description {
+    display: block;
+    font-size: 14px;
+    margin-bottom: $main-side-padding;
 }

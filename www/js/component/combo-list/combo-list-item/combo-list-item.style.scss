@@ -8,7 +8,7 @@
     flex-direction: row;
     justify-content: space-between;
     min-height: $combo-item-height;
-    padding: 0 $main-side-padding;
+    padding: 0 $main-side-padding * 1.5 0 $main-side-padding;
 }
 
 .combo_name {
