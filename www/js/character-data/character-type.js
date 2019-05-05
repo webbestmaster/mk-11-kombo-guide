@@ -133,7 +133,7 @@ export const moveFeatureDataMap: {[key: MoveFeatureType]: MoveFeatureDataType} =
     },
     [moveFeatureMap.invul]: {
         image: 'image invul path',
-        name: 'MOVE_FEATURE__INVULNERABILITY',
+        name: 'MOVE_FEATURE__INVULNERABLE',
     },
 };
 

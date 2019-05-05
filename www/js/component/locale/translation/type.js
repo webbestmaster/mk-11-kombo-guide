@@ -32,6 +32,7 @@ export type LangDataType = {|
     +FRAME_DATA__FLAWLESS_BLOCK_ADVANTAGE: string,
     +FRAME_DATA__HIT_ADVANTAGE: string,
     +FRAME_DATA__CANCEL: string,
+    +FRAME_DATA__ADDITIONALLY: string,
     +FRAME_DATA__NOT_AVAILABLE_VALUE: string,
 
     // move type
@@ -45,7 +46,7 @@ export type LangDataType = {|
 
     // move feature
     +MOVE_FEATURE__PARRY: string,
-    +MOVE_FEATURE__INVULNERABILITY: string,
+    +MOVE_FEATURE__INVULNERABLE: string,
     +MOVE_FEATURE__PROJECTILE: string,
 
     // setting page

@@ -11,6 +11,8 @@ import {moveTypeTranslationMap} from '../../../../character-data/character-type'
 
 import {isNumber} from '../../../../lib/is';
 
+import {AdditionalInfo} from '../additional-info/c-additional-info';
+
 import frameDataStyle from './frame-data.style.scss';
 import {renderFrameDataValue} from './helper';
 
@@ -113,14 +115,16 @@ export class FrameData extends Component<PropsType, StateType> {
                         <Locale stringKey="FRAME_DATA__CANCEL"/>
                     </td>
                     <td className={frameDataStyle.frame_data_table_th}>
-                        <Locale stringKey="SPACE"/>
+                        <Locale stringKey="FRAME_DATA__ADDITIONALLY"/>
                     </td>
                 </tr>
                 <tr className={frameDataStyle.frame_data_table_tr}>
                     <td className={frameDataStyle.frame_data_table_td}>{renderFrameDataValue(hitAdvance)}</td>
                     <td className={frameDataStyle.frame_data_table_td}>{renderFrameDataValue(blockAdvance)}</td>
                     <td className={frameDataStyle.frame_data_table_td}>{renderFrameDataValue(cancel)}</td>
-                    <td className={frameDataStyle.frame_data_table_td}>&nbsp;</td>
+                    <td className={frameDataStyle.frame_data_table_td}>
+                        <AdditionalInfo combo={combo}/>
+                    </td>
                 </tr>
             </>
         );

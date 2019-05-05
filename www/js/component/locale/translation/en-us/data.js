@@ -27,14 +27,15 @@ export const enUs: LangDataType = {
     FRAME_DATA__MOVE_TYPE: 'Move type',
     FRAME_DATA__HIT_DAMAGE: 'Hit damage',
     FRAME_DATA__BLOCK_DAMAGE: 'Block damage',
-    FRAME_DATA__FLAWLESS_BLOCK_DAMAGE: 'Block flawless damage',
+    FRAME_DATA__FLAWLESS_BLOCK_DAMAGE: 'Flawless block damage',
     FRAME_DATA__START_UP: 'Start-up',
     FRAME_DATA__ACTIVE: 'Active',
     FRAME_DATA__RECOVER: 'Recover',
     FRAME_DATA__BLOCK_ADVANTAGE: 'Block advantage',
-    FRAME_DATA__FLAWLESS_BLOCK_ADVANTAGE: 'Block flawless advantage',
+    FRAME_DATA__FLAWLESS_BLOCK_ADVANTAGE: 'Flawless block advantage',
     FRAME_DATA__HIT_ADVANTAGE: 'Hit advantage',
     FRAME_DATA__CANCEL: 'Cancel',
+    FRAME_DATA__ADDITIONALLY: 'Additionally',
     FRAME_DATA__NOT_AVAILABLE_VALUE: 'N/A Value',
 
     // move type
@@ -48,7 +49,7 @@ export const enUs: LangDataType = {
 
     // move feature
     MOVE_FEATURE__PARRY: 'Parry',
-    MOVE_FEATURE__INVULNERABILITY: 'Invulnerability',
+    MOVE_FEATURE__INVULNERABLE: 'Invulnerable',
     MOVE_FEATURE__PROJECTILE: 'Projectile',
 
     // setting page

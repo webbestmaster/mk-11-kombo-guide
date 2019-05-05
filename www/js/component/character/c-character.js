@@ -75,20 +75,6 @@ export class Character extends Component<PropsType, StateType> {
             return <h1>You should pass valid character id!</h1>;
         }
 
-        return (
-            <>
-                {view.renderTabList()}
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                {JSON.stringify(characterData)}
-            </>
-        );
+        return view.renderTabList();
     }
 }
