@@ -587,5 +587,6 @@ export const scorpion: CharacterType = {
                 extendedComboList: [],
             },
         ],
+        brutalityList: [],
     },
 };

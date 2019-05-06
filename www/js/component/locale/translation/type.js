@@ -19,6 +19,7 @@ export type LangDataType = {|
     +CHARACTER_DATA__TOP_MENU__BASIC: string,
     +CHARACTER_DATA__TOP_MENU__COMBO: string,
     +CHARACTER_DATA__TOP_MENU__SPECIAL: string,
+    +CHARACTER_DATA__TOP_MENU__BRUTALITY: string,
 
     // combo list
     +COMBO_LIST__JUMPING_ATTACKS: string,
@@ -78,9 +79,12 @@ export type LangDataType = {|
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Cassie Cage
     +CHARACTER__Cassie_Cage__NAME: string,
@@ -186,9 +190,37 @@ export type LangDataType = {|
     // Getup Attacks / Flawless Block Attacks
     +CHARACTER__Scorpion__Rising_Blade: string,
     +CHARACTER__Scorpion__Spear_Slice: string,
+    // Combo Attacks
+    +CHARACTER__Scorpion__The_Damned: string,
+    +CHARACTER__Scorpion__Torment: string,
+    +CHARACTER__Scorpion__Eternal_Vengeance: string,
+    +CHARACTER__Scorpion__Haunted: string,
+    +CHARACTER__Scorpion__The_Killing: string,
+    +CHARACTER__Scorpion__Banished: string,
+    +CHARACTER__Scorpion__Dark_Soul: string,
+    +CHARACTER__Scorpion__Fallen_Ashes: string,
+    +CHARACTER__Scorpion__Inner_Demon: string,
+    +CHARACTER__Scorpion__Soulless: string,
     // Special Attacks
+    +CHARACTER__Scorpion__Spear: string,
+    +CHARACTER__Scorpion__Hell_Port: string,
+    +CHARACTER__Scorpion__Air_Hell_Port: string,
+    // Ability
+    +CHARACTER__Scorpion__Hell_Flame: string,
+    +CHARACTER__Scorpion__Demon_Breath: string,
+    +CHARACTER__Scorpion__Demon_Dash: string,
+    +CHARACTER__Scorpion__Death_Spin: string,
+    +CHARACTER__Scorpion__Death_Spear_Kombo: string,
+    +CHARACTER__Scorpion___Air__Sin_Blade: string,
+    +CHARACTER__Scorpion__Burning_Spear: string,
+    +CHARACTER__Scorpion__Misery_Blade: string,
+    +CHARACTER__Scorpion__Demon_Slam: string,
+    +CHARACTER__Scorpion__Hell_Port_Cancel: string,
     // Fatal Blow
     +CHARACTER__Scorpion__Get_Over_Here: string,
+    // Brutality
+    +CHARACTER__Scorpion__Ashes: string,
+    +CHARACTER__Scorpion__Burn: string,
 
     // -> Skarlet
     +CHARACTER__Skarlet__NAME: string,

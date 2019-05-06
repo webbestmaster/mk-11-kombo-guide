@@ -22,6 +22,7 @@ export const enUs: LangDataType = {
     CHARACTER_DATA__TOP_MENU__BASIC: 'Basic',
     CHARACTER_DATA__TOP_MENU__COMBO: 'Kombo',
     CHARACTER_DATA__TOP_MENU__SPECIAL: 'Special',
+    CHARACTER_DATA__TOP_MENU__BRUTALITY: 'Brutality',
 
     // combo list
     COMBO_LIST__JUMPING_ATTACKS: 'Jumping Attacks',
@@ -300,12 +301,40 @@ export const enUs: LangDataType = {
     // Quick Jumping Attacks
     CHARACTER__Scorpion__Spear_Stab: 'Spear Stab',
     CHARACTER__Scorpion__Corckscrew_Kick: 'Corckscrew Kick',
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
     CHARACTER__Scorpion__Rising_Blade: 'Rising Blade',
     CHARACTER__Scorpion__Spear_Slice: 'Spear Slice',
+    // Combo Attacks
+    CHARACTER__Scorpion__The_Damned: 'The Damned',
+    CHARACTER__Scorpion__Torment: 'Torment',
+    CHARACTER__Scorpion__Eternal_Vengeance: 'Eternal Vengeance',
+    CHARACTER__Scorpion__Haunted: 'Haunted',
+    CHARACTER__Scorpion__The_Killing: 'The Killing',
+    CHARACTER__Scorpion__Banished: 'Banished',
+    CHARACTER__Scorpion__Dark_Soul: 'Dark Soul',
+    CHARACTER__Scorpion__Fallen_Ashes: 'Fallen Ashes',
+    CHARACTER__Scorpion__Inner_Demon: 'Inner Demon',
+    CHARACTER__Scorpion__Soulless: 'Soulless',
     // Special Attacks
+    CHARACTER__Scorpion__Spear: 'Spear',
+    CHARACTER__Scorpion__Hell_Port: 'Hell Port',
+    CHARACTER__Scorpion__Air_Hell_Port: '(Air) Hell Port',
+    // Ability
+    CHARACTER__Scorpion__Hell_Flame: 'Hell Flame',
+    CHARACTER__Scorpion__Demon_Breath: 'Demon Breath',
+    CHARACTER__Scorpion__Demon_Dash: 'Demon Dash',
+    CHARACTER__Scorpion__Death_Spin: 'Death Spin',
+    CHARACTER__Scorpion__Death_Spear_Kombo: 'Death Spear Kombo',
+    CHARACTER__Scorpion___Air__Sin_Blade: '(Air) Sin Blade',
+    CHARACTER__Scorpion__Burning_Spear: 'Burning Spear',
+    CHARACTER__Scorpion__Misery_Blade: 'Misery Blade',
+    CHARACTER__Scorpion__Demon_Slam: 'Demon Slam',
+    CHARACTER__Scorpion__Hell_Port_Cancel: 'Hell Port Cancel',
     // Fatal Blow
     CHARACTER__Scorpion__Get_Over_Here: 'Get Over Here',
+    // Brutality
+    CHARACTER__Scorpion__Ashes: 'Ashes',
+    CHARACTER__Scorpion__Burn: 'Burn',
 
     // -> Skarlet
     CHARACTER__Skarlet__NAME: 'Skarlet',

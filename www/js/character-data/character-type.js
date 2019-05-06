@@ -164,5 +164,6 @@ export type CharacterType = {|
         +specialList: Array<ComboType>,
         +abilityList: Array<ComboType>,
         +fatalBlowList: Array<ComboType>,
+        +brutalityList: Array<ComboType>,
     },
 |};

@@ -48,6 +48,7 @@ export class Character extends Component<PropsType, StateType> {
             'CHARACTER_DATA__TOP_MENU__BASIC',
             'CHARACTER_DATA__TOP_MENU__COMBO',
             'CHARACTER_DATA__TOP_MENU__SPECIAL',
+            'CHARACTER_DATA__TOP_MENU__BRUTALITY',
         ];
 
         const {
@@ -63,6 +64,7 @@ export class Character extends Component<PropsType, StateType> {
             specialList,
             fatalBlowList,
             abilityList,
+            brutalityList,
         } = characterData.move;
 
         const contentList = [
@@ -92,6 +94,9 @@ export class Character extends Component<PropsType, StateType> {
                 <ComboList list={abilityList}/>
                 <ComboListHeader title="COMBO_LIST__FATAL_BLOW"/>
                 <ComboList list={fatalBlowList}/>
+            </div>,
+            <div key={titleList[3]}>
+                <ComboList list={brutalityList}/>
             </div>,
         ];
 
