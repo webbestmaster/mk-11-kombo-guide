@@ -1,8 +1,6 @@
 // @flow
 
 import type {CharacterType} from '../../character-type';
-
-import type {LangKeyType} from '../../../component/locale/translation/type';
 import {inputMoveMap, moveTypeMap, naValue, moveFeatureMap} from '../../character-type';
 import {defaultMoveData} from '../../default/character-default-data';
 

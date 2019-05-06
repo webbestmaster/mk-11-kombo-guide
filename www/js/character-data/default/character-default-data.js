@@ -1,8 +1,6 @@
 // @flow
 
 import type {ComboInputType, ComboType, FrameDataType, MayBeNaType, MoveFeatureType, MoveType} from '../character-type';
-import type {LangKeyType} from '../../component/locale/translation/type';
-
 import {inputMoveMap, moveTypeMap, naValue, moveFeatureMap} from '../character-type';
 
 const {

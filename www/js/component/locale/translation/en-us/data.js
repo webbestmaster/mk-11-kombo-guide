@@ -108,8 +108,8 @@ export const enUs: LangDataType = {
     // Fatal Blow
 
     // -> D'vorah
-    CHARACTER__D_vorah__NAME: 'D\'vorah',
-    CHARACTER__D_vorah__DESCRIPTION: '',
+    CHARACTER__D_Vorah__NAME: 'D\'Vorah',
+    CHARACTER__D_Vorah__DESCRIPTION: '',
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks

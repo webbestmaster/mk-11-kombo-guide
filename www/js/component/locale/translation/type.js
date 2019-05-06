@@ -96,8 +96,8 @@ export type LangDataType = {|
     +CHARACTER__Cetrion__DESCRIPTION: string,
 
     // -> D'vorah
-    +CHARACTER__D_vorah__NAME: string,
-    +CHARACTER__D_vorah__DESCRIPTION: string,
+    +CHARACTER__D_Vorah__NAME: string,
+    +CHARACTER__D_Vorah__DESCRIPTION: string,
 
     // -> Erron Black
     +CHARACTER__Erron_Black__NAME: string,
