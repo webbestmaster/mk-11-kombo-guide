@@ -1,5 +1,7 @@
 // @flow
 
+/* global PUBLIC_PATH */
+
 import type {Node} from 'react';
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
@@ -19,6 +21,9 @@ import {routes} from './routes';
 
 console.log(appConst);
 
+// eslint-disable-next-line id-match
+const publicPath = PUBLIC_PATH;
+
 export function App(): Node {
     return (
         /* eslint-disable react/jsx-max-depth */
@@ -27,7 +32,7 @@ export function App(): Node {
             <>
                 <Auth key="auth"/>
                 <System key="system">
-                    <BrowserRouter>
+                    <BrowserRouter basename={publicPath}>
                         <Switch key="switch">
                             <Route component={userIsNotAuthenticated(LoginPage)} exact path={routes.login}/>
 

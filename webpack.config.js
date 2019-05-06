@@ -31,6 +31,8 @@ console.log(`> branch: ${process.env.BRANCH_NAME}`);
 
 const date = new Date();
 
+const publicPath = IS_DEVELOPMENT ? '/' : '/mk-11/';
+
 const definePluginParams = {
     BUILD_DATE: JSON.stringify(date.getTime()),
     BUILD_DATE_H: JSON.stringify(date.toString()),
@@ -38,6 +40,7 @@ const definePluginParams = {
     // NODE_ENV: JSON.stringify(NODE_ENV),
     IS_PRODUCTION: JSON.stringify(IS_PRODUCTION),
     PROJECT_ID: JSON.stringify('my-best-project'),
+    PUBLIC_PATH: JSON.stringify(publicPath),
     // IS_DEVELOPMENT: JSON.stringify(IS_DEVELOPMENT)
 };
 
@@ -64,7 +67,7 @@ const webpackConfig = {
     ],
     output: {
         path: path.join(CWD, pathToDist),
-        publicPath: '/',
+        publicPath,
         filename: IS_DEVELOPMENT ? '[name].js' : '[name].[hash:6].js',
         chunkFilename: IS_DEVELOPMENT ? '[name].async-import.js' : '[name].[hash:6].async-import.js',
     },

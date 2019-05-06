@@ -1,5 +1,6 @@
 // @flow
 
+/*
 import type {CharacterType} from '../character-type';
 import {inputMoveMap, moveTypeMap, naValue, moveFeatureMap} from '../character-type';
 
@@ -284,3 +285,4 @@ export const defaultCharacter: CharacterType = {
         ],
     },
 };
+*/
