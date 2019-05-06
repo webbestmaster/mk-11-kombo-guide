@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lang util</title>
+</head>
+<body>
+
+<style>
+    input,
+    textarea {
+        display: block;
+        width: 700px;
+        font-size: 16px;
+    }
+</style>
+
+<label>
+    <input id="prefix" type="text" placeholder="prefix">
+</label>
+
+<h3>input list</h3>
+<textarea id="inputList" rows="30"></textarea>
+
+<h3>output type</h3>
+<textarea id="outputListType" rows="30"></textarea>
+
+<h3>output value</h3>
+<textarea id="outputListValue" rows="30"></textarea>
+
+<script>
+
+    function getPrefix() {
+        return prefix.value.trim().replace(/\W/gi, '_');
+    }
+
+    function getValueList() {
+        return inputList.value.trim().split('\n').map(value => value.trim()).filter(Boolean);
+    }
+
+    function getKey(rawKey) {
+        return `${getPrefix()}__${rawKey.replace(/\W/gi, '_')}`;
+    }
+
+    function makeType() {
+        const inputValue = getValueList();
+        const typeList = inputValue.map(value => {
+            return `${getKey(value)}: string,`
+        });
+
+        outputListType.value = typeList.join('\n');
+    }
+
+    function makeValue() {
+        const inputValue = getValueList();
+        const typeList = inputValue.map(value => {
+            return `${getKey(value)}: ${value},`
+        });
+
+        outputListValue.value = typeList.join('\n');
+    }
+
+    function makeData() {
+        makeType();
+        makeValue();
+    }
+
+    prefix.addEventListener('input', makeData, false);
+    inputList.addEventListener('input', makeData, false);
+
+</script>
+
+</body>
+</html>
