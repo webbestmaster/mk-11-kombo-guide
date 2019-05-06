@@ -97,6 +97,7 @@ export class Scroll extends Component<PropsType, StateType> {
             scrollbar: {
                 // eslint-disable-next-line id-length, unicorn/prevent-abbreviations
                 el: `.${view.attr.swiperId}.swiper-scrollbar`,
+                hide: true,
             },
             mousewheel: true,
         });
