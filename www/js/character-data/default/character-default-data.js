@@ -33,28 +33,30 @@ const {
 const {low, mid, high, overhead, throwMove, unblockable, notAvailableMove} = moveTypeMap;
 const {invul, parry, projectile} = moveFeatureMap;
 
-const defaultCombo: ComboType = {
-    name: 'APP_NAME',
-    sequence: [],
-    description: '',
-    moveData: {
-        hitDamage: naValue,
-        blockDamage: naValue,
-        flawlessBlockDamage: naValue,
-        type: notAvailableMove,
+const defaultComboList: Array<ComboType> = [
+    {
+        name: 'APP_NAME',
+        sequence: [],
+        description: '',
+        moveData: {
+            hitDamage: naValue,
+            blockDamage: naValue,
+            flawlessBlockDamage: naValue,
+            type: notAvailableMove,
+        },
+        frameData: {
+            startUp: naValue,
+            active: naValue,
+            recover: naValue,
+            cancel: naValue,
+            hitAdvance: naValue,
+            blockAdvance: naValue,
+            flawlessBlockAdvance: naValue,
+        },
+        moveFeatureList: [],
+        extendedComboList: [],
     },
-    frameData: {
-        startUp: naValue,
-        active: naValue,
-        recover: naValue,
-        cancel: naValue,
-        hitAdvance: naValue,
-        blockAdvance: naValue,
-        flawlessBlockAdvance: naValue,
-    },
-    moveFeatureList: [],
-    extendedComboList: [],
-};
+];
 
 const throwList: Array<ComboType> = [
     {

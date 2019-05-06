@@ -63,6 +63,7 @@ export const enUs: LangDataType = {
     MOVE_FEATURE__PARRY: 'Parry',
     MOVE_FEATURE__INVULNERABLE: 'Invulnerable',
     MOVE_FEATURE__PROJECTILE: 'Projectile',
+    MOVE_FEATURE__PROJECTILE_INVULNERABLE: 'Projectile invulnerable',
 
     // default move
     DEFAULT_MOVE__TOWARD_THROW: 'Toward Throw',

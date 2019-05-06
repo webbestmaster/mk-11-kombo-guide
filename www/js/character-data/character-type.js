@@ -109,12 +109,13 @@ type MoveDataType = {|
     +type: MoveType,
 |};
 
-export type MoveFeatureType = 'invulnerable' | 'parry' | 'projectile';
+export type MoveFeatureType = 'invulnerable' | 'parry' | 'projectile' | 'projectile invulnerable';
 
 export const moveFeatureMap: {+[key: string]: MoveFeatureType} = {
     projectile: 'projectile',
     parry: 'parry',
     invul: 'invulnerable',
+    projectileInvul: 'projectile invulnerable',
 };
 
 export type MoveFeatureDataType = {|
@@ -134,6 +135,10 @@ export const moveFeatureDataMap: {+[key: MoveFeatureType]: MoveFeatureDataType} 
     [moveFeatureMap.invul]: {
         image: 'image invul path',
         name: 'MOVE_FEATURE__INVULNERABLE',
+    },
+    [moveFeatureMap.projectileInvul]: {
+        image: 'image projectile-invul path',
+        name: 'MOVE_FEATURE__PROJECTILE_INVULNERABLE',
     },
 };
 
