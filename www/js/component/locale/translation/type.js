@@ -212,7 +212,7 @@ export type LangDataType = {|
     +CHARACTER__Scorpion__Demon_Dash: string,
     +CHARACTER__Scorpion__Death_Spin: string,
     +CHARACTER__Scorpion__Death_Spear_Kombo: string,
-    +CHARACTER__Scorpion___Air__Sin_Blade: string,
+    +CHARACTER__Scorpion__Air_Sin_Blade: string,
     +CHARACTER__Scorpion__Burning_Spear: string,
     +CHARACTER__Scorpion__Misery_Blade: string,
     +CHARACTER__Scorpion__Demon_Slam: string,
