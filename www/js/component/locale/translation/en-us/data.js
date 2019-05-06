@@ -31,6 +31,7 @@ export const enUs: LangDataType = {
     COMBO_LIST__THROWS: 'Throws',
     COMBO_LIST__ROLL_ESCAPES: 'Roll Escapes',
     COMBO_LIST__AIR_ESCAPE: 'Air Escape',
+    COMBO_LIST__ABILITY: 'Ability',
     COMBO_LIST__FATAL_BLOW: 'Fatal Blow',
 
     // frame data

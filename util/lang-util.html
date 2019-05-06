@@ -45,7 +45,7 @@
     function makeType() {
         const inputValue = getValueList();
         const typeList = inputValue.map(value => {
-            return `${getKey(value)}: string,`
+            return `+${getKey(value)}: string,`
         });
 
         outputListType.value = typeList.join('\n');

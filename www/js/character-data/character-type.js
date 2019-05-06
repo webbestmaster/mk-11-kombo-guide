@@ -162,6 +162,7 @@ export type CharacterType = {|
         +airEscapeList: Array<ComboType>,
         +comboList: Array<ComboType>,
         +specialList: Array<ComboType>,
+        +abilityList: Array<ComboType>,
         +fatalBlowList: Array<ComboType>,
     },
 |};

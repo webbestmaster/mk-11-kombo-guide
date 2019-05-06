@@ -28,6 +28,7 @@ export type LangDataType = {|
     +COMBO_LIST__THROWS: string,
     +COMBO_LIST__ROLL_ESCAPES: string,
     +COMBO_LIST__AIR_ESCAPE: string,
+    +COMBO_LIST__ABILITY: string,
     +COMBO_LIST__FATAL_BLOW: string,
 
     // frame data
