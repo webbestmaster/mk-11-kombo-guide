@@ -150,10 +150,10 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
             <>
                 <div
                     className={comboListItemStyle.combo_wrapper}
-                    onClick={view.handleWrapperClick}
-                    onKeyPress={view.handleWrapperClick}
-                    role="button"
-                    tabIndex="0"
+                    // onClick={view.handleWrapperClick}
+                    // onKeyPress={view.handleWrapperClick}
+                    // role="button"
+                    // tabIndex="0"
                 >
                     {view.renderComboTitle()}
                     {view.renderMoveList()}
