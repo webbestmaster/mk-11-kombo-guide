@@ -28,7 +28,20 @@ $move-image-size: 26px;
         border-radius: 0;
         height: $move-image-size * 0.9;
         position: relative;
+    }
+
+    &[data-input='u'] {
+        top: -1px;
+    }
+
+    &[data-input='d'] {
         top: 1px;
+    }
+
+    &[data-input='+'],
+    &[data-input='or'],
+    &[data-input='hold'] {
+        height: $move-image-size;
     }
 
     &:last-child {
