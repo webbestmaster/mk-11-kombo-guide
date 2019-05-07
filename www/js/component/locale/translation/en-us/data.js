@@ -2,8 +2,10 @@
 
 import type {LangDataType} from '../type';
 
+const theKlassic = 'The Klassic';
+
 export const enUs: LangDataType = {
-    /* eslint-disable id-match, id-length, camelcase */
+    /* eslint-disable id-match, id-length, camelcase, sonarjs/no-duplicate-string */
     META__LANGUAGE_NAME: 'English',
 
     APP_NAME: 'MK11 Kombo Reference',
@@ -206,7 +208,7 @@ export const enUs: LangDataType = {
     // Fatal Blow
     CHARACTER__Cassie_Cage__PISSED_AF: 'PISSED AF',
     // Brutality
-    CHARACTER__Cassie_Cage__The_Klassic: 'The Klassic',
+    CHARACTER__Cassie_Cage__The_Klassic: theKlassic,
     CHARACTER__Cassie_Cage__Make_It_Pop: 'Make It Pop',
 
     // -> Cetrion
@@ -272,21 +274,71 @@ export const enUs: LangDataType = {
     // Fatal Blow
     CHARACTER__Cetrion__Weeping_Willow: 'Weeping Willow',
     // Brutality
-    CHARACTER__Cetrion__The_Klassic: 'The Klassic',
+    CHARACTER__Cetrion__The_Klassic: theKlassic,
     CHARACTER__Cetrion__Splitting_Apart: 'Splitting Apart',
 
     // -> D'vorah
     CHARACTER__D_Vorah__NAME: 'D\'Vorah',
     CHARACTER__D_Vorah__DESCRIPTION: '',
     // Basic Attacks
+    CHARACTER__D_Vorah__Pupa_Poke: 'Pupa Poke',
+    CHARACTER__D_Vorah__Low_Sting: 'Low Sting',
+    CHARACTER__D_Vorah__Bug_Bash: 'Bug Bash',
+    CHARACTER__D_Vorah__Bludgeoned: 'Bludgeoned',
+    CHARACTER__D_Vorah__Killer_Strike: 'Killer Strike',
+    CHARACTER__D_Vorah__Swatted: 'Swatted',
+    CHARACTER__D_Vorah__Larva_Tarsus: 'Larva Tarsus',
+    CHARACTER__D_Vorah__Ovi_Posi_Poke: 'Ovi Posi Poke',
+    CHARACTER__D_Vorah__Low_Tarsus_Strike: 'Low Tarsus Strike',
+    CHARACTER__D_Vorah__Cocoon_Kick: 'Cocoon Kick',
+    CHARACTER__D_Vorah__Spinning_Web: 'Spinning Web',
+    CHARACTER__D_Vorah__Brood_Slam: 'Brood Slam',
+    CHARACTER__D_Vorah__Slight_Sting: 'Slight Sting',
     // Jumping Attacks
+    CHARACTER__D_Vorah__Deadly_Sting: 'Deadly Sting',
+    CHARACTER__D_Vorah__Poisonous_Touch: 'Poisonous Touch',
+    CHARACTER__D_Vorah__Beetle_Kick: 'Beetle Kick',
     // Quick Jumping Attacks
+    CHARACTER__D_Vorah__Piercing_Ovipositors: 'Piercing Ovipositors',
+    CHARACTER__D_Vorah__Hardened_Heel: 'Hardened Heel',
     // Getup Attacks / Flawless Block Attacks
+    CHARACTER__D_Vorah__Swarm_Burst: 'Swarm Burst',
+    CHARACTER__D_Vorah__Quick_Strike: 'Quick Strike',
     // Combo Attacks
+    CHARACTER__D_Vorah__Yellow_Jacket: 'Yellow Jacket',
+    CHARACTER__D_Vorah__Black_Widow: 'Black Widow',
+    CHARACTER__D_Vorah__Bot_Fly: 'Bot Fly',
+    CHARACTER__D_Vorah__Assassin_Bug: 'Assassin Bug',
+    CHARACTER__D_Vorah__Wandering_Spider: 'Wandering Spider',
+    CHARACTER__D_Vorah__Siafu: 'Siafu',
+    CHARACTER__D_Vorah__Bugging_Out: 'Bugging Out',
+    CHARACTER__D_Vorah__Killer_Bee: 'Killer Bee',
+    CHARACTER__D_Vorah__Lonomia: 'Lonomia',
     // Special Attacks
+    CHARACTER__D_Vorah__Fireflies: 'Fireflies',
+    CHARACTER__D_Vorah__Ground_Swarm: 'Ground Swarm',
+    CHARACTER__D_Vorah__Close_Ground_Swarm: 'Close Ground Swarm',
+    CHARACTER__D_Vorah__Far_Ground_Swarm: 'Far Ground Swarm',
+    CHARACTER__D_Vorah__Very_Far_Ground_Swarm: 'Very Far Ground Swarm',
+    CHARACTER__D_Vorah__Infested: 'Infested',
+    CHARACTER__D_Vorah__Swarm: 'Swarm',
+    CHARACTER__D_Vorah__Katipo_Rush: 'Katipo Rush',
     // Ability
+    CHARACTER__D_Vorah__Deadly_Swarm: 'Deadly Swarm',
+    CHARACTER__D_Vorah__Super_Swarm: 'Super Swarm',
+    CHARACTER__D_Vorah__Air_Fly_By: '(Air) Fly By',
+    CHARACTER__D_Vorah__Air_Ticking_Time_Bug: '(Air) Ticking Time Bug',
+    CHARACTER__D_Vorah__Widow_s_Kiss: 'Widow\'s Kiss',
+    CHARACTER__D_Vorah__Bombardier_Beetl: 'Bombardier Beetl',
+    CHARACTER__D_Vorah__Strepsiptera: 'Strepsiptera',
+    CHARACTER__D_Vorah__Flippin_Out: 'Flippin\' Out',
+    CHARACTER__D_Vorah__Parasite: 'Parasite',
+    CHARACTER__D_Vorah__Mother_Bug: 'Mother Bug',
     // Fatal Blow
+    // CHARACTER__D_Vorah__Buggin_Out: 'Buggin\' Out',
     // Brutality
+    CHARACTER__D_Vorah__The_Klassic: theKlassic,
+    CHARACTER__D_Vorah__Buggin_Out: 'Buggin\' Out',
 
     // -> Erron Black
     CHARACTER__Erron_Black__NAME: 'Erron Black',
@@ -608,5 +660,5 @@ export const enUs: LangDataType = {
     // Fatal Blow
     // Brutality
 
-    /* eslint-enable id-match, id-length, camelcase */
+    /* eslint-enable id-match, id-length, camelcase, sonarjs/no-duplicate-string */
 };
