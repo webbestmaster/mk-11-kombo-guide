@@ -61,6 +61,7 @@ export const dVorah: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         jumpingAttackList: [
@@ -85,6 +86,7 @@ export const dVorah: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         hopAttackList: [
@@ -109,6 +111,7 @@ export const dVorah: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         getUpAttackList: [
@@ -133,6 +136,7 @@ export const dVorah: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -157,6 +161,7 @@ export const dVorah: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -184,6 +189,7 @@ export const dVorah: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         specialList: [
@@ -208,6 +214,7 @@ export const dVorah: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         abilityList: [
@@ -232,6 +239,7 @@ export const dVorah: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         fatalBlowList: [
@@ -256,6 +264,7 @@ export const dVorah: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         brutalityList: [
@@ -280,6 +289,7 @@ export const dVorah: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
     },

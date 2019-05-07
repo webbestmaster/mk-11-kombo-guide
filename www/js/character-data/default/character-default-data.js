@@ -53,6 +53,7 @@ const defaultComboList: Array<ComboType> = [
         },
         moveFeatureList: [],
         extendedComboList: [],
+        crushingBlowCondition: null,
     },
 ];
 
@@ -78,6 +79,7 @@ const throwList: Array<ComboType> = [
         },
         moveFeatureList: [],
         extendedComboList: [],
+        crushingBlowCondition: null,
     },
     {
         name: 'DEFAULT_MOVE__BACK_THROW',
@@ -100,6 +102,7 @@ const throwList: Array<ComboType> = [
         },
         moveFeatureList: [],
         extendedComboList: [],
+        crushingBlowCondition: null,
     },
 ];
 
@@ -125,6 +128,7 @@ const rollEscapeList: Array<ComboType> = [
         },
         moveFeatureList: [],
         extendedComboList: [],
+        crushingBlowCondition: null,
     },
     {
         name: 'DEFAULT_MOVE__AWAY_ROLL_ESCAPE',
@@ -147,6 +151,7 @@ const rollEscapeList: Array<ComboType> = [
         },
         moveFeatureList: [],
         extendedComboList: [],
+        crushingBlowCondition: null,
     },
 ];
 
@@ -172,6 +177,7 @@ const airEscapeList: Array<ComboType> = [
         },
         moveFeatureList: [],
         extendedComboList: [],
+        crushingBlowCondition: null,
     },
 ];
 

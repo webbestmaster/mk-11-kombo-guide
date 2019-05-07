@@ -150,6 +150,7 @@ export type ComboType = {|
     +frameData: FrameDataType,
     +moveFeatureList: Array<MoveFeatureType>,
     +extendedComboList: Array<ComboType>,
+    +crushingBlowCondition: LangKeyType | null,
 |};
 
 export type CharacterType = {|

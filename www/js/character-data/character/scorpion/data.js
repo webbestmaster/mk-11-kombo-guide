@@ -61,6 +61,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Gut_Slice',
@@ -83,6 +84,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Low_Jab',
@@ -105,6 +107,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Specter_Strike',
@@ -127,6 +130,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Rising_Cut',
@@ -149,6 +153,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Rising_Spear',
@@ -171,6 +176,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Hinge_Kick',
@@ -193,6 +199,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Flip_Kick',
@@ -215,6 +222,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Flick_Kick',
@@ -237,6 +245,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Side_Strike',
@@ -259,6 +268,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Step_Kick',
@@ -281,6 +291,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Scorpion_Sting',
@@ -303,6 +314,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Shin_Strike',
@@ -325,6 +337,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Quick_Kick',
@@ -347,6 +360,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         jumpingAttackList: [
@@ -371,6 +385,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Straight_Stab',
@@ -393,6 +408,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Devil_Kick',
@@ -415,6 +431,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         hopAttackList: [
@@ -439,6 +456,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Corckscrew_Kick',
@@ -461,6 +479,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         getUpAttackList: [
@@ -485,6 +504,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Spear_Slice',
@@ -507,6 +527,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -531,6 +552,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Spear_Slice',
@@ -553,6 +575,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -580,6 +603,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Torment',
@@ -602,6 +626,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Eternal_Vengeance',
@@ -624,6 +649,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Haunted',
@@ -646,6 +672,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__The_Killing',
@@ -668,6 +695,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Banished',
@@ -690,6 +718,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Dark_Soul',
@@ -712,6 +741,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Fallen_Ashes',
@@ -734,6 +764,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Inner_Demon',
@@ -756,6 +787,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Soulless',
@@ -778,6 +810,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         specialList: [
@@ -802,6 +835,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Hell_Port',
@@ -824,6 +858,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Air_Hell_Port',
@@ -846,6 +881,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         abilityList: [
@@ -870,6 +906,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Demon_Breath',
@@ -892,6 +929,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Demon_Dash',
@@ -914,6 +952,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Death_Spin',
@@ -936,6 +975,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Death_Spear_Kombo',
@@ -958,6 +998,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Air_Sin_Blade',
@@ -980,6 +1021,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Burning_Spear',
@@ -1002,6 +1044,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Misery_Blade',
@@ -1024,6 +1067,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Demon_Slam',
@@ -1046,6 +1090,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Hell_Port_Cancel',
@@ -1068,6 +1113,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         fatalBlowList: [
@@ -1092,6 +1138,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
         brutalityList: [
@@ -1116,6 +1163,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
             {
                 name: 'CHARACTER__Scorpion__Burn',
@@ -1138,6 +1186,7 @@ export const scorpion: CharacterType = {
                 },
                 moveFeatureList: [],
                 extendedComboList: [],
+                crushingBlowCondition: null,
             },
         ],
     },
