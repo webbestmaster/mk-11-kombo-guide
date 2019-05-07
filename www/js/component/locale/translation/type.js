@@ -339,14 +339,60 @@ export type LangDataType = {|
     +CHARACTER__Erron_Black__NAME: string,
     +CHARACTER__Erron_Black__DESCRIPTION: string,
     // Basic Attacks
+    +CHARACTER__Erron_Black__Straight_Punch: string,
+    +CHARACTER__Erron_Black__Spinning_Revolver: string,
+    +CHARACTER__Erron_Black__Dusty_Knuckles: string,
+    +CHARACTER__Erron_Black__Bounty_Bash: string,
+    +CHARACTER__Erron_Black__Grip_Slam: string,
+    +CHARACTER__Erron_Black__Shoulder_Shimmy: string,
+    +CHARACTER__Erron_Black__Rising_Outlaw: string,
+    +CHARACTER__Erron_Black__Boot_Flick: string,
+    +CHARACTER__Erron_Black__Saloon_Strike: string,
+    +CHARACTER__Erron_Black__Low_Boot: string,
+    +CHARACTER__Erron_Black__Spinning_Spur: string,
+    +CHARACTER__Erron_Black__Low_Spur: string,
+    +CHARACTER__Erron_Black__Boot_Drop: string,
+    +CHARACTER__Erron_Black__Sandy_Sole: string,
     // Jumping Attacks
+    +CHARACTER__Erron_Black__Swinging_Pistol: string,
+    +CHARACTER__Erron_Black__Hammer_Fist: string,
+    +CHARACTER__Erron_Black__Quick_Flick: string,
     // Quick Jumping Attacks
+    +CHARACTER__Erron_Black__Tumbleweed: string,
+    +CHARACTER__Erron_Black__Drop_Kick: string,
     // Getup Attacks / Flawless Block Attacks
+    +CHARACTER__Erron_Black__Quick_Shot: string,
+    +CHARACTER__Erron_Black__Pocket_Sand: string,
     // Combo Attacks
+    +CHARACTER__Erron_Black__High_Noon: string,
+    +CHARACTER__Erron_Black__Into_the_Badlands: string,
+    +CHARACTER__Erron_Black__Violent_Ends: string,
+    +CHARACTER__Erron_Black__Deal_in_Lead: string,
+    +CHARACTER__Erron_Black__On_The_Shoot: string,
+    +CHARACTER__Erron_Black__At_The_Dooooor: string,
+    +CHARACTER__Erron_Black__Dead_Man_s_Hand: string,
+    +CHARACTER__Erron_Black__Keep_em_Honest: string,
     // Special Attacks
+    +CHARACTER__Erron_Black__Zaterrean_Spit: string,
+    +CHARACTER__Erron_Black__Close_Zaterrean_Spit: string,
+    +CHARACTER__Erron_Black__Rattle_Snake_Slide: string,
+    +CHARACTER__Erron_Black__Locked_And_Loaded: string,
     // Ability
+    +CHARACTER__Erron_Black__Enhanced_Locked_and_Loaded: string,
+    +CHARACTER__Erron_Black__Outworld_Gunslinger: string,
+    +CHARACTER__Erron_Black__Acid_Pour: string,
+    +CHARACTER__Erron_Black__Cattle_Toss: string,
+    +CHARACTER__Erron_Black__Up_Peacemaker: string,
+    +CHARACTER__Erron_Black__Down_Peacemaker: string,
+    +CHARACTER__Erron_Black__Scud_Shot: string,
+    +CHARACTER__Erron_Black__TNT_Toss: string,
+    +CHARACTER__Erron_Black__Netherbeast_Trap: string,
+    +CHARACTER__Erron_Black__Enhanced_Rattle_Snake_Slide: string,
     // Fatal Blow
+    +CHARACTER__Erron_Black__Ghost_Koins: string,
     // Brutality
+    +CHARACTER__Erron_Black__The_Klassic: string,
+    +CHARACTER__Erron_Black__Is_Something_Burning: string,
 
     // -> Frost
     +CHARACTER__Frost__NAME: string,

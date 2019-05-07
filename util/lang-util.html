@@ -54,6 +54,10 @@
     function makeValue() {
         const inputValue = getValueList();
         const typeList = inputValue.map(value => {
+            if (value === 'The Klassic') {
+                return `${getKey(value)}: theKlassic,`
+            }
+
             return `${getKey(value)}: '${value}',`
         });
 

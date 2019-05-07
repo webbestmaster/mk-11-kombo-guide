@@ -344,14 +344,60 @@ export const enUs: LangDataType = {
     CHARACTER__Erron_Black__NAME: 'Erron Black',
     CHARACTER__Erron_Black__DESCRIPTION: '',
     // Basic Attacks
+    CHARACTER__Erron_Black__Straight_Punch: 'Straight Punch',
+    CHARACTER__Erron_Black__Spinning_Revolver: 'Spinning Revolver',
+    CHARACTER__Erron_Black__Dusty_Knuckles: 'Dusty Knuckles',
+    CHARACTER__Erron_Black__Bounty_Bash: 'Bounty Bash',
+    CHARACTER__Erron_Black__Grip_Slam: 'Grip Slam',
+    CHARACTER__Erron_Black__Shoulder_Shimmy: 'Shoulder Shimmy',
+    CHARACTER__Erron_Black__Rising_Outlaw: 'Rising Outlaw',
+    CHARACTER__Erron_Black__Boot_Flick: 'Boot Flick',
+    CHARACTER__Erron_Black__Saloon_Strike: 'Saloon Strike',
+    CHARACTER__Erron_Black__Low_Boot: 'Low Boot',
+    CHARACTER__Erron_Black__Spinning_Spur: 'Spinning Spur',
+    CHARACTER__Erron_Black__Low_Spur: 'Low Spur',
+    CHARACTER__Erron_Black__Boot_Drop: 'Boot Drop',
+    CHARACTER__Erron_Black__Sandy_Sole: 'Sandy Sole',
     // Jumping Attacks
+    CHARACTER__Erron_Black__Swinging_Pistol: 'Swinging Pistol',
+    CHARACTER__Erron_Black__Hammer_Fist: 'Hammer Fist',
+    CHARACTER__Erron_Black__Quick_Flick: 'Quick Flick',
     // Quick Jumping Attacks
+    CHARACTER__Erron_Black__Tumbleweed: 'Tumbleweed',
+    CHARACTER__Erron_Black__Drop_Kick: 'Drop Kick',
     // Getup Attacks / Flawless Block Attacks
+    CHARACTER__Erron_Black__Quick_Shot: 'Quick Shot',
+    CHARACTER__Erron_Black__Pocket_Sand: 'Pocket Sand',
     // Combo Attacks
+    CHARACTER__Erron_Black__High_Noon: 'High Noon',
+    CHARACTER__Erron_Black__Into_the_Badlands: 'Into the Badlands',
+    CHARACTER__Erron_Black__Violent_Ends: 'Violent Ends',
+    CHARACTER__Erron_Black__Deal_in_Lead: 'Deal in Lead',
+    CHARACTER__Erron_Black__On_The_Shoot: 'On The Shoot',
+    CHARACTER__Erron_Black__At_The_Dooooor: 'At The Dooooor',
+    CHARACTER__Erron_Black__Dead_Man_s_Hand: 'Dead Man\'s Hand',
+    CHARACTER__Erron_Black__Keep_em_Honest: 'Keep\'em Honest',
     // Special Attacks
+    CHARACTER__Erron_Black__Zaterrean_Spit: 'Zaterrean Spit',
+    CHARACTER__Erron_Black__Close_Zaterrean_Spit: 'Close Zaterrean Spit',
+    CHARACTER__Erron_Black__Rattle_Snake_Slide: 'Rattle Snake Slide',
+    CHARACTER__Erron_Black__Locked_And_Loaded: 'Locked And Loaded',
     // Ability
+    CHARACTER__Erron_Black__Enhanced_Locked_and_Loaded: 'Enhanced Locked and Loaded',
+    CHARACTER__Erron_Black__Outworld_Gunslinger: 'Outworld Gunslinger',
+    CHARACTER__Erron_Black__Acid_Pour: 'Acid Pour',
+    CHARACTER__Erron_Black__Cattle_Toss: 'Cattle Toss',
+    CHARACTER__Erron_Black__Up_Peacemaker: 'Up Peacemaker',
+    CHARACTER__Erron_Black__Down_Peacemaker: 'Down Peacemaker',
+    CHARACTER__Erron_Black__Scud_Shot: 'Scud Shot',
+    CHARACTER__Erron_Black__TNT_Toss: 'TNT Toss',
+    CHARACTER__Erron_Black__Netherbeast_Trap: 'Netherbeast Trap',
+    CHARACTER__Erron_Black__Enhanced_Rattle_Snake_Slide: 'Enhanced Rattle Snake Slide',
     // Fatal Blow
+    CHARACTER__Erron_Black__Ghost_Koins: 'Ghost Koins',
     // Brutality
+    CHARACTER__Erron_Black__The_Klassic: theKlassic,
+    CHARACTER__Erron_Black__Is_Something_Burning: 'Is Something Burning?',
 
     // -> Frost
     CHARACTER__Frost__NAME: 'Frost',
