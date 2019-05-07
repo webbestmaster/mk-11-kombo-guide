@@ -221,6 +221,8 @@ export const enUs: LangDataType = {
     // Ability
     // Fatal Blow
     // Brutality
+    CHARACTER__Cetrion__The_Klassic: 'The Klassic',
+    CHARACTER__Cetrion__Splitting_Apart: 'Splitting Apart',
 
     // -> D'vorah
     CHARACTER__D_Vorah__NAME: 'D\'Vorah',

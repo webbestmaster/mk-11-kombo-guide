@@ -142,19 +142,6 @@ export type LangDataType = {|
     +CHARACTER__Cassie_Cage__NAME: string,
     +CHARACTER__Cassie_Cage__DESCRIPTION: string,
     // Basic Attacks
-    // Jumping Attacks
-    // Quick Jumping Attacks
-    // Getup Attacks / Flawless Block Attacks
-    // Combo Attacks
-    // Special Attacks
-    // Ability
-    // Fatal Blow
-    // Brutality
-
-    // -> Cetrion
-    +CHARACTER__Cetrion__NAME: string,
-    +CHARACTER__Cetrion__DESCRIPTION: string,
-    // Basic Attacks
     +CHARACTER__Cassie_Cage__Justice_Jab: string,
     +CHARACTER__Cassie_Cage__Low_Shot: string,
     +CHARACTER__Cassie_Cage__Straight_Punch: string,
@@ -218,6 +205,21 @@ export type LangDataType = {|
     // Brutality
     +CHARACTER__Cassie_Cage__The_Klassic: string,
     +CHARACTER__Cassie_Cage__Make_It_Pop: string,
+
+    // -> Cetrion
+    +CHARACTER__Cetrion__NAME: string,
+    +CHARACTER__Cetrion__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
+    +CHARACTER__Cetrion__The_Klassic: string,
+    +CHARACTER__Cetrion__Splitting_Apart: string,
 
     // -> D'vorah
     +CHARACTER__D_Vorah__NAME: string,
