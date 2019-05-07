@@ -34,7 +34,7 @@
                 return value;
             }
 
-            return `+${value.replace(/\'[\s\S]+\'/, 'string')}`;
+            return `+${value.replace(/: theKlassic,/, ': string,').replace(/\'[\s\S]+\'/, 'string')}`;
         });
 
         outputList.value = typeList.join('\n');
