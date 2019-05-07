@@ -865,14 +865,61 @@ export const enUs: LangDataType = {
     CHARACTER__Kano__NAME: 'Kano',
     CHARACTER__Kano__DESCRIPTION: '',
     // Basic Attacks
+    CHARACTER__Kano__Bloody_Knuckles: 'Bloody Knuckles',
+    CHARACTER__Kano__Blade_Evade: 'Blade Evade',
+    CHARACTER__Kano__Lunging_Brute: 'Lunging Brute',
+    CHARACTER__Kano__Knee_Cutter: 'Knee Cutter',
+    CHARACTER__Kano__Scarred: 'Scarred',
+    CHARACTER__Kano__Deadly_Graze: 'Deadly Graze',
+    CHARACTER__Kano__Dirty_Hit: 'Dirty Hit',
+    CHARACTER__Kano__Black_Dragon_Bash: 'Black Dragon Bash',
+    CHARACTER__Kano__High_Boot: 'High Boot',
+    CHARACTER__Kano__Enzuigiri: 'Enzuigiri',
+    CHARACTER__Kano__Under_Kick: 'Under Kick',
+    CHARACTER__Kano__Low_Hinge: 'Low Hinge',
+    CHARACTER__Kano__Face_Breaker: 'Face Breaker',
+    CHARACTER__Kano__Donkey_Kick: 'Donkey Kick',
+    CHARACTER__Kano__Wheel_Kick: 'Wheel Kick',
+    CHARACTER__Kano__Devo_Strike: 'Devo Strike',
     // Jumping Attacks
+    CHARACTER__Kano__Bladed: 'Bladed',
+    CHARACTER__Kano__Outback_Bash: 'Outback Bash',
+    CHARACTER__Kano__Kangaroo_Kick: 'Kangaroo Kick',
     // Quick Jumping Attacks
+    CHARACTER__Kano__G_day_Mate: 'G\'day Mate',
+    CHARACTER__Kano__Brutal_Heel: 'Brutal Heel',
     // Getup Attacks / Flawless Block Attacks
+    CHARACTER__Kano__Cheeky_Swipes: 'Cheeky Swipes',
+    CHARACTER__Kano__Quick_Burn: 'Quick Burn',
     // Combo Attacks
+    CHARACTER__Kano__Come_a_Gutser: 'Come a Gutser',
+    CHARACTER__Kano__Blood_Worth_Bottling: 'Blood Worth Bottling',
+    CHARACTER__Kano__Spewin_: 'Spewin\'',
+    CHARACTER__Kano__Fair_Suck_of_the_Sav: 'Fair Suck of the Sav',
+    CHARACTER__Kano__Cut_Snake: 'Cut Snake',
+    CHARACTER__Kano__Deadly_Digger: 'Deadly Digger',
+    CHARACTER__Kano__Blow_Away: 'Blow Away',
     // Special Attacks
+    CHARACTER__Kano__Blade_Saw: 'Blade Saw',
+    CHARACTER__Kano__Black_Dragon_Ball: 'Black Dragon Ball',
+    CHARACTER__Kano__Air_Black_Dragon_Ball: '(Air) Black Dragon Ball',
     // Ability
+    CHARACTER__Kano__Optic_Blast: 'Optic Blast',
+    CHARACTER__Kano__Bio_Magnetic_Pull: 'Bio-Magnetic Pull',
+    CHARACTER__Kano__Bio_Magnetic_Trap: 'Bio-Magnetic Trap',
+    CHARACTER__Kano__Lumbar_Check: 'Lumbar Check',
+    CHARACTER__Kano__Vege_Mighty: 'Vege-Mighty',
+    CHARACTER__Kano__Snake_Bite: 'Snake Bite',
+    CHARACTER__Kano__Rack_Off: 'Rack Off',
+    CHARACTER__Kano__Molotov_Cocktail: 'Molotov Cocktail',
+    CHARACTER__Kano__Chemical_Burn: 'Chemical Burn',
+    CHARACTER__Kano__Manhandled: 'Manhandled',
     // Fatal Blow
+    CHARACTER__Kano__NOT_HERE_TO_F_CK_SPIDERS: 'NOT HERE TO F#CK SPIDERS',
     // Brutality
+    CHARACTER__Kano__The_Klassic: theKlassic,
+    CHARACTER__Kano__Not_Lookin_Good: 'Not Lookin\' Good',
+    CHARACTER__Kano__Look_What_I_found: 'Look What I found',
 
     // -> Kollector
     CHARACTER__Kollector__NAME: 'Kollector',

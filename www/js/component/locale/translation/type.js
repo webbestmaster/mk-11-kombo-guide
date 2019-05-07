@@ -860,14 +860,61 @@ export type LangDataType = {|
     +CHARACTER__Kano__NAME: string,
     +CHARACTER__Kano__DESCRIPTION: string,
     // Basic Attacks
+    +CHARACTER__Kano__Bloody_Knuckles: string,
+    +CHARACTER__Kano__Blade_Evade: string,
+    +CHARACTER__Kano__Lunging_Brute: string,
+    +CHARACTER__Kano__Knee_Cutter: string,
+    +CHARACTER__Kano__Scarred: string,
+    +CHARACTER__Kano__Deadly_Graze: string,
+    +CHARACTER__Kano__Dirty_Hit: string,
+    +CHARACTER__Kano__Black_Dragon_Bash: string,
+    +CHARACTER__Kano__High_Boot: string,
+    +CHARACTER__Kano__Enzuigiri: string,
+    +CHARACTER__Kano__Under_Kick: string,
+    +CHARACTER__Kano__Low_Hinge: string,
+    +CHARACTER__Kano__Face_Breaker: string,
+    +CHARACTER__Kano__Donkey_Kick: string,
+    +CHARACTER__Kano__Wheel_Kick: string,
+    +CHARACTER__Kano__Devo_Strike: string,
     // Jumping Attacks
+    +CHARACTER__Kano__Bladed: string,
+    +CHARACTER__Kano__Outback_Bash: string,
+    +CHARACTER__Kano__Kangaroo_Kick: string,
     // Quick Jumping Attacks
+    +CHARACTER__Kano__G_day_Mate: string,
+    +CHARACTER__Kano__Brutal_Heel: string,
     // Getup Attacks / Flawless Block Attacks
+    +CHARACTER__Kano__Cheeky_Swipes: string,
+    +CHARACTER__Kano__Quick_Burn: string,
     // Combo Attacks
+    +CHARACTER__Kano__Come_a_Gutser: string,
+    +CHARACTER__Kano__Blood_Worth_Bottling: string,
+    +CHARACTER__Kano__Spewin_: string,
+    +CHARACTER__Kano__Fair_Suck_of_the_Sav: string,
+    +CHARACTER__Kano__Cut_Snake: string,
+    +CHARACTER__Kano__Deadly_Digger: string,
+    +CHARACTER__Kano__Blow_Away: string,
     // Special Attacks
+    +CHARACTER__Kano__Blade_Saw: string,
+    +CHARACTER__Kano__Black_Dragon_Ball: string,
+    +CHARACTER__Kano__Air_Black_Dragon_Ball: string,
     // Ability
+    +CHARACTER__Kano__Optic_Blast: string,
+    +CHARACTER__Kano__Bio_Magnetic_Pull: string,
+    +CHARACTER__Kano__Bio_Magnetic_Trap: string,
+    +CHARACTER__Kano__Lumbar_Check: string,
+    +CHARACTER__Kano__Vege_Mighty: string,
+    +CHARACTER__Kano__Snake_Bite: string,
+    +CHARACTER__Kano__Rack_Off: string,
+    +CHARACTER__Kano__Molotov_Cocktail: string,
+    +CHARACTER__Kano__Chemical_Burn: string,
+    +CHARACTER__Kano__Manhandled: string,
     // Fatal Blow
+    +CHARACTER__Kano__NOT_HERE_TO_F_CK_SPIDERS: string,
     // Brutality
+    +CHARACTER__Kano__The_Klassic: string,
+    +CHARACTER__Kano__Not_Lookin_Good: string,
+    +CHARACTER__Kano__Look_What_I_found: string,
 
     // -> Kollector
     +CHARACTER__Kollector__NAME: string,
