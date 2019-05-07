@@ -81,11 +81,65 @@ export const enUs: LangDataType = {
     CHARACTER__Baraka__NAME: 'Baraka',
     CHARACTER__Baraka__DESCRIPTION: '',
     // Basic Attacks
+    CHARACTER__Baraka__Spiked_Cross: 'Spiked Cross',
+    CHARACTER__Baraka__Low_Stab: 'Low Stab',
+    CHARACTER__Baraka__Straight_Shank: 'Straight Shank',
+    CHARACTER__Baraka__Warrior_Strike: 'Warrior Strike',
+    CHARACTER__Baraka__Lunging_Blades: 'Lunging Blades',
+    CHARACTER__Baraka__Blade_Swipe: 'Blade Swipe',
+    CHARACTER__Baraka__Rising_Blades: 'Rising Blades',
+    CHARACTER__Baraka__Hinge_Kick: 'Hinge Kick',
+    CHARACTER__Baraka__Foot_Stomp: 'Foot Stomp',
+    CHARACTER__Baraka__Low_Poke: 'Low Poke',
+    CHARACTER__Baraka__Low_Shank: 'Low Shank',
+    CHARACTER__Baraka__Big_Leg: 'Big Leg',
+    CHARACTER__Baraka__Leg_Chop: 'Leg Chop',
+    CHARACTER__Baraka__Knee_Lunge: 'Knee Lunge',
+    CHARACTER__Baraka__Side_Kick: 'Side Kick',
     // Jumping Attacks
+    CHARACTER__Baraka__Hangry_Jab: 'Hangry Jab',
+    CHARACTER__Baraka__Sinister_Shank: 'Sinister Shank',
+    CHARACTER__Baraka__Sinister_Slice: 'Sinister Slice',
+    CHARACTER__Baraka__Drop_Kick: 'Drop Kick',
     // Quick Jumping Attacks
-    // Getup Attacks
+    CHARACTER__Baraka__Bladed_Doom: 'Bladed Doom',
+    CHARACTER__Baraka__Karbrac_Kick: 'Karbrac Kick',
+    // Getup Attacks / Flawless Block Attacks
+    CHARACTER__Baraka__Fatal_Strike: 'Fatal Strike',
+    CHARACTER__Baraka__Karbrac_Stab: 'Karbrac Stab',
+    // Combo Attacks
+    CHARACTER__Baraka__Easy_Kill: 'Easy Kill',
+    CHARACTER__Baraka__Mangled: 'Mangled',
+    CHARACTER__Baraka__Bloodthirsty: 'Bloodthirsty',
+    CHARACTER__Baraka__Outworld_Bash: 'Outworld Bash',
+    CHARACTER__Baraka__Splintered: 'Splintered',
+    CHARACTER__Baraka__Painful_Swipes: 'Painful Swipes',
+    CHARACTER__Baraka__Bloody_Mess: 'Bloody Mess',
+    CHARACTER__Baraka__Tarkatan_Rush: 'Tarkatan Rush',
+    CHARACTER__Baraka__Kutting_Loose: 'Kutting Loose',
+    CHARACTER__Baraka__Doom_Kicks: 'Doom Kicks',
     // Special Attacks
+    CHARACTER__Baraka__Blade_Spark: 'Blade Spark',
+    CHARACTER__Baraka__Chop_Chop: 'Chop Chop',
+    CHARACTER__Baraka__War_Banner: 'War Banner',
+    // Ability
+    CHARACTER__Baraka__Baraka_Barrage: 'Baraka Barrage',
+    CHARACTER__Baraka__Blood_Lunge: 'Blood Lunge',
+    CHARACTER__Baraka__Spine_Burst: 'Spine Burst',
+    CHARACTER__Baraka__Leg_Kabob: 'Leg Kabob',
+    CHARACTER__Baraka__Gutted: 'Gutted',
+    CHARACTER__Baraka__Blade_Charge: 'Blade Charge',
+    CHARACTER__Baraka__War_Banner_Bash: 'War Banner Bash',
+    CHARACTER__Baraka__Staked: 'Staked',
+    CHARACTER__Baraka__War_Banner_Charge: 'War Banner Charge',
+    CHARACTER__Baraka__Baraka_Serker: 'Baraka-Serker',
     // Fatal Blow
+    CHARACTER__Baraka__Skewered: 'Skewered',
+    // Brutality
+    CHARACTER__Baraka__FOOD: 'FOOD',
+    CHARACTER__Baraka__Split_in_Two: 'Split in Two',
+    CHARACTER__Baraka__Tastes_Like_Fear: 'Tastes Like Fear',
+    CHARACTER__Baraka__Food_For_The_Warriors: 'Food For The Warriors',
 
     // -> Cassie Cage
     CHARACTER__Cassie_Cage__NAME: 'Cassie Cage',
@@ -93,9 +147,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Cetrion
     CHARACTER__Cetrion__NAME: 'Cetrion',
@@ -103,9 +160,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> D'vorah
     CHARACTER__D_Vorah__NAME: 'D\'Vorah',
@@ -113,9 +173,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Erron Black
     CHARACTER__Erron_Black__NAME: 'Erron Black',
@@ -123,9 +186,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Frost
     CHARACTER__Frost__NAME: 'Frost',
@@ -133,9 +199,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Geras
     CHARACTER__Geras__NAME: 'Geras',
@@ -143,9 +212,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Jade
     CHARACTER__Jade__NAME: 'Jade',
@@ -153,9 +225,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Jacqui Briggs
     CHARACTER__Jacqui_Briggs__NAME: 'Jacqui Briggs',
@@ -163,9 +238,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Jax Briggs
     CHARACTER__Jax_Briggs__NAME: 'Jax Briggs',
@@ -173,9 +251,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Johnny Cage
     CHARACTER__Johnny_Cage__NAME: 'Johnny Cage',
@@ -183,9 +264,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Kabal
     CHARACTER__Kabal__NAME: 'Kabal',
@@ -193,9 +277,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Kano
     CHARACTER__Kano__NAME: 'Kano',
@@ -203,9 +290,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Kollector
     CHARACTER__Kollector__NAME: 'Kollector',
@@ -213,9 +303,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Kotal Kahn
     CHARACTER__Kotal_Kahn__NAME: 'Kotal Kahn',
@@ -223,9 +316,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Kitana
     CHARACTER__Kitana__NAME: 'Kitana',
@@ -233,9 +329,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Kung Lao
     CHARACTER__Kung_Lao__NAME: 'Kung Lao',
@@ -243,9 +342,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Liu Kang
     CHARACTER__Liu_Kang__NAME: 'Liu Kang',
@@ -253,9 +355,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Noob Saibot
     CHARACTER__Noob_Saibot__NAME: 'Noob Saibot',
@@ -263,9 +368,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Raiden
     CHARACTER__Raiden__NAME: 'Raiden',
@@ -273,9 +381,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Scorpion
     CHARACTER__Scorpion__NAME: 'Scorpion',
@@ -343,9 +454,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Shao Kahn
     CHARACTER__Shao_Kahn__NAME: 'Shao Kahn',
@@ -353,9 +467,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Sonya Blade
     CHARACTER__Sonya_Blade__NAME: 'Sonya Blade',
@@ -363,9 +480,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     // -> Sub-Zero
     CHARACTER__Sub_Zero__NAME: 'Sub-Zero',
@@ -373,9 +493,12 @@ export const enUs: LangDataType = {
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
-    // Getup Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
     // Special Attacks
+    // Ability
     // Fatal Blow
+    // Brutality
 
     /* eslint-enable id-match, id-length, camelcase */
 };

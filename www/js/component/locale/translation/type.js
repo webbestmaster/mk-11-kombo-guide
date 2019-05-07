@@ -78,6 +78,70 @@ export type LangDataType = {|
     +CHARACTER__Baraka__NAME: string,
     +CHARACTER__Baraka__DESCRIPTION: string,
     // Basic Attacks
+    +CHARACTER__Baraka__Spiked_Cross: string,
+    +CHARACTER__Baraka__Low_Stab: string,
+    +CHARACTER__Baraka__Straight_Shank: string,
+    +CHARACTER__Baraka__Warrior_Strike: string,
+    +CHARACTER__Baraka__Lunging_Blades: string,
+    +CHARACTER__Baraka__Blade_Swipe: string,
+    +CHARACTER__Baraka__Rising_Blades: string,
+    +CHARACTER__Baraka__Hinge_Kick: string,
+    +CHARACTER__Baraka__Foot_Stomp: string,
+    +CHARACTER__Baraka__Low_Poke: string,
+    +CHARACTER__Baraka__Low_Shank: string,
+    +CHARACTER__Baraka__Big_Leg: string,
+    +CHARACTER__Baraka__Leg_Chop: string,
+    +CHARACTER__Baraka__Knee_Lunge: string,
+    +CHARACTER__Baraka__Side_Kick: string,
+    // Jumping Attacks
+    +CHARACTER__Baraka__Hangry_Jab: string,
+    +CHARACTER__Baraka__Sinister_Shank: string,
+    +CHARACTER__Baraka__Sinister_Slice: string,
+    +CHARACTER__Baraka__Drop_Kick: string,
+    // Quick Jumping Attacks
+    +CHARACTER__Baraka__Bladed_Doom: string,
+    +CHARACTER__Baraka__Karbrac_Kick: string,
+    // Getup Attacks / Flawless Block Attacks
+    +CHARACTER__Baraka__Fatal_Strike: string,
+    +CHARACTER__Baraka__Karbrac_Stab: string,
+    // Combo Attacks
+    +CHARACTER__Baraka__Easy_Kill: string,
+    +CHARACTER__Baraka__Mangled: string,
+    +CHARACTER__Baraka__Bloodthirsty: string,
+    +CHARACTER__Baraka__Outworld_Bash: string,
+    +CHARACTER__Baraka__Splintered: string,
+    +CHARACTER__Baraka__Painful_Swipes: string,
+    +CHARACTER__Baraka__Bloody_Mess: string,
+    +CHARACTER__Baraka__Tarkatan_Rush: string,
+    +CHARACTER__Baraka__Kutting_Loose: string,
+    +CHARACTER__Baraka__Doom_Kicks: string,
+    // Special Attacks
+    +CHARACTER__Baraka__Blade_Spark: string,
+    +CHARACTER__Baraka__Chop_Chop: string,
+    +CHARACTER__Baraka__War_Banner: string,
+    // Ability
+    +CHARACTER__Baraka__Baraka_Barrage: string,
+    +CHARACTER__Baraka__Blood_Lunge: string,
+    +CHARACTER__Baraka__Spine_Burst: string,
+    +CHARACTER__Baraka__Leg_Kabob: string,
+    +CHARACTER__Baraka__Gutted: string,
+    +CHARACTER__Baraka__Blade_Charge: string,
+    +CHARACTER__Baraka__War_Banner_Bash: string,
+    +CHARACTER__Baraka__Staked: string,
+    +CHARACTER__Baraka__War_Banner_Charge: string,
+    +CHARACTER__Baraka__Baraka_Serker: string,
+    // Fatal Blow
+    +CHARACTER__Baraka__Skewered: string,
+    // Brutality
+    +CHARACTER__Baraka__FOOD: string,
+    +CHARACTER__Baraka__Split_in_Two: string,
+    +CHARACTER__Baraka__Tastes_Like_Fear: string,
+    +CHARACTER__Baraka__Food_For_The_Warriors: string,
+
+    // -> Cassie Cage
+    +CHARACTER__Cassie_Cage__NAME: string,
+    +CHARACTER__Cassie_Cage__DESCRIPTION: string,
+    // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
     // Getup Attacks / Flawless Block Attacks
@@ -87,81 +151,239 @@ export type LangDataType = {|
     // Fatal Blow
     // Brutality
 
-    // -> Cassie Cage
-    +CHARACTER__Cassie_Cage__NAME: string,
-    +CHARACTER__Cassie_Cage__DESCRIPTION: string,
-
     // -> Cetrion
     +CHARACTER__Cetrion__NAME: string,
     +CHARACTER__Cetrion__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> D'vorah
     +CHARACTER__D_Vorah__NAME: string,
     +CHARACTER__D_Vorah__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Erron Black
     +CHARACTER__Erron_Black__NAME: string,
     +CHARACTER__Erron_Black__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Frost
     +CHARACTER__Frost__NAME: string,
     +CHARACTER__Frost__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Geras
     +CHARACTER__Geras__NAME: string,
     +CHARACTER__Geras__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Jade
     +CHARACTER__Jade__NAME: string,
     +CHARACTER__Jade__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Jacqui Briggs
     +CHARACTER__Jacqui_Briggs__NAME: string,
     +CHARACTER__Jacqui_Briggs__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Jax Briggs
     +CHARACTER__Jax_Briggs__NAME: string,
     +CHARACTER__Jax_Briggs__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Johnny Cage
     +CHARACTER__Johnny_Cage__NAME: string,
     +CHARACTER__Johnny_Cage__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Kabal
     +CHARACTER__Kabal__NAME: string,
     +CHARACTER__Kabal__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Kano
     +CHARACTER__Kano__NAME: string,
     +CHARACTER__Kano__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Kollector
     +CHARACTER__Kollector__NAME: string,
     +CHARACTER__Kollector__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Kotal Kahn
     +CHARACTER__Kotal_Kahn__NAME: string,
     +CHARACTER__Kotal_Kahn__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Kitana
     +CHARACTER__Kitana__NAME: string,
     +CHARACTER__Kitana__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Kung Lao
     +CHARACTER__Kung_Lao__NAME: string,
     +CHARACTER__Kung_Lao__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Liu Kang
     +CHARACTER__Liu_Kang__NAME: string,
     +CHARACTER__Liu_Kang__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Noob Saibot
     +CHARACTER__Noob_Saibot__NAME: string,
     +CHARACTER__Noob_Saibot__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Raiden
     +CHARACTER__Raiden__NAME: string,
     +CHARACTER__Raiden__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Scorpion
     +CHARACTER__Scorpion__NAME: string,
@@ -226,18 +448,54 @@ export type LangDataType = {|
     // -> Skarlet
     +CHARACTER__Skarlet__NAME: string,
     +CHARACTER__Skarlet__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Shao Kahn
     +CHARACTER__Shao_Kahn__NAME: string,
     +CHARACTER__Shao_Kahn__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Sonya Blade
     +CHARACTER__Sonya_Blade__NAME: string,
     +CHARACTER__Sonya_Blade__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     // -> Sub-Zero
     +CHARACTER__Sub_Zero__NAME: string,
     +CHARACTER__Sub_Zero__DESCRIPTION: string,
+    // Basic Attacks
+    // Jumping Attacks
+    // Quick Jumping Attacks
+    // Getup Attacks / Flawless Block Attacks
+    // Combo Attacks
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
 
     /* eslint-enable id-match */
 |};
