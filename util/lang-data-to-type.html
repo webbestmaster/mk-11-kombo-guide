@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data to type</title>
+</head>
+<body>
+
+
+<style>
+    textarea {
+        display: block;
+        width: 1200px;
+        font-size: 16px;
+    }
+</style>
+
+<h3>input list - data</h3>
+<textarea id="inputList" rows="15"></textarea>
+
+<h3>output list - type</h3>
+<textarea id="outputList" rows="10"></textarea>
+
+<script>
+
+    function getValueList() {
+        return inputList.value.trim().split('\n').map(value => value.trim()).filter(Boolean);
+    }
+
+    function makeType() {
+        const inputValue = getValueList();
+        const typeList = inputValue.map(value => {
+            if (value.startsWith('//')) {
+                return value;
+            }
+
+            return `+${value.replace(/\'[\s\S]+\'/, 'string')}`;
+        });
+
+        outputList.value = typeList.join('\n');
+    }
+
+    function makeData() {
+        makeType();
+    }
+
+    inputList.addEventListener('input', makeData, false);
+
+</script>
+
+</body>
+</html>

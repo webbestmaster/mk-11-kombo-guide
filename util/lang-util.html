@@ -22,11 +22,13 @@
 <h3>input list</h3>
 <textarea id="inputList" rows="15"></textarea>
 
-<h3>output type</h3>
-<textarea id="outputListType" rows="10"></textarea>
-
 <h3>output value</h3>
 <textarea id="outputListValue" rows="10"></textarea>
+
+<div style="display: none;">
+    <h3>output type</h3>
+    <textarea id="outputListType" rows="10"></textarea>
+</div>
 
 <script>
 
@@ -39,7 +41,7 @@
     }
 
     function getKey(rawKey) {
-        return `${getPrefix()}__${rawKey.replace(/\W/gi, '_')}`;
+        return `${getPrefix()}__${rawKey.replace(/\(|\)/gi, '').replace(/\W/gi, '_')}`;
     }
 
     function makeType() {
