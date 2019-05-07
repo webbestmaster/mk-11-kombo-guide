@@ -19,6 +19,7 @@ export type LangDataType = {|
     +CHARACTER_DATA__TOP_MENU__BASIC: string,
     +CHARACTER_DATA__TOP_MENU__COMBO: string,
     +CHARACTER_DATA__TOP_MENU__SPECIAL: string,
+    +CHARACTER_DATA__TOP_MENU__ABILITY: string,
     +CHARACTER_DATA__TOP_MENU__BRUTALITY: string,
 
     // combo list
@@ -29,7 +30,6 @@ export type LangDataType = {|
     +COMBO_LIST__THROWS: string,
     +COMBO_LIST__ROLL_ESCAPES: string,
     +COMBO_LIST__AIR_ESCAPE: string,
-    +COMBO_LIST__ABILITY: string,
     +COMBO_LIST__FATAL_BLOW: string,
 
     // frame data

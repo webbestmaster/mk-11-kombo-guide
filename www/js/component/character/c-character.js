@@ -48,6 +48,7 @@ export class Character extends Component<PropsType, StateType> {
             'CHARACTER_DATA__TOP_MENU__BASIC',
             'CHARACTER_DATA__TOP_MENU__COMBO',
             'CHARACTER_DATA__TOP_MENU__SPECIAL',
+            'CHARACTER_DATA__TOP_MENU__ABILITY',
             'CHARACTER_DATA__TOP_MENU__BRUTALITY',
         ];
 
@@ -90,12 +91,13 @@ export class Character extends Component<PropsType, StateType> {
             </div>,
             <div key={titleList[2]}>
                 <ComboList list={specialList}/>
-                <ComboListHeader title="COMBO_LIST__ABILITY"/>
-                <ComboList list={abilityList}/>
                 <ComboListHeader title="COMBO_LIST__FATAL_BLOW"/>
                 <ComboList list={fatalBlowList}/>
             </div>,
             <div key={titleList[3]}>
+                <ComboList list={abilityList}/>
+            </div>,
+            <div key={titleList[4]}>
                 <ComboList list={brutalityList}/>
             </div>,
         ];
