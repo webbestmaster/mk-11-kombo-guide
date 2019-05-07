@@ -916,6 +916,76 @@ export type LangDataType = {|
     +CHARACTER__Kano__Not_Lookin_Good: string,
     +CHARACTER__Kano__Look_What_I_found: string,
 
+    // -> Kitana
+    +CHARACTER__Kitana__NAME: string,
+    +CHARACTER__Kitana__DESCRIPTION: string,
+    // Basic Attacks
+    +CHARACTER__Kitana__Blade_Jab: string,
+    +CHARACTER__Kitana__Back_Swipe: string,
+    +CHARACTER__Kitana__Low_Poke: string,
+    +CHARACTER__Kitana__Neck_Slice: string,
+    +CHARACTER__Kitana__Royal_Hand: string,
+    +CHARACTER__Kitana__Fan_Out: string,
+    +CHARACTER__Kitana__Rising_Power: string,
+    +CHARACTER__Kitana__Pretty_Kick: string,
+    +CHARACTER__Kitana__Quick_Flick: string,
+    +CHARACTER__Kitana__Heel_Poke: string,
+    +CHARACTER__Kitana__Spinning_Heel: string,
+    +CHARACTER__Kitana__Low_Slice: string,
+    +CHARACTER__Kitana__Fan_Stab: string,
+    // Jumping Attacks
+    +CHARACTER__Kitana__Punishing_Poke: string,
+    +CHARACTER__Kitana__Edenian_Strike: string,
+    +CHARACTER__Kitana__Bloody_Heel: string,
+    // Quick Jumping Attacks
+    +CHARACTER__Kitana__Full_Slice: string,
+    +CHARACTER__Kitana__Flick_Kick: string,
+    // Getup Attacks / Flawless Block Attacks
+    +CHARACTER__Kitana__Step_Back: string,
+    +CHARACTER__Kitana__Fanning_Out: string,
+    // Combo Attacks
+    +CHARACTER__Kitana__Learn_Respect: string,
+    +CHARACTER__Kitana__Dark_Empress: string,
+    +CHARACTER__Kitana__New_Power: string,
+    +CHARACTER__Kitana__No_Mercy: string,
+    +CHARACTER__Kitana__Purge_the_Weak: string,
+    +CHARACTER__Kitana__Dark_Deception: string,
+    +CHARACTER__Kitana__Fan_Tastic: string,
+    +CHARACTER__Kitana__Edenian_Dance: string,
+    +CHARACTER__Kitana__Noble_Assault: string,
+    +CHARACTER__Kitana__A_Royal_Welcome: string,
+    +CHARACTER__Kitana__Follow_Me: string,
+    +CHARACTER__Kitana__Leave_Now: string,
+    +CHARACTER__Kitana__Follow_the_Leader: string,
+    +CHARACTER__Kitana__Blood_Sacrifice: string,
+    +CHARACTER__Kitana__Punishment: string,
+    +CHARACTER__Kitana__Eternal_Damnation: string,
+    // Special Attacks
+    +CHARACTER__Kitana__Fan_Toss: string,
+    +CHARACTER__Kitana__Air_Fan_Toss: string,
+    +CHARACTER__Kitana__Fan_Lift: string,
+    +CHARACTER__Kitana__Quick_Execution: string,
+    +CHARACTER__Kitana__Air_Square_Wave: string,
+    // Ability
+    +CHARACTER__Kitana__Fan_Nado: string,
+    +CHARACTER__Kitana__Air_Piercing_Dagger: string,
+    +CHARACTER__Kitana__Upward_Fan_Toss: string,
+    +CHARACTER__Kitana__Low_Fan_Toss: string,
+    +CHARACTER__Kitana__Dancing_Fans: string,
+    +CHARACTER__Kitana__Air_Fan_Flutter: string,
+    +CHARACTER__Kitana__Retreating_and_Advancing_Fan_Flutter: string,
+    +CHARACTER__Kitana__Edenian_Twist: string,
+    +CHARACTER__Kitana__Ground_War: string,
+    +CHARACTER__Kitana__Half_Blood_Stance: string,
+    +CHARACTER__Kitana__Edenian_Fade: string,
+    +CHARACTER__Kitana__Royal_Protection: string,
+    +CHARACTER__Kitana__Edenian_Razors: string,
+    // Fatal Blow
+    +CHARACTER__Kitana__DEADLY_GAME: string,
+    // Brutality
+    +CHARACTER__Kitana__The_Klassic: string,
+    +CHARACTER__Kitana__Punished: string,
+
     // -> Kollector
     +CHARACTER__Kollector__NAME: string,
     +CHARACTER__Kollector__DESCRIPTION: string,
@@ -932,19 +1002,6 @@ export type LangDataType = {|
     // -> Kotal Kahn
     +CHARACTER__Kotal_Kahn__NAME: string,
     +CHARACTER__Kotal_Kahn__DESCRIPTION: string,
-    // Basic Attacks
-    // Jumping Attacks
-    // Quick Jumping Attacks
-    // Getup Attacks / Flawless Block Attacks
-    // Combo Attacks
-    // Special Attacks
-    // Ability
-    // Fatal Blow
-    // Brutality
-
-    // -> Kitana
-    +CHARACTER__Kitana__NAME: string,
-    +CHARACTER__Kitana__DESCRIPTION: string,
     // Basic Attacks
     // Jumping Attacks
     // Quick Jumping Attacks
