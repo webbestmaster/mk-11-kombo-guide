@@ -1,0 +1,25 @@
+.input_radio__label {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    vertical-align: top;
+}
+
+.input_radio__input_state {
+    background-color: #00c;
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+
+.input_radio__native_input {
+    display: block;
+
+    &:checked + .input_radio__input_state {
+        background-color: #c00;
+    }
+}
+
+.input_radio__label_content {
+    display: block;
+}

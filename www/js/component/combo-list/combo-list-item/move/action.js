@@ -2,11 +2,11 @@
 
 import {moveConst} from './move-const';
 
-export type PlatformNameType = 'universal' | 'ps' | 'xBox';
+export type PlatformNameType = 'universal' | 'playStation' | 'xBox';
 
-export const platformNameMap: {+[key: string]: PlatformNameType} = {
+export const platformNameMap: {+[key: PlatformNameType]: PlatformNameType} = {
     universal: 'universal',
-    playStation: 'ps',
+    playStation: 'playStation',
     xBox: 'xBox',
 };
 
