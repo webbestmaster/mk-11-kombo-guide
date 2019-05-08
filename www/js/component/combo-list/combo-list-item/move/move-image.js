@@ -64,7 +64,7 @@ const mainImageMap = {
     ...additionalImageMap,
 };
 
-export const imageInputMapPc = {
+export const imageInputMapUniversal = {
     ...mainImageMap,
 
     // ComboInputMoveType

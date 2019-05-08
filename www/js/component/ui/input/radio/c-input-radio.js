@@ -11,7 +11,7 @@ type PassedPropsType = {|
     +name: string,
     +value: string,
     +children: Node | Array<Node>,
-    +isChecked: boolean,
+    +isDefaultChecked: boolean,
     +onSelect: (value: string) => mixed,
 |};
 
@@ -28,7 +28,7 @@ export class InputRadio extends Component<PropsType, StateType> {
         const view = this;
 
         view.state = {
-            isChecked: props.isChecked,
+            isChecked: props.isDefaultChecked,
         };
     }
 

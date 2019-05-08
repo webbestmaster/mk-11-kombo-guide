@@ -14,8 +14,17 @@ import {InputRadio} from '../../component/ui/input/radio/c-input-radio';
 import type {PlatformType} from '../../component/combo-list/combo-list-item/move/reducer';
 import type {PlatformNameType, SetPlatformTypeType} from '../../component/combo-list/combo-list-item/move/action';
 import {setPlatformType, platformNameMap} from '../../component/combo-list/combo-list-item/move/action';
+import comboListItemStyle from '../../component/combo-list/combo-list-item/combo-list-item.style.scss';
+import moveStyle from '../../component/combo-list/combo-list-item/move/move.style.scss';
+import {inputMoveMap} from '../../character-data/character-type';
+import type {ComboInputSingleType} from '../../character-data/character-type';
+import {getImagePath} from '../../component/combo-list/combo-list-item/move/helper';
 
 import settingsPageStyle from './settings-page.style.scss';
+
+const {i1n, i2n, i3n, i4n, iL1, iL2, iR1, iR2} = inputMoveMap;
+
+const inputList: Array<ComboInputSingleType> = [i1n, i2n, i3n, i4n, iL1, iL2, iR1, iR2];
 
 type ReduxPropsType = {|
     +platform: PlatformType,
@@ -70,6 +79,26 @@ class SettingsPage extends Component<PropsType, StateType> {
         });
     };
 
+    renderSelectPlatformInputList(platformName: PlatformNameType): Node {
+        return (
+            <div className={comboListItemStyle.combo_move_wrapper}>
+                {inputList.map(
+                    (inputType: ComboInputSingleType): Node => {
+                        return (
+                            <img
+                                alt={inputType}
+                                className={moveStyle.move__image}
+                                data-input={inputType}
+                                key={inputType}
+                                src={getImagePath(platformName, inputType)}
+                            />
+                        );
+                    }
+                )}
+            </div>
+        );
+    }
+
     renderSelectPlatform(): [Node, Node] {
         const view = this;
         const {props, state} = view;
@@ -82,30 +111,21 @@ class SettingsPage extends Component<PropsType, StateType> {
                 <Locale stringKey="SETTING__SELECT_PLATFORM"/>
             </h3>,
             <div key="content">
-                <InputRadio
-                    isChecked={currentPlatform === playStation}
-                    name="platform"
-                    onSelect={view.handleSelectPlatform}
-                    value={playStation}
-                >
-                    playStation
-                </InputRadio>
-                <InputRadio
-                    isChecked={currentPlatform === xBox}
-                    name="platform"
-                    onSelect={view.handleSelectPlatform}
-                    value={xBox}
-                >
-                    xBox
-                </InputRadio>
-                <InputRadio
-                    isChecked={currentPlatform === universal}
-                    name="platform"
-                    onSelect={view.handleSelectPlatform}
-                    value={universal}
-                >
-                    universal
-                </InputRadio>
+                {[playStation, xBox, universal].map(
+                    (platformName: PlatformNameType): Node => {
+                        return (
+                            <InputRadio
+                                isDefaultChecked={currentPlatform === platformName}
+                                key={platformName}
+                                name="platform"
+                                onSelect={view.handleSelectPlatform}
+                                value={platformName}
+                            >
+                                {view.renderSelectPlatformInputList(platformName)}
+                            </InputRadio>
+                        );
+                    }
+                )}
             </div>,
         ];
     }

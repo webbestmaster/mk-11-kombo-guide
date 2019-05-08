@@ -6,15 +6,13 @@ import type {ComponentType, Node} from 'react';
 import React, {Component, Fragment} from 'react';
 import {connect} from 'react-redux';
 
-// import type {GlobalStateType} from '../../redux-store-provider/reducer';
-// import type {ContextRouterType} from '../../type/react-router-dom-v4';
 import type {ComboInputSingleType, ComboInputType} from '../../../../character-data/character-type';
 
-import {imageInputMapPc, imageInputMapPs, imageInputMapXBox} from './move-image';
-
+import {imageInputMapUniversal, imageInputMapPs, imageInputMapXBox} from './move-image';
 import moveStyle from './move.style.scss';
 import type {PlatformType} from './reducer';
 import {platformNameMap} from './action';
+import {getImagePath} from './helper';
 
 type ReduxPropsType = {|
     +platform: PlatformType,
@@ -58,12 +56,15 @@ class Move extends Component<ReduxPropsType, PassedPropsType, StateType> {
 
     getImagePath(): string {
         const view = this;
-        const {props, state} = view;
+        const {props} = view;
         const {input, platform} = props;
 
+        return getImagePath(platform.name, input);
+
+        /*
         switch (platform.name) {
             case platformNameMap.universal:
-                return imageInputMapPc[input];
+                return imageInputMapUniversal[input];
 
             case platformNameMap.playStation:
                 return imageInputMapPs[input];
@@ -74,6 +75,7 @@ class Move extends Component<ReduxPropsType, PassedPropsType, StateType> {
             default:
                 throw new Error('Can not get image!');
         }
+*/
     }
 
     render(): Node {
