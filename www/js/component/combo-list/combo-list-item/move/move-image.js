@@ -20,19 +20,19 @@ import uniL2 from './image/universal/l-2.svg';
 import uniR1 from './image/universal/r-1.svg';
 import uniR2 from './image/universal/r-2.svg';
 
-import ps1 from './image/ps/1.svg';
-import ps2 from './image/ps/2.svg';
-import ps3 from './image/ps/3.svg';
-import ps4 from './image/ps/4.svg';
+import ps1 from './image/ps/1.png';
+import ps2 from './image/ps/2.png';
+import ps3 from './image/ps/3.png';
+import ps4 from './image/ps/4.png';
 import psL1 from './image/ps/l-1.svg';
 import psL2 from './image/ps/l-2.svg';
 import psR1 from './image/ps/r-1.svg';
 import psR2 from './image/ps/r-2.svg';
 
-import xBox1 from './image/xbox/1.svg';
-import xBox2 from './image/xbox/2.svg';
-import xBox3 from './image/xbox/3.svg';
-import xBox4 from './image/xbox/4.svg';
+import xBox1 from './image/xbox/1.png';
+import xBox2 from './image/xbox/2.png';
+import xBox3 from './image/xbox/3.png';
+import xBox4 from './image/xbox/4.png';
 import xBoxL1 from './image/xbox/l-1.svg';
 import xBoxL2 from './image/xbox/l-2.svg';
 import xBoxR1 from './image/xbox/r-1.svg';
