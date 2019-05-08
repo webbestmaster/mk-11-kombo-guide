@@ -10,7 +10,7 @@ $move-image-size: 26px;
     display: block;
     height: $move-image-size;
     margin-right: 3px;
-    width: auto;
+    width: $move-image-size;
 
     &[data-input='u'],
     &[data-input='d'],
@@ -28,6 +28,7 @@ $move-image-size: 26px;
         border-radius: 0;
         height: $move-image-size * 0.9;
         position: relative;
+        width: auto;
     }
 
     &[data-input='u'] {
