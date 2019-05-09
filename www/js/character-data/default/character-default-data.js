@@ -213,7 +213,7 @@ const defaultBasicList: Array<ComboType> = [
     },
     {
         name: 'APP_NAME',
-        sequence: [[i1n, back]],
+        sequence: [[back, i1n]],
         description: '',
         moveData: {
             hitDamage: naValue,
@@ -236,7 +236,7 @@ const defaultBasicList: Array<ComboType> = [
     },
     {
         name: 'APP_NAME',
-        sequence: [[i1n, ford]],
+        sequence: [[ford, i1n]],
         description: '',
         moveData: {
             hitDamage: naValue,
@@ -259,7 +259,7 @@ const defaultBasicList: Array<ComboType> = [
     },
     {
         name: 'APP_NAME',
-        sequence: [[i1n, down]],
+        sequence: [[down, i1n]],
         description: '',
         moveData: {
             hitDamage: naValue,

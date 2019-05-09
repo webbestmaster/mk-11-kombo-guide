@@ -65,7 +65,7 @@ export const baraka: CharacterType = {
             },
             {
                 name: 'CHARACTER__Baraka__Low_Stab',
-                sequence: [[i1n, down]],
+                sequence: [[down, i1n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -111,7 +111,7 @@ export const baraka: CharacterType = {
             },
             {
                 name: 'CHARACTER__Baraka__Lunging_Blades',
-                sequence: [[i2n, back]],
+                sequence: [[back, i2n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -134,7 +134,7 @@ export const baraka: CharacterType = {
             },
             {
                 name: 'CHARACTER__Baraka__Blade_Swipe',
-                sequence: [[i2n, ford]],
+                sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -157,7 +157,7 @@ export const baraka: CharacterType = {
             },
             {
                 name: 'CHARACTER__Baraka__Rising_Blades',
-                sequence: [[i2n, down]],
+                sequence: [[down, i2n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -203,7 +203,7 @@ export const baraka: CharacterType = {
             },
             {
                 name: 'CHARACTER__Baraka__Foot_Stomp',
-                sequence: [[i3n, back]],
+                sequence: [[back, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -226,7 +226,7 @@ export const baraka: CharacterType = {
             },
             {
                 name: 'CHARACTER__Baraka__Low_Poke',
-                sequence: [[i3n, down]],
+                sequence: [[down, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -272,7 +272,7 @@ export const baraka: CharacterType = {
             },
             {
                 name: 'CHARACTER__Baraka__Leg_Chop',
-                sequence: [[i4n, back]],
+                sequence: [[back, i4n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -295,7 +295,7 @@ export const baraka: CharacterType = {
             },
             {
                 name: 'CHARACTER__Baraka__Knee_Lunge',
-                sequence: [[i4n, ford]],
+                sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -318,7 +318,7 @@ export const baraka: CharacterType = {
             },
             {
                 name: 'CHARACTER__Baraka__Side_Kick',
-                sequence: [[i4n, down]],
+                sequence: [[down, i4n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,

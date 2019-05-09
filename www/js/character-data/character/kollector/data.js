@@ -65,7 +65,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'APP_NAME',
-                sequence: [[i1n, back]],
+                sequence: [[back, i1n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -88,7 +88,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'APP_NAME',
-                sequence: [[i1n, ford]],
+                sequence: [[ford, i1n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -111,7 +111,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'APP_NAME',
-                sequence: [[i1n, down]],
+                sequence: [[down, i1n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -158,7 +158,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'APP_NAME',
-                sequence: [[i2n, back]],
+                sequence: [[back, i2n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -181,7 +181,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'APP_NAME',
-                sequence: [[i2n, ford]],
+                sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -204,7 +204,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'APP_NAME',
-                sequence: [[i2n, down]],
+                sequence: [[down, i2n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -251,7 +251,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'APP_NAME',
-                sequence: [[i3n, back]],
+                sequence: [[back, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -274,7 +274,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'APP_NAME',
-                sequence: [[i3n, ford]],
+                sequence: [[ford, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -297,7 +297,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'APP_NAME',
-                sequence: [[i3n, down]],
+                sequence: [[down, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -344,7 +344,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'APP_NAME',
-                sequence: [[i4n, back]],
+                sequence: [[back, i4n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -367,7 +367,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'APP_NAME',
-                sequence: [[i4n, ford]],
+                sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -390,7 +390,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'APP_NAME',
-                sequence: [[i4n, down]],
+                sequence: [[down, i4n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
