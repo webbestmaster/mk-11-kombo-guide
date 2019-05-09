@@ -41,7 +41,7 @@ export const cetrion: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Heavens_Wind',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,30 +64,7 @@ export const cetrion: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[back, i1n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Tendril_Slap',
                 sequence: [[ford, i1n]],
                 description: '',
                 moveData: {
@@ -110,7 +87,7 @@ export const cetrion: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Low_Wind',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +111,7 @@ export const cetrion: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Quick_Combustion',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,30 +134,7 @@ export const cetrion: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[back, i2n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Turning_Wave',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +157,7 @@ export const cetrion: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Rising_God_Palm',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +181,7 @@ export const cetrion: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Vapor_Push',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,7 +204,7 @@ export const cetrion: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Energy_Swipe',
                 sequence: [[back, i3n]],
                 description: '',
                 moveData: {
@@ -273,30 +227,7 @@ export const cetrion: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[ford, i3n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Krystal_Kick',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +251,7 @@ export const cetrion: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Krushing_Heel',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +274,7 @@ export const cetrion: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Rising_Volcano',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,30 +297,7 @@ export const cetrion: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[ford, i4n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Krystal_Heel',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +322,7 @@ export const cetrion: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Quick_Gust',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +345,7 @@ export const cetrion: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Burning_Palm',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +368,7 @@ export const cetrion: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Balance_Spin',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +393,7 @@ export const cetrion: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Boulder_Slam',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +416,7 @@ export const cetrion: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Heel_Spike',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +441,7 @@ export const cetrion: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Geo_Strike',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +464,7 @@ export const cetrion: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__World_Ender',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +489,7 @@ export const cetrion: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__Geo_Strike',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +512,7 @@ export const cetrion: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Cetrion__World_Ender',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
