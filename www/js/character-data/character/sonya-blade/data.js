@@ -41,7 +41,7 @@ export const sonyaBlade: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Knuckle_buster',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,7 +64,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Bo_dash',
                 sequence: [[back, i1n]],
                 description: '',
                 moveData: {
@@ -87,30 +87,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[ford, i1n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Heavy_blast',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +111,7 @@ export const sonyaBlade: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Powerful_blast',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,7 +134,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Controlled_energy',
                 sequence: [[back, i2n]],
                 description: '',
                 moveData: {
@@ -180,7 +157,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Hellish_hook',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +180,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Rising_stars',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +204,7 @@ export const sonyaBlade: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Steel_toe_strike',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,7 +227,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Leg_strike',
                 sequence: [[back, i3n]],
                 description: '',
                 moveData: {
@@ -273,7 +250,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Boot_camp',
                 sequence: [[ford, i3n]],
                 description: '',
                 moveData: {
@@ -296,7 +273,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Side_boot',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +297,7 @@ export const sonyaBlade: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Damaged_boot',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +320,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Spinning_general',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,7 +343,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Flying_knee',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
@@ -389,7 +366,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Low_brust',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +391,7 @@ export const sonyaBlade: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Overpowered',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +414,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Military_jab',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +437,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Kevlar_kicker',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +462,7 @@ export const sonyaBlade: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Boot_licker_dash',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +485,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Flip_kick',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +510,7 @@ export const sonyaBlade: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Backflip_kick',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +533,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Energy_discharge',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +558,7 @@ export const sonyaBlade: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Backflip_kick',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +581,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sonya_Blade__Energy_discharge',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
