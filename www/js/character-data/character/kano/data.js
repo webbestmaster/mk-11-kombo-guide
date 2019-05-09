@@ -41,7 +41,7 @@ export const kano: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Bloody_Knuckles',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,7 +64,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Blade_Evade',
                 sequence: [[back, i1n]],
                 description: '',
                 moveData: {
@@ -87,7 +87,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Lunging_Brute',
                 sequence: [[ford, i1n]],
                 description: '',
                 moveData: {
@@ -110,7 +110,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Knee_Cutter',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +134,7 @@ export const kano: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Scarred',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,7 +157,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Deadly_Graze',
                 sequence: [[back, i2n]],
                 description: '',
                 moveData: {
@@ -180,7 +180,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Dirty_Hit',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +203,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Black_Dragon_Bash',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +227,7 @@ export const kano: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__High_Boot',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,7 +250,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Enzuigiri',
                 sequence: [[back, i3n]],
                 description: '',
                 moveData: {
@@ -273,7 +273,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Under_Kick',
                 sequence: [[ford, i3n]],
                 description: '',
                 moveData: {
@@ -296,7 +296,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Low_Hinge',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +320,7 @@ export const kano: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Face_Breaker',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +343,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Donkey_Kick',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,7 +366,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Wheel_Kick',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
@@ -389,7 +389,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Devo_Strike',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +414,7 @@ export const kano: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Bladed',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +437,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Outback_Bash',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +460,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Kangaroo_Kick',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +485,7 @@ export const kano: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__G_day_Mate',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +508,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Brutal_Heel',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +533,7 @@ export const kano: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Cheeky_Swipes',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +556,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Quick_Burn',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +581,7 @@ export const kano: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Cheeky_Swipes',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +604,7 @@ export const kano: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__Quick_Burn',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
