@@ -41,7 +41,7 @@ export const jade: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Quick_Slap',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,7 +64,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Pole_Strike',
                 sequence: [[back, i1n]],
                 description: '',
                 moveData: {
@@ -87,30 +87,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[ford, i1n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Straight_Palm',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +111,7 @@ export const jade: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Palm_Bash',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,7 +134,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Wiggle_Stick',
                 sequence: [[back, i2n]],
                 description: '',
                 moveData: {
@@ -180,7 +157,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Pole_Slam',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +180,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Rising_Staff',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +204,7 @@ export const jade: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Straight_Kick',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,7 +227,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Side_Kick',
                 sequence: [[back, i3n]],
                 description: '',
                 moveData: {
@@ -273,7 +250,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Knee_Breaker',
                 sequence: [[ford, i3n]],
                 description: '',
                 moveData: {
@@ -296,7 +273,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Side_Heel',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +297,7 @@ export const jade: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Stiletto_Strike',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +320,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Takedown',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,7 +343,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Edenian_Dance',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
@@ -389,7 +366,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Pierced',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +391,7 @@ export const jade: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Edenian_Palm',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +414,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Pole_Bash',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +437,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Warrior_s_Heel',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +462,7 @@ export const jade: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Staff_Slam',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +485,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Edenian_Drill',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +510,7 @@ export const jade: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Glaiver_Saver',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +533,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Heavens_Heel',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +558,7 @@ export const jade: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Glaiver_Saver',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +581,7 @@ export const jade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Heavens_Heel',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
