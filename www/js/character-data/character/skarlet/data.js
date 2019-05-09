@@ -41,7 +41,7 @@ export const skarlet: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Quick_Prick',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,30 +64,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[back, i1n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Slick_Scimitar',
                 sequence: [[ford, i1n]],
                 description: '',
                 moveData: {
@@ -110,7 +87,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Silent_Stab',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +111,7 @@ export const skarlet: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Slicing_Scimitar',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,7 +134,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Scythe_Slam',
                 sequence: [[back, i2n]],
                 description: '',
                 moveData: {
@@ -180,7 +157,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Whip_Snap',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +180,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Kutter',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +204,7 @@ export const skarlet: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Krack_The_Whip',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,30 +227,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[back, i3n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Spear_Stab',
                 sequence: [[ford, i3n]],
                 description: '',
                 moveData: {
@@ -296,7 +250,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Spear_Strike',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +274,7 @@ export const skarlet: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Snap_Kick',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +297,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Reaching_Whip',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,7 +320,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Gut_Buster',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
@@ -389,7 +343,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Spinning_Scythe',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +368,7 @@ export const skarlet: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Bleeding_Dagger',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +391,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Downward_Stab',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +414,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Blood_Kick',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +439,7 @@ export const skarlet: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Punishing_Spear',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +462,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Krimson_Kick',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +487,7 @@ export const skarlet: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Bloody_Boots',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +510,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Side_Slice',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +535,7 @@ export const skarlet: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Bloody_Boots',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +558,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Side_Slice',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
