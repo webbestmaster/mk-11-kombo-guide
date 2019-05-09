@@ -41,7 +41,7 @@ export const kotalKahn: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Bloody_Knuckles',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,30 +64,7 @@ export const kotalKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[back, i1n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Royal_Backhand',
                 sequence: [[ford, i1n]],
                 description: '',
                 moveData: {
@@ -110,7 +87,7 @@ export const kotalKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Low_Swipe',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +111,7 @@ export const kotalKahn: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Temple_Punch',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,7 +134,7 @@ export const kotalKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Macuahuitl_Swipe',
                 sequence: [[back, i2n]],
                 description: '',
                 moveData: {
@@ -180,7 +157,7 @@ export const kotalKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Blade_Push',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +180,7 @@ export const kotalKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Rising_Kahn',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +204,7 @@ export const kotalKahn: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Flick_Kick',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,30 +227,7 @@ export const kotalKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[back, i3n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Knee_Shatter',
                 sequence: [[ford, i3n]],
                 description: '',
                 moveData: {
@@ -296,7 +250,7 @@ export const kotalKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Side_Strike',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +274,7 @@ export const kotalKahn: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Heavy_Blade',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +297,7 @@ export const kotalKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Mace_Sweep',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,7 +320,7 @@ export const kotalKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Brutal_Boot',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
@@ -389,7 +343,7 @@ export const kotalKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Warrior_Spin',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +368,7 @@ export const kotalKahn: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Reaching_Fist',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +391,7 @@ export const kotalKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Hammer_Slam',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +414,7 @@ export const kotalKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Straight_Kick',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +439,7 @@ export const kotalKahn: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Coatl_Slam',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +462,7 @@ export const kotalKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Kritical_Kick',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +487,7 @@ export const kotalKahn: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Rising_Mehtizquia',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +510,7 @@ export const kotalKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Tonatiuh_Blast',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +535,7 @@ export const kotalKahn: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Rising_Mehtizquia',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +558,7 @@ export const kotalKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__Tonatiuh_Blast',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
