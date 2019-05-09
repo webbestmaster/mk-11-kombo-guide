@@ -41,7 +41,7 @@ export const kungLao: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Shaolin_Fist',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,30 +64,7 @@ export const kungLao: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[back, i1n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Step_Punch',
                 sequence: [[ford, i1n]],
                 description: '',
                 moveData: {
@@ -110,7 +87,7 @@ export const kungLao: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Low_Palm',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +111,7 @@ export const kungLao: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Straight_Poke',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,30 +134,7 @@ export const kungLao: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[back, i2n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Hat_Slice',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +157,7 @@ export const kungLao: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Rising_Rim',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +181,7 @@ export const kungLao: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__High_Kick',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,7 +204,7 @@ export const kungLao: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Dragon_Step',
                 sequence: [[back, i3n]],
                 description: '',
                 moveData: {
@@ -273,30 +227,7 @@ export const kungLao: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[ford, i3n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Side_Kick',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +251,7 @@ export const kungLao: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Spin_Kick',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +274,7 @@ export const kungLao: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Sweeping_Razor',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,7 +297,7 @@ export const kungLao: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Twin_Kicks',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
@@ -389,7 +320,7 @@ export const kungLao: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Back_Kick',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +345,7 @@ export const kungLao: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Razor_Edge',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +368,7 @@ export const kungLao: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Shaolin_Strike',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +391,7 @@ export const kungLao: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Light_Kick',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +416,7 @@ export const kungLao: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Vicious_Slice',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +439,7 @@ export const kungLao: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Shaolin_Shalhoub',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +464,7 @@ export const kungLao: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Rising_Hat',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +487,7 @@ export const kungLao: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Slip_Kick',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +512,7 @@ export const kungLao: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Rising_Hat',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +535,7 @@ export const kungLao: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Slip_Kick',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
