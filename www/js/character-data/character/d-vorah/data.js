@@ -41,7 +41,7 @@ export const dVorah: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Pupa_Poke',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,30 +64,7 @@ export const dVorah: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[back, i1n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Bug_Bash',
                 sequence: [[ford, i1n]],
                 description: '',
                 moveData: {
@@ -110,7 +87,7 @@ export const dVorah: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Low_Sting',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +111,7 @@ export const dVorah: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Bludgeoned',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,30 +134,7 @@ export const dVorah: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[back, i2n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Killer_Strike',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +157,7 @@ export const dVorah: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Swatted',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +181,7 @@ export const dVorah: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Larva_Tarsus',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,7 +204,7 @@ export const dVorah: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Ovi_Posi_Poke',
                 sequence: [[back, i3n]],
                 description: '',
                 moveData: {
@@ -273,30 +227,7 @@ export const dVorah: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[ford, i3n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Low_Tarsus_Strike',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +251,7 @@ export const dVorah: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Cocoon_Kick',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +274,7 @@ export const dVorah: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Spinning_Web',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,7 +297,7 @@ export const dVorah: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Brood_Slam',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
@@ -389,7 +320,7 @@ export const dVorah: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Slight_Sting',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +345,7 @@ export const dVorah: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Deadly_Sting',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +368,7 @@ export const dVorah: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Poisonous_Touch',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +391,7 @@ export const dVorah: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Beetle_Kick',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +416,7 @@ export const dVorah: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Piercing_Ovipositors',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +439,7 @@ export const dVorah: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Hardened_Heel',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +464,7 @@ export const dVorah: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Swarm_Burst',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +487,7 @@ export const dVorah: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Quick_Strike',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +512,7 @@ export const dVorah: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Swarm_Burst',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +535,7 @@ export const dVorah: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__D_Vorah__Quick_Strike',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
