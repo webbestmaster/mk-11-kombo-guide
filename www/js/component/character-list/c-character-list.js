@@ -19,7 +19,6 @@ export class CharacterList extends Component<PropsType, StateType> {
     static renderListItem(characterData: CharacterType, index: number): Node {
         return (
             <li className={characterListStyle.list_item} key={characterData.id}>
-                <h1>{index}</h1>
                 <CharacterListItem characterData={characterData}/>
             </li>
         );

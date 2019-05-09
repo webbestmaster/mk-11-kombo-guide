@@ -1482,9 +1482,28 @@ export const enUs: LangDataType = {
     CHARACTER__Shao_Kahn__NAME: 'Shao Kahn',
     CHARACTER__Shao_Kahn__DESCRIPTION: '',
     // Basic Attacks
+    CHARACTER__Shao_Kahn__Face_smash: 'Face smash',
+    CHARACTER__Shao_Kahn__Dragon_fist: 'Dragon fist',
+    CHARACTER__Shao_Kahn__Hammer_slam: 'Hammer slam',
+    CHARACTER__Shao_Kahn__Tenderizer: 'Tenderizer',
+    CHARACTER__Shao_Kahn__Rage_strike: 'Rage strike',
+    CHARACTER__Shao_Kahn__Rising_wrath: 'Rising wrath',
+    CHARACTER__Shao_Kahn__Brutal_kick: 'Brutal kick',
+    CHARACTER__Shao_Kahn__Dragon_toe: 'Dragon toe',
+    CHARACTER__Shao_Kahn__Shao_shimmy: 'Shao shimmy',
+    CHARACTER__Shao_Kahn__Knee_shatter: 'Knee shatter',
+    CHARACTER__Shao_Kahn__Pretty_kick: 'Pretty kick',
+    CHARACTER__Shao_Kahn__Side_spike: 'Side spike',
     // Jumping Attacks
+    CHARACTER__Shao_Kahn__Hammer_poke: 'Hammer poke',
+    CHARACTER__Shao_Kahn__Final_strike: 'Final strike',
+    CHARACTER__Shao_Kahn__Double_dragon_kick: 'Double dragon kick',
     // Quick Jumping Attacks
+    CHARACTER__Shao_Kahn__Quick_slam: 'Quick slam',
+    CHARACTER__Shao_Kahn__Breaking_dragon_claw: 'Breaking dragon claw',
     // Getup Attacks / Flawless Block Attacks
+    CHARACTER__Shao_Kahn__Fatal_warning: 'Fatal warning',
+    CHARACTER__Shao_Kahn__Deadly_swipe: 'Deadly swipe',
     // Combo Attacks
     // Special Attacks
     // Ability
@@ -1495,9 +1514,30 @@ export const enUs: LangDataType = {
     CHARACTER__Sonya_Blade__NAME: 'Sonya Blade',
     CHARACTER__Sonya_Blade__DESCRIPTION: '',
     // Basic Attacks
+    CHARACTER__Sonya_Blade__Knuckle_buster: 'Knuckle buster',
+    CHARACTER__Sonya_Blade__Bo_dash: 'Bo dash',
+    CHARACTER__Sonya_Blade__Heavy_blast: 'Heavy blast',
+    CHARACTER__Sonya_Blade__Powerful_blast: 'Powerful blast',
+    CHARACTER__Sonya_Blade__Controlled_energy: 'Controlled energy',
+    CHARACTER__Sonya_Blade__Hellish_hook: 'Hellish hook',
+    CHARACTER__Sonya_Blade__Rising_stars: 'Rising stars',
+    CHARACTER__Sonya_Blade__Steel_toe_strike: 'Steel toe strike',
+    CHARACTER__Sonya_Blade__Leg_strike: 'Leg strike',
+    CHARACTER__Sonya_Blade__Boot_camp: 'Boot camp',
+    CHARACTER__Sonya_Blade__Slide_boot: 'Slide boot',
+    CHARACTER__Sonya_Blade__Spinning_general: 'Spinning general',
+    CHARACTER__Sonya_Blade__Flying_knee: 'Flying knee',
+    CHARACTER__Sonya_Blade__Low_brust: 'Low brust',
     // Jumping Attacks
+    CHARACTER__Sonya_Blade__Overpowered: 'Overpowered',
+    CHARACTER__Sonya_Blade__Military_jab: 'Military jab',
+    CHARACTER__Sonya_Blade__Kevlar_kicker: 'Kevlar kicker',
     // Quick Jumping Attacks
+    CHARACTER__Sonya_Blade__Boot_licker_dash: 'Boot licker dash',
+    CHARACTER__Sonya_Blade__Flip_kick: 'Flip kick',
     // Getup Attacks / Flawless Block Attacks
+    CHARACTER__Sonya_Blade__Backflip_kick: 'Backflip kick',
+    CHARACTER__Sonya_Blade__Energy_discharge: 'Energy discharge',
     // Combo Attacks
     // Special Attacks
     // Ability
@@ -1508,9 +1548,30 @@ export const enUs: LangDataType = {
     CHARACTER__Sub_Zero__NAME: 'Sub-Zero',
     CHARACTER__Sub_Zero__DESCRIPTION: '',
     // Basic Attacks
+    CHARACTER__Sub_Zero__Straight_chop: 'Straight chop',
+    CHARACTER__Sub_Zero__Axe_bash: 'Axe bash',
+    CHARACTER__Sub_Zero__Low_back_hand: 'Low back hand',
+    CHARACTER__Sub_Zero__Palm_strike: 'Palm strike',
+    CHARACTER__Sub_Zero__Rising_axe: 'Rising axe',
+    CHARACTER__Sub_Zero__Double_axe_slam: 'Double axe slam',
+    CHARACTER__Sub_Zero__Rising_doom: 'Rising doom',
+    CHARACTER__Sub_Zero__Lin_Kuei_kick: 'Lin Kuei kick',
+    CHARACTER__Sub_Zero__Shin_shatter: 'Shin shatter',
+    CHARACTER__Sub_Zero__Quick_kick: 'Quick kick',
+    CHARACTER__Sub_Zero__Roundhouse: 'Roundhouse',
+    CHARACTER__Sub_Zero__Chilled_sweep: 'Chilled sweep',
+    CHARACTER__Sub_Zero__Brutal_kick: 'Brutal kick',
+    CHARACTER__Sub_Zero__Swing_kick: 'Swing kick',
     // Jumping Attacks
+    CHARACTER__Sub_Zero__Heavy_fist: 'Heavy fist',
+    CHARACTER__Sub_Zero__Straight_punch: 'Straight punch',
+    CHARACTER__Sub_Zero__Cold_boot: 'Cold boot',
     // Quick Jumping Attacks
+    CHARACTER__Sub_Zero__Frigid_strike: 'Frigid strike',
+    CHARACTER__Sub_Zero__Cold_front: 'Cold front',
     // Getup Attacks / Flawless Block Attacks
+    CHARACTER__Sub_Zero__Axe_swipe: 'Axe swipe',
+    CHARACTER__Sub_Zero__Chilled_heel: 'Chilled heel',
     // Combo Attacks
     // Special Attacks
     // Ability

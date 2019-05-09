@@ -1477,9 +1477,28 @@ export type LangDataType = {|
     +CHARACTER__Shao_Kahn__NAME: string,
     +CHARACTER__Shao_Kahn__DESCRIPTION: string,
     // Basic Attacks
+    +CHARACTER__Shao_Kahn__Face_smash: string,
+    +CHARACTER__Shao_Kahn__Dragon_fist: string,
+    +CHARACTER__Shao_Kahn__Hammer_slam: string,
+    +CHARACTER__Shao_Kahn__Tenderizer: string,
+    +CHARACTER__Shao_Kahn__Rage_strike: string,
+    +CHARACTER__Shao_Kahn__Rising_wrath: string,
+    +CHARACTER__Shao_Kahn__Brutal_kick: string,
+    +CHARACTER__Shao_Kahn__Dragon_toe: string,
+    +CHARACTER__Shao_Kahn__Shao_shimmy: string,
+    +CHARACTER__Shao_Kahn__Knee_shatter: string,
+    +CHARACTER__Shao_Kahn__Pretty_kick: string,
+    +CHARACTER__Shao_Kahn__Side_spike: string,
     // Jumping Attacks
+    +CHARACTER__Shao_Kahn__Hammer_poke: string,
+    +CHARACTER__Shao_Kahn__Final_strike: string,
+    +CHARACTER__Shao_Kahn__Double_dragon_kick: string,
     // Quick Jumping Attacks
+    +CHARACTER__Shao_Kahn__Quick_slam: string,
+    +CHARACTER__Shao_Kahn__Breaking_dragon_claw: string,
     // Getup Attacks / Flawless Block Attacks
+    +CHARACTER__Shao_Kahn__Fatal_warning: string,
+    +CHARACTER__Shao_Kahn__Deadly_swipe: string,
     // Combo Attacks
     // Special Attacks
     // Ability
@@ -1490,9 +1509,30 @@ export type LangDataType = {|
     +CHARACTER__Sonya_Blade__NAME: string,
     +CHARACTER__Sonya_Blade__DESCRIPTION: string,
     // Basic Attacks
+    +CHARACTER__Sonya_Blade__Knuckle_buster: string,
+    +CHARACTER__Sonya_Blade__Bo_dash: string,
+    +CHARACTER__Sonya_Blade__Heavy_blast: string,
+    +CHARACTER__Sonya_Blade__Powerful_blast: string,
+    +CHARACTER__Sonya_Blade__Controlled_energy: string,
+    +CHARACTER__Sonya_Blade__Hellish_hook: string,
+    +CHARACTER__Sonya_Blade__Rising_stars: string,
+    +CHARACTER__Sonya_Blade__Steel_toe_strike: string,
+    +CHARACTER__Sonya_Blade__Leg_strike: string,
+    +CHARACTER__Sonya_Blade__Boot_camp: string,
+    +CHARACTER__Sonya_Blade__Slide_boot: string,
+    +CHARACTER__Sonya_Blade__Spinning_general: string,
+    +CHARACTER__Sonya_Blade__Flying_knee: string,
+    +CHARACTER__Sonya_Blade__Low_brust: string,
     // Jumping Attacks
+    +CHARACTER__Sonya_Blade__Overpowered: string,
+    +CHARACTER__Sonya_Blade__Military_jab: string,
+    +CHARACTER__Sonya_Blade__Kevlar_kicker: string,
     // Quick Jumping Attacks
+    +CHARACTER__Sonya_Blade__Boot_licker_dash: string,
+    +CHARACTER__Sonya_Blade__Flip_kick: string,
     // Getup Attacks / Flawless Block Attacks
+    +CHARACTER__Sonya_Blade__Backflip_kick: string,
+    +CHARACTER__Sonya_Blade__Energy_discharge: string,
     // Combo Attacks
     // Special Attacks
     // Ability
@@ -1503,9 +1543,30 @@ export type LangDataType = {|
     +CHARACTER__Sub_Zero__NAME: string,
     +CHARACTER__Sub_Zero__DESCRIPTION: string,
     // Basic Attacks
+    +CHARACTER__Sub_Zero__Straight_chop: string,
+    +CHARACTER__Sub_Zero__Axe_bash: string,
+    +CHARACTER__Sub_Zero__Low_back_hand: string,
+    +CHARACTER__Sub_Zero__Palm_strike: string,
+    +CHARACTER__Sub_Zero__Rising_axe: string,
+    +CHARACTER__Sub_Zero__Double_axe_slam: string,
+    +CHARACTER__Sub_Zero__Rising_doom: string,
+    +CHARACTER__Sub_Zero__Lin_Kuei_kick: string,
+    +CHARACTER__Sub_Zero__Shin_shatter: string,
+    +CHARACTER__Sub_Zero__Quick_kick: string,
+    +CHARACTER__Sub_Zero__Roundhouse: string,
+    +CHARACTER__Sub_Zero__Chilled_sweep: string,
+    +CHARACTER__Sub_Zero__Brutal_kick: string,
+    +CHARACTER__Sub_Zero__Swing_kick: string,
     // Jumping Attacks
+    +CHARACTER__Sub_Zero__Heavy_fist: string,
+    +CHARACTER__Sub_Zero__Straight_punch: string,
+    +CHARACTER__Sub_Zero__Cold_boot: string,
     // Quick Jumping Attacks
+    +CHARACTER__Sub_Zero__Frigid_strike: string,
+    +CHARACTER__Sub_Zero__Cold_front: string,
     // Getup Attacks / Flawless Block Attacks
+    +CHARACTER__Sub_Zero__Axe_swipe: string,
+    +CHARACTER__Sub_Zero__Chilled_heel: string,
     // Combo Attacks
     // Special Attacks
     // Ability
