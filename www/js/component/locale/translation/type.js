@@ -149,7 +149,7 @@ export type LangDataType = {|
     +CHARACTER__Cassie_Cage__Throwin_Bows: string,
     +CHARACTER__Cassie_Cage__Backhand: string,
     +CHARACTER__Cassie_Cage__Bloody_Knuckles: string,
-    +CHARACTER__Cassie_Cage__High_Kick_3: string,
+    +CHARACTER__Cassie_Cage__High_Kick: string,
     +CHARACTER__Cassie_Cage__Glow_Burst: string,
     +CHARACTER__Cassie_Cage__Spin_Kick: string,
     +CHARACTER__Cassie_Cage__Side_Kick: string,

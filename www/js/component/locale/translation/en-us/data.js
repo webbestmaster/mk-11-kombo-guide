@@ -154,7 +154,7 @@ export const enUs: LangDataType = {
     CHARACTER__Cassie_Cage__Throwin_Bows: 'Throwin\' Bows',
     CHARACTER__Cassie_Cage__Backhand: 'Backhand',
     CHARACTER__Cassie_Cage__Bloody_Knuckles: 'Bloody Knuckles',
-    CHARACTER__Cassie_Cage__High_Kick_3: 'High Kick	3',
+    CHARACTER__Cassie_Cage__High_Kick: 'High Kick',
     CHARACTER__Cassie_Cage__Glow_Burst: 'Glow Burst',
     CHARACTER__Cassie_Cage__Spin_Kick: 'Spin Kick',
     CHARACTER__Cassie_Cage__Side_Kick: 'Side Kick',
