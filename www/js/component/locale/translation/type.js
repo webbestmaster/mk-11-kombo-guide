@@ -1488,6 +1488,8 @@ export type LangDataType = {|
     +CHARACTER__Shao_Kahn__Shao_shimmy: string,
     +CHARACTER__Shao_Kahn__Knee_shatter: string,
     +CHARACTER__Shao_Kahn__Pretty_kick: string,
+    +CHARACTER__Shao_Kahn__Hammer_slammer: string,
+    +CHARACTER__Shao_Kahn__Kahn_kick: string,
     +CHARACTER__Shao_Kahn__Side_spike: string,
     // Jumping Attacks
     +CHARACTER__Shao_Kahn__Hammer_poke: string,

@@ -41,7 +41,7 @@ export const shaoKahn: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Face_smash',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,53 +64,7 @@ export const shaoKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[back, i1n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
-                sequence: [[ford, i1n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Dragon_fist',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +88,7 @@ export const shaoKahn: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Hammer_slam',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,7 +111,7 @@ export const shaoKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Tenderizer',
                 sequence: [[back, i2n]],
                 description: '',
                 moveData: {
@@ -180,7 +134,7 @@ export const shaoKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Rage_strike',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +157,7 @@ export const shaoKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Rising_wrath',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +181,7 @@ export const shaoKahn: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Brutal_kick',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,7 +204,7 @@ export const shaoKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Dragon_toe',
                 sequence: [[back, i3n]],
                 description: '',
                 moveData: {
@@ -273,7 +227,7 @@ export const shaoKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Shao_shimmy',
                 sequence: [[ford, i3n]],
                 description: '',
                 moveData: {
@@ -296,7 +250,7 @@ export const shaoKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Knee_shatter',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +274,7 @@ export const shaoKahn: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Pretty_kick',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +297,7 @@ export const shaoKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Hammer_slammer',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,7 +320,7 @@ export const shaoKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Kahn_kick',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
@@ -389,7 +343,7 @@ export const shaoKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Side_spike',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +368,7 @@ export const shaoKahn: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Hammer_poke',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +391,7 @@ export const shaoKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Final_strike',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +414,7 @@ export const shaoKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Double_dragon_kick',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +439,7 @@ export const shaoKahn: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Quick_slam',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +462,7 @@ export const shaoKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Breaking_dragon_claw',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +487,7 @@ export const shaoKahn: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Fatal_warning',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +510,7 @@ export const shaoKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Deadly_swipe',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +535,7 @@ export const shaoKahn: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Fatal_warning',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +558,7 @@ export const shaoKahn: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__Deadly_swipe',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {

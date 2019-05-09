@@ -1493,6 +1493,8 @@ export const enUs: LangDataType = {
     CHARACTER__Shao_Kahn__Shao_shimmy: 'Shao shimmy',
     CHARACTER__Shao_Kahn__Knee_shatter: 'Knee shatter',
     CHARACTER__Shao_Kahn__Pretty_kick: 'Pretty kick',
+    CHARACTER__Shao_Kahn__Hammer_slammer: 'Hammer slammer',
+    CHARACTER__Shao_Kahn__Kahn_kick: 'Kahn kick',
     CHARACTER__Shao_Kahn__Side_spike: 'Side spike',
     // Jumping Attacks
     CHARACTER__Shao_Kahn__Hammer_poke: 'Hammer poke',
