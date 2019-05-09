@@ -41,7 +41,7 @@ export const kabal: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Straight_Jab',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,7 +64,7 @@ export const kabal: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Hook_Strike',
                 sequence: [[back, i1n]],
                 description: '',
                 moveData: {
@@ -87,30 +87,7 @@ export const kabal: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[ford, i1n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Knee_Buckle',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +111,7 @@ export const kabal: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Hard_Cross',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,7 +134,7 @@ export const kabal: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Swinging_Hooks',
                 sequence: [[back, i2n]],
                 description: '',
                 moveData: {
@@ -180,7 +157,7 @@ export const kabal: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Hook_Jab',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +180,7 @@ export const kabal: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Rising_Fist',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +204,7 @@ export const kabal: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Straight_Boot',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,30 +227,7 @@ export const kabal: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[back, i3n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Heel_Strike',
                 sequence: [[ford, i3n]],
                 description: '',
                 moveData: {
@@ -296,7 +250,7 @@ export const kabal: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Side_Kick',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +274,7 @@ export const kabal: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Spin_Kick',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +297,7 @@ export const kabal: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Sweeping_Hooks',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,7 +320,7 @@ export const kabal: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Deadly_Knee',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
@@ -389,7 +343,7 @@ export const kabal: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Hook_Swipe',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +368,7 @@ export const kabal: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Black_Dragon_Bash',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +391,7 @@ export const kabal: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Blade_Jab',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +414,7 @@ export const kabal: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Flick_Kick',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +439,7 @@ export const kabal: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Hammering_Hooks',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +462,7 @@ export const kabal: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Brute_Kick',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +487,7 @@ export const kabal: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Hook_Spin',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +510,7 @@ export const kabal: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Hook_Punch',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +535,7 @@ export const kabal: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Hook_Spin',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +558,7 @@ export const kabal: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Hook_Punch',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
