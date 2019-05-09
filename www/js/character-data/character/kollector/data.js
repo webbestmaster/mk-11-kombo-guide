@@ -41,7 +41,7 @@ export const kollector: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Claw_Swipe',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,7 +64,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Raising_Hell',
                 sequence: [[back, i1n]],
                 description: '',
                 moveData: {
@@ -87,7 +87,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Sickle_Slice',
                 sequence: [[ford, i1n]],
                 description: '',
                 moveData: {
@@ -110,7 +110,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Bloody_Nails',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +134,7 @@ export const kollector: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Lantern_Burst',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,7 +157,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Lantern_Slam',
                 sequence: [[back, i2n]],
                 description: '',
                 moveData: {
@@ -180,7 +180,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Knee_Breaker',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +203,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Rising_Claws',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +227,7 @@ export const kollector: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Violent_Heel',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,7 +250,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Death_Spin',
                 sequence: [[back, i3n]],
                 description: '',
                 moveData: {
@@ -273,7 +273,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Koruppted_Kick',
                 sequence: [[ford, i3n]],
                 description: '',
                 moveData: {
@@ -296,7 +296,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Leg_Check',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +320,7 @@ export const kollector: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Malice_Mace',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +343,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Tax_Burden',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,7 +366,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Mace_Drop',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
@@ -389,7 +389,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Low_Mace',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +414,7 @@ export const kollector: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Punishing_Strike',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +437,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Kura_Slam',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +460,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Kura_Heel',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +485,7 @@ export const kollector: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Menacing_Fist',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +508,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Debt_Kick',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +533,7 @@ export const kollector: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Flailing_Mace',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +556,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Rising_Flames',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +581,7 @@ export const kollector: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Flailing_Mace',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +604,7 @@ export const kollector: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__Rising_Flames',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
