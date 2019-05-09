@@ -41,7 +41,7 @@ export const jaxBriggs: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Quick_Steel',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,7 +64,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Power_Punch',
                 sequence: [[back, i1n]],
                 description: '',
                 moveData: {
@@ -87,30 +87,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[ford, i1n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Knee_Jab',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +111,7 @@ export const jaxBriggs: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Straight_Punch',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,7 +134,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Head_Slammer',
                 sequence: [[back, i2n]],
                 description: '',
                 moveData: {
@@ -180,7 +157,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Hammer_Hook',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +180,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Upper_Muscle',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +204,7 @@ export const jaxBriggs: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Boot_Bash',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,7 +227,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Knee_Shatter',
                 sequence: [[back, i3n]],
                 description: '',
                 moveData: {
@@ -273,7 +250,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Steel_Toe',
                 sequence: [[ford, i3n]],
                 description: '',
                 moveData: {
@@ -296,7 +273,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Side_Strike',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +297,7 @@ export const jaxBriggs: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Get_Back',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +320,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Ankle_Breaker',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,7 +343,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Fur_Knee',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
@@ -389,7 +366,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Step_Back',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +391,7 @@ export const jaxBriggs: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Leaping_Fist',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +414,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Double_Damage',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +437,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Hit_with_a_Size_12',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +462,7 @@ export const jaxBriggs: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Ground_Smash',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +485,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__S_F_Stomp',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +510,7 @@ export const jaxBriggs: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Krushing_Backhand',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +533,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Ground_Slam',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +558,7 @@ export const jaxBriggs: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Krushing_Backhand',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +581,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Ground_Slam',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
