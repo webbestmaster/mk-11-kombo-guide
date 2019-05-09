@@ -41,7 +41,7 @@ export const baraka: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Baraka__Spiked_Cross',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,53 +64,7 @@ export const baraka: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[i1n, back]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
-                sequence: [[i1n, ford]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Baraka__Low_Stab',
                 sequence: [[i1n, down]],
                 description: '',
                 moveData: {
@@ -133,30 +87,7 @@ export const baraka: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[i1n, up]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Baraka__Warrior_Strike',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -179,7 +110,7 @@ export const baraka: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Baraka__Lunging_Blades',
                 sequence: [[i2n, back]],
                 description: '',
                 moveData: {
@@ -202,7 +133,7 @@ export const baraka: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Baraka__Blade_Swipe',
                 sequence: [[i2n, ford]],
                 description: '',
                 moveData: {
@@ -225,7 +156,7 @@ export const baraka: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Baraka__Rising_Blades',
                 sequence: [[i2n, down]],
                 description: '',
                 moveData: {
@@ -248,30 +179,7 @@ export const baraka: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[i2n, up]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Baraka__Hinge_Kick',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -294,7 +202,7 @@ export const baraka: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Baraka__Foot_Stomp',
                 sequence: [[i3n, back]],
                 description: '',
                 moveData: {
@@ -317,30 +225,7 @@ export const baraka: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[i3n, ford]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Baraka__Low_Poke',
                 sequence: [[i3n, down]],
                 description: '',
                 moveData: {
@@ -363,30 +248,7 @@ export const baraka: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[i3n, up]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Baraka__Big_Leg',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -409,7 +271,7 @@ export const baraka: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Baraka__Leg_Chop',
                 sequence: [[i4n, back]],
                 description: '',
                 moveData: {
@@ -432,7 +294,7 @@ export const baraka: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Baraka__Knee_Lunge',
                 sequence: [[i4n, ford]],
                 description: '',
                 moveData: {
@@ -455,31 +317,8 @@ export const baraka: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Baraka__Side_Kick',
                 sequence: [[i4n, down]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
-                sequence: [[i4n, up]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -503,8 +342,54 @@ export const baraka: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
-                sequence: [],
+                name: 'CHARACTER__Baraka__Hangry_Jab',
+                sequence: [i1n],
+                description: '',
+                moveData: {
+                    hitDamage: naValue,
+                    blockDamage: naValue,
+                    flawlessBlockDamage: naValue,
+                    type: notAvailableMove,
+                },
+                frameData: {
+                    startUp: naValue,
+                    active: naValue,
+                    recover: naValue,
+                    cancel: naValue,
+                    hitAdvance: naValue,
+                    blockAdvance: naValue,
+                    flawlessBlockAdvance: naValue,
+                },
+                moveFeatureList: [],
+                extendedComboList: [],
+                crushingBlowCondition: null,
+            },
+            {
+                name: 'CHARACTER__Baraka__Sinister_Slice',
+                sequence: [i2n],
+                description: '',
+                moveData: {
+                    hitDamage: naValue,
+                    blockDamage: naValue,
+                    flawlessBlockDamage: naValue,
+                    type: notAvailableMove,
+                },
+                frameData: {
+                    startUp: naValue,
+                    active: naValue,
+                    recover: naValue,
+                    cancel: naValue,
+                    hitAdvance: naValue,
+                    blockAdvance: naValue,
+                    flawlessBlockAdvance: naValue,
+                },
+                moveFeatureList: [],
+                extendedComboList: [],
+                crushingBlowCondition: null,
+            },
+            {
+                name: 'CHARACTER__Baraka__Drop_Kick',
+                sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -528,8 +413,31 @@ export const baraka: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
-                sequence: [],
+                name: 'CHARACTER__Baraka__Bladed_Doom',
+                sequence: [up, i1n, ori, up, i2n],
+                description: '',
+                moveData: {
+                    hitDamage: naValue,
+                    blockDamage: naValue,
+                    flawlessBlockDamage: naValue,
+                    type: notAvailableMove,
+                },
+                frameData: {
+                    startUp: naValue,
+                    active: naValue,
+                    recover: naValue,
+                    cancel: naValue,
+                    hitAdvance: naValue,
+                    blockAdvance: naValue,
+                    flawlessBlockAdvance: naValue,
+                },
+                moveFeatureList: [],
+                extendedComboList: [],
+                crushingBlowCondition: null,
+            },
+            {
+                name: 'CHARACTER__Baraka__Karbrac_Kick',
+                sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -553,8 +461,31 @@ export const baraka: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
-                sequence: [],
+                name: 'CHARACTER__Baraka__Fatal_Strike',
+                sequence: [[up, i2n]],
+                description: '',
+                moveData: {
+                    hitDamage: naValue,
+                    blockDamage: naValue,
+                    flawlessBlockDamage: naValue,
+                    type: notAvailableMove,
+                },
+                frameData: {
+                    startUp: naValue,
+                    active: naValue,
+                    recover: naValue,
+                    cancel: naValue,
+                    hitAdvance: naValue,
+                    blockAdvance: naValue,
+                    flawlessBlockAdvance: naValue,
+                },
+                moveFeatureList: [],
+                extendedComboList: [],
+                crushingBlowCondition: null,
+            },
+            {
+                name: 'CHARACTER__Baraka__Karbrac_Stab',
+                sequence: [[up, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -578,8 +509,31 @@ export const baraka: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
-                sequence: [],
+                name: 'CHARACTER__Baraka__Fatal_Strike',
+                sequence: [[up, i2n]],
+                description: '',
+                moveData: {
+                    hitDamage: naValue,
+                    blockDamage: naValue,
+                    flawlessBlockDamage: naValue,
+                    type: notAvailableMove,
+                },
+                frameData: {
+                    startUp: naValue,
+                    active: naValue,
+                    recover: naValue,
+                    cancel: naValue,
+                    hitAdvance: naValue,
+                    blockAdvance: naValue,
+                    flawlessBlockAdvance: naValue,
+                },
+                moveFeatureList: [],
+                extendedComboList: [],
+                crushingBlowCondition: null,
+            },
+            {
+                name: 'CHARACTER__Baraka__Karbrac_Stab',
+                sequence: [[up, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
