@@ -41,7 +41,7 @@ export const raiden: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Heavy_palm',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,7 +64,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__God_fist',
                 sequence: [[back, i1n]],
                 description: '',
                 moveData: {
@@ -87,7 +87,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__High_poke',
                 sequence: [[ford, i1n]],
                 description: '',
                 moveData: {
@@ -110,7 +110,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Side_strike',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +134,7 @@ export const raiden: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Straight_shock',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,7 +157,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Hammer_fists',
                 sequence: [[back, i2n]],
                 description: '',
                 moveData: {
@@ -180,7 +180,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Heavy_storm',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +203,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Rising_lighting',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +227,7 @@ export const raiden: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Chop_kick',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,7 +250,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Crawling_storm',
                 sequence: [[back, i3n]],
                 description: '',
                 moveData: {
@@ -273,7 +273,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Flick_kick',
                 sequence: [[ford, i3n]],
                 description: '',
                 moveData: {
@@ -296,7 +296,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Low_boot',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +320,7 @@ export const raiden: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__High_strike',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +343,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Spinning_heel',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,7 +366,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Thunder_knee',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
@@ -389,7 +389,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Sweeping_storm',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +414,7 @@ export const raiden: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__God_Strike',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +437,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Light_shock',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +460,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Lighting_kick',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +485,7 @@ export const raiden: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Lighting_hammer',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +508,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Heavy_thunder',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +533,7 @@ export const raiden: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Shocker',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +556,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Electric_current',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +581,7 @@ export const raiden: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Shocker',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +604,7 @@ export const raiden: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Electric_current',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {

@@ -1322,9 +1322,32 @@ export const enUs: LangDataType = {
     CHARACTER__Raiden__NAME: 'Raiden',
     CHARACTER__Raiden__DESCRIPTION: '',
     // Basic Attacks
+    CHARACTER__Raiden__Heavy_palm: 'Heavy palm',
+    CHARACTER__Raiden__God_fist: 'God fist',
+    CHARACTER__Raiden__High_poke: 'High poke',
+    CHARACTER__Raiden__Side_strike: 'Side strike',
+    CHARACTER__Raiden__Straight_shock: 'Straight shock',
+    CHARACTER__Raiden__Hammer_fists: 'Hammer fists',
+    CHARACTER__Raiden__Heavy_storm: 'Heavy storm',
+    CHARACTER__Raiden__Rising_lighting: 'Rising lighting',
+    CHARACTER__Raiden__Chop_kick: 'Chop kick',
+    CHARACTER__Raiden__Crawling_storm: 'Crawling storm',
+    CHARACTER__Raiden__Flick_kick: 'Flick kick',
+    CHARACTER__Raiden__Low_boot: 'Low boot',
+    CHARACTER__Raiden__High_strike: 'High strike',
+    CHARACTER__Raiden__Spinning_heel: 'Spinning heel',
+    CHARACTER__Raiden__Thunder_knee: 'Thunder knee',
+    CHARACTER__Raiden__Sweeping_storm: 'Sweeping storm',
     // Jumping Attacks
+    CHARACTER__Raiden__God_Strike: 'God Strike',
+    CHARACTER__Raiden__Light_shock: 'Light shock',
+    CHARACTER__Raiden__Lighting_kick: 'Lighting kick',
     // Quick Jumping Attacks
+    CHARACTER__Raiden__Lighting_hammer: 'Lighting hammer',
+    CHARACTER__Raiden__Heavy_thunder: 'Heavy thunder',
     // Getup Attacks / Flawless Block Attacks
+    CHARACTER__Raiden__Shocker: 'Shocker',
+    CHARACTER__Raiden__Electric_current: 'Electric current',
     // Combo Attacks
     // Special Attacks
     // Ability

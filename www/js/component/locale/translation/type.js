@@ -1317,9 +1317,32 @@ export type LangDataType = {|
     +CHARACTER__Raiden__NAME: string,
     +CHARACTER__Raiden__DESCRIPTION: string,
     // Basic Attacks
+    +CHARACTER__Raiden__Heavy_palm: string,
+    +CHARACTER__Raiden__God_fist: string,
+    +CHARACTER__Raiden__High_poke: string,
+    +CHARACTER__Raiden__Side_strike: string,
+    +CHARACTER__Raiden__Straight_shock: string,
+    +CHARACTER__Raiden__Hammer_fists: string,
+    +CHARACTER__Raiden__Heavy_storm: string,
+    +CHARACTER__Raiden__Rising_lighting: string,
+    +CHARACTER__Raiden__Chop_kick: string,
+    +CHARACTER__Raiden__Crawling_storm: string,
+    +CHARACTER__Raiden__Flick_kick: string,
+    +CHARACTER__Raiden__Low_boot: string,
+    +CHARACTER__Raiden__High_strike: string,
+    +CHARACTER__Raiden__Spinning_heel: string,
+    +CHARACTER__Raiden__Thunder_knee: string,
+    +CHARACTER__Raiden__Sweeping_storm: string,
     // Jumping Attacks
+    +CHARACTER__Raiden__God_Strike: string,
+    +CHARACTER__Raiden__Light_shock: string,
+    +CHARACTER__Raiden__Lighting_kick: string,
     // Quick Jumping Attacks
+    +CHARACTER__Raiden__Lighting_hammer: string,
+    +CHARACTER__Raiden__Heavy_thunder: string,
     // Getup Attacks / Flawless Block Attacks
+    +CHARACTER__Raiden__Shocker: string,
+    +CHARACTER__Raiden__Electric_current: string,
     // Combo Attacks
     // Special Attacks
     // Ability
