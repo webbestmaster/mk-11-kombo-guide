@@ -280,29 +280,6 @@ const defaultBasicList: Array<ComboType> = [
         extendedComboList: [],
         crushingBlowCondition: null,
     },
-    {
-        name: 'APP_NAME',
-        sequence: [[i1n, up]],
-        description: '',
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
-        frameData: {
-            startUp: naValue,
-            active: naValue,
-            recover: naValue,
-            cancel: naValue,
-            hitAdvance: naValue,
-            blockAdvance: naValue,
-            flawlessBlockAdvance: naValue,
-        },
-        moveFeatureList: [],
-        extendedComboList: [],
-        crushingBlowCondition: null,
-    },
 ];
 
 const jumpingAttackList: Array<ComboType> = [
