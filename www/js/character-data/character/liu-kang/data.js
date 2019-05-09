@@ -41,7 +41,7 @@ export const liuKang: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Power_Punch',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,7 +64,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Silent_Chop',
                 sequence: [[back, i1n]],
                 description: '',
                 moveData: {
@@ -87,30 +87,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[ford, i1n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Low_Backhand',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +111,7 @@ export const liuKang: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Chosen_Strike',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,7 +134,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Nunchaku_Strike',
                 sequence: [[back, i2n]],
                 description: '',
                 moveData: {
@@ -180,7 +157,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Kontei_Slam',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +180,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Rising_Chaku',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +204,7 @@ export const liuKang: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Dragon_Kick',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,7 +227,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Quick_Step',
                 sequence: [[back, i3n]],
                 description: '',
                 moveData: {
@@ -273,7 +250,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Double_Dragon_Kick',
                 sequence: [[ford, i3n]],
                 description: '',
                 moveData: {
@@ -296,7 +273,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Crouching_Kick',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +297,7 @@ export const liuKang: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Shaolin_Spin',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +320,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Chaku_Sweep',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,7 +343,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Lotus_Strikes',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
@@ -389,7 +366,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Dragon_s_Tail',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +391,7 @@ export const liuKang: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Fist_of_the_Lotus',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +414,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Dragon_Claw',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +437,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Heavy_Heel',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +462,7 @@ export const liuKang: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__One_Ince_Punch',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +485,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Flame_Stomp',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +510,7 @@ export const liuKang: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Rising_Dragon',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +533,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Game_of_Death',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +558,7 @@ export const liuKang: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Rising_Dragon',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +581,7 @@ export const liuKang: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Game_of_Death',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
