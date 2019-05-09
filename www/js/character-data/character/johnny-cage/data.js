@@ -41,7 +41,7 @@ export const johnnyCage: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__First_Take',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,53 +64,7 @@ export const johnnyCage: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[back, i1n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
-                sequence: [[ford, i1n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Low_Jab',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +88,7 @@ export const johnnyCage: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Hollywood_Haymaker',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,7 +111,7 @@ export const johnnyCage: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Axe_Kick',
                 sequence: [[back, i2n]],
                 description: '',
                 moveData: {
@@ -180,7 +134,7 @@ export const johnnyCage: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Blazin_Backhand',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +157,7 @@ export const johnnyCage: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Upper_Cutter',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +181,7 @@ export const johnnyCage: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Sudden_Violence',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,7 +204,7 @@ export const johnnyCage: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__HWAAAAA',
                 sequence: [[back, i3n]],
                 description: '',
                 moveData: {
@@ -273,7 +227,7 @@ export const johnnyCage: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Massive_Strike',
                 sequence: [[ford, i3n]],
                 description: '',
                 moveData: {
@@ -296,7 +250,7 @@ export const johnnyCage: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Low_Boot',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +274,7 @@ export const johnnyCage: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Fight_Dirty',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +297,7 @@ export const johnnyCage: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Box_Office_Hit',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,7 +320,7 @@ export const johnnyCage: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Arcing_Knee',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
@@ -389,7 +343,7 @@ export const johnnyCage: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Breaking_Bad',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +368,7 @@ export const johnnyCage: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Straight_Fame',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +391,7 @@ export const johnnyCage: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Hooked',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +414,7 @@ export const johnnyCage: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Cool_Flick',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +439,7 @@ export const johnnyCage: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Something_Punchy',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +462,7 @@ export const johnnyCage: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Cool_Kick',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +487,7 @@ export const johnnyCage: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Rise_and_Shine',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +510,7 @@ export const johnnyCage: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Dizzy_Knee',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +535,7 @@ export const johnnyCage: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Rise_and_Shine',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +558,7 @@ export const johnnyCage: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__Dizzy_Knee',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
