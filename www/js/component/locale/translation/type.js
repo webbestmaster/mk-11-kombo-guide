@@ -1256,14 +1256,62 @@ export type LangDataType = {|
     +CHARACTER__Noob_Saibot__NAME: string,
     +CHARACTER__Noob_Saibot__DESCRIPTION: string,
     // Basic Attacks
+    +CHARACTER__Noob_Saibot__Heavy_Knuckles: string,
+    +CHARACTER__Noob_Saibot__Shadow_Poke: string,
+    +CHARACTER__Noob_Saibot__Knee_Hook: string,
+    +CHARACTER__Noob_Saibot__Straight_Fist: string,
+    +CHARACTER__Noob_Saibot__Dark_Push: string,
+    +CHARACTER__Noob_Saibot__Turning_Chop: string,
+    +CHARACTER__Noob_Saibot__Rising_Sickle: string,
+    +CHARACTER__Noob_Saibot__Straight_Kick: string,
+    +CHARACTER__Noob_Saibot__Shadow_Slice: string,
+    +CHARACTER__Noob_Saibot__High_Kick: string,
+    +CHARACTER__Noob_Saibot__Boot_Slide: string,
+    +CHARACTER__Noob_Saibot__Dark_Heel: string,
+    +CHARACTER__Noob_Saibot__Sickle_Sweep: string,
+    +CHARACTER__Noob_Saibot__Sneaky_Saibot: string,
+    +CHARACTER__Noob_Saibot__Sickle_Strike: string,
     // Jumping Attacks
+    +CHARACTER__Noob_Saibot__Dark_Jab: string,
+    +CHARACTER__Noob_Saibot__Sickle_Swipe: string,
+    +CHARACTER__Noob_Saibot__Wraith_Kick: string,
     // Quick Jumping Attacks
+    +CHARACTER__Noob_Saibot__Sickle_Slam: string,
+    +CHARACTER__Noob_Saibot__Spinning_Wraith: string,
     // Getup Attacks / Flawless Block Attacks
+    +CHARACTER__Noob_Saibot__Slick_Sickle: string,
+    +CHARACTER__Noob_Saibot__Wraith_Boot: string,
     // Combo Attacks
+    +CHARACTER__Noob_Saibot__Creeping_Shadow: string,
+    +CHARACTER__Noob_Saibot__Empty_Grave: string,
+    +CHARACTER__Noob_Saibot__Tormented_Souls: string,
+    +CHARACTER__Noob_Saibot__As_One: string,
+    +CHARACTER__Noob_Saibot__For_The_Brotherhood: string,
+    +CHARACTER__Noob_Saibot__Total_Darkness: string,
+    +CHARACTER__Noob_Saibot__Resurrected: string,
+    +CHARACTER__Noob_Saibot__Fade_To_Black: string,
+    +CHARACTER__Noob_Saibot__Evil_Within: string,
+    +CHARACTER__Noob_Saibot__Wailing_Wraith: string,
+    +CHARACTER__Noob_Saibot__Sinister_Silhouette: string,
     // Special Attacks
+    +CHARACTER__Noob_Saibot__Shadow_Tackle: string,
+    +CHARACTER__Noob_Saibot__Rising_Shadow_Kick: string,
+    +CHARACTER__Noob_Saibot__Tele_Slam: string,
     // Ability
+    +CHARACTER__Noob_Saibot__Ghost_Ball: string,
+    +CHARACTER__Noob_Saibot__Spirit_Ball: string,
+    +CHARACTER__Noob_Saibot__Sickle_Snag: string,
+    +CHARACTER__Noob_Saibot__Air_Tele_Slam: string,
+    +CHARACTER__Noob_Saibot__Shadow_Portals: string,
+    +CHARACTER__Noob_Saibot__Shadow_Slide: string,
+    +CHARACTER__Noob_Saibot__Shadow_Strike: string,
+    +CHARACTER__Noob_Saibot__Air_Shadow_Dive: string,
+    +CHARACTER__Noob_Saibot__Air_Sickle_Port: string,
     // Fatal Blow
+    +CHARACTER__Noob_Saibot__Together_Again: string,
     // Brutality
+    +CHARACTER__Noob_Saibot__The_Klassic: string,
+    +CHARACTER__Noob_Saibot__Decapper: string,
 
     // -> Raiden
     +CHARACTER__Raiden__NAME: string,

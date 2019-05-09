@@ -41,7 +41,7 @@ export const noobSaibot: CharacterType = {
     move: {
         basicList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Heavy_Knuckles',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -64,7 +64,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Shadow_Poke',
                 sequence: [[back, i1n]],
                 description: '',
                 moveData: {
@@ -87,30 +87,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
-                sequence: [[ford, i1n]],
-                description: '',
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-            },
-            {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Knee_Hook',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -134,7 +111,7 @@ export const noobSaibot: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Straight_Fist',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -157,7 +134,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Dark_Push',
                 sequence: [[back, i2n]],
                 description: '',
                 moveData: {
@@ -180,7 +157,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Turning_Chop',
                 sequence: [[ford, i2n]],
                 description: '',
                 moveData: {
@@ -203,7 +180,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Rising_Sickle',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -227,7 +204,7 @@ export const noobSaibot: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Straight_Kick',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -250,7 +227,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Shadow_Slice',
                 sequence: [[back, i3n]],
                 description: '',
                 moveData: {
@@ -273,7 +250,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__High_Kick',
                 sequence: [[ford, i3n]],
                 description: '',
                 moveData: {
@@ -296,7 +273,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Boot_Slide',
                 sequence: [[down, i3n]],
                 description: '',
                 moveData: {
@@ -320,7 +297,7 @@ export const noobSaibot: CharacterType = {
             },
 
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Dark_Heel',
                 sequence: [i4n],
                 description: '',
                 moveData: {
@@ -343,7 +320,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Sickle_Sweep',
                 sequence: [[back, i4n]],
                 description: '',
                 moveData: {
@@ -366,7 +343,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Sneaky_Saibot',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {
@@ -389,7 +366,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Sickle_Strike',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
@@ -414,7 +391,7 @@ export const noobSaibot: CharacterType = {
         ],
         jumpingAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Dark_Jab',
                 sequence: [i1n],
                 description: '',
                 moveData: {
@@ -437,7 +414,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Sickle_Swipe',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -460,7 +437,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Wraith_Kick',
                 sequence: [i3n, ori, i4n],
                 description: '',
                 moveData: {
@@ -485,7 +462,7 @@ export const noobSaibot: CharacterType = {
         ],
         hopAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Sickle_Slam',
                 sequence: [up, i1n, ori, up, i2n],
                 description: '',
                 moveData: {
@@ -508,7 +485,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Spinning_Wraith',
                 sequence: [up, i3n, ori, up, i3n],
                 description: '',
                 moveData: {
@@ -533,7 +510,7 @@ export const noobSaibot: CharacterType = {
         ],
         getUpAttackList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Slick_Sickle',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -556,7 +533,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Wraith_Boot',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {
@@ -581,7 +558,7 @@ export const noobSaibot: CharacterType = {
         ],
         flawlessBlockAttacksList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Slick_Sickle',
                 sequence: [[up, i2n]],
                 description: '',
                 moveData: {
@@ -604,7 +581,7 @@ export const noobSaibot: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Wraith_Boot',
                 sequence: [[up, i3n]],
                 description: '',
                 moveData: {

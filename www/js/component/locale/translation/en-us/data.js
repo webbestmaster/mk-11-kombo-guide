@@ -1261,14 +1261,62 @@ export const enUs: LangDataType = {
     CHARACTER__Noob_Saibot__NAME: 'Noob Saibot',
     CHARACTER__Noob_Saibot__DESCRIPTION: '',
     // Basic Attacks
+    CHARACTER__Noob_Saibot__Heavy_Knuckles: 'Heavy Knuckles',
+    CHARACTER__Noob_Saibot__Shadow_Poke: 'Shadow Poke',
+    CHARACTER__Noob_Saibot__Knee_Hook: 'Knee Hook',
+    CHARACTER__Noob_Saibot__Straight_Fist: 'Straight Fist',
+    CHARACTER__Noob_Saibot__Dark_Push: 'Dark Push',
+    CHARACTER__Noob_Saibot__Turning_Chop: 'Turning Chop',
+    CHARACTER__Noob_Saibot__Rising_Sickle: 'Rising Sickle',
+    CHARACTER__Noob_Saibot__Straight_Kick: 'Straight Kick',
+    CHARACTER__Noob_Saibot__Shadow_Slice: 'Shadow Slice',
+    CHARACTER__Noob_Saibot__High_Kick: 'High Kick',
+    CHARACTER__Noob_Saibot__Boot_Slide: 'Boot Slide',
+    CHARACTER__Noob_Saibot__Dark_Heel: 'Dark Heel',
+    CHARACTER__Noob_Saibot__Sickle_Sweep: 'Sickle Sweep',
+    CHARACTER__Noob_Saibot__Sneaky_Saibot: 'Sneaky Saibot',
+    CHARACTER__Noob_Saibot__Sickle_Strike: 'Sickle Strike',
     // Jumping Attacks
+    CHARACTER__Noob_Saibot__Dark_Jab: 'Dark Jab',
+    CHARACTER__Noob_Saibot__Sickle_Swipe: 'Sickle Swipe',
+    CHARACTER__Noob_Saibot__Wraith_Kick: 'Wraith Kick',
     // Quick Jumping Attacks
+    CHARACTER__Noob_Saibot__Sickle_Slam: 'Sickle Slam',
+    CHARACTER__Noob_Saibot__Spinning_Wraith: 'Spinning Wraith',
     // Getup Attacks / Flawless Block Attacks
+    CHARACTER__Noob_Saibot__Slick_Sickle: 'Slick Sickle',
+    CHARACTER__Noob_Saibot__Wraith_Boot: 'Wraith Boot',
     // Combo Attacks
+    CHARACTER__Noob_Saibot__Creeping_Shadow: 'Creeping Shadow',
+    CHARACTER__Noob_Saibot__Empty_Grave: 'Empty Grave',
+    CHARACTER__Noob_Saibot__Tormented_Souls: 'Tormented Souls',
+    CHARACTER__Noob_Saibot__As_One: 'As One',
+    CHARACTER__Noob_Saibot__For_The_Brotherhood: 'For The Brotherhood',
+    CHARACTER__Noob_Saibot__Total_Darkness: 'Total Darkness',
+    CHARACTER__Noob_Saibot__Resurrected: 'Resurrected',
+    CHARACTER__Noob_Saibot__Fade_To_Black: 'Fade To Black',
+    CHARACTER__Noob_Saibot__Evil_Within: 'Evil Within',
+    CHARACTER__Noob_Saibot__Wailing_Wraith: 'Wailing Wraith',
+    CHARACTER__Noob_Saibot__Sinister_Silhouette: 'Sinister Silhouette',
     // Special Attacks
+    CHARACTER__Noob_Saibot__Shadow_Tackle: 'Shadow Tackle',
+    CHARACTER__Noob_Saibot__Rising_Shadow_Kick: 'Rising Shadow Kick',
+    CHARACTER__Noob_Saibot__Tele_Slam: 'Tele-Slam',
     // Ability
+    CHARACTER__Noob_Saibot__Ghost_Ball: 'Ghost Ball',
+    CHARACTER__Noob_Saibot__Spirit_Ball: 'Spirit Ball',
+    CHARACTER__Noob_Saibot__Sickle_Snag: 'Sickle Snag',
+    CHARACTER__Noob_Saibot__Air_Tele_Slam: '(Air) Tele-Slam',
+    CHARACTER__Noob_Saibot__Shadow_Portals: 'Shadow Portals',
+    CHARACTER__Noob_Saibot__Shadow_Slide: 'Shadow Slide',
+    CHARACTER__Noob_Saibot__Shadow_Strike: 'Shadow Strike',
+    CHARACTER__Noob_Saibot__Air_Shadow_Dive: '(Air) Shadow Dive',
+    CHARACTER__Noob_Saibot__Air_Sickle_Port: '(Air) Sickle Port',
     // Fatal Blow
+    CHARACTER__Noob_Saibot__Together_Again: 'Together Again',
     // Brutality
+    CHARACTER__Noob_Saibot__The_Klassic: theKlassic,
+    CHARACTER__Noob_Saibot__Decapper: 'Decapper',
 
     // -> Raiden
     CHARACTER__Raiden__NAME: 'Raiden',
