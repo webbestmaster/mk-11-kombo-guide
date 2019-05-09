@@ -610,7 +610,7 @@ export type LangDataType = {|
     +CHARACTER__Jacqui_Briggs__Roundhouse: string,
     +CHARACTER__Jacqui_Briggs__Sliding_Heel: string,
     // Jumping Attacks
-    // CHARACTER__Jacqui_Briggs__Quick_Jab: 'Quick Jab',
+    +CHARACTER__Jacqui_Briggs__Elbow_Jab: string,
     +CHARACTER__Jacqui_Briggs__Dirty_Jab: string,
     +CHARACTER__Jacqui_Briggs__Spinning_Heel: string,
     // Quick Jumping Attacks
