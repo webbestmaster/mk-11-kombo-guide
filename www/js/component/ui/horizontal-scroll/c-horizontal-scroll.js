@@ -26,8 +26,8 @@ type AttrType = {|
 |};
 
 export class HorizontalScroll extends Component<PropsType, StateType> {
-    constructor() {
-        super();
+    constructor(props: PropsType) {
+        super(props);
 
         const view = this;
 
