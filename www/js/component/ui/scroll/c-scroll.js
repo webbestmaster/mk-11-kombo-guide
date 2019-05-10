@@ -1,14 +1,10 @@
 // @flow
 
-/* global window, requestAnimationFrame, Event */
-
 /* eslint consistent-this: ["error", "view"] */
 
 import type {Node} from 'react';
 import React, {Component} from 'react';
 import Swiper from 'swiper';
-
-import {forceResize} from './helper';
 
 import scrollStyle from './scroll.style.scss';
 
@@ -50,17 +46,7 @@ export class Scroll extends Component<PropsType, StateType> {
     componentDidMount() {
         const view = this;
 
-        view.initSwiper().catch((error: Error) => {
-            console.error('error with view.initSwiper()');
-            console.error(error);
-        });
-    }
-
-    componentDidUpdate() {
-        forceResize().catch((error: Error) => {
-            console.error('error with swiper recounted');
-            console.error(error);
-        });
+        view.initSwiper();
     }
 
     componentWillUnmount() {
@@ -79,13 +65,13 @@ export class Scroll extends Component<PropsType, StateType> {
     node: NodeType;
     props: PropsType;
 
-    async initSwiper(): Promise<void> {
+    initSwiper() {
         const view = this;
 
         const {wrapper} = view.node;
 
         if (wrapper.current === null) {
-            return Promise.resolve();
+            return;
         }
 
         view.attr.swiper = new Swiper(wrapper.current, {
@@ -101,8 +87,6 @@ export class Scroll extends Component<PropsType, StateType> {
             },
             mousewheel: true,
         });
-
-        return forceResize();
     }
 
     renderSwiper(): Node {
