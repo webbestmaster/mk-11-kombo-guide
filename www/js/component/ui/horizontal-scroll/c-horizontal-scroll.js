@@ -118,7 +118,7 @@ export class HorizontalScroll extends Component<PropsType, StateType> {
                 ref={view.node.wrapper}
             >
                 <ul className={`swiper-wrapper ${horizontalScrollStyle.horizontal_scroll_swiper_wrapper}`}>
-                    {childArray.map(this.renderItem)}
+                    {childArray.map(view.renderItem)}
                 </ul>
                 <div className={`${view.attr.swiperId} swiper-scrollbar`}/>
             </div>

@@ -51,7 +51,7 @@ export class TabList extends Component<PropsType, StateType> {
             }
 
             // eslint-disable-next-line react/no-set-state
-            this.setState({activeIndex}, () => {
+            view.setState({activeIndex}, () => {
                 if (onChange instanceof Function) {
                     onChange(activeIndex);
                 }
