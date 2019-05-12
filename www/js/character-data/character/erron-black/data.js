@@ -339,7 +339,31 @@ export const erronBlack: CharacterType = {
                     flawlessBlockAdvance: naValue,
                 },
                 moveFeatureList: [],
-                extendedComboList: [],
+                extendedComboList: [
+                    {
+                        name: 'MOVE_FEATURE__AMPLIFY',
+                        sequence: [iR1],
+                        description: '',
+                        moveData: {
+                            hitDamage: naValue,
+                            blockDamage: naValue,
+                            flawlessBlockDamage: naValue,
+                            type: notAvailableMove,
+                        },
+                        frameData: {
+                            startUp: naValue,
+                            active: naValue,
+                            recover: naValue,
+                            cancel: naValue,
+                            hitAdvance: naValue,
+                            blockAdvance: naValue,
+                            flawlessBlockAdvance: naValue,
+                        },
+                        moveFeatureList: [],
+                        extendedComboList: [],
+                        crushingBlowCondition: null,
+                    },
+                ],
                 crushingBlowCondition: null,
             },
             {

@@ -61,6 +61,7 @@ export type LangDataType = {|
     +MOVE_FEATURE__INVULNERABLE: string,
     +MOVE_FEATURE__PROJECTILE: string,
     +MOVE_FEATURE__PROJECTILE_INVULNERABLE: string,
+    +MOVE_FEATURE__AMPLIFY: string,
 
     // default move
     +DEFAULT_MOVE__TOWARD_THROW: string,
