@@ -87,7 +87,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'CHARACTER__Sonya_Blade__Heavy_blast',
+                name: 'CHARACTER__Sonya_Blade__Energy_burst',
                 sequence: [[down, i1n]],
                 description: '',
                 moveData: {
@@ -111,7 +111,7 @@ export const sonyaBlade: CharacterType = {
             },
 
             {
-                name: 'CHARACTER__Sonya_Blade__Powerful_blast',
+                name: 'CHARACTER__Sonya_Blade__Heavy_blast',
                 sequence: [i2n],
                 description: '',
                 moveData: {
@@ -250,7 +250,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'CHARACTER__Sonya_Blade__Boot_camp',
+                name: 'CHARACTER__Sonya_Blade__Boot_kamp',
                 sequence: [[ford, i3n]],
                 description: '',
                 moveData: {
@@ -366,7 +366,7 @@ export const sonyaBlade: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'CHARACTER__Sonya_Blade__Low_brust',
+                name: 'CHARACTER__Sonya_Blade__Low_burst',
                 sequence: [[down, i4n]],
                 description: '',
                 moveData: {
