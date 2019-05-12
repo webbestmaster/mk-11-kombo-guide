@@ -274,7 +274,7 @@ export const shaoKahn: CharacterType = {
             },
 
             {
-                name: 'CHARACTER__Shao_Kahn__Pretty_kick',
+                name: 'CHARACTER__Shao_Kahn__Petty_kick',
                 sequence: [i4n],
                 description: '',
                 moveData: {
