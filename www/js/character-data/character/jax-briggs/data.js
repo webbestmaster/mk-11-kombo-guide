@@ -343,7 +343,7 @@ export const jaxBriggs: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'CHARACTER__Jax_Briggs__Fur_Knee',
+                name: 'CHARACTER__Jax_Briggs__Gur_Knee',
                 sequence: [[ford, i4n]],
                 description: '',
                 moveData: {

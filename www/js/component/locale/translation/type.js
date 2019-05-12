@@ -677,7 +677,7 @@ export type LangDataType = {|
     +CHARACTER__Jax_Briggs__Side_Strike: string,
     +CHARACTER__Jax_Briggs__Get_Back: string,
     +CHARACTER__Jax_Briggs__Ankle_Breaker: string,
-    +CHARACTER__Jax_Briggs__Fur_Knee: string,
+    +CHARACTER__Jax_Briggs__Gur_Knee: string,
     +CHARACTER__Jax_Briggs__Step_Back: string,
     // Jumping Attacks
     +CHARACTER__Jax_Briggs__Leaping_Fist: string,

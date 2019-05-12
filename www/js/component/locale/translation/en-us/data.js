@@ -682,7 +682,7 @@ export const enUs: LangDataType = {
     CHARACTER__Jax_Briggs__Side_Strike: 'Side Strike',
     CHARACTER__Jax_Briggs__Get_Back: 'Get Back',
     CHARACTER__Jax_Briggs__Ankle_Breaker: 'Ankle Breaker',
-    CHARACTER__Jax_Briggs__Fur_Knee: 'Fur-Knee',
+    CHARACTER__Jax_Briggs__Gur_Knee: 'Gur-Knee',
     CHARACTER__Jax_Briggs__Step_Back: 'Step Back',
     // Jumping Attacks
     CHARACTER__Jax_Briggs__Leaping_Fist: 'Leaping Fist',
