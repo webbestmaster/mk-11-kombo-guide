@@ -65,7 +65,7 @@ export const skarlet: CharacterType = {
             },
             {
                 name: 'CHARACTER__Skarlet__Slick_Scimitar',
-                sequence: [[ford, i1n]],
+                sequence: [[back, i1n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -180,7 +180,7 @@ export const skarlet: CharacterType = {
                 crushingBlowCondition: null,
             },
             {
-                name: 'CHARACTER__Skarlet__Kutter',
+                name: 'CHARACTER__Skarlet__Cutter',
                 sequence: [[down, i2n]],
                 description: '',
                 moveData: {
@@ -204,7 +204,7 @@ export const skarlet: CharacterType = {
             },
 
             {
-                name: 'CHARACTER__Skarlet__Krack_The_Whip',
+                name: 'CHARACTER__Skarlet__Crack_The_Whip',
                 sequence: [i3n],
                 description: '',
                 moveData: {
@@ -228,7 +228,7 @@ export const skarlet: CharacterType = {
             },
             {
                 name: 'CHARACTER__Skarlet__Spear_Stab',
-                sequence: [[ford, i3n]],
+                sequence: [[back, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
