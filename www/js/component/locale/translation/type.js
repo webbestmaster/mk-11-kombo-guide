@@ -632,7 +632,7 @@ export type LangDataType = {|
     +CHARACTER__Jade__Teaser: string,
     +CHARACTER__Jade__Edenian_Warrior: string,
     +CHARACTER__Jade__Tiny_Dancer: string,
-    +CHARACTER__Jade__Poll_Dance: string,
+    +CHARACTER__Jade__Ip_Girl: string,
     +CHARACTER__Jade__Enchanted: string,
     +CHARACTER__Jade__Fatal_Attraction: string,
     +CHARACTER__Jade__Royal_Guard: string,

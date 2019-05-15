@@ -637,7 +637,7 @@ export const enUs: LangDataType = {
     CHARACTER__Jade__Teaser: 'Teaser',
     CHARACTER__Jade__Edenian_Warrior: 'Edenian Warrior',
     CHARACTER__Jade__Tiny_Dancer: 'Tiny Dancer',
-    CHARACTER__Jade__Poll_Dance: 'Poll Dance',
+    CHARACTER__Jade__Ip_Girl: 'IP Girl',
     CHARACTER__Jade__Enchanted: 'Enchanted',
     CHARACTER__Jade__Fatal_Attraction: 'Fatal Attraction',
     CHARACTER__Jade__Royal_Guard: 'Royal Guard',
