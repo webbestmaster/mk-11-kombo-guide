@@ -568,7 +568,7 @@ export const enUs: LangDataType = {
     CHARACTER__Jacqui_Briggs__True_Hero: 'True Hero',
     CHARACTER__Jacqui_Briggs__Snake_Eater: 'Snake Eater',
     CHARACTER__Jacqui_Briggs__Trained_to_Kill: 'Trained to Kill',
-    CHARACTER__Jacqui_Briggs__Energy_Overdrive: 'Energy Overdrive',
+    CHARACTER__Jacqui_Briggs__Energy_Overdrive_Rapidly: 'Energy Overdrive (rapidly)',
     CHARACTER__Jacqui_Briggs__Danger_Zone: 'Danger Zone',
     CHARACTER__Jacqui_Briggs__Hawkeye: 'Hawkeye',
     CHARACTER__Jacqui_Briggs__In_the_Trenches: 'In the Trenches',
