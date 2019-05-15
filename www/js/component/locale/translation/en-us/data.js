@@ -704,7 +704,7 @@ export const enUs: LangDataType = {
     CHARACTER__Jax_Briggs__Breakdown: 'Breakdown',
     CHARACTER__Jax_Briggs__Won_t_Back_Down: 'Won\'t Back Down',
     CHARACTER__Jax_Briggs__Boot_Kamp: 'Boot Kamp',
-    CHARACTER__Jax_Briggs__Sleep__Bitch: 'Sleep, Bitch',
+    CHARACTER__Jax_Briggs__Sleep_Bitch: 'Sleep, Bitch',
     CHARACTER__Jax_Briggs__Last_Chance: 'Last Chance',
     CHARACTER__Jax_Briggs__America_Strong: 'America Strong',
     CHARACTER__Jax_Briggs__Get_Outta_Here: 'Get Outta Here',

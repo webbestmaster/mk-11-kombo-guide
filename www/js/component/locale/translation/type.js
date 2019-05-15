@@ -699,7 +699,7 @@ export type LangDataType = {|
     +CHARACTER__Jax_Briggs__Breakdown: string,
     +CHARACTER__Jax_Briggs__Won_t_Back_Down: string,
     +CHARACTER__Jax_Briggs__Boot_Kamp: string,
-    +CHARACTER__Jax_Briggs__Sleep__Bitch: string,
+    +CHARACTER__Jax_Briggs__Sleep_Bitch: string,
     +CHARACTER__Jax_Briggs__Last_Chance: string,
     +CHARACTER__Jax_Briggs__America_Strong: string,
     +CHARACTER__Jax_Briggs__Get_Outta_Here: string,
