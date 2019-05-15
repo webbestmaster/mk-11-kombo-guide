@@ -958,6 +958,7 @@ export type LangDataType = {|
     +CHARACTER__Kitana__Noble_Assault: string,
     +CHARACTER__Kitana__A_Royal_Welcome: string,
     +CHARACTER__Kitana__Follow_Me: string,
+    +CHARACTER__Kitana__Dark_Empress_2: string,
     +CHARACTER__Kitana__Leave_Now: string,
     +CHARACTER__Kitana__Follow_the_Leader: string,
     +CHARACTER__Kitana__Blood_Sacrifice: string,

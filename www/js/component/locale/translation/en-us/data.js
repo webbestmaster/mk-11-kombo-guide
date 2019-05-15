@@ -963,6 +963,7 @@ export const enUs: LangDataType = {
     CHARACTER__Kitana__Noble_Assault: 'Noble Assault',
     CHARACTER__Kitana__A_Royal_Welcome: 'A Royal Welcome',
     CHARACTER__Kitana__Follow_Me: 'Follow Me',
+    CHARACTER__Kitana__Dark_Empress_2: 'Dark Empress (2)',
     CHARACTER__Kitana__Leave_Now: 'Leave Now',
     CHARACTER__Kitana__Follow_the_Leader: 'Follow the Leader',
     CHARACTER__Kitana__Blood_Sacrifice: 'Blood Sacrifice',
