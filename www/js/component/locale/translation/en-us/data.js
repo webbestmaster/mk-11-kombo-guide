@@ -895,11 +895,13 @@ export const enUs: LangDataType = {
     // Combo Attacks
     CHARACTER__Kano__Come_a_Gutser: 'Come a Gutser',
     CHARACTER__Kano__Blood_Worth_Bottling: 'Blood Worth Bottling',
-    CHARACTER__Kano__Spewin_: 'Spewin\'',
+    CHARACTER__Kano__Spewin: 'Spewin\'',
     CHARACTER__Kano__Fair_Suck_of_the_Sav: 'Fair Suck of the Sav',
     CHARACTER__Kano__Cut_Snake: 'Cut Snake',
+    CHARACTER__Kano__Piss_off: 'Piss off',
     CHARACTER__Kano__Deadly_Digger: 'Deadly Digger',
-    CHARACTER__Kano__Blow_Away: 'Blow Away',
+    CHARACTER__Kano__Enough_yabber: 'Enough Yabber',
+    CHARACTER__Kano__Blown_Away: 'Blow Away',
     // Special Attacks
     CHARACTER__Kano__Blade_Saw: 'Blade Saw',
     CHARACTER__Kano__Black_Dragon_Ball: 'Black Dragon Ball',

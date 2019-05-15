@@ -890,11 +890,13 @@ export type LangDataType = {|
     // Combo Attacks
     +CHARACTER__Kano__Come_a_Gutser: string,
     +CHARACTER__Kano__Blood_Worth_Bottling: string,
-    +CHARACTER__Kano__Spewin_: string,
+    +CHARACTER__Kano__Spewin: string,
     +CHARACTER__Kano__Fair_Suck_of_the_Sav: string,
     +CHARACTER__Kano__Cut_Snake: string,
+    +CHARACTER__Kano__Piss_off: string,
     +CHARACTER__Kano__Deadly_Digger: string,
-    +CHARACTER__Kano__Blow_Away: string,
+    +CHARACTER__Kano__Enough_yabber: string,
+    +CHARACTER__Kano__Blown_Away: string,
     // Special Attacks
     +CHARACTER__Kano__Blade_Saw: string,
     +CHARACTER__Kano__Black_Dragon_Ball: string,
