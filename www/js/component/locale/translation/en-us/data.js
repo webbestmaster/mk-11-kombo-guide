@@ -1433,6 +1433,54 @@ export const enUs: LangDataType = {
     CHARACTER__Scorpion__Ashes: 'Ashes',
     CHARACTER__Scorpion__Burn: 'Burn',
 
+    // -> Shao Kahn
+    CHARACTER__Shao_Kahn__NAME: 'Shao Kahn',
+    CHARACTER__Shao_Kahn__DESCRIPTION: '',
+    // Basic Attacks
+    CHARACTER__Shao_Kahn__Face_smash: 'Face smash',
+    CHARACTER__Shao_Kahn__Dragon_fist: 'Dragon fist',
+    CHARACTER__Shao_Kahn__Hammer_slam: 'Hammer slam',
+    CHARACTER__Shao_Kahn__Tenderizer: 'Tenderizer',
+    CHARACTER__Shao_Kahn__Rage_strike: 'Rage strike',
+    CHARACTER__Shao_Kahn__Rising_wrath: 'Rising wrath',
+    CHARACTER__Shao_Kahn__Brutal_kick: 'Brutal kick',
+    CHARACTER__Shao_Kahn__Dragon_toe: 'Dragon toe',
+    CHARACTER__Shao_Kahn__Shao_shimmy: 'Shao shimmy',
+    CHARACTER__Shao_Kahn__Knee_shatter: 'Knee shatter',
+    CHARACTER__Shao_Kahn__Petty_kick: 'Petty kick',
+    CHARACTER__Shao_Kahn__Hammer_slammer: 'Hammer slammer',
+    CHARACTER__Shao_Kahn__Kahn_kick: 'Kahn kick',
+    CHARACTER__Shao_Kahn__Side_spike: 'Side spike',
+    // Jumping Attacks
+    CHARACTER__Shao_Kahn__Hammer_poke: 'Hammer poke',
+    CHARACTER__Shao_Kahn__Final_strike: 'Final strike',
+    CHARACTER__Shao_Kahn__Double_dragon_kick: 'Double dragon kick',
+    // Quick Jumping Attacks
+    CHARACTER__Shao_Kahn__Quick_slam: 'Quick slam',
+    CHARACTER__Shao_Kahn__Breaking_dragon_claw: 'Breaking dragon claw',
+    // Getup Attacks / Flawless Block Attacks
+    CHARACTER__Shao_Kahn__Fatal_warning: 'Fatal warning',
+    CHARACTER__Shao_Kahn__Deadly_swipe: 'Deadly swipe',
+    // Combo Attacks
+    CHARACTER__Shao_Kahn__Warlord: 'Warlord',
+    CHARACTER__Shao_Kahn__DIE: 'DIE',
+    CHARACTER__Shao_Kahn__Takeover: 'Takeover',
+    CHARACTER__Shao_Kahn__Merging_realms: 'Merging realms',
+    CHARACTER__Shao_Kahn__You_will_die: 'You will die',
+    CHARACTER__Shao_Kahn__Is_that_your_best: 'Is that your best',
+    CHARACTER__Shao_Kahn__Power_of_Shao_Kahn: 'Power of Shao Kahn',
+    CHARACTER__Shao_Kahn__Die_by_my_hands: 'Die by my hands',
+    CHARACTER__Shao_Kahn__Will_you_fail: 'Will you fail',
+    CHARACTER__Shao_Kahn__Bow_to_me: 'Bow to me',
+    CHARACTER__Shao_Kahn__Fear_me: 'Fear me',
+    CHARACTER__Shao_Kahn__You_will_never_win: 'You will never win',
+    CHARACTER__Shao_Kahn__Last_breath: 'Last breath',
+    CHARACTER__Shao_Kahn__Konquer_all: 'Konquer all',
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
+
     // -> Skarlet
     CHARACTER__Skarlet__NAME: 'Skarlet',
     CHARACTER__Skarlet__DESCRIPTION: '',
@@ -1496,40 +1544,6 @@ export const enUs: LangDataType = {
     CHARACTER__Skarlet__Bloody_Fun: 'Bloody Fun',
     // Brutality
     CHARACTER__Skarlet__The_Klassic: theKlassic,
-
-    // -> Shao Kahn
-    CHARACTER__Shao_Kahn__NAME: 'Shao Kahn',
-    CHARACTER__Shao_Kahn__DESCRIPTION: '',
-    // Basic Attacks
-    CHARACTER__Shao_Kahn__Face_smash: 'Face smash',
-    CHARACTER__Shao_Kahn__Dragon_fist: 'Dragon fist',
-    CHARACTER__Shao_Kahn__Hammer_slam: 'Hammer slam',
-    CHARACTER__Shao_Kahn__Tenderizer: 'Tenderizer',
-    CHARACTER__Shao_Kahn__Rage_strike: 'Rage strike',
-    CHARACTER__Shao_Kahn__Rising_wrath: 'Rising wrath',
-    CHARACTER__Shao_Kahn__Brutal_kick: 'Brutal kick',
-    CHARACTER__Shao_Kahn__Dragon_toe: 'Dragon toe',
-    CHARACTER__Shao_Kahn__Shao_shimmy: 'Shao shimmy',
-    CHARACTER__Shao_Kahn__Knee_shatter: 'Knee shatter',
-    CHARACTER__Shao_Kahn__Petty_kick: 'Petty kick',
-    CHARACTER__Shao_Kahn__Hammer_slammer: 'Hammer slammer',
-    CHARACTER__Shao_Kahn__Kahn_kick: 'Kahn kick',
-    CHARACTER__Shao_Kahn__Side_spike: 'Side spike',
-    // Jumping Attacks
-    CHARACTER__Shao_Kahn__Hammer_poke: 'Hammer poke',
-    CHARACTER__Shao_Kahn__Final_strike: 'Final strike',
-    CHARACTER__Shao_Kahn__Double_dragon_kick: 'Double dragon kick',
-    // Quick Jumping Attacks
-    CHARACTER__Shao_Kahn__Quick_slam: 'Quick slam',
-    CHARACTER__Shao_Kahn__Breaking_dragon_claw: 'Breaking dragon claw',
-    // Getup Attacks / Flawless Block Attacks
-    CHARACTER__Shao_Kahn__Fatal_warning: 'Fatal warning',
-    CHARACTER__Shao_Kahn__Deadly_swipe: 'Deadly swipe',
-    // Combo Attacks
-    // Special Attacks
-    // Ability
-    // Fatal Blow
-    // Brutality
 
     // -> Sonya Blade
     CHARACTER__Sonya_Blade__NAME: 'Sonya Blade',

@@ -1428,6 +1428,54 @@ export type LangDataType = {|
     +CHARACTER__Scorpion__Ashes: string,
     +CHARACTER__Scorpion__Burn: string,
 
+    // -> Shao Kahn
+    +CHARACTER__Shao_Kahn__NAME: string,
+    +CHARACTER__Shao_Kahn__DESCRIPTION: string,
+    // Basic Attacks
+    +CHARACTER__Shao_Kahn__Face_smash: string,
+    +CHARACTER__Shao_Kahn__Dragon_fist: string,
+    +CHARACTER__Shao_Kahn__Hammer_slam: string,
+    +CHARACTER__Shao_Kahn__Tenderizer: string,
+    +CHARACTER__Shao_Kahn__Rage_strike: string,
+    +CHARACTER__Shao_Kahn__Rising_wrath: string,
+    +CHARACTER__Shao_Kahn__Brutal_kick: string,
+    +CHARACTER__Shao_Kahn__Dragon_toe: string,
+    +CHARACTER__Shao_Kahn__Shao_shimmy: string,
+    +CHARACTER__Shao_Kahn__Knee_shatter: string,
+    +CHARACTER__Shao_Kahn__Petty_kick: string,
+    +CHARACTER__Shao_Kahn__Hammer_slammer: string,
+    +CHARACTER__Shao_Kahn__Kahn_kick: string,
+    +CHARACTER__Shao_Kahn__Side_spike: string,
+    // Jumping Attacks
+    +CHARACTER__Shao_Kahn__Hammer_poke: string,
+    +CHARACTER__Shao_Kahn__Final_strike: string,
+    +CHARACTER__Shao_Kahn__Double_dragon_kick: string,
+    // Quick Jumping Attacks
+    +CHARACTER__Shao_Kahn__Quick_slam: string,
+    +CHARACTER__Shao_Kahn__Breaking_dragon_claw: string,
+    // Getup Attacks / Flawless Block Attacks
+    +CHARACTER__Shao_Kahn__Fatal_warning: string,
+    +CHARACTER__Shao_Kahn__Deadly_swipe: string,
+    // Combo Attacks
+    +CHARACTER__Shao_Kahn__Warlord: string,
+    +CHARACTER__Shao_Kahn__DIE: string,
+    +CHARACTER__Shao_Kahn__Takeover: string,
+    +CHARACTER__Shao_Kahn__Merging_realms: string,
+    +CHARACTER__Shao_Kahn__You_will_die: string,
+    +CHARACTER__Shao_Kahn__Is_that_your_best: string,
+    +CHARACTER__Shao_Kahn__Power_of_Shao_Kahn: string,
+    +CHARACTER__Shao_Kahn__Die_by_my_hands: string,
+    +CHARACTER__Shao_Kahn__Will_you_fail: string,
+    +CHARACTER__Shao_Kahn__Bow_to_me: string,
+    +CHARACTER__Shao_Kahn__Fear_me: string,
+    +CHARACTER__Shao_Kahn__You_will_never_win: string,
+    +CHARACTER__Shao_Kahn__Last_breath: string,
+    +CHARACTER__Shao_Kahn__Konquer_all: string,
+    // Special Attacks
+    // Ability
+    // Fatal Blow
+    // Brutality
+
     // -> Skarlet
     +CHARACTER__Skarlet__NAME: string,
     +CHARACTER__Skarlet__DESCRIPTION: string,
@@ -1491,40 +1539,6 @@ export type LangDataType = {|
     +CHARACTER__Skarlet__Bloody_Fun: string,
     // Brutality
     +CHARACTER__Skarlet__The_Klassic: string,
-
-    // -> Shao Kahn
-    +CHARACTER__Shao_Kahn__NAME: string,
-    +CHARACTER__Shao_Kahn__DESCRIPTION: string,
-    // Basic Attacks
-    +CHARACTER__Shao_Kahn__Face_smash: string,
-    +CHARACTER__Shao_Kahn__Dragon_fist: string,
-    +CHARACTER__Shao_Kahn__Hammer_slam: string,
-    +CHARACTER__Shao_Kahn__Tenderizer: string,
-    +CHARACTER__Shao_Kahn__Rage_strike: string,
-    +CHARACTER__Shao_Kahn__Rising_wrath: string,
-    +CHARACTER__Shao_Kahn__Brutal_kick: string,
-    +CHARACTER__Shao_Kahn__Dragon_toe: string,
-    +CHARACTER__Shao_Kahn__Shao_shimmy: string,
-    +CHARACTER__Shao_Kahn__Knee_shatter: string,
-    +CHARACTER__Shao_Kahn__Petty_kick: string,
-    +CHARACTER__Shao_Kahn__Hammer_slammer: string,
-    +CHARACTER__Shao_Kahn__Kahn_kick: string,
-    +CHARACTER__Shao_Kahn__Side_spike: string,
-    // Jumping Attacks
-    +CHARACTER__Shao_Kahn__Hammer_poke: string,
-    +CHARACTER__Shao_Kahn__Final_strike: string,
-    +CHARACTER__Shao_Kahn__Double_dragon_kick: string,
-    // Quick Jumping Attacks
-    +CHARACTER__Shao_Kahn__Quick_slam: string,
-    +CHARACTER__Shao_Kahn__Breaking_dragon_claw: string,
-    // Getup Attacks / Flawless Block Attacks
-    +CHARACTER__Shao_Kahn__Fatal_warning: string,
-    +CHARACTER__Shao_Kahn__Deadly_swipe: string,
-    // Combo Attacks
-    // Special Attacks
-    // Ability
-    // Fatal Blow
-    // Brutality
 
     // -> Sonya Blade
     +CHARACTER__Sonya_Blade__NAME: string,
