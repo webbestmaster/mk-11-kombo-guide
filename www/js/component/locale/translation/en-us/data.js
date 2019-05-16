@@ -1633,6 +1633,17 @@ export const enUs: LangDataType = {
     CHARACTER__Sub_Zero__Axe_swipe: 'Axe swipe',
     CHARACTER__Sub_Zero__Chilled_heel: 'Chilled heel',
     // Combo Attacks
+    CHARACTER__Sub_Zero__Chinese_ninja_warrior: 'Chinese ninja warrior',
+    CHARACTER__Sub_Zero__Cold_encounter: 'Cold encounter',
+    CHARACTER__Sub_Zero__Icy_Grave: 'Icy Grave',
+    CHARACTER__Sub_Zero__Frozen_over: 'Frozen over',
+    CHARACTER__Sub_Zero__Frozen_tundra: 'Frozen tundra',
+    CHARACTER__Sub_Zero__New_threat: 'New threat',
+    CHARACTER__Sub_Zero__Unchained: 'Unchained',
+    CHARACTER__Sub_Zero__Final_draw: 'Final draw',
+    CHARACTER__Sub_Zero__Below_freezing: 'Below freezing',
+    CHARACTER__Sub_Zero__Permafrost: 'Permafrost',
+    CHARACTER__Sub_Zero__Frosty: 'Frosty',
     // Special Attacks
     // Ability
     // Fatal Blow

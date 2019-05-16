@@ -1628,6 +1628,17 @@ export type LangDataType = {|
     +CHARACTER__Sub_Zero__Axe_swipe: string,
     +CHARACTER__Sub_Zero__Chilled_heel: string,
     // Combo Attacks
+    +CHARACTER__Sub_Zero__Chinese_ninja_warrior: string,
+    +CHARACTER__Sub_Zero__Cold_encounter: string,
+    +CHARACTER__Sub_Zero__Icy_Grave: string,
+    +CHARACTER__Sub_Zero__Frozen_over: string,
+    +CHARACTER__Sub_Zero__Frozen_tundra: string,
+    +CHARACTER__Sub_Zero__New_threat: string,
+    +CHARACTER__Sub_Zero__Unchained: string,
+    +CHARACTER__Sub_Zero__Final_draw: string,
+    +CHARACTER__Sub_Zero__Below_freezing: string,
+    +CHARACTER__Sub_Zero__Permafrost: string,
+    +CHARACTER__Sub_Zero__Frosty: string,
     // Special Attacks
     // Ability
     // Fatal Blow
