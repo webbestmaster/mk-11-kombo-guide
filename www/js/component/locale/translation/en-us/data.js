@@ -67,6 +67,7 @@ export const enUs: LangDataType = {
     MOVE_FEATURE__PROJECTILE: 'Projectile',
     MOVE_FEATURE__PROJECTILE_INVULNERABLE: 'Projectile invulnerable',
     MOVE_FEATURE__AMPLIFY: 'Amplify',
+    MOVE_FEATURE__CANCEL: 'Cancel',
 
     // default move
     DEFAULT_MOVE__TOWARD_THROW: 'Toward Throw',
@@ -1575,6 +1576,29 @@ export const enUs: LangDataType = {
     CHARACTER__Sonya_Blade__Backflip_kick: 'Backflip kick',
     CHARACTER__Sonya_Blade__Energy_discharge: 'Energy discharge',
     // Combo Attacks
+    CHARACTER__Sonya_Blade__Advanced_warfare: 'Advanced warfare',
+    CHARACTER__Sonya_Blade__Target_acquired: 'Target acquired',
+    CHARACTER__Sonya_Blade__Stars_and_stripes: 'Stars and stripes',
+    CHARACTER__Sonya_Blade__At_ease: 'At ease',
+    CHARACTER__Sonya_Blade__Ambush: 'Ambush',
+    CHARACTER__Sonya_Blade__Overwatch: 'Overwatch',
+    CHARACTER__Sonya_Blade__Shoot_and_Scoot: 'Shoot and Scoot',
+    CHARACTER__Sonya_Blade__Pulling_rank: 'Pulling rank',
+    CHARACTER__Sonya_Blade__Kounter_Attack: 'Kounter Attack',
+    CHARACTER__Sonya_Blade__Frontal_Assault: 'Frontal Assault',
+    CHARACTER__Sonya_Blade__Raided: 'Raided',
+    CHARACTER__Sonya_Blade__Under_Siege: 'Under Siege',
+    CHARACTER__Sonya_Blade__HOOAH: 'HOOAH',
+    CHARACTER__Sonya_Blade__No_withdrawal: 'No withdrawal',
+    CHARACTER__Sonya_Blade__No_back_up: 'No back up',
+    CHARACTER__Sonya_Blade__Unconditional_surrender: 'Unconditional surrender',
+    CHARACTER__Sonya_Blade__On_my_mark: 'On my mark',
+    CHARACTER__Sonya_Blade__Vedette: 'Vedette',
+    CHARACTER__Sonya_Blade__Going_rogue: 'Going rogue',
+    CHARACTER__Sonya_Blade__Going_in_loud: 'Going in loud',
+    CHARACTER__Sonya_Blade__Last_patrol: 'Last patrol',
+    CHARACTER__Sonya_Blade__Bravo_zulu: 'Bravo zulu',
+    CHARACTER__Sonya_Blade__Decisive_Victory: 'Decisive Victory',
     // Special Attacks
     // Ability
     // Fatal Blow

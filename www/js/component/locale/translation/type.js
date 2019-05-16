@@ -62,6 +62,7 @@ export type LangDataType = {|
     +MOVE_FEATURE__PROJECTILE: string,
     +MOVE_FEATURE__PROJECTILE_INVULNERABLE: string,
     +MOVE_FEATURE__AMPLIFY: string,
+    +MOVE_FEATURE__CANCEL: string,
 
     // default move
     +DEFAULT_MOVE__TOWARD_THROW: string,
@@ -1570,6 +1571,29 @@ export type LangDataType = {|
     +CHARACTER__Sonya_Blade__Backflip_kick: string,
     +CHARACTER__Sonya_Blade__Energy_discharge: string,
     // Combo Attacks
+    +CHARACTER__Sonya_Blade__Advanced_warfare: string,
+    +CHARACTER__Sonya_Blade__Target_acquired: string,
+    +CHARACTER__Sonya_Blade__Stars_and_stripes: string,
+    +CHARACTER__Sonya_Blade__At_ease: string,
+    +CHARACTER__Sonya_Blade__Ambush: string,
+    +CHARACTER__Sonya_Blade__Overwatch: string,
+    +CHARACTER__Sonya_Blade__Shoot_and_Scoot: string,
+    +CHARACTER__Sonya_Blade__Pulling_rank: string,
+    +CHARACTER__Sonya_Blade__Kounter_Attack: string,
+    +CHARACTER__Sonya_Blade__Frontal_Assault: string,
+    +CHARACTER__Sonya_Blade__Raided: string,
+    +CHARACTER__Sonya_Blade__Under_Siege: string,
+    +CHARACTER__Sonya_Blade__HOOAH: string,
+    +CHARACTER__Sonya_Blade__No_withdrawal: string,
+    +CHARACTER__Sonya_Blade__No_back_up: string,
+    +CHARACTER__Sonya_Blade__Unconditional_surrender: string,
+    +CHARACTER__Sonya_Blade__On_my_mark: string,
+    +CHARACTER__Sonya_Blade__Vedette: string,
+    +CHARACTER__Sonya_Blade__Going_rogue: string,
+    +CHARACTER__Sonya_Blade__Going_in_loud: string,
+    +CHARACTER__Sonya_Blade__Last_patrol: string,
+    +CHARACTER__Sonya_Blade__Bravo_zulu: string,
+    +CHARACTER__Sonya_Blade__Decisive_Victory: string,
     // Special Attacks
     // Ability
     // Fatal Blow
