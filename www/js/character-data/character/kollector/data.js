@@ -633,7 +633,7 @@ export const kollector: CharacterType = {
         comboList: [
             {
                 name: 'CHARACTER__Kollector__Blood_Money',
-                sequence: [],
+                sequence: [i1n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -656,7 +656,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__Price_to_Pay',
-                sequence: [],
+                sequence: [i1n, i3n, i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -679,7 +679,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__The_Enforcer',
-                sequence: [],
+                sequence: [[back, i1n], i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -702,7 +702,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__Chaotic_Magic',
-                sequence: [],
+                sequence: [[back, i1n], i2n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -725,7 +725,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__Ill_Gotten_Gains',
-                sequence: [],
+                sequence: [[ford, i1n], i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -748,7 +748,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__Slice_and_Dice',
-                sequence: [],
+                sequence: [[ford, i1n], i2n, [down, i1n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -771,7 +771,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__Debt_is_Paid',
-                sequence: [],
+                sequence: [[ford, i1n], i2n, [down, i2n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -794,7 +794,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__Mine_Mine_Mine',
-                sequence: [],
+                sequence: [i2n, [i1n, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -817,7 +817,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__Play_for_Souls',
-                sequence: [],
+                sequence: [i2n, [i1n, i3n], i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -840,7 +840,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__Pillaged',
-                sequence: [],
+                sequence: [[ford, i2n], i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -863,7 +863,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__Taxed',
-                sequence: [],
+                sequence: [[ford, i2n], i2n, [i1n, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -886,7 +886,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__Lie_and_Cheat',
-                sequence: [],
+                sequence: [[back, i2n], i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -909,7 +909,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__Greed',
-                sequence: [],
+                sequence: [[back, i2n], i3n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -932,7 +932,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__Take_It_All',
-                sequence: [],
+                sequence: [i3n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -955,7 +955,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__Paid_in_Full',
-                sequence: [],
+                sequence: [[ford, i3n], i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -978,7 +978,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__With_Interest',
-                sequence: [],
+                sequence: [[ford, i3n], i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -1001,7 +1001,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__Take_and_Deny',
-                sequence: [],
+                sequence: [[ford, i3n], i1n, i2n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -1024,7 +1024,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__No_Collateral',
-                sequence: [],
+                sequence: [i4n, i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -1047,7 +1047,7 @@ export const kollector: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kollector__Ravages_of_Time',
-                sequence: [],
+                sequence: [i4n, i4n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
