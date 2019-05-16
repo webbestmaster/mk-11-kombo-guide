@@ -1353,6 +1353,21 @@ export const enUs: LangDataType = {
     CHARACTER__Raiden__Shocker: 'Shocker',
     CHARACTER__Raiden__Electric_current: 'Electric current',
     // Combo Attacks
+    CHARACTER__Raiden__God_s_might: 'God\'s might',
+    CHARACTER__Raiden__Downpour: 'Downpour',
+    CHARACTER__Raiden__Elder_Fury: 'Elder Fury',
+    CHARACTER__Raiden__Power_discharge: 'Power discharge',
+    CHARACTER__Raiden__Distant_thunder: 'Distant thunder',
+    CHARACTER__Raiden__Divine_power: 'Divine power',
+    CHARACTER__Raiden__Sudden_energy: 'Sudden energy',
+    CHARACTER__Raiden__Overload: 'Overload',
+    CHARACTER__Raiden__Flash_storm: 'Flash storm',
+    CHARACTER__Raiden__Immortal_strikes: 'Immortal strikes',
+    CHARACTER__Raiden__Wrath_of_god: 'Wrath of god',
+    CHARACTER__Raiden__Deadly_storm: 'Deadly storm',
+    CHARACTER__Raiden__The_calm: 'The calm',
+    CHARACTER__Raiden__Might_of_mordulus: 'Might of mordulus',
+    CHARACTER__Raiden__Massive_Destruction: 'Massive Destruction',
     // Special Attacks
     // Ability
     // Fatal Blow

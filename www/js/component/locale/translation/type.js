@@ -1348,6 +1348,21 @@ export type LangDataType = {|
     +CHARACTER__Raiden__Shocker: string,
     +CHARACTER__Raiden__Electric_current: string,
     // Combo Attacks
+    +CHARACTER__Raiden__God_s_might: string,
+    +CHARACTER__Raiden__Downpour: string,
+    +CHARACTER__Raiden__Elder_Fury: string,
+    +CHARACTER__Raiden__Power_discharge: string,
+    +CHARACTER__Raiden__Distant_thunder: string,
+    +CHARACTER__Raiden__Divine_power: string,
+    +CHARACTER__Raiden__Sudden_energy: string,
+    +CHARACTER__Raiden__Overload: string,
+    +CHARACTER__Raiden__Flash_storm: string,
+    +CHARACTER__Raiden__Immortal_strikes: string,
+    +CHARACTER__Raiden__Wrath_of_god: string,
+    +CHARACTER__Raiden__Deadly_storm: string,
+    +CHARACTER__Raiden__The_calm: string,
+    +CHARACTER__Raiden__Might_of_mordulus: string,
+    +CHARACTER__Raiden__Massive_Destruction: string,
     // Special Attacks
     // Ability
     // Fatal Blow
