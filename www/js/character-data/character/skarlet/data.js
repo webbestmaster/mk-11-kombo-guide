@@ -587,7 +587,7 @@ export const skarlet: CharacterType = {
         comboList: [
             {
                 name: 'CHARACTER__Skarlet__Redrum',
-                sequence: [],
+                sequence: [i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -610,7 +610,7 @@ export const skarlet: CharacterType = {
             },
             {
                 name: 'CHARACTER__Skarlet__Marrow_Massacre',
-                sequence: [],
+                sequence: [i1n, i2n, i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -633,7 +633,7 @@ export const skarlet: CharacterType = {
             },
             {
                 name: 'CHARACTER__Skarlet__Thicker_than_Water',
-                sequence: [],
+                sequence: [[back, i1n], i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -656,7 +656,7 @@ export const skarlet: CharacterType = {
             },
             {
                 name: 'CHARACTER__Skarlet__Komplete_Karnage',
-                sequence: [],
+                sequence: [i2n, i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -679,7 +679,7 @@ export const skarlet: CharacterType = {
             },
             {
                 name: 'CHARACTER__Skarlet__The_End_Is_Nigh',
-                sequence: [],
+                sequence: [i2n, i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -702,7 +702,7 @@ export const skarlet: CharacterType = {
             },
             {
                 name: 'CHARACTER__Skarlet__Quick_Tranfusion',
-                sequence: [],
+                sequence: [[ford, i2n], i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -725,7 +725,7 @@ export const skarlet: CharacterType = {
             },
             {
                 name: 'CHARACTER__Skarlet__Simple_Slaughter',
-                sequence: [],
+                sequence: [[back, i3n], i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -748,7 +748,7 @@ export const skarlet: CharacterType = {
             },
             {
                 name: 'CHARACTER__Skarlet__Koagulation',
-                sequence: [],
+                sequence: [i4n, i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -771,7 +771,7 @@ export const skarlet: CharacterType = {
             },
             {
                 name: 'CHARACTER__Skarlet__Bleeding',
-                sequence: [],
+                sequence: [[ford, i4n], i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
