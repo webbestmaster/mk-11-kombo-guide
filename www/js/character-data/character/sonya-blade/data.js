@@ -610,7 +610,7 @@ export const sonyaBlade: CharacterType = {
         comboList: [
             {
                 name: 'CHARACTER__Sonya_Blade__Advanced_warfare',
-                sequence: [],
+                sequence: [i1n, i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -633,7 +633,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Target_acquired',
-                sequence: [],
+                sequence: [i1n, i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -656,7 +656,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Stars_and_stripes',
-                sequence: [],
+                sequence: [i1n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -679,7 +679,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__At_ease',
-                sequence: [],
+                sequence: [i1n, i3n, i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -702,7 +702,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Ambush',
-                sequence: [],
+                sequence: [[back, i1n], i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -725,7 +725,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Overwatch',
-                sequence: [],
+                sequence: [[back, i1n], i2n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -748,7 +748,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Shoot_and_Scoot',
-                sequence: [],
+                sequence: [[back, i1n], i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -771,7 +771,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Pulling_rank',
-                sequence: [],
+                sequence: [i2n, i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -794,7 +794,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Kounter_Attack',
-                sequence: [],
+                sequence: [i2n, i1n, i2n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -817,7 +817,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Frontal_Assault',
-                sequence: [],
+                sequence: [i2n, i1n, i2n, i2n, [i1n, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -840,7 +840,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Raided',
-                sequence: [],
+                sequence: [[back, i2n], i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -863,7 +863,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Under_Siege',
-                sequence: [],
+                sequence: [[back, i2n], i3n, [down, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -886,7 +886,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__HOOAH',
-                sequence: [],
+                sequence: [[back, i2n], i3n, i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -907,7 +907,7 @@ export const sonyaBlade: CharacterType = {
                 extendedComboList: [
                     {
                         name: 'MOVE_FEATURE__CANCEL',
-                        sequence: [],
+                        sequence: [hold, down],
                         description: '',
                         moveData: {
                             hitDamage: naValue,
@@ -933,7 +933,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__No_withdrawal',
-                sequence: [],
+                sequence: [[ford, i2n], i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -956,7 +956,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__No_back_up',
-                sequence: [],
+                sequence: [[ford, i2n], i1n, i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -979,7 +979,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Unconditional_surrender',
-                sequence: [],
+                sequence: [i3n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -1002,7 +1002,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__On_my_mark',
-                sequence: [],
+                sequence: [i3n, i3n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -1025,7 +1025,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Vedette',
-                sequence: [],
+                sequence: [i3n, i3n, i3n, [down, i4n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -1048,7 +1048,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Going_rogue',
-                sequence: [],
+                sequence: [[back, i3n], [down, i4n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -1071,7 +1071,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Going_in_loud',
-                sequence: [],
+                sequence: [[back, i3n], [up, i4n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -1094,7 +1094,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Last_patrol',
-                sequence: [],
+                sequence: [[back, i3n], [up, i4n], i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -1117,7 +1117,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Bravo_zulu',
-                sequence: [],
+                sequence: [[ford, i4n], [i1n, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -1140,7 +1140,7 @@ export const sonyaBlade: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sonya_Blade__Decisive_Victory',
-                sequence: [],
+                sequence: [[ford, i4n], [i1n, i3n], i2n, i2n, i2n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
