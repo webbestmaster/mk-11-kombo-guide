@@ -587,7 +587,7 @@ export const subZero: CharacterType = {
         comboList: [
             {
                 name: 'CHARACTER__Sub_Zero__Chinese_ninja_warrior',
-                sequence: [],
+                sequence: [i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -610,7 +610,7 @@ export const subZero: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sub_Zero__Cold_encounter',
-                sequence: [],
+                sequence: [i1n, i2n, i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -633,7 +633,7 @@ export const subZero: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sub_Zero__Icy_Grave',
-                sequence: [],
+                sequence: [[back, i1n], i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -656,7 +656,7 @@ export const subZero: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sub_Zero__Frozen_over',
-                sequence: [],
+                sequence: [[back, i1n], i4n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -679,7 +679,7 @@ export const subZero: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sub_Zero__Frozen_tundra',
-                sequence: [],
+                sequence: [i2n, i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -702,7 +702,7 @@ export const subZero: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sub_Zero__New_threat',
-                sequence: [],
+                sequence: [i2n, i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -725,7 +725,7 @@ export const subZero: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sub_Zero__Unchained',
-                sequence: [],
+                sequence: [[back, i2n], i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -748,7 +748,7 @@ export const subZero: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sub_Zero__Final_draw',
-                sequence: [],
+                sequence: [[ford, i2n], i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -771,7 +771,7 @@ export const subZero: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sub_Zero__Below_freezing',
-                sequence: [],
+                sequence: [i3n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -794,7 +794,7 @@ export const subZero: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sub_Zero__Permafrost',
-                sequence: [],
+                sequence: [[back, i3n], i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -817,7 +817,7 @@ export const subZero: CharacterType = {
             },
             {
                 name: 'CHARACTER__Sub_Zero__Frosty',
-                sequence: [],
+                sequence: [[back, i3n], i2n, i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
