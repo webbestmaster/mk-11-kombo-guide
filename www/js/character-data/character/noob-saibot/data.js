@@ -610,7 +610,7 @@ export const noobSaibot: CharacterType = {
         comboList: [
             {
                 name: 'CHARACTER__Noob_Saibot__Creeping_Shadow',
-                sequence: [],
+                sequence: [i1n, i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -633,7 +633,7 @@ export const noobSaibot: CharacterType = {
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Empty_Grave',
-                sequence: [],
+                sequence: [i1n, i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -656,7 +656,7 @@ export const noobSaibot: CharacterType = {
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Tormented_Souls',
-                sequence: [],
+                sequence: [i1n, i1n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -679,7 +679,7 @@ export const noobSaibot: CharacterType = {
             },
             {
                 name: 'CHARACTER__Noob_Saibot__As_One',
-                sequence: [],
+                sequence: [[back, i1n], [i1n, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -702,7 +702,7 @@ export const noobSaibot: CharacterType = {
             },
             {
                 name: 'CHARACTER__Noob_Saibot__For_The_Brotherhood',
-                sequence: [],
+                sequence: [[back, i1n], [i1n, i3n], i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -725,7 +725,7 @@ export const noobSaibot: CharacterType = {
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Total_Darkness',
-                sequence: [],
+                sequence: [i2n, i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -748,7 +748,7 @@ export const noobSaibot: CharacterType = {
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Resurrected',
-                sequence: [],
+                sequence: [i2n, i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -771,7 +771,7 @@ export const noobSaibot: CharacterType = {
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Fade_To_Black',
-                sequence: [],
+                sequence: [[ford, i2n], i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -794,7 +794,7 @@ export const noobSaibot: CharacterType = {
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Evil_Within',
-                sequence: [],
+                sequence: [[ford, i2n], i2n, i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -817,7 +817,7 @@ export const noobSaibot: CharacterType = {
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Wailing_Wraith',
-                sequence: [],
+                sequence: [[ford, i2n], i2n, i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -840,7 +840,7 @@ export const noobSaibot: CharacterType = {
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Sinister_Silhouette',
-                sequence: [],
+                sequence: [[back, i3n], [i1n, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
