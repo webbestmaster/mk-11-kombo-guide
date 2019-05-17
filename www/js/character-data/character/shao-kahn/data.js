@@ -587,7 +587,7 @@ export const shaoKahn: CharacterType = {
         comboList: [
             {
                 name: 'CHARACTER__Shao_Kahn__Warlord',
-                sequence: [],
+                sequence: [i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -610,7 +610,7 @@ export const shaoKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Shao_Kahn__DIE',
-                sequence: [],
+                sequence: [i1n, i2n, [i1n, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -633,7 +633,7 @@ export const shaoKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Takeover',
-                sequence: [],
+                sequence: [i1n, i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -656,7 +656,7 @@ export const shaoKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Merging_realms',
-                sequence: [],
+                sequence: [i1n, i4n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -679,7 +679,7 @@ export const shaoKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Shao_Kahn__You_will_die',
-                sequence: [],
+                sequence: [i2n, i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -702,7 +702,7 @@ export const shaoKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Is_that_your_best',
-                sequence: [],
+                sequence: [i2n, i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -725,7 +725,7 @@ export const shaoKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Power_of_Shao_Kahn',
-                sequence: [],
+                sequence: [i2n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -748,7 +748,7 @@ export const shaoKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Die_by_my_hands',
-                sequence: [],
+                sequence: [i2n, i3n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -771,7 +771,7 @@ export const shaoKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Will_you_fail',
-                sequence: [],
+                sequence: [[ford, i2n], i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -794,7 +794,7 @@ export const shaoKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Bow_to_me',
-                sequence: [],
+                sequence: [[ford, i2n], i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -817,7 +817,7 @@ export const shaoKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Fear_me',
-                sequence: [],
+                sequence: [[ford, i2n], i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -840,7 +840,7 @@ export const shaoKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Shao_Kahn__You_will_never_win',
-                sequence: [],
+                sequence: [[ford, i3n], i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -863,7 +863,7 @@ export const shaoKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Last_breath',
-                sequence: [],
+                sequence: [[ford, i3n], i4n, [i1n, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -886,7 +886,7 @@ export const shaoKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Konquer_all',
-                sequence: [],
+                sequence: [i4n, i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
