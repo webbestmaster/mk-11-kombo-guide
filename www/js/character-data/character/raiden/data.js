@@ -633,7 +633,7 @@ export const raiden: CharacterType = {
         comboList: [
             {
                 name: 'CHARACTER__Raiden__God_s_might',
-                sequence: [],
+                sequence: [i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -656,7 +656,7 @@ export const raiden: CharacterType = {
             },
             {
                 name: 'CHARACTER__Raiden__Downpour',
-                sequence: [],
+                sequence: [i1n, i2n, i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -679,7 +679,7 @@ export const raiden: CharacterType = {
             },
             {
                 name: 'CHARACTER__Raiden__Elder_Fury',
-                sequence: [],
+                sequence: [[back, i1n], i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -702,7 +702,7 @@ export const raiden: CharacterType = {
             },
             {
                 name: 'CHARACTER__Raiden__Power_discharge',
-                sequence: [],
+                sequence: [[back, i1n], i2n, [i1n, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -725,7 +725,7 @@ export const raiden: CharacterType = {
             },
             {
                 name: 'CHARACTER__Raiden__Distant_thunder',
-                sequence: [],
+                sequence: [[back, i1n], i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -748,7 +748,7 @@ export const raiden: CharacterType = {
             },
             {
                 name: 'CHARACTER__Raiden__Divine_power',
-                sequence: [],
+                sequence: [[ford, i1n], i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -771,7 +771,7 @@ export const raiden: CharacterType = {
             },
             {
                 name: 'CHARACTER__Raiden__Sudden_energy',
-                sequence: [],
+                sequence: [[ford, i1n], i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -794,7 +794,7 @@ export const raiden: CharacterType = {
             },
             {
                 name: 'CHARACTER__Raiden__Overload',
-                sequence: [],
+                sequence: [i2n, i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -817,7 +817,7 @@ export const raiden: CharacterType = {
             },
             {
                 name: 'CHARACTER__Raiden__Flash_storm',
-                sequence: [],
+                sequence: [i2n, i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -840,7 +840,7 @@ export const raiden: CharacterType = {
             },
             {
                 name: 'CHARACTER__Raiden__Immortal_strikes',
-                sequence: [],
+                sequence: [i2n, i4n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -863,7 +863,7 @@ export const raiden: CharacterType = {
             },
             {
                 name: 'CHARACTER__Raiden__Wrath_of_god',
-                sequence: [],
+                sequence: [i3n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -886,7 +886,7 @@ export const raiden: CharacterType = {
             },
             {
                 name: 'CHARACTER__Raiden__Deadly_storm',
-                sequence: [],
+                sequence: [i3n, i2n, i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -909,7 +909,7 @@ export const raiden: CharacterType = {
             },
             {
                 name: 'CHARACTER__Raiden__The_calm',
-                sequence: [],
+                sequence: [[back, i3n], i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -932,7 +932,7 @@ export const raiden: CharacterType = {
             },
             {
                 name: 'CHARACTER__Raiden__Might_of_mordulus',
-                sequence: [],
+                sequence: [[back, i3n], i1n, [i2n, i4n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -955,7 +955,7 @@ export const raiden: CharacterType = {
             },
             {
                 name: 'CHARACTER__Raiden__Massive_Destruction',
-                sequence: [],
+                sequence: [[ford, i3n], i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
