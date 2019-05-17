@@ -587,7 +587,7 @@ export const kotalKahn: CharacterType = {
         comboList: [
             {
                 name: 'CHARACTER__Kotal_Kahn__Tlamanalo',
-                sequence: [],
+                sequence: [i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -610,7 +610,7 @@ export const kotalKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kotal_Kahn__Soleil',
-                sequence: [],
+                sequence: [i1n, i2n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -633,7 +633,7 @@ export const kotalKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kotal_Kahn__Tenchalli_Bash',
-                sequence: [],
+                sequence: [[ford, i1n], i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -656,7 +656,7 @@ export const kotalKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kotal_Kahn__Cuazquia',
-                sequence: [],
+                sequence: [[ford, i1n], i2n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -679,7 +679,7 @@ export const kotalKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kotal_Kahn__Metzli',
-                sequence: [],
+                sequence: [[ford, i1n], i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -702,7 +702,7 @@ export const kotalKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kotal_Kahn__Impitzoyo',
-                sequence: [],
+                sequence: [i2n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -725,7 +725,7 @@ export const kotalKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kotal_Kahn__Coatl_Strikes',
-                sequence: [],
+                sequence: [i2n, i2n, i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -748,7 +748,7 @@ export const kotalKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kotal_Kahn__Tlaneltocaz',
-                sequence: [],
+                sequence: [[ford, i2n], i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -771,7 +771,7 @@ export const kotalKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kotal_Kahn__Mahuiztiquez',
-                sequence: [],
+                sequence: [[ford, i2n], i4n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -794,7 +794,7 @@ export const kotalKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kotal_Kahn__Tonaltzintli',
-                sequence: [],
+                sequence: [[back, i2n], i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -817,7 +817,7 @@ export const kotalKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kotal_Kahn__Mehtizquia',
-                sequence: [],
+                sequence: [[back, i2n], i2n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -840,7 +840,7 @@ export const kotalKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kotal_Kahn__Xolotl',
-                sequence: [],
+                sequence: [i3n, i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -863,7 +863,7 @@ export const kotalKahn: CharacterType = {
             },
             {
                 name: 'CHARACTER__Kotal_Kahn__Melahuac',
-                sequence: [],
+                sequence: [[ford, i3n], i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
