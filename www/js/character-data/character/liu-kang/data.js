@@ -610,7 +610,7 @@ export const liuKang: CharacterType = {
         comboList: [
             {
                 name: 'CHARACTER__Liu_Kang__Total_Destruction',
-                sequence: [],
+                sequence: [i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -633,7 +633,7 @@ export const liuKang: CharacterType = {
             },
             {
                 name: 'CHARACTER__Liu_Kang__Twin_Lotus',
-                sequence: [],
+                sequence: [i1n, i2n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -656,7 +656,7 @@ export const liuKang: CharacterType = {
             },
             {
                 name: 'CHARACTER__Liu_Kang__Dark_Orders',
-                sequence: [],
+                sequence: [[back, i1n], i2n, i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -679,7 +679,7 @@ export const liuKang: CharacterType = {
             },
             {
                 name: 'CHARACTER__Liu_Kang__The_Time_has_Come',
-                sequence: [],
+                sequence: [i2n, i1n, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -702,7 +702,7 @@ export const liuKang: CharacterType = {
             },
             {
                 name: 'CHARACTER__Liu_Kang__Done_Listening',
-                sequence: [],
+                sequence: [i2n, i1n, i2n, i1n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -725,7 +725,7 @@ export const liuKang: CharacterType = {
             },
             {
                 name: 'CHARACTER__Liu_Kang__Lost_Soul',
-                sequence: [],
+                sequence: [[back, i2n], [down, i2n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -748,7 +748,7 @@ export const liuKang: CharacterType = {
             },
             {
                 name: 'CHARACTER__Liu_Kang__No_Loyalty',
-                sequence: [],
+                sequence: [i3n, i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -771,7 +771,7 @@ export const liuKang: CharacterType = {
             },
             {
                 name: 'CHARACTER__Liu_Kang__A_Quick_End',
-                sequence: [],
+                sequence: [i3n, i4n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -794,7 +794,7 @@ export const liuKang: CharacterType = {
             },
             {
                 name: 'CHARACTER__Liu_Kang__This_Will_Hurt',
-                sequence: [],
+                sequence: [[back, i3n], i4n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -817,7 +817,7 @@ export const liuKang: CharacterType = {
             },
             {
                 name: 'CHARACTER__Liu_Kang__Dragon_s_Breath',
-                sequence: [],
+                sequence: [[ford, i3n], i3n, i3n, i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -840,7 +840,7 @@ export const liuKang: CharacterType = {
             },
             {
                 name: 'CHARACTER__Liu_Kang__Shaolin_Warrior',
-                sequence: [],
+                sequence: [[ford, i4n], i3n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
@@ -863,7 +863,7 @@ export const liuKang: CharacterType = {
             },
             {
                 name: 'CHARACTER__Liu_Kang__Chinese_Warrior',
-                sequence: [],
+                sequence: [[ford, i4n], i3n, [up, i3n]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
