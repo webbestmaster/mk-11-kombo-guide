@@ -1385,6 +1385,16 @@ export const enUs: LangDataType = {
     CHARACTER__Raiden__Massive_Destruction: 'Massive Destruction',
     // Special Attacks
     // Ability
+    CHARACTER__Raiden__Electric_Burst: 'Electric Burst',
+    CHARACTER__Raiden__Electric_Current: 'Electric Current',
+    CHARACTER__Raiden__Jo_Push: 'Jo Push',
+    CHARACTER__Raiden__Lightning_Rod: 'Lightning Rod',
+    CHARACTER__Raiden__Lightning_Storm: 'Lightning Storm',
+    CHARACTER__Raiden__Quick_Charge: 'Quick Charge',
+    CHARACTER__Raiden__Rolling_Thunder: 'Rolling Thunder',
+    CHARACTER__Raiden__Sparkport: 'Sparkport',
+    CHARACTER__Raiden__Storm_Cell: 'Storm Cell',
+    CHARACTER__Raiden__Super_Bolt: 'Super Bolt',
     // Fatal Blow
     CHARACTER__Raiden__Thunder_take_you: 'Thunder take you',
     // Brutality

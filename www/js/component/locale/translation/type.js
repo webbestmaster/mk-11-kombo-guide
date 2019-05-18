@@ -1380,6 +1380,16 @@ export type LangDataType = {|
     +CHARACTER__Raiden__Massive_Destruction: string,
     // Special Attacks
     // Ability
+    +CHARACTER__Raiden__Electric_Burst: string,
+    +CHARACTER__Raiden__Electric_Current: string,
+    +CHARACTER__Raiden__Jo_Push: string,
+    +CHARACTER__Raiden__Lightning_Rod: string,
+    +CHARACTER__Raiden__Lightning_Storm: string,
+    +CHARACTER__Raiden__Quick_Charge: string,
+    +CHARACTER__Raiden__Rolling_Thunder: string,
+    +CHARACTER__Raiden__Sparkport: string,
+    +CHARACTER__Raiden__Storm_Cell: string,
+    +CHARACTER__Raiden__Super_Bolt: string,
     // Fatal Blow
     +CHARACTER__Raiden__Thunder_take_you: string,
     // Brutality
