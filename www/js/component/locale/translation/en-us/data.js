@@ -530,16 +530,17 @@ export const enUs: LangDataType = {
     CHARACTER__Geras__Titan_Tackle: 'Titan Tackle',
     CHARACTER__Geras__Big_Fist: 'Big Fist',
     // Ability
+    CHARACTER__Geras__Bed_Of_Spikes: 'Bed Of Spikes',
+    CHARACTER__Geras__Gauntlet_Of_The_Ages: 'Gauntlet Of The Ages',
+    CHARACTER__Geras__Lost_Time___Spare_Time: 'Lost Time & Spare Time',
+    CHARACTER__Geras__Outworld_Gunslinger: 'Outworld Gunslinger',
     CHARACTER__Geras__Quick_Sand: 'Quick Sand',
-    CHARACTER__Geras__Gauntlet_of_the_Ages: 'Gauntlet of the Ages',
-    CHARACTER__Geras__Bed_of_Spikes: 'Bed of Spikes',
-    CHARACTER__Geras__Shifting_Sands: 'Shifting Sands',
-    CHARACTER__Geras__Lost_Time_n_Spare_Time: 'Lost Time & Spare Time',
-    CHARACTER__Geras__Sand_Simulacrum: 'Sand Simulacrum',
     CHARACTER__Geras__Reawakened: 'Reawakened',
     CHARACTER__Geras__Reverse_Time: 'Reverse Time',
-    CHARACTER__Geras__Stepping_it_Back: 'Stepping it Back',
     CHARACTER__Geras__Sand_Pillar: 'Sand Pillar',
+    CHARACTER__Geras__Sand_Simulacrum: 'Sand Simulacrum',
+    CHARACTER__Geras__Shifting_Sands: 'Shifting Sands',
+    CHARACTER__Geras__Stepping_It_Back: 'Stepping It Back',
     // Fatal Blow
     CHARACTER__Geras__Stasis_Assault: 'Stasis Assault',
     // Brutality

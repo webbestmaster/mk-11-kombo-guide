@@ -525,16 +525,17 @@ export type LangDataType = {|
     +CHARACTER__Geras__Titan_Tackle: string,
     +CHARACTER__Geras__Big_Fist: string,
     // Ability
+    +CHARACTER__Geras__Bed_Of_Spikes: string,
+    +CHARACTER__Geras__Gauntlet_Of_The_Ages: string,
+    +CHARACTER__Geras__Lost_Time___Spare_Time: string,
+    +CHARACTER__Geras__Outworld_Gunslinger: string,
     +CHARACTER__Geras__Quick_Sand: string,
-    +CHARACTER__Geras__Gauntlet_of_the_Ages: string,
-    +CHARACTER__Geras__Bed_of_Spikes: string,
-    +CHARACTER__Geras__Shifting_Sands: string,
-    +CHARACTER__Geras__Lost_Time_n_Spare_Time: string,
-    +CHARACTER__Geras__Sand_Simulacrum: string,
     +CHARACTER__Geras__Reawakened: string,
     +CHARACTER__Geras__Reverse_Time: string,
-    +CHARACTER__Geras__Stepping_it_Back: string,
     +CHARACTER__Geras__Sand_Pillar: string,
+    +CHARACTER__Geras__Sand_Simulacrum: string,
+    +CHARACTER__Geras__Shifting_Sands: string,
+    +CHARACTER__Geras__Stepping_It_Back: string,
     // Fatal Blow
     +CHARACTER__Geras__Stasis_Assault: string,
     // Brutality
