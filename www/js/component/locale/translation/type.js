@@ -1621,6 +1621,15 @@ export type LangDataType = {|
     +CHARACTER__Sonya_Blade__Decisive_Victory: string,
     // Special Attacks
     // Ability
+    +CHARACTER__Sonya_Blade__Air_Downward_Energy_Rings: string,
+    +CHARACTER__Sonya_Blade__Air_Marching_Orders: string,
+    +CHARACTER__Sonya_Blade__Air_Ops_Drop: string,
+    +CHARACTER__Sonya_Blade__Air_Soaring_General: string,
+    +CHARACTER__Sonya_Blade__Energy_Rings_Charge: string,
+    +CHARACTER__Sonya_Blade__K_A_T__Turret_Drop: string,
+    +CHARACTER__Sonya_Blade__Krushing_Kounters: string,
+    +CHARACTER__Sonya_Blade__Summon_K_A_T__Turret: string,
+    +CHARACTER__Sonya_Blade__Turret_Trauma: string,
     // Fatal Blow
     CHARACTER__Sonya_Blade__Die_already: string,
     // Brutality

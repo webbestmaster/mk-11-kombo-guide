@@ -1626,6 +1626,15 @@ export const enUs: LangDataType = {
     CHARACTER__Sonya_Blade__Decisive_Victory: 'Decisive Victory',
     // Special Attacks
     // Ability
+    CHARACTER__Sonya_Blade__Air_Downward_Energy_Rings: '(Air) Downward Energy Rings',
+    CHARACTER__Sonya_Blade__Air_Marching_Orders: '(Air) Marching Orders',
+    CHARACTER__Sonya_Blade__Air_Ops_Drop: '(Air) Ops Drop',
+    CHARACTER__Sonya_Blade__Air_Soaring_General: '(Air) Soaring General',
+    CHARACTER__Sonya_Blade__Energy_Rings_Charge: 'Energy Rings Charge',
+    CHARACTER__Sonya_Blade__K_A_T__Turret_Drop: 'K.A.T. Turret Drop',
+    CHARACTER__Sonya_Blade__Krushing_Kounters: 'Krushing Kounters',
+    CHARACTER__Sonya_Blade__Summon_K_A_T__Turret: 'Summon K.A.T. Turret',
+    CHARACTER__Sonya_Blade__Turret_Trauma: 'Turret Trauma',
     // Fatal Blow
     CHARACTER__Sonya_Blade__Die_already: 'Die already',
     // Brutality
