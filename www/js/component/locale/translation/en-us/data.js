@@ -667,15 +667,16 @@ export const enUs: LangDataType = {
     CHARACTER__Jade__Dead_Butterfly: 'Dead Butterfly',
     CHARACTER__Jade__Blazing_Nitro_Kick: 'Blazing Nitro Kick',
     // Ability
-    CHARACTER__Jade__Air_Razor_Rang: '(Air) Razor-Rang',
-    CHARACTER__Jade__Upward_Razor_Rang: 'Upward Razor-Rang',
+    CHARACTER__Jade__Air_Razor_Rang: '(Air) Razor Rang',
+    CHARACTER__Jade__Blazing_Nitro_Kick_Amplify: 'Blazing Nitro Kick Amplify',
+    CHARACTER__Jade__Deadly_Assassin: 'Deadly Assassin',
     CHARACTER__Jade__Delia_s_Dance: 'Delia\'s Dance',
-    CHARACTER__Jade__Divine_Forces: 'Divine Forces',
+    CHARACTER__Jade__Devine_Forces: 'Devine Forces',
+    CHARACTER__Jade__Edenian_Spark: 'Edenian Spark',
     CHARACTER__Jade__Pole_Vault: 'Pole Vault',
     CHARACTER__Jade__Pole_Vault_Cancel: 'Pole Vault Cancel',
-    CHARACTER__Jade__Edenian_Spark: 'Edenian Spark',
+    CHARACTER__Jade__Upward_Razor_Rang: 'Upward Razor Rang',
     CHARACTER__Jade__Vanishing_Winds: 'Vanishing Winds',
-    CHARACTER__Jade__Deadly_Assassin: 'Deadly Assassin',
     // Fatal Blow
     CHARACTER__Jade__Edenian_Knight: 'Edenian Knight',
     // Brutality

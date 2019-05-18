@@ -663,14 +663,15 @@ export type LangDataType = {|
     +CHARACTER__Jade__Blazing_Nitro_Kick: string,
     // Ability
     +CHARACTER__Jade__Air_Razor_Rang: string,
-    +CHARACTER__Jade__Upward_Razor_Rang: string,
+    +CHARACTER__Jade__Blazing_Nitro_Kick_Amplify: string,
+    +CHARACTER__Jade__Deadly_Assassin: string,
     +CHARACTER__Jade__Delia_s_Dance: string,
-    +CHARACTER__Jade__Divine_Forces: string,
+    +CHARACTER__Jade__Devine_Forces: string,
+    +CHARACTER__Jade__Edenian_Spark: string,
     +CHARACTER__Jade__Pole_Vault: string,
     +CHARACTER__Jade__Pole_Vault_Cancel: string,
-    +CHARACTER__Jade__Edenian_Spark: string,
+    +CHARACTER__Jade__Upward_Razor_Rang: string,
     +CHARACTER__Jade__Vanishing_Winds: string,
-    +CHARACTER__Jade__Deadly_Assassin: string,
     // Fatal Blow
     +CHARACTER__Jade__Edenian_Knight: string,
     // Brutality
