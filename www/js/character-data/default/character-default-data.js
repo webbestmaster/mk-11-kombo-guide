@@ -545,4 +545,27 @@ const moveAdditionalList: Array<ComboType> = [
         extendedComboList: [],
         crushingBlowCondition: null,
     },
+    {
+        name: 'COMBO_CONTINUE__CHARGE',
+        sequence: [],
+        description: '',
+        moveData: {
+            hitDamage: naValue,
+            blockDamage: naValue,
+            flawlessBlockDamage: naValue,
+            type: notAvailableMove,
+        },
+        frameData: {
+            startUp: naValue,
+            active: naValue,
+            recover: naValue,
+            cancel: naValue,
+            hitAdvance: naValue,
+            blockAdvance: naValue,
+            flawlessBlockAdvance: naValue,
+        },
+        moveFeatureList: [],
+        extendedComboList: [],
+        crushingBlowCondition: null,
+    },
 ];
