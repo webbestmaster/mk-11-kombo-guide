@@ -919,16 +919,16 @@ export type LangDataType = {|
     +CHARACTER__Kano__Black_Dragon_Ball: string,
     +CHARACTER__Kano__Air_Black_Dragon_Ball: string,
     // Ability
-    +CHARACTER__Kano__Optic_Blast: string,
     +CHARACTER__Kano__Bio_Magnetic_Pull: string,
     +CHARACTER__Kano__Bio_Magnetic_Trap: string,
-    +CHARACTER__Kano__Lumbar_Check: string,
-    +CHARACTER__Kano__Vege_Mighty: string,
-    +CHARACTER__Kano__Snake_Bite: string,
-    +CHARACTER__Kano__Rack_Off: string,
-    +CHARACTER__Kano__Molotov_Cocktail: string,
     +CHARACTER__Kano__Chemical_Burn: string,
+    +CHARACTER__Kano__Lumbar_Check: string,
     +CHARACTER__Kano__Manhandled: string,
+    +CHARACTER__Kano__Molotov_Cocktail: string,
+    +CHARACTER__Kano__Optic_Blast: string,
+    +CHARACTER__Kano__Rack_Off: string,
+    +CHARACTER__Kano__Snake_Bite: string,
+    +CHARACTER__Kano__Vege_Mighty: string,
     // Fatal Blow
     +CHARACTER__Kano__NOT_HERE_TO_F_CK_SPIDERS: string,
     // Brutality

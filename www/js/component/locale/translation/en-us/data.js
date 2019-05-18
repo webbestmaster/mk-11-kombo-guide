@@ -924,16 +924,16 @@ export const enUs: LangDataType = {
     CHARACTER__Kano__Black_Dragon_Ball: 'Black Dragon Ball',
     CHARACTER__Kano__Air_Black_Dragon_Ball: '(Air) Black Dragon Ball',
     // Ability
-    CHARACTER__Kano__Optic_Blast: 'Optic Blast',
     CHARACTER__Kano__Bio_Magnetic_Pull: 'Bio-Magnetic Pull',
     CHARACTER__Kano__Bio_Magnetic_Trap: 'Bio-Magnetic Trap',
-    CHARACTER__Kano__Lumbar_Check: 'Lumbar Check',
-    CHARACTER__Kano__Vege_Mighty: 'Vege-Mighty',
-    CHARACTER__Kano__Snake_Bite: 'Snake Bite',
-    CHARACTER__Kano__Rack_Off: 'Rack Off',
-    CHARACTER__Kano__Molotov_Cocktail: 'Molotov Cocktail',
     CHARACTER__Kano__Chemical_Burn: 'Chemical Burn',
+    CHARACTER__Kano__Lumbar_Check: 'Lumbar Check',
     CHARACTER__Kano__Manhandled: 'Manhandled',
+    CHARACTER__Kano__Molotov_Cocktail: 'Molotov Cocktail',
+    CHARACTER__Kano__Optic_Blast: 'Optic Blast',
+    CHARACTER__Kano__Rack_Off: 'Rack Off',
+    CHARACTER__Kano__Snake_Bite: 'Snake Bite',
+    CHARACTER__Kano__Vege_Mighty: 'Vege-Mighty',
     // Fatal Blow
     CHARACTER__Kano__NOT_HERE_TO_F_CK_SPIDERS: 'NOT HERE TO F#CK SPIDERS',
     // Brutality
