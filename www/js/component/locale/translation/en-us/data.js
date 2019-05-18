@@ -67,7 +67,9 @@ export const enUs: LangDataType = {
     MOVE_FEATURE__PROJECTILE: 'Projectile',
     MOVE_FEATURE__PROJECTILE_INVULNERABLE: 'Projectile invulnerable',
     MOVE_FEATURE__AMPLIFY: 'Amplify',
+    MOVE_FEATURE__FURTHER_AMPLIFY: 'Further amplify',
     MOVE_FEATURE__CANCEL: 'Cancel',
+    MOVE_FEATURE__EXTEND_RAPIDLY_PRESS: 'Extend rapidly press',
 
     // default move
     DEFAULT_MOVE__TOWARD_THROW: 'Toward Throw',

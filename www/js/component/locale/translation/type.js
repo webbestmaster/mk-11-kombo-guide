@@ -62,7 +62,9 @@ export type LangDataType = {|
     +MOVE_FEATURE__PROJECTILE: string,
     +MOVE_FEATURE__PROJECTILE_INVULNERABLE: string,
     +MOVE_FEATURE__AMPLIFY: string,
+    +MOVE_FEATURE__FURTHER_AMPLIFY: string,
     +MOVE_FEATURE__CANCEL: string,
+    +MOVE_FEATURE__EXTEND_RAPIDLY_PRESS: string,
 
     // default move
     +DEFAULT_MOVE__TOWARD_THROW: string,
