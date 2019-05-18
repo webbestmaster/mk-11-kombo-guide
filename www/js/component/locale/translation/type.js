@@ -396,16 +396,16 @@ export type LangDataType = {|
     +CHARACTER__Erron_Black__Rattle_Snake_Slide: string,
     +CHARACTER__Erron_Black__Locked_And_Loaded: string,
     // Ability
-    +CHARACTER__Erron_Black__Enhanced_Locked_and_Loaded: string,
-    +CHARACTER__Erron_Black__Outworld_Gunslinger: string,
     +CHARACTER__Erron_Black__Acid_Pour: string,
     +CHARACTER__Erron_Black__Cattle_Toss: string,
-    +CHARACTER__Erron_Black__Up_Peacemaker: string,
     +CHARACTER__Erron_Black__Down_Peacemaker: string,
+    +CHARACTER__Erron_Black__Enhanced_Locked_And_Loaded: string,
+    +CHARACTER__Erron_Black__Enhhanced_Rattle_Snake_Slide: string,
+    +CHARACTER__Erron_Black__Netherbeast_Trap: string,
+    +CHARACTER__Erron_Black__Outworld_Gunslinger: string,
     +CHARACTER__Erron_Black__Scud_Shot: string,
     +CHARACTER__Erron_Black__TNT_Toss: string,
-    +CHARACTER__Erron_Black__Netherbeast_Trap: string,
-    +CHARACTER__Erron_Black__Enhanced_Rattle_Snake_Slide: string,
+    +CHARACTER__Erron_Black__Up_Peacemaker: string,
     // Fatal Blow
     +CHARACTER__Erron_Black__Ghost_Koins: string,
     // Brutality

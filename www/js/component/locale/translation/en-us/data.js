@@ -401,16 +401,16 @@ export const enUs: LangDataType = {
     CHARACTER__Erron_Black__Rattle_Snake_Slide: 'Rattle Snake Slide',
     CHARACTER__Erron_Black__Locked_And_Loaded: 'Locked And Loaded',
     // Ability
-    CHARACTER__Erron_Black__Enhanced_Locked_and_Loaded: 'Enhanced Locked and Loaded',
-    CHARACTER__Erron_Black__Outworld_Gunslinger: 'Outworld Gunslinger',
     CHARACTER__Erron_Black__Acid_Pour: 'Acid Pour',
     CHARACTER__Erron_Black__Cattle_Toss: 'Cattle Toss',
-    CHARACTER__Erron_Black__Up_Peacemaker: 'Up Peacemaker',
     CHARACTER__Erron_Black__Down_Peacemaker: 'Down Peacemaker',
+    CHARACTER__Erron_Black__Enhanced_Locked_And_Loaded: 'Enhanced Locked And Loaded',
+    CHARACTER__Erron_Black__Enhhanced_Rattle_Snake_Slide: 'Enhhanced Rattle Snake Slide',
+    CHARACTER__Erron_Black__Netherbeast_Trap: 'Netherbeast Trap',
+    CHARACTER__Erron_Black__Outworld_Gunslinger: 'Outworld Gunslinger',
     CHARACTER__Erron_Black__Scud_Shot: 'Scud Shot',
     CHARACTER__Erron_Black__TNT_Toss: 'TNT Toss',
-    CHARACTER__Erron_Black__Netherbeast_Trap: 'Netherbeast Trap',
-    CHARACTER__Erron_Black__Enhanced_Rattle_Snake_Slide: 'Enhanced Rattle Snake Slide',
+    CHARACTER__Erron_Black__Up_Peacemaker: 'Up Peacemaker',
     // Fatal Blow
     CHARACTER__Erron_Black__Ghost_Koins: 'Ghost Koins',
     // Brutality
