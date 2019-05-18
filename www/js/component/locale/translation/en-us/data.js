@@ -216,7 +216,10 @@ export const enUs: LangDataType = {
     CHARACTER__Cassie_Cage__BLB_118_Energy_Burst: 'BLB-118 Energy Burst',
     CHARACTER__Cassie_Cage__BLB_118_Bitchin_Bubble: 'BLB-118 Bitchin\' Bubble',
     // Fatal Blow
-    CHARACTER__Cassie_Cage__PISSED_AF: 'PISSED AF',
+    CHARACTER__Cassie_Cage__PISSED_AF: 'Pissed af',
+    CHARACTER__Cassie_Cage__CLOSE_PISSED_AF: '(Close) Pissed af',
+    CHARACTER__Cassie_Cage__FAR_PISSED_AF: '(Far) Pissed af',
+    CHARACTER__Cassie_Cage__AIR_PISSED_AF: '(Air) Pissed af',
     // Brutality
     CHARACTER__Cassie_Cage__The_Klassic: theKlassic,
     CHARACTER__Cassie_Cage__Make_It_Pop: 'Make It Pop',

@@ -212,6 +212,9 @@ export type LangDataType = {|
     +CHARACTER__Cassie_Cage__BLB_118_Bitchin_Bubble: string,
     // Fatal Blow
     +CHARACTER__Cassie_Cage__PISSED_AF: string,
+    +CHARACTER__Cassie_Cage__CLOSE_PISSED_AF: string,
+    +CHARACTER__Cassie_Cage__FAR_PISSED_AF: string,
+    +CHARACTER__Cassie_Cage__AIR_PISSED_AF: string,
     // Brutality
     +CHARACTER__Cassie_Cage__The_Klassic: string,
     +CHARACTER__Cassie_Cage__Make_It_Pop: string,
