@@ -88,6 +88,9 @@ export type LangDataType = {|
     +SETTING__SELECT_PLATFORM: string,
 
     // characters
+    +CHARACTER__NO_NAME__THROW__KRUSHING_BLOW: string,
+    +CHARACTER__NO_NAME__UPPERCUT__KRUSHING_BLOW: string,
+
     // -> Baraka
     +CHARACTER__Baraka__NAME: string,
     +CHARACTER__Baraka__DESCRIPTION: string,

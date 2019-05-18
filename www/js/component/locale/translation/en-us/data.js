@@ -93,6 +93,9 @@ export const enUs: LangDataType = {
     SETTING__SELECT_PLATFORM: 'Select platform',
 
     // characters
+    CHARACTER__NO_NAME__THROW__KRUSHING_BLOW: 'Triggers if opponent failed THROW ESCAPE during the previous THROW.',
+    CHARACTER__NO_NAME__UPPERCUT__KRUSHING_BLOW: 'Triggers if this ATTACK KOUNTERS or PUNISHES a HIGH ATTACK.',
+
     // -> Baraka
     CHARACTER__Baraka__NAME: 'Baraka',
     CHARACTER__Baraka__DESCRIPTION: '',
