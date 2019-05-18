@@ -66,10 +66,16 @@ export const enUs: LangDataType = {
     MOVE_FEATURE__INVULNERABLE: 'Invulnerable',
     MOVE_FEATURE__PROJECTILE: 'Projectile',
     MOVE_FEATURE__PROJECTILE_INVULNERABLE: 'Projectile invulnerable',
-    MOVE_FEATURE__AMPLIFY: 'Amplify',
-    MOVE_FEATURE__FURTHER_AMPLIFY: 'Further amplify',
-    MOVE_FEATURE__CANCEL: 'Cancel',
-    MOVE_FEATURE__EXTEND_RAPIDLY_PRESS: 'Extend rapidly press',
+    MOVE_FEATURE__BUFF_DAMAGE: 'Buff - damage',
+    MOVE_FEATURE__ARMOR_1_HIT: 'Armor - 1 hit',
+    // MOVE_FEATURE__ARMOR_2_HITS: 'Armor - 2 hits',
+    // MOVE_FEATURE__ARMOR_3_HITS: 'Armor - 3 hits',
+
+    // combo continue
+    COMBO_CONTINUE__AMPLIFY: 'Amplify',
+    COMBO_CONTINUE__FURTHER_AMPLIFY: 'Further amplify',
+    COMBO_CONTINUE__CANCEL: 'Cancel',
+    COMBO_CONTINUE__EXTEND_RAPIDLY_PRESS: 'Extend rapidly press',
 
     // default move
     DEFAULT_MOVE__TOWARD_THROW: 'Toward Throw',

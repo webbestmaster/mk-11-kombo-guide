@@ -454,7 +454,7 @@ const getUpAttackList: Array<ComboType> = [
 
 const moveAdditionalList: Array<ComboType> = [
     {
-        name: 'MOVE_FEATURE__AMPLIFY',
+        name: 'COMBO_CONTINUE__AMPLIFY',
         sequence: [iR1],
         description: '',
         moveData: {
@@ -477,7 +477,7 @@ const moveAdditionalList: Array<ComboType> = [
         crushingBlowCondition: null,
     },
     {
-        name: 'MOVE_FEATURE__FURTHER_AMPLIFY',
+        name: 'COMBO_CONTINUE__FURTHER_AMPLIFY',
         sequence: [iR1],
         description: '',
         moveData: {
@@ -500,7 +500,7 @@ const moveAdditionalList: Array<ComboType> = [
         crushingBlowCondition: null,
     },
     {
-        name: 'MOVE_FEATURE__CANCEL',
+        name: 'COMBO_CONTINUE__CANCEL',
         sequence: [],
         description: '',
         moveData: {
@@ -523,7 +523,7 @@ const moveAdditionalList: Array<ComboType> = [
         crushingBlowCondition: null,
     },
     {
-        name: 'MOVE_FEATURE__EXTEND_RAPIDLY_PRESS',
+        name: 'COMBO_CONTINUE__EXTEND_RAPIDLY_PRESS',
         sequence: [],
         description: '',
         moveData: {

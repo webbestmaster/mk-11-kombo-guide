@@ -341,7 +341,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [
                     {
-                        name: 'MOVE_FEATURE__AMPLIFY',
+                        name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
                         description: '',
                         moveData: {

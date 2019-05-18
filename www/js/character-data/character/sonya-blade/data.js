@@ -906,7 +906,7 @@ export const sonyaBlade: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [
                     {
-                        name: 'MOVE_FEATURE__CANCEL',
+                        name: 'COMBO_CONTINUE__CANCEL',
                         sequence: [hold, down],
                         description: '',
                         moveData: {

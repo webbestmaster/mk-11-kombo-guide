@@ -813,7 +813,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [
                     {
-                        name: 'MOVE_FEATURE__AMPLIFY',
+                        name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
                         description: '',
                         moveData: {
@@ -860,7 +860,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [
                     {
-                        name: 'MOVE_FEATURE__EXTEND_RAPIDLY_PRESS',
+                        name: 'COMBO_CONTINUE__EXTEND_RAPIDLY_PRESS',
                         sequence: [i3n],
                         description: '',
                         moveData: {
@@ -883,7 +883,7 @@ export const baraka: CharacterType = {
                         crushingBlowCondition: null,
                     },
                     {
-                        name: 'MOVE_FEATURE__AMPLIFY',
+                        name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
                         description: '',
                         moveData: {
@@ -906,7 +906,7 @@ export const baraka: CharacterType = {
                         crushingBlowCondition: null,
                     },
                     {
-                        name: 'MOVE_FEATURE__FURTHER_AMPLIFY',
+                        name: 'COMBO_CONTINUE__FURTHER_AMPLIFY',
                         sequence: [iR1],
                         description: '',
                         moveData: {
