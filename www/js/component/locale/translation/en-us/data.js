@@ -733,16 +733,16 @@ export const enUs: LangDataType = {
     CHARACTER__Jax_Briggs__Heating_Up: 'Heating Up',
     CHARACTER__Jax_Briggs__Ground_Pound: 'Ground Pound',
     // Ability
-    CHARACTER__Jax_Briggs__Duck_and_Weave: 'Duck and Weave',
-    CHARACTER__Jax_Briggs__Quad_Grab: 'Quad Grab',
-    CHARACTER__Jax_Briggs__Buckshot: 'Buckshot',
-    CHARACTER__Jax_Briggs__Lethal_Clap: 'Lethal Clap',
     CHARACTER__Jax_Briggs__Briggs_Barricade: 'Briggs Barricade',
-    CHARACTER__Jax_Briggs__Ripped: 'Ripped',
+    CHARACTER__Jax_Briggs__Buckshot: 'Buckshot',
     CHARACTER__Jax_Briggs__Burning_Hammer: 'Burning Hammer',
-    CHARACTER__Jax_Briggs__Ground_Shatter: 'Ground Shatter',
+    CHARACTER__Jax_Briggs__Duck_And_Weave: 'Duck And Weave',
+    CHARACTER__Jax_Briggs__Enhanced_Outranked: 'Enhanced Outranked',
     CHARACTER__Jax_Briggs__Expert_Grappler: 'Expert Grappler',
-    CHARACTER__Jax_Briggs__Enhanced_Advanced_Force: 'Enhanced Advanced Force',
+    CHARACTER__Jax_Briggs__Ground_Shatter: 'Ground Shatter',
+    CHARACTER__Jax_Briggs__Lethal_Clap: 'Lethal Clap',
+    CHARACTER__Jax_Briggs__Quad_Grab: 'Quad Grab',
+    CHARACTER__Jax_Briggs__Ripped: 'Ripped',
     // Fatal Blow
     CHARACTER__Jax_Briggs__Honorable_Discharge: 'Honorable Discharge',
     // Brutality

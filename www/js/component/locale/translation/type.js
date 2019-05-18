@@ -728,16 +728,16 @@ export type LangDataType = {|
     +CHARACTER__Jax_Briggs__Heating_Up: string,
     +CHARACTER__Jax_Briggs__Ground_Pound: string,
     // Ability
-    +CHARACTER__Jax_Briggs__Duck_and_Weave: string,
-    +CHARACTER__Jax_Briggs__Quad_Grab: string,
-    +CHARACTER__Jax_Briggs__Buckshot: string,
-    +CHARACTER__Jax_Briggs__Lethal_Clap: string,
     +CHARACTER__Jax_Briggs__Briggs_Barricade: string,
-    +CHARACTER__Jax_Briggs__Ripped: string,
+    +CHARACTER__Jax_Briggs__Buckshot: string,
     +CHARACTER__Jax_Briggs__Burning_Hammer: string,
-    +CHARACTER__Jax_Briggs__Ground_Shatter: string,
+    +CHARACTER__Jax_Briggs__Duck_And_Weave: string,
+    +CHARACTER__Jax_Briggs__Enhanced_Outranked: string,
     +CHARACTER__Jax_Briggs__Expert_Grappler: string,
-    +CHARACTER__Jax_Briggs__Enhanced_Advanced_Force: string,
+    +CHARACTER__Jax_Briggs__Ground_Shatter: string,
+    +CHARACTER__Jax_Briggs__Lethal_Clap: string,
+    +CHARACTER__Jax_Briggs__Quad_Grab: string,
+    +CHARACTER__Jax_Briggs__Ripped: string,
     // Fatal Blow
     +CHARACTER__Jax_Briggs__Honorable_Discharge: string,
     // Brutality
