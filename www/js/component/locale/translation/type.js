@@ -1063,14 +1063,14 @@ export type LangDataType = {|
     +CHARACTER__Kollector__Damned_Bola: string,
     +CHARACTER__Kollector__Relic_Absorb: string,
     // Ability
-    +CHARACTER__Kollector__Up_Demonic_Mace: string,
-    +CHARACTER__Kollector__Relic_Lure: string,
-    +CHARACTER__Kollector__Demonic_Clutch: string,
-    +CHARACTER__Kollector__War_Quoit_Toss: string,
     +CHARACTER__Kollector__Bag_Bomb: string,
-    +CHARACTER__Kollector__Vial_of_Sorrow: string,
+    +CHARACTER__Kollector__Demonic_Clutch: string,
     +CHARACTER__Kollector__Demonic_Comet: string,
     +CHARACTER__Kollector__Fade_Out: string,
+    +CHARACTER__Kollector__Relic_Lure: string,
+    +CHARACTER__Kollector__Up_Demonic_Mace: string,
+    +CHARACTER__Kollector__Vial_Of_Sorrow: string,
+    +CHARACTER__Kollector__War_Quoit_Toss: string,
     // Fatal Blow
     +CHARACTER__Kollector__A_SLIGHT_DONATION: string,
     // Brutality

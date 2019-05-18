@@ -1068,14 +1068,14 @@ export const enUs: LangDataType = {
     CHARACTER__Kollector__Damned_Bola: 'Damned Bola',
     CHARACTER__Kollector__Relic_Absorb: 'Relic Absorb',
     // Ability
-    CHARACTER__Kollector__Up_Demonic_Mace: 'Up Demonic Mace',
-    CHARACTER__Kollector__Relic_Lure: 'Relic Lure',
-    CHARACTER__Kollector__Demonic_Clutch: 'Demonic Clutch',
-    CHARACTER__Kollector__War_Quoit_Toss: 'War-Quoit Toss',
     CHARACTER__Kollector__Bag_Bomb: 'Bag Bomb',
-    CHARACTER__Kollector__Vial_of_Sorrow: 'Vial of Sorrow',
+    CHARACTER__Kollector__Demonic_Clutch: 'Demonic Clutch',
     CHARACTER__Kollector__Demonic_Comet: 'Demonic Comet',
     CHARACTER__Kollector__Fade_Out: 'Fade Out',
+    CHARACTER__Kollector__Relic_Lure: 'Relic Lure',
+    CHARACTER__Kollector__Up_Demonic_Mace: 'Up Demonic Mace',
+    CHARACTER__Kollector__Vial_Of_Sorrow: 'Vial Of Sorrow',
+    CHARACTER__Kollector__War_Quoit_Toss: 'War-Quoit Toss',
     // Fatal Blow
     CHARACTER__Kollector__A_SLIGHT_DONATION: 'A SLIGHT DONATION',
     // Brutality
