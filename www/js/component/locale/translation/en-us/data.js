@@ -343,16 +343,15 @@ export const enUs: LangDataType = {
     CHARACTER__D_Vorah__Swarm: 'Swarm',
     CHARACTER__D_Vorah__Katipo_Rush: 'Katipo Rush',
     // Ability
+    CHARACTER__D_Vorah__Bombardier_Beetle: 'Bombardier Beetle',
     CHARACTER__D_Vorah__Deadly_Swarm: 'Deadly Swarm',
-    CHARACTER__D_Vorah__Super_Swarm: 'Super Swarm',
-    CHARACTER__D_Vorah__Air_Fly_By: '(Air) Fly By',
-    CHARACTER__D_Vorah__Air_Ticking_Time_Bug: '(Air) Ticking Time Bug',
-    CHARACTER__D_Vorah__Widow_s_Kiss: 'Widow\'s Kiss',
-    CHARACTER__D_Vorah__Bombardier_Beetl: 'Bombardier Beetl',
-    CHARACTER__D_Vorah__Strepsiptera: 'Strepsiptera',
-    CHARACTER__D_Vorah__Flippin_Out: 'Flippin\' Out',
+    CHARACTER__D_Vorah__Flipping_Out: 'Flipping Out',
+    CHARACTER__D_Vorah__Fly_By: 'Fly By',
     CHARACTER__D_Vorah__Parasite: 'Parasite',
-    CHARACTER__D_Vorah__Mother_Bug: 'Mother Bug',
+    CHARACTER__D_Vorah__Strepsiptera: 'Strepsiptera',
+    CHARACTER__D_Vorah__Super_Swarm: 'Super Swarm',
+    CHARACTER__D_Vorah__Ticking_Time_Bug: 'Ticking Time Bug',
+    CHARACTER__D_Vorah__Widow_s_Kiss: 'Widow\'s Kiss',
     // Fatal Blow
     // CHARACTER__D_Vorah__Buggin_Out: 'Buggin\' Out',
     // Brutality
