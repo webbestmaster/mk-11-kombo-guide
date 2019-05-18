@@ -1215,7 +1215,7 @@ export const sonyaBlade: CharacterType = {
         fatalBlowList: [
             {
                 name: 'APP_NAME',
-                sequence: [],
+                sequence: [[iL1, iR2]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,

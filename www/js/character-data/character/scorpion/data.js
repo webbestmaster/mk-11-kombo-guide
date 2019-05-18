@@ -1119,7 +1119,7 @@ export const scorpion: CharacterType = {
         fatalBlowList: [
             {
                 name: 'CHARACTER__Scorpion__Get_Over_Here',
-                sequence: [iR1, plus, iR2],
+                sequence: [[iL1, iR2]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,

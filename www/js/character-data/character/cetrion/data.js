@@ -845,8 +845,8 @@ export const cetrion: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
-                sequence: [],
+                name: 'CHARACTER__Cetrion__Weeping_Willow',
+                sequence: [[iL1, iR2]],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
