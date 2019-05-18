@@ -1261,14 +1261,13 @@ export const enUs: LangDataType = {
     CHARACTER__Liu_Kang__Flying_Dragon_Kick: 'Flying Dragon Kick',
     CHARACTER__Liu_Kang__Bicycle_Kick: 'Bicycle Kick',
     // Ability
-    CHARACTER__Liu_Kang__Shaolin_Stance: 'Shaolin Stance',
-    CHARACTER__Liu_Kang__Energy_Parry: 'Energy Parry',
-    CHARACTER__Liu_Kang__Nunchaku_Stance: 'Nunchaku Stance',
-    CHARACTER__Liu_Kang__Low_Fireball: 'Low Fireball',
     CHARACTER__Liu_Kang__Dragon_Fire: 'Dragon Fire',
-    CHARACTER__Liu_Kang__Dragon_s_Gifts: 'Dragon\'s Gifts',
     CHARACTER__Liu_Kang__Dragon_Parry: 'Dragon Parry',
+    CHARACTER__Liu_Kang__Dragon_s_Gifts: 'Dragon\'s Gifts',
     CHARACTER__Liu_Kang__Kusari_Slam: 'Kusari Slam',
+    CHARACTER__Liu_Kang__Low_Fireball: 'Low Fireball',
+    CHARACTER__Liu_Kang__Nunchaku_Stance: 'Nunchaku Stance',
+    CHARACTER__Liu_Kang__Shaolin_Stance: 'Shaolin Stance',
     CHARACTER__Liu_Kang__Shaolin_Vanish: 'Shaolin Vanish',
     // Fatal Blow
     CHARACTER__Liu_Kang__Enter_the_Dragon: 'Enter the Dragon',

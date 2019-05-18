@@ -1256,14 +1256,13 @@ export type LangDataType = {|
     +CHARACTER__Liu_Kang__Flying_Dragon_Kick: string,
     +CHARACTER__Liu_Kang__Bicycle_Kick: string,
     // Ability
-    +CHARACTER__Liu_Kang__Shaolin_Stance: string,
-    +CHARACTER__Liu_Kang__Energy_Parry: string,
-    +CHARACTER__Liu_Kang__Nunchaku_Stance: string,
-    +CHARACTER__Liu_Kang__Low_Fireball: string,
     +CHARACTER__Liu_Kang__Dragon_Fire: string,
-    +CHARACTER__Liu_Kang__Dragon_s_Gifts: string,
     +CHARACTER__Liu_Kang__Dragon_Parry: string,
+    +CHARACTER__Liu_Kang__Dragon_s_Gifts: string,
     +CHARACTER__Liu_Kang__Kusari_Slam: string,
+    +CHARACTER__Liu_Kang__Low_Fireball: string,
+    +CHARACTER__Liu_Kang__Nunchaku_Stance: string,
+    +CHARACTER__Liu_Kang__Shaolin_Stance: string,
     +CHARACTER__Liu_Kang__Shaolin_Vanish: string,
     // Fatal Blow
     +CHARACTER__Liu_Kang__Enter_the_Dragon: string,
