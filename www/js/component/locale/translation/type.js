@@ -1676,6 +1676,15 @@ export type LangDataType = {|
     +CHARACTER__Sub_Zero__Frosty: string,
     // Special Attacks
     // Ability
+    +CHARACTER__Sub_Zero__Air_Polar_Axe: string,
+    +CHARACTER__Sub_Zero__Arctic_Trap: string,
+    +CHARACTER__Sub_Zero__Cold_Shoulder: string,
+    +CHARACTER__Sub_Zero__Creeping_Ice: string,
+    +CHARACTER__Sub_Zero__Death_Circle_Barrage: string,
+    +CHARACTER__Sub_Zero__Deep_Freeze: string,
+    +CHARACTER__Sub_Zero__Frigid_Storm: string,
+    +CHARACTER__Sub_Zero__Ground_Ice: string,
+    +CHARACTER__Sub_Zero__Rising_Ice: string,
     // Fatal Blow
     CHARACTER__Sub_Zero__Chill_out: string,
     // Brutality

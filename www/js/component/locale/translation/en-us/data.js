@@ -1681,6 +1681,15 @@ export const enUs: LangDataType = {
     CHARACTER__Sub_Zero__Frosty: 'Frosty',
     // Special Attacks
     // Ability
+    CHARACTER__Sub_Zero__Air_Polar_Axe: '(Air) Polar Axe',
+    CHARACTER__Sub_Zero__Arctic_Trap: 'Arctic Trap',
+    CHARACTER__Sub_Zero__Cold_Shoulder: 'Cold Shoulder',
+    CHARACTER__Sub_Zero__Creeping_Ice: 'Creeping Ice',
+    CHARACTER__Sub_Zero__Death_Circle_Barrage: 'Death-Circle Barrage',
+    CHARACTER__Sub_Zero__Deep_Freeze: 'Deep Freeze',
+    CHARACTER__Sub_Zero__Frigid_Storm: 'Frigid Storm',
+    CHARACTER__Sub_Zero__Ground_Ice: 'Ground Ice',
+    CHARACTER__Sub_Zero__Rising_Ice: 'Rising Ice',
     // Fatal Blow
     CHARACTER__Sub_Zero__Chill_out: 'Chill out',
     // Brutality
