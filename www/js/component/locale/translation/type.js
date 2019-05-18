@@ -1382,6 +1382,7 @@ export type LangDataType = {|
     // Special Attacks
     // Ability
     // Fatal Blow
+    +CHARACTER__Raiden__Thunder_take_you: string,
     // Brutality
 
     // -> Scorpion
@@ -1490,6 +1491,7 @@ export type LangDataType = {|
     // Special Attacks
     // Ability
     // Fatal Blow
+    CHARACTER__Shao_Kahn__You_suck: string,
     // Brutality
 
     // -> Skarlet
@@ -1612,6 +1614,7 @@ export type LangDataType = {|
     // Special Attacks
     // Ability
     // Fatal Blow
+    CHARACTER__Sonya_Blade__Die_already: string,
     // Brutality
 
     // -> Sub-Zero
@@ -1657,6 +1660,7 @@ export type LangDataType = {|
     // Special Attacks
     // Ability
     // Fatal Blow
+    CHARACTER__Sub_Zero__Chill_out: string,
     // Brutality
 
     /* eslint-enable id-match */

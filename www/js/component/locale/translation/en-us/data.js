@@ -1387,6 +1387,7 @@ export const enUs: LangDataType = {
     // Special Attacks
     // Ability
     // Fatal Blow
+    CHARACTER__Raiden__Thunder_take_you: 'Thunder take you',
     // Brutality
 
     // -> Scorpion
@@ -1495,6 +1496,7 @@ export const enUs: LangDataType = {
     // Special Attacks
     // Ability
     // Fatal Blow
+    CHARACTER__Shao_Kahn__You_suck: 'You suck',
     // Brutality
 
     // -> Skarlet
@@ -1617,6 +1619,7 @@ export const enUs: LangDataType = {
     // Special Attacks
     // Ability
     // Fatal Blow
+    CHARACTER__Sonya_Blade__Die_already: 'Die already',
     // Brutality
 
     // -> Sub-Zero
@@ -1662,6 +1665,7 @@ export const enUs: LangDataType = {
     // Special Attacks
     // Ability
     // Fatal Blow
+    CHARACTER__Sub_Zero__Chill_out: 'Chill out',
     // Brutality
 
     /* eslint-enable id-match, id-length, camelcase, sonarjs/no-duplicate-string */
