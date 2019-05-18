@@ -465,16 +465,14 @@ export const enUs: LangDataType = {
     CHARACTER__Frost__Kryo_Stance: 'Kryo Stance',
     CHARACTER__Frost__Cyber_Head: 'Cyber-Head',
     // Ability
-    CHARACTER__Frost__Ice_Auger: 'Ice Auger',
-    CHARACTER__Frost__Burrowing_Auger: 'Burrowing Auger',
-    CHARACTER__Frost__Cryogenic_Crown: 'Cryogenic Crown',
-    CHARACTER__Frost__Core_Trap: 'Core Trap',
-    CHARACTER__Frost__Core_Overload: 'Core Overload',
-    CHARACTER__Frost__Auger_Lunge: 'Auger Lunge',
-    CHARACTER__Frost__Arctic_Barrage: 'Arctic Barrage',
     CHARACTER__Frost__Air_Icequake: '(Air) Icequake',
+    CHARACTER__Frost__Arctic_Barrage: 'Arctic Barrage',
+    CHARACTER__Frost__Auger_Lunge: 'Auger Lunge',
+    CHARACTER__Frost__Core_Overload: 'Core Overload',
+    CHARACTER__Frost__Core_Trap: 'Core Trap',
+    CHARACTER__Frost__Cryogenic_Crown: 'Cryogenic Crown',
     CHARACTER__Frost__Glacier_Calving: 'Glacier Calving',
-    CHARACTER__Frost__Microburst: 'Microburst',
+    CHARACTER__Frost__Ice_Auger: 'Ice Auger',
     // Fatal Blow
     CHARACTER__Frost__Terminal_Burrowing: 'Terminal Burrowing',
     // Brutality

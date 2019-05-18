@@ -460,16 +460,14 @@ export type LangDataType = {|
     +CHARACTER__Frost__Kryo_Stance: string,
     +CHARACTER__Frost__Cyber_Head: string,
     // Ability
-    +CHARACTER__Frost__Ice_Auger: string,
-    +CHARACTER__Frost__Burrowing_Auger: string,
-    +CHARACTER__Frost__Cryogenic_Crown: string,
-    +CHARACTER__Frost__Core_Trap: string,
-    +CHARACTER__Frost__Core_Overload: string,
-    +CHARACTER__Frost__Auger_Lunge: string,
-    +CHARACTER__Frost__Arctic_Barrage: string,
     +CHARACTER__Frost__Air_Icequake: string,
+    +CHARACTER__Frost__Arctic_Barrage: string,
+    +CHARACTER__Frost__Auger_Lunge: string,
+    +CHARACTER__Frost__Core_Overload: string,
+    +CHARACTER__Frost__Core_Trap: string,
+    +CHARACTER__Frost__Cryogenic_Crown: string,
     +CHARACTER__Frost__Glacier_Calving: string,
-    +CHARACTER__Frost__Microburst: string,
+    +CHARACTER__Frost__Ice_Auger: string,
     // Fatal Blow
     +CHARACTER__Frost__Terminal_Burrowing: string,
     // Brutality
