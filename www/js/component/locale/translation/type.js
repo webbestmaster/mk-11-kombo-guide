@@ -1317,15 +1317,15 @@ export type LangDataType = {|
     +CHARACTER__Noob_Saibot__Rising_Shadow_Kick: string,
     +CHARACTER__Noob_Saibot__Tele_Slam: string,
     // Ability
-    +CHARACTER__Noob_Saibot__Ghost_Ball: string,
-    +CHARACTER__Noob_Saibot__Spirit_Ball: string,
-    +CHARACTER__Noob_Saibot__Sickle_Snag: string,
-    +CHARACTER__Noob_Saibot__Air_Tele_Slam: string,
-    +CHARACTER__Noob_Saibot__Shadow_Portals: string,
-    +CHARACTER__Noob_Saibot__Shadow_Slide: string,
-    +CHARACTER__Noob_Saibot__Shadow_Strike: string,
     +CHARACTER__Noob_Saibot__Air_Shadow_Dive: string,
     +CHARACTER__Noob_Saibot__Air_Sickle_Port: string,
+    +CHARACTER__Noob_Saibot__Air_Tele_Slam: string,
+    +CHARACTER__Noob_Saibot__Ghost_Ball: string,
+    +CHARACTER__Noob_Saibot__Shadow_Slide: string,
+    +CHARACTER__Noob_Saibot__Shadow_Strike: string,
+    +CHARACTER__Noob_Saibot__Sickle_Snag: string,
+    +CHARACTER__Noob_Saibot__Sickle_Toss: string,
+    +CHARACTER__Noob_Saibot__Spirit_Ball: string,
     // Fatal Blow
     +CHARACTER__Noob_Saibot__Together_Again: string,
     // Brutality

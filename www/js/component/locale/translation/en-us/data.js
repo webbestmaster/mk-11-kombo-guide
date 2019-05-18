@@ -1322,15 +1322,15 @@ export const enUs: LangDataType = {
     CHARACTER__Noob_Saibot__Rising_Shadow_Kick: 'Rising Shadow Kick',
     CHARACTER__Noob_Saibot__Tele_Slam: 'Tele-Slam',
     // Ability
-    CHARACTER__Noob_Saibot__Ghost_Ball: 'Ghost Ball',
-    CHARACTER__Noob_Saibot__Spirit_Ball: 'Spirit Ball',
-    CHARACTER__Noob_Saibot__Sickle_Snag: 'Sickle Snag',
-    CHARACTER__Noob_Saibot__Air_Tele_Slam: '(Air) Tele-Slam',
-    CHARACTER__Noob_Saibot__Shadow_Portals: 'Shadow Portals',
-    CHARACTER__Noob_Saibot__Shadow_Slide: 'Shadow Slide',
-    CHARACTER__Noob_Saibot__Shadow_Strike: 'Shadow Strike',
     CHARACTER__Noob_Saibot__Air_Shadow_Dive: '(Air) Shadow Dive',
     CHARACTER__Noob_Saibot__Air_Sickle_Port: '(Air) Sickle Port',
+    CHARACTER__Noob_Saibot__Air_Tele_Slam: '(Air) Tele-Slam',
+    CHARACTER__Noob_Saibot__Ghost_Ball: 'Ghost Ball',
+    CHARACTER__Noob_Saibot__Shadow_Slide: 'Shadow Slide',
+    CHARACTER__Noob_Saibot__Shadow_Strike: 'Shadow Strike',
+    CHARACTER__Noob_Saibot__Sickle_Snag: 'Sickle Snag',
+    CHARACTER__Noob_Saibot__Sickle_Toss: 'Sickle Toss',
+    CHARACTER__Noob_Saibot__Spirit_Ball: 'Spirit Ball',
     // Fatal Blow
     CHARACTER__Noob_Saibot__Together_Again: 'Together Again',
     // Brutality
