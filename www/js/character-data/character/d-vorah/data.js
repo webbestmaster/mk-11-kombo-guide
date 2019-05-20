@@ -1008,7 +1008,7 @@ export const dVorah: CharacterType = {
             },
             {
                 name: 'CHARACTER__D_Vorah__Infested',
-                sequence: [down, ford, i1n],
+                sequence: [down, ford, i2n],
                 description: '',
                 moveData: {
                     hitDamage: naValue,
