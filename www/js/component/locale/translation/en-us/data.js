@@ -143,7 +143,7 @@ export const enUs: LangDataType = {
     CHARACTER__Baraka__War_Banner: 'War Banner',
     // Ability
     CHARACTER__Baraka__Baraka_Barrage: 'Baraka Barrage',
-    // CHARACTER__Baraka__Baraka_Serker: 'Baraka Serker',
+    CHARACTER__Baraka__Baraka_Serker: 'Baraka-Serker',
     CHARACTER__Baraka__Blade_Charge: 'Blade Charge',
     CHARACTER__Baraka__Blood_Lunge: 'Blood Lunge',
     CHARACTER__Baraka__Gutted: 'Gutted',
