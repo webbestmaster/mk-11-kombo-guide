@@ -1048,7 +1048,7 @@ export const johnnyCage: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Johnny_Cage__The_Award_Goes_To',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

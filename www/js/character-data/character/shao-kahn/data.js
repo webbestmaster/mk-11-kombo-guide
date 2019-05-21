@@ -1000,7 +1000,7 @@ export const shaoKahn: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Shao_Kahn__You_suck',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

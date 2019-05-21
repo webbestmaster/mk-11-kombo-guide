@@ -952,7 +952,7 @@ export const noobSaibot: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Noob_Saibot__Together_Again',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

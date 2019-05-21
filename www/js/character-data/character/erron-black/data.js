@@ -881,7 +881,7 @@ export const erronBlack: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Erron_Black__Ghost_Koins',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

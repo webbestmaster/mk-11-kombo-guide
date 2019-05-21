@@ -976,7 +976,7 @@ export const jaxBriggs: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jax_Briggs__Honorable_Discharge',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

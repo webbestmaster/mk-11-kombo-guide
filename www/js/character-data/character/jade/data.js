@@ -976,7 +976,7 @@ export const jade: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jade__Edenian_Knight',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

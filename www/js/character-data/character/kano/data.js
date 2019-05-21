@@ -928,7 +928,7 @@ export const kano: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kano__NOT_HERE_TO_F_CK_SPIDERS',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

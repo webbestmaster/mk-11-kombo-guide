@@ -1048,7 +1048,7 @@ export const kitana: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kitana__DEADLY_GAME',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

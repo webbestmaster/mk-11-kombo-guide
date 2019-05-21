@@ -1096,7 +1096,7 @@ export const jacquiBriggs: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Jacqui_Briggs__Wall_of_Justice',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

@@ -880,7 +880,7 @@ export const skarlet: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Skarlet__Bloody_Fun',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

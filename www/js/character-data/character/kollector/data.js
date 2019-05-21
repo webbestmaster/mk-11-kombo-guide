@@ -1168,7 +1168,7 @@ export const kollector: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kollector__A_SLIGHT_DONATION',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

@@ -928,7 +928,7 @@ export const subZero: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Sub_Zero__Chill_out',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

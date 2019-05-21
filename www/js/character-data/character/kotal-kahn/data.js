@@ -976,7 +976,7 @@ export const kotalKahn: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kotal_Kahn__PINNED_DOWN',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

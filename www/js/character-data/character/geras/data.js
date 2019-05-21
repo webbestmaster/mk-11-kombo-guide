@@ -976,7 +976,7 @@ export const geras: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Geras__Stasis_Assault',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

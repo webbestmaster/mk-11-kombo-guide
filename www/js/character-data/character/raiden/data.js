@@ -1072,7 +1072,7 @@ export const raiden: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Raiden__Thunder_take_you',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

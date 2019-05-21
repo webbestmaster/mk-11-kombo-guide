@@ -976,7 +976,7 @@ export const liuKang: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Liu_Kang__Enter_the_Dragon',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

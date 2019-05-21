@@ -1000,7 +1000,7 @@ export const frost: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Frost__Terminal_Burrowing',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

@@ -1000,7 +1000,7 @@ export const kungLao: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kung_Lao__Beaten_and_Broken',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {

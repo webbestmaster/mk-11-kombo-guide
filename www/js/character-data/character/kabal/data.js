@@ -904,7 +904,7 @@ export const kabal: CharacterType = {
         ],
         fatalBlowList: [
             {
-                name: 'APP_NAME',
+                name: 'CHARACTER__Kabal__Off_the_Hook',
                 sequence: [[iL1, iR2]],
                 description: null,
                 moveData: {
