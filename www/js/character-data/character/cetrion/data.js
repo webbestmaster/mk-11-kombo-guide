@@ -38,6 +38,7 @@ export const cetrion: CharacterType = {
     id: 'cetrion',
     imagePath: faceImagePath,
     name: 'CHARACTER__Cetrion__NAME',
+    abilityList: [],
     move: {
         basicList: [
             {
@@ -62,7 +63,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Tendril_Slap',
@@ -86,7 +87,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Low_Wind',
@@ -110,7 +111,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -135,7 +136,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Turning_Wave',
@@ -159,7 +160,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Rising_God_Palm',
@@ -183,7 +184,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -208,7 +209,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Energy_Swipe',
@@ -232,7 +233,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Krystal_Kick',
@@ -256,7 +257,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -281,7 +282,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Rising_Volcano',
@@ -305,7 +306,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Krystal_Heel',
@@ -329,7 +330,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         jumpingAttackList: [
@@ -355,7 +356,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Burning_Palm',
@@ -379,7 +380,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Balance_Spin',
@@ -403,7 +404,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         hopAttackList: [
@@ -429,7 +430,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Heel_Spike',
@@ -453,7 +454,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         getUpAttackList: [
@@ -479,7 +480,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__World_Ender',
@@ -503,7 +504,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -529,7 +530,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__World_Ender',
@@ -553,7 +554,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -582,7 +583,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Wind_Storm',
@@ -606,7 +607,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Imminent_Eruption',
@@ -630,7 +631,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Natures_Wrath',
@@ -654,7 +655,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Seismic_Energy',
@@ -678,7 +679,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Blaze',
@@ -702,7 +703,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Fire_Nado',
@@ -726,7 +727,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Fire_and_Brimstone',
@@ -750,7 +751,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Natural_Ending',
@@ -774,7 +775,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Unlimited_Potential',
@@ -798,7 +799,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Lifecycle',
@@ -822,7 +823,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         specialList: [
@@ -869,11 +870,11 @@ export const cetrion: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Far_Natural_Barrier',
@@ -918,11 +919,11 @@ export const cetrion: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Hell_s_Wrath',
@@ -967,11 +968,11 @@ export const cetrion: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Close_Hell_s_Wrath',
@@ -1016,11 +1017,11 @@ export const cetrion: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Far_Hell_s_Wrath',
@@ -1065,11 +1066,11 @@ export const cetrion: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Air_Hell_s_Wrath',
@@ -1114,11 +1115,11 @@ export const cetrion: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Air_Close_Hell_s_Wrath',
@@ -1163,11 +1164,11 @@ export const cetrion: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Air_Far_Hell_s_Wrath',
@@ -1212,11 +1213,11 @@ export const cetrion: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Cetrion__Tendril_Pull',
@@ -1261,11 +1262,11 @@ export const cetrion: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         abilityList: [
@@ -1291,7 +1292,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         fatalBlowList: [
@@ -1317,7 +1318,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         brutalityList: [
@@ -1343,7 +1344,7 @@ export const cetrion: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
     },

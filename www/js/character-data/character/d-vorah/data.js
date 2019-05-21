@@ -38,6 +38,7 @@ export const dVorah: CharacterType = {
     id: 'd-vorah',
     imagePath: faceImagePath,
     name: 'CHARACTER__D_Vorah__NAME',
+    abilityList: [],
     move: {
         basicList: [
             {
@@ -62,7 +63,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Bug_Bash',
@@ -86,7 +87,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Low_Sting',
@@ -110,7 +111,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -135,7 +136,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Killer_Strike',
@@ -159,7 +160,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Swatted',
@@ -183,7 +184,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -208,7 +209,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Ovi_Posi_Poke',
@@ -232,7 +233,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Low_Tarsus_Strike',
@@ -256,7 +257,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -281,7 +282,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Spinning_Web',
@@ -305,7 +306,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Brood_Slam',
@@ -329,7 +330,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Slight_Sting',
@@ -353,7 +354,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         jumpingAttackList: [
@@ -379,7 +380,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Poisonous_Touch',
@@ -403,7 +404,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Beetle_Kick',
@@ -427,7 +428,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         hopAttackList: [
@@ -453,7 +454,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Hardened_Heel',
@@ -477,7 +478,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         getUpAttackList: [
@@ -503,7 +504,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Quick_Strike',
@@ -527,7 +528,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -553,7 +554,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Quick_Strike',
@@ -577,7 +578,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -606,7 +607,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Black_Widow',
@@ -630,7 +631,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Bot_Fly',
@@ -654,7 +655,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Assassin_Bug',
@@ -678,7 +679,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Wandering_Spider',
@@ -702,7 +703,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Siafu',
@@ -726,7 +727,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Bugging_Out',
@@ -750,7 +751,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Killer_Bee',
@@ -774,7 +775,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Lonomia',
@@ -798,7 +799,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         specialList: [
@@ -845,11 +846,11 @@ export const dVorah: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Ground_Swarm',
@@ -894,11 +895,11 @@ export const dVorah: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Close_Ground_Swarm',
@@ -943,11 +944,11 @@ export const dVorah: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Far_Ground_Swarm',
@@ -992,11 +993,11 @@ export const dVorah: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Very_Far_Ground_Swarm',
@@ -1041,11 +1042,11 @@ export const dVorah: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Infested',
@@ -1090,11 +1091,11 @@ export const dVorah: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Swarm',
@@ -1139,11 +1140,11 @@ export const dVorah: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__D_Vorah__Katipo_Rush',
@@ -1188,11 +1189,11 @@ export const dVorah: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         abilityList: [
@@ -1218,7 +1219,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         fatalBlowList: [
@@ -1244,7 +1245,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         brutalityList: [
@@ -1270,7 +1271,7 @@ export const dVorah: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
     },

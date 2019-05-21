@@ -38,6 +38,7 @@ export const erronBlack: CharacterType = {
     id: 'erron-black',
     imagePath: faceImagePath,
     name: 'CHARACTER__Erron_Black__NAME',
+    abilityList: [],
     move: {
         basicList: [
             {
@@ -62,7 +63,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Spinning_Revolver',
@@ -86,7 +87,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Dusty_Knuckles',
@@ -110,7 +111,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -135,7 +136,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Grip_Slam',
@@ -159,7 +160,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Shoulder_Shimmy',
@@ -183,7 +184,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Rising_Outlaw',
@@ -207,7 +208,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -232,7 +233,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Saloon_Strike',
@@ -256,7 +257,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Low_Boot',
@@ -280,7 +281,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -305,7 +306,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Low_Spur',
@@ -329,7 +330,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Boot_Drop',
@@ -374,11 +375,11 @@ export const erronBlack: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
-                        ability: null,
+                        abilityName: null,
                     },
                 ],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Sandy_Sole',
@@ -402,7 +403,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         jumpingAttackList: [
@@ -428,7 +429,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Hammer_Fist',
@@ -452,7 +453,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Quick_Flick',
@@ -476,7 +477,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         hopAttackList: [
@@ -502,7 +503,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Drop_Kick',
@@ -526,7 +527,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         getUpAttackList: [
@@ -552,7 +553,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Pocket_Sand',
@@ -576,7 +577,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -602,7 +603,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Pocket_Sand',
@@ -626,7 +627,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -655,7 +656,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Into_the_Badlands',
@@ -679,7 +680,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Violent_Ends',
@@ -703,7 +704,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Deal_in_Lead',
@@ -727,7 +728,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__On_The_Shoot',
@@ -751,7 +752,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__At_The_Dooooor',
@@ -775,7 +776,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Dead_Man_s_Hand',
@@ -799,7 +800,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Erron_Black__Keep_em_Honest',
@@ -823,7 +824,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         specialList: [
@@ -849,7 +850,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         abilityList: [
@@ -875,7 +876,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         fatalBlowList: [
@@ -901,7 +902,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         brutalityList: [
@@ -927,7 +928,7 @@ export const erronBlack: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
     },

@@ -38,6 +38,7 @@ export const noobSaibot: CharacterType = {
     id: 'noob-saibot',
     imagePath: faceImagePath,
     name: 'CHARACTER__Noob_Saibot__NAME',
+    abilityList: [],
     move: {
         basicList: [
             {
@@ -62,7 +63,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Shadow_Poke',
@@ -86,7 +87,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Knee_Hook',
@@ -110,7 +111,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -135,7 +136,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Dark_Push',
@@ -159,7 +160,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Turning_Chop',
@@ -183,7 +184,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Rising_Sickle',
@@ -207,7 +208,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -232,7 +233,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Shadow_Slice',
@@ -256,7 +257,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__High_Kick',
@@ -280,7 +281,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Boot_Slide',
@@ -304,7 +305,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -329,7 +330,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Sickle_Sweep',
@@ -353,7 +354,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Sneaky_Saibot',
@@ -377,7 +378,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Sickle_Strike',
@@ -401,7 +402,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         jumpingAttackList: [
@@ -427,7 +428,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Sickle_Swipe',
@@ -451,7 +452,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Wraith_Kick',
@@ -475,7 +476,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         hopAttackList: [
@@ -501,7 +502,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Spinning_Wraith',
@@ -525,7 +526,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         getUpAttackList: [
@@ -551,7 +552,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Wraith_Boot',
@@ -575,7 +576,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -601,7 +602,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Wraith_Boot',
@@ -625,7 +626,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -654,7 +655,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Empty_Grave',
@@ -678,7 +679,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Tormented_Souls',
@@ -702,7 +703,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__As_One',
@@ -726,7 +727,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__For_The_Brotherhood',
@@ -750,7 +751,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Total_Darkness',
@@ -774,7 +775,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Resurrected',
@@ -798,7 +799,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Fade_To_Black',
@@ -822,7 +823,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Evil_Within',
@@ -846,7 +847,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Wailing_Wraith',
@@ -870,7 +871,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Noob_Saibot__Sinister_Silhouette',
@@ -894,7 +895,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         specialList: [
@@ -920,7 +921,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         abilityList: [
@@ -946,7 +947,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         fatalBlowList: [
@@ -972,7 +973,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         brutalityList: [
@@ -998,7 +999,7 @@ export const noobSaibot: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
     },

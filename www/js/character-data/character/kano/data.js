@@ -38,6 +38,7 @@ export const kano: CharacterType = {
     id: 'kano',
     imagePath: faceImagePath,
     name: 'CHARACTER__Kano__NAME',
+    abilityList: [],
     move: {
         basicList: [
             {
@@ -62,7 +63,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Blade_Evade',
@@ -86,7 +87,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Lunging_Brute',
@@ -110,7 +111,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Knee_Cutter',
@@ -134,7 +135,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -159,7 +160,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Deadly_Graze',
@@ -183,7 +184,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Dirty_Hit',
@@ -207,7 +208,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Black_Dragon_Bash',
@@ -231,7 +232,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -256,7 +257,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Enzuigiri',
@@ -280,7 +281,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Under_Kick',
@@ -304,7 +305,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Low_Hinge',
@@ -328,7 +329,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -353,7 +354,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Donkey_Kick',
@@ -377,7 +378,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Wheel_Kick',
@@ -401,7 +402,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Devo_Strike',
@@ -425,7 +426,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         jumpingAttackList: [
@@ -451,7 +452,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Outback_Bash',
@@ -475,7 +476,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Kangaroo_Kick',
@@ -499,7 +500,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         hopAttackList: [
@@ -525,7 +526,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Brutal_Heel',
@@ -549,7 +550,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         getUpAttackList: [
@@ -575,7 +576,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Quick_Burn',
@@ -599,7 +600,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -625,7 +626,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Quick_Burn',
@@ -649,7 +650,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -678,7 +679,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Blood_Worth_Bottling',
@@ -702,7 +703,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Spewin',
@@ -726,7 +727,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Fair_Suck_of_the_Sav',
@@ -750,7 +751,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Cut_Snake',
@@ -774,7 +775,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Piss_off',
@@ -798,7 +799,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Deadly_Digger',
@@ -822,7 +823,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Enough_yabber',
@@ -846,7 +847,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Kano__Blown_Away',
@@ -870,7 +871,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         specialList: [
@@ -896,7 +897,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         abilityList: [
@@ -922,7 +923,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         fatalBlowList: [
@@ -948,7 +949,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         brutalityList: [
@@ -974,7 +975,7 @@ export const kano: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
     },

@@ -38,6 +38,7 @@ export const jacquiBriggs: CharacterType = {
     id: 'jacqui-briggs',
     imagePath: faceImagePath,
     name: 'CHARACTER__Jacqui_Briggs__NAME',
+    abilityList: [],
     move: {
         basicList: [
             {
@@ -62,7 +63,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Leaping_Bow',
@@ -86,7 +87,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Gut_Buster',
@@ -110,7 +111,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Straight_Jab',
@@ -134,7 +135,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -159,7 +160,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Spec_Hop',
@@ -183,7 +184,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Gauntlet_Slam',
@@ -207,7 +208,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Rising_Gauntlet',
@@ -231,7 +232,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -256,7 +257,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Toe_Jam',
@@ -280,7 +281,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Step_Kick',
@@ -304,7 +305,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Side_Strike',
@@ -328,7 +329,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
 
             {
@@ -353,7 +354,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Mix_Up',
@@ -377,7 +378,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Roundhouse',
@@ -401,7 +402,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Sliding_Heel',
@@ -425,7 +426,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         jumpingAttackList: [
@@ -451,7 +452,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Dirty_Jab',
@@ -475,7 +476,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Spinning_Heel',
@@ -499,7 +500,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         hopAttackList: [
@@ -525,7 +526,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Brutal_Heel',
@@ -549,7 +550,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         getUpAttackList: [
@@ -575,7 +576,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Quick_Reflex',
@@ -599,7 +600,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -625,7 +626,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Quick_Reflex',
@@ -649,7 +650,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -678,7 +679,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Ground_Recon',
@@ -702,7 +703,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__United_We_Fall',
@@ -726,7 +727,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__True_Hero',
@@ -750,7 +751,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Snake_Eater',
@@ -774,7 +775,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Trained_to_Kill',
@@ -798,7 +799,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Energy_Overdrive_Rapidly',
@@ -822,7 +823,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Danger_Zone',
@@ -846,7 +847,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Hawkeye',
@@ -870,7 +871,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__In_the_Trenches',
@@ -894,7 +895,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Total_Overload',
@@ -918,7 +919,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Going_Ballistic',
@@ -942,7 +943,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__All_for_One',
@@ -966,7 +967,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Justice_for_All',
@@ -990,7 +991,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Lost_Dog_Tags',
@@ -1014,7 +1015,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
             {
                 name: 'CHARACTER__Jacqui_Briggs__Fallin_Soldier',
@@ -1038,7 +1039,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         specialList: [
@@ -1064,7 +1065,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         abilityList: [
@@ -1090,7 +1091,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         fatalBlowList: [
@@ -1116,7 +1117,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
         brutalityList: [
@@ -1142,7 +1143,7 @@ export const jacquiBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
-                ability: null,
+                abilityName: null,
             },
         ],
     },

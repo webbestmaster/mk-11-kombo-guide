@@ -144,6 +144,7 @@ export const moveFeatureDataMap: {+[key: MoveFeatureType]: MoveFeatureDataType} 
 
 type AbilityType = {|
     +name: LangKeyType | null,
+    +value: 1 | 2 | 3,
 |};
 
 export type ComboType = {|
@@ -155,13 +156,14 @@ export type ComboType = {|
     +moveFeatureList: Array<MoveFeatureType>,
     +extendedComboList: Array<ComboType>,
     +crushingBlowCondition: LangKeyType | null,
-    +ability: AbilityType | null,
+    +abilityName: LangKeyType | null,
 |};
 
 export type CharacterType = {|
     +id: string,
     +imagePath: string,
     +name: LangKeyType,
+    +abilityList: Array<AbilityType>,
     +move: {
         +basicList: Array<ComboType>,
         +jumpingAttackList: Array<ComboType>,
