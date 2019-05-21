@@ -876,32 +876,6 @@ export const kabal: CharacterType = {
                 abilityName: null,
             },
         ],
-        abilityList: [
-            {
-                name: 'APP_NAME',
-                sequence: [],
-                description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
-                frameData: {
-                    startUp: naValue,
-                    active: naValue,
-                    recover: naValue,
-                    cancel: naValue,
-                    hitAdvance: naValue,
-                    blockAdvance: naValue,
-                    flawlessBlockAdvance: naValue,
-                },
-                moveFeatureList: [],
-                extendedComboList: [],
-                crushingBlowCondition: null,
-                abilityName: null,
-            },
-        ],
         fatalBlowList: [
             {
                 name: 'CHARACTER__Kabal__Off_the_Hook',

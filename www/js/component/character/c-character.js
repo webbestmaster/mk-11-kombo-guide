@@ -64,7 +64,7 @@ export class Character extends Component<PropsType, StateType> {
             comboList,
             specialList,
             fatalBlowList,
-            abilityList,
+            // abilityList,
             brutalityList,
         } = characterData.move;
 
@@ -95,7 +95,7 @@ export class Character extends Component<PropsType, StateType> {
                 <ComboList list={fatalBlowList}/>
             </div>,
             <div key={titleList[3]}>
-                <ComboList list={abilityList}/>
+                <ComboList list={[]}/>
             </div>,
             <div key={titleList[4]}>
                 <ComboList list={brutalityList}/>
