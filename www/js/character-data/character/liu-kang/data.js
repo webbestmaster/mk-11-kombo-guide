@@ -62,6 +62,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Silent_Chop',
@@ -85,6 +86,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Low_Backhand',
@@ -108,6 +110,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -132,6 +135,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Nunchaku_Strike',
@@ -155,6 +159,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Kontei_Slam',
@@ -178,6 +183,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Rising_Chaku',
@@ -201,6 +207,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -225,6 +232,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Quick_Step',
@@ -248,6 +256,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Double_Dragon_Kick',
@@ -271,6 +280,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Crouching_Kick',
@@ -294,6 +304,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -318,6 +329,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Chaku_Sweep',
@@ -341,6 +353,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Lotus_Strikes',
@@ -364,6 +377,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Dragon_s_Tail',
@@ -387,6 +401,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         jumpingAttackList: [
@@ -412,6 +427,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Dragon_Claw',
@@ -435,6 +451,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Heavy_Heel',
@@ -458,6 +475,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         hopAttackList: [
@@ -483,6 +501,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Flame_Stomp',
@@ -506,6 +525,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         getUpAttackList: [
@@ -531,6 +551,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Game_of_Death',
@@ -554,6 +575,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -579,6 +601,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Game_of_Death',
@@ -602,6 +625,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -630,6 +654,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Twin_Lotus',
@@ -653,6 +678,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Dark_Orders',
@@ -676,6 +702,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__The_Time_has_Come',
@@ -699,6 +726,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Done_Listening',
@@ -722,6 +750,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Lost_Soul',
@@ -745,6 +774,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__No_Loyalty',
@@ -768,6 +798,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__A_Quick_End',
@@ -791,6 +822,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__This_Will_Hurt',
@@ -814,6 +846,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Dragon_s_Breath',
@@ -837,6 +870,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Shaolin_Warrior',
@@ -860,6 +894,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Liu_Kang__Chinese_Warrior',
@@ -883,6 +918,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         specialList: [
@@ -908,6 +944,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         abilityList: [
@@ -933,6 +970,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         fatalBlowList: [
@@ -958,6 +996,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         brutalityList: [
@@ -983,6 +1022,7 @@ export const liuKang: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
     },

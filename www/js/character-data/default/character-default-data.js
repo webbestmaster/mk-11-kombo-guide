@@ -54,6 +54,7 @@ const defaultComboList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
 ];
 
@@ -80,6 +81,7 @@ const throwList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
     {
         name: 'DEFAULT_MOVE__BACK_THROW',
@@ -103,6 +105,7 @@ const throwList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
 ];
 
@@ -129,6 +132,7 @@ const rollEscapeList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
     {
         name: 'DEFAULT_MOVE__AWAY_ROLL_ESCAPE',
@@ -152,6 +156,7 @@ const rollEscapeList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
 ];
 
@@ -178,6 +183,7 @@ const airEscapeList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
 ];
 
@@ -210,6 +216,7 @@ const defaultBasicList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
     {
         name: 'APP_NAME',
@@ -233,6 +240,7 @@ const defaultBasicList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
     {
         name: 'APP_NAME',
@@ -256,6 +264,7 @@ const defaultBasicList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
     {
         name: 'APP_NAME',
@@ -279,6 +288,7 @@ const defaultBasicList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
 ];
 
@@ -305,6 +315,7 @@ const jumpingAttackList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
     {
         name: 'APP_NAME',
@@ -328,6 +339,7 @@ const jumpingAttackList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
     {
         name: 'APP_NAME',
@@ -351,6 +363,7 @@ const jumpingAttackList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
 ];
 
@@ -377,6 +390,7 @@ const hopAttackList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
     {
         name: 'APP_NAME',
@@ -400,6 +414,7 @@ const hopAttackList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
 ];
 
@@ -426,6 +441,7 @@ const getUpAttackList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
     {
         name: 'APP_NAME',
@@ -449,6 +465,7 @@ const getUpAttackList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
 ];
 
@@ -475,6 +492,7 @@ const moveAdditionalList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
     {
         name: 'COMBO_CONTINUE__FURTHER_AMPLIFY',
@@ -498,6 +516,7 @@ const moveAdditionalList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
     {
         name: 'COMBO_CONTINUE__CANCEL',
@@ -521,6 +540,7 @@ const moveAdditionalList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
     {
         name: 'COMBO_CONTINUE__EXTEND_RAPIDLY_PRESS',
@@ -544,6 +564,7 @@ const moveAdditionalList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
     {
         name: 'COMBO_CONTINUE__CHARGE',
@@ -567,5 +588,6 @@ const moveAdditionalList: Array<ComboType> = [
         moveFeatureList: [],
         extendedComboList: [],
         crushingBlowCondition: null,
+        ability: null,
     },
 ];

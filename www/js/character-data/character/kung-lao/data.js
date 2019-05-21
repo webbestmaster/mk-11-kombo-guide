@@ -62,6 +62,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Step_Punch',
@@ -85,6 +86,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Low_Palm',
@@ -108,6 +110,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -132,6 +135,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Hat_Slice',
@@ -155,6 +159,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Rising_Rim',
@@ -178,6 +183,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -202,6 +208,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Dragon_Step',
@@ -225,6 +232,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Side_Kick',
@@ -248,6 +256,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -272,6 +281,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Sweeping_Razor',
@@ -295,6 +305,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Twin_Kicks',
@@ -318,6 +329,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Back_Kick',
@@ -341,6 +353,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         jumpingAttackList: [
@@ -366,6 +379,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Shaolin_Strike',
@@ -389,6 +403,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Light_Kick',
@@ -412,6 +427,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         hopAttackList: [
@@ -437,6 +453,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Shaolin_Shalhoub',
@@ -460,6 +477,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         getUpAttackList: [
@@ -485,6 +503,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Slip_Kick',
@@ -508,6 +527,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -533,6 +553,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Slip_Kick',
@@ -556,6 +577,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -584,6 +606,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Order_of_Light',
@@ -607,6 +630,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Fatal_Blow',
@@ -630,6 +654,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Monk_Dunk',
@@ -653,6 +678,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Lost_Soul',
@@ -676,6 +702,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Deadly_Path',
@@ -699,6 +726,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Under_Control',
@@ -722,6 +750,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Double_Yang',
@@ -745,6 +774,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Kung_Tang',
@@ -768,6 +798,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Broken_Faith',
@@ -791,6 +822,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Disrespect',
@@ -814,6 +846,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Flowing_Water',
@@ -837,6 +870,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Plum_Flower',
@@ -860,6 +894,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Heavy_Mountain',
@@ -883,6 +918,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kung_Lao__Iron_Broom',
@@ -906,6 +942,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         specialList: [
@@ -931,6 +968,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         abilityList: [
@@ -956,6 +994,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         fatalBlowList: [
@@ -981,6 +1020,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         brutalityList: [
@@ -1006,6 +1046,7 @@ export const kungLao: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
     },

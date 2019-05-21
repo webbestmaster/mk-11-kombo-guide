@@ -62,6 +62,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Back_Swipe',
@@ -85,6 +86,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Low_Poke',
@@ -108,6 +110,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -132,6 +135,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Royal_Hand',
@@ -155,6 +159,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Fan_Out',
@@ -178,6 +183,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Rising_Power',
@@ -201,6 +207,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -225,6 +232,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Quick_Flick',
@@ -248,6 +256,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Heel_Poke',
@@ -271,6 +280,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -295,6 +305,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Low_Slice',
@@ -318,6 +329,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Fan_Stab',
@@ -341,6 +353,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         jumpingAttackList: [
@@ -366,6 +379,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Edenian_Strike',
@@ -389,6 +403,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Bloody_Heel',
@@ -412,6 +427,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         hopAttackList: [
@@ -437,6 +453,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Flick_Kick',
@@ -460,6 +477,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         getUpAttackList: [
@@ -485,6 +503,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Fanning_Out',
@@ -508,6 +527,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -533,6 +553,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Fanning_Out',
@@ -556,6 +577,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -584,6 +606,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Dark_Empress',
@@ -607,6 +630,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__New_Power',
@@ -630,6 +654,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__No_Mercy',
@@ -653,6 +678,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Purge_the_Weak',
@@ -676,6 +702,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Dark_Deception',
@@ -699,6 +726,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Fan_Tastic',
@@ -722,6 +750,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Edenian_Dance',
@@ -745,6 +774,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Noble_Assault',
@@ -768,6 +798,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__A_Royal_Welcome',
@@ -791,6 +822,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Follow_Me',
@@ -814,6 +846,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Dark_Empress_2',
@@ -837,6 +870,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Leave_Now',
@@ -860,6 +894,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Follow_the_Leader',
@@ -883,6 +918,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Blood_Sacrifice',
@@ -906,6 +942,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Punishment',
@@ -929,6 +966,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kitana__Eternal_Damnation',
@@ -952,6 +990,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         specialList: [
@@ -977,6 +1016,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         abilityList: [
@@ -1002,6 +1042,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         fatalBlowList: [
@@ -1027,6 +1068,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         brutalityList: [
@@ -1052,6 +1094,7 @@ export const kitana: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
     },

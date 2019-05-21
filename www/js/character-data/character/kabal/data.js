@@ -62,6 +62,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Hook_Strike',
@@ -85,6 +86,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Knee_Buckle',
@@ -108,6 +110,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -132,6 +135,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Swinging_Hooks',
@@ -155,6 +159,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Hook_Jab',
@@ -178,6 +183,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Rising_Fist',
@@ -201,6 +207,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -225,6 +232,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Heel_Strike',
@@ -248,6 +256,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Side_Kick',
@@ -271,6 +280,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -295,6 +305,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Sweeping_Hooks',
@@ -318,6 +329,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Deadly_Knee',
@@ -341,6 +353,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Hook_Swipe',
@@ -364,6 +377,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         jumpingAttackList: [
@@ -389,6 +403,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Blade_Jab',
@@ -412,6 +427,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Flick_Kick',
@@ -435,6 +451,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         hopAttackList: [
@@ -460,6 +477,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Brute_Kick',
@@ -483,6 +501,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         getUpAttackList: [
@@ -508,6 +527,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Hook_Punch',
@@ -531,6 +551,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -556,6 +577,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Hook_Punch',
@@ -579,6 +601,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -607,6 +630,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Hooks_And_Blood_Splatter',
@@ -630,6 +654,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Eviscerated',
@@ -653,6 +678,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Extermination_Squad',
@@ -676,6 +702,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Scary_Face',
@@ -699,6 +726,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Vapor_Trails',
@@ -722,6 +750,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Sandman',
@@ -745,6 +774,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Kabal_s_Deep',
@@ -768,6 +798,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Maimed_and_Mangled',
@@ -791,6 +822,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Kabal__Left_for_Dead',
@@ -814,6 +846,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         specialList: [
@@ -839,6 +872,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         abilityList: [
@@ -864,6 +898,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         fatalBlowList: [
@@ -889,6 +924,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         brutalityList: [
@@ -914,6 +950,7 @@ export const kabal: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
     },

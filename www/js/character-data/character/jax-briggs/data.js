@@ -62,6 +62,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Power_Punch',
@@ -85,6 +86,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Knee_Jab',
@@ -108,6 +110,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -132,6 +135,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Head_Slammer',
@@ -155,6 +159,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Hammer_Hook',
@@ -178,6 +183,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Upper_Muscle',
@@ -201,6 +207,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -225,6 +232,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Knee_Shatter',
@@ -248,6 +256,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Steel_Toe',
@@ -271,6 +280,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Side_Strike',
@@ -294,6 +304,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -318,6 +329,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Ankle_Breaker',
@@ -341,6 +353,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Gur_Knee',
@@ -364,6 +377,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Step_Back',
@@ -387,6 +401,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         jumpingAttackList: [
@@ -412,6 +427,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Double_Damage',
@@ -435,6 +451,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Hit_with_a_Size_12',
@@ -458,6 +475,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         hopAttackList: [
@@ -483,6 +501,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__S_F_Stomp',
@@ -506,6 +525,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         getUpAttackList: [
@@ -531,6 +551,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Ground_Slam',
@@ -554,6 +575,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -579,6 +601,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Ground_Slam',
@@ -602,6 +625,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -630,6 +654,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Active_Duty',
@@ -653,6 +678,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Quick_Drill',
@@ -676,6 +702,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Outranked',
@@ -699,6 +726,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Get_In_Line',
@@ -722,6 +750,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Breakdown',
@@ -745,6 +774,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Won_t_Back_Down',
@@ -768,6 +798,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Boot_Kamp',
@@ -791,6 +822,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Sleep_Bitch',
@@ -814,6 +846,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Last_Chance',
@@ -837,6 +870,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__America_Strong',
@@ -860,6 +894,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Jax_Briggs__Get_Outta_Here',
@@ -883,6 +918,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         specialList: [
@@ -908,6 +944,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         abilityList: [
@@ -933,6 +970,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         fatalBlowList: [
@@ -958,6 +996,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         brutalityList: [
@@ -983,6 +1022,7 @@ export const jaxBriggs: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
     },

@@ -155,7 +155,7 @@ export type ComboType = {|
     +moveFeatureList: Array<MoveFeatureType>,
     +extendedComboList: Array<ComboType>,
     +crushingBlowCondition: LangKeyType | null,
-    // +ability: AbilityType | null,
+    +ability: AbilityType | null,
 |};
 
 export type CharacterType = {|

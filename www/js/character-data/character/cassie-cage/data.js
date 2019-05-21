@@ -62,6 +62,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Low_Shot',
@@ -85,6 +86,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Straight_Punch',
@@ -108,6 +110,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -132,6 +135,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Throwin_Bows',
@@ -155,6 +159,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Backhand',
@@ -178,6 +183,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Bloody_Knuckles',
@@ -201,6 +207,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -225,6 +232,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Glow_Burst',
@@ -248,6 +256,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Spin_Kick',
@@ -271,6 +280,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Side_Kick',
@@ -294,6 +304,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -318,6 +329,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Cunning_Sweep',
@@ -341,6 +353,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Flick_Kick',
@@ -364,6 +377,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Steel_Toe',
@@ -387,6 +401,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         jumpingAttackList: [
@@ -412,6 +427,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Double_Axe_Handle',
@@ -435,6 +451,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Army_Boot',
@@ -458,6 +475,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         hopAttackList: [
@@ -483,6 +501,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Kombat_Kick',
@@ -506,6 +525,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         getUpAttackList: [
@@ -531,6 +551,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Nut_Punch',
@@ -554,6 +575,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -579,6 +601,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Nut_Punch',
@@ -602,6 +625,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -630,6 +654,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Whip_It_Good',
@@ -653,6 +678,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Belly_Buster',
@@ -676,6 +702,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Active_Duty',
@@ -699,6 +726,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Hot_Take',
@@ -722,6 +750,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Hooks_And_Hammers',
@@ -745,6 +774,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Assaulted',
@@ -768,6 +798,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__The_Rushdown',
@@ -791,6 +822,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__No_Breaks',
@@ -814,6 +846,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Keepin_It_Classy',
@@ -837,6 +870,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Shocker',
@@ -860,6 +894,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Marching_Orders',
@@ -883,6 +918,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Military_Dance',
@@ -906,6 +942,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Heavy_Hitter',
@@ -929,6 +966,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Poppin_Bubbles',
@@ -952,6 +990,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__One_in_the_Chamber',
@@ -975,6 +1014,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         specialList: [
@@ -1021,6 +1061,7 @@ export const cassieCage: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
+                        ability: null,
                     },
                     {
                         name: 'COMBO_CONTINUE__CANCEL',
@@ -1044,6 +1085,7 @@ export const cassieCage: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
+                        ability: null,
                     },
                     {
                         name: 'COMBO_CONTINUE__AMPLIFY',
@@ -1067,9 +1109,11 @@ export const cassieCage: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
+                        ability: null,
                     },
                 ],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Ball_Buster',
@@ -1114,9 +1158,11 @@ export const cassieCage: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
+                        ability: null,
                     },
                 ],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__Up_Glow_Kick',
@@ -1161,9 +1207,11 @@ export const cassieCage: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
+                        ability: null,
                     },
                 ],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         abilityList: [
@@ -1189,6 +1237,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         fatalBlowList: [
@@ -1214,6 +1263,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__CLOSE_PISSED_AF',
@@ -1237,6 +1287,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__FAR_PISSED_AF',
@@ -1260,6 +1311,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Cassie_Cage__AIR_PISSED_AF',
@@ -1283,6 +1335,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         brutalityList: [
@@ -1308,6 +1361,7 @@ export const cassieCage: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
     },

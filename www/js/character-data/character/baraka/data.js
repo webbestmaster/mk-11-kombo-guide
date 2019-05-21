@@ -62,6 +62,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Low_Stab',
@@ -85,6 +86,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Warrior_Strike',
@@ -108,6 +110,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Lunging_Blades',
@@ -131,6 +134,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Blade_Swipe',
@@ -154,6 +158,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Rising_Blades',
@@ -177,6 +182,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Hinge_Kick',
@@ -200,6 +206,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Foot_Stomp',
@@ -223,6 +230,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Low_Poke',
@@ -246,6 +254,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Big_Leg',
@@ -269,6 +278,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Leg_Chop',
@@ -292,6 +302,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Knee_Lunge',
@@ -315,6 +326,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Side_Kick',
@@ -338,6 +350,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         jumpingAttackList: [
@@ -363,6 +376,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Sinister_Slice',
@@ -386,6 +400,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Drop_Kick',
@@ -409,6 +424,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         hopAttackList: [
@@ -434,6 +450,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Karbrac_Kick',
@@ -457,6 +474,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         getUpAttackList: [
@@ -482,6 +500,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Karbrac_Stab',
@@ -505,6 +524,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -530,6 +550,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Karbrac_Stab',
@@ -553,6 +574,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -581,6 +603,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Mangled',
@@ -604,6 +627,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Bloodthirsty',
@@ -627,6 +651,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Outworld_Bash',
@@ -650,6 +675,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Splintered',
@@ -673,6 +699,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Painful_Swipes',
@@ -696,6 +723,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Bloody_Mess',
@@ -719,6 +747,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Tarkatan_Rush',
@@ -742,6 +771,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Kutting_Loose',
@@ -765,6 +795,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Doom_Kicks',
@@ -788,6 +819,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         specialList: [
@@ -834,9 +866,11 @@ export const baraka: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
+                        ability: null,
                     },
                 ],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__Chop_Chop',
@@ -881,6 +915,7 @@ export const baraka: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
+                        ability: null,
                     },
                     {
                         name: 'COMBO_CONTINUE__AMPLIFY',
@@ -904,6 +939,7 @@ export const baraka: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
+                        ability: null,
                     },
                     {
                         name: 'COMBO_CONTINUE__FURTHER_AMPLIFY',
@@ -927,9 +963,11 @@ export const baraka: CharacterType = {
                         moveFeatureList: [],
                         extendedComboList: [],
                         crushingBlowCondition: null,
+                        ability: null,
                     },
                 ],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Baraka__War_Banner',
@@ -953,6 +991,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         abilityList: [
@@ -978,6 +1017,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         fatalBlowList: [
@@ -1003,6 +1043,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         brutalityList: [
@@ -1028,6 +1069,7 @@ export const baraka: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
     },

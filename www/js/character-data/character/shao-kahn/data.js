@@ -62,6 +62,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Dragon_fist',
@@ -85,6 +86,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -109,6 +111,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Tenderizer',
@@ -132,6 +135,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Rage_strike',
@@ -155,6 +159,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Rising_wrath',
@@ -178,6 +183,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -202,6 +208,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Dragon_toe',
@@ -225,6 +232,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Shao_shimmy',
@@ -248,6 +256,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Knee_shatter',
@@ -271,6 +280,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
 
             {
@@ -295,6 +305,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Hammer_slammer',
@@ -318,6 +329,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Kahn_kick',
@@ -341,6 +353,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Side_spike',
@@ -364,6 +377,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         jumpingAttackList: [
@@ -389,6 +403,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Final_strike',
@@ -412,6 +427,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Double_dragon_kick',
@@ -435,6 +451,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         hopAttackList: [
@@ -460,6 +477,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Breaking_dragon_claw',
@@ -483,6 +501,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         getUpAttackList: [
@@ -508,6 +527,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Deadly_swipe',
@@ -531,6 +551,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         flawlessBlockAttacksList: [
@@ -556,6 +577,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Deadly_swipe',
@@ -579,6 +601,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         throwsList: defaultMoveData.throwList,
@@ -607,6 +630,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__DIE',
@@ -630,6 +654,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Takeover',
@@ -653,6 +678,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Merging_realms',
@@ -676,6 +702,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__You_will_die',
@@ -699,6 +726,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Is_that_your_best',
@@ -722,6 +750,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Power_of_Shao_Kahn',
@@ -745,6 +774,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Die_by_my_hands',
@@ -768,6 +798,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Will_you_fail',
@@ -791,6 +822,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Bow_to_me',
@@ -814,6 +846,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Fear_me',
@@ -837,6 +870,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__You_will_never_win',
@@ -860,6 +894,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Last_breath',
@@ -883,6 +918,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
             {
                 name: 'CHARACTER__Shao_Kahn__Konquer_all',
@@ -906,6 +942,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         specialList: [
@@ -931,6 +968,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         abilityList: [
@@ -956,6 +994,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         fatalBlowList: [
@@ -981,6 +1020,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
         brutalityList: [
@@ -1006,6 +1046,7 @@ export const shaoKahn: CharacterType = {
                 moveFeatureList: [],
                 extendedComboList: [],
                 crushingBlowCondition: null,
+                ability: null,
             },
         ],
     },
