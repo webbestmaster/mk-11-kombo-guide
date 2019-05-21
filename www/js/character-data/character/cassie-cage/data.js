@@ -3,6 +3,7 @@
 import type {CharacterType} from '../../character-type';
 import {inputMoveMap, moveTypeMap, naValue, moveFeatureMap} from '../../character-type';
 import {defaultMoveData} from '../../default/character-default-data';
+import {getMoveData} from '../../helper';
 
 import faceImagePath from './face.png';
 
@@ -45,12 +46,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Justice_Jab',
                 sequence: [i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -69,12 +65,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Low_Shot',
                 sequence: [[back, i1n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -93,12 +84,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Straight_Punch',
                 sequence: [[down, i1n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -118,12 +104,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Quick_Hook',
                 sequence: [i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -142,12 +123,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Throwin_Bows',
                 sequence: [[back, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -166,12 +142,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Backhand',
                 sequence: [[ford, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -190,12 +161,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Bloody_Knuckles',
                 sequence: [[down, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -215,12 +181,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__High_Kick',
                 sequence: [i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -239,12 +200,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Glow_Burst',
                 sequence: [[back, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -263,12 +219,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Spin_Kick',
                 sequence: [[ford, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -287,12 +238,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Side_Kick',
                 sequence: [[down, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -312,12 +258,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Roundhouse',
                 sequence: [i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -336,12 +277,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Cunning_Sweep',
                 sequence: [[back, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -360,12 +296,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Flick_Kick',
                 sequence: [[ford, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -384,12 +315,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Steel_Toe',
                 sequence: [[down, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -410,12 +336,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Cage_Jab',
                 sequence: [i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -434,12 +355,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Double_Axe_Handle',
                 sequence: [i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -458,12 +374,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Army_Boot',
                 sequence: [i3n, ori, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -484,12 +395,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Dive_Bomb',
                 sequence: [up, i1n, ori, up, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -508,12 +414,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Kombat_Kick',
                 sequence: [up, i3n, ori, up, i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -534,12 +435,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Flip_Kick',
                 sequence: [[up, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -558,12 +454,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Nut_Punch',
                 sequence: [[up, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -584,12 +475,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Flip_Kick',
                 sequence: [[up, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -608,12 +494,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Nut_Punch',
                 sequence: [[up, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -637,12 +518,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Double_Down',
                 sequence: [i1n, i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -661,12 +537,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Whip_It_Good',
                 sequence: [i1n, i1n, i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -685,12 +556,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Belly_Buster',
                 sequence: [i1n, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -709,12 +575,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Active_Duty',
                 sequence: [i1n, i2n, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -733,12 +594,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Hot_Take',
                 sequence: [[back, i1n], i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -757,12 +613,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Hooks_And_Hammers',
                 sequence: [i2n, i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -781,12 +632,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Assaulted',
                 sequence: [i2n, i1n, i1n, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -805,12 +651,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__The_Rushdown',
                 sequence: [i2n, i1n, [down, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -829,12 +670,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__No_Breaks',
                 sequence: [[back, i2n], i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -853,12 +689,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Keepin_It_Classy',
                 sequence: [[back, i2n], i4n, i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -877,12 +708,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Shocker',
                 sequence: [[ford, i2n], [i1n, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -901,12 +727,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Marching_Orders',
                 sequence: [i3n, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -925,12 +746,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Military_Dance',
                 sequence: [[ford, i3n], i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -949,12 +765,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Heavy_Hitter',
                 sequence: [[ford, i3n], i4n, i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -973,12 +784,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Poppin_Bubbles',
                 sequence: [[ford, i4n], i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -997,12 +803,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__One_in_the_Chamber',
                 sequence: [[ford, i4n], i1n, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1023,12 +824,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Dual_Wielding',
                 sequence: [back, ford, i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1044,12 +840,7 @@ export const cassieCage: CharacterType = {
                         name: 'COMBO_CONTINUE__CHARGE',
                         sequence: [hold, i1n],
                         description: null,
-                        moveData: {
-                            hitDamage: naValue,
-                            blockDamage: naValue,
-                            flawlessBlockDamage: naValue,
-                            type: notAvailableMove,
-                        },
+                        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                         frameData: {
                             startUp: naValue,
                             active: naValue,
@@ -1068,12 +859,7 @@ export const cassieCage: CharacterType = {
                         name: 'COMBO_CONTINUE__CANCEL',
                         sequence: [down],
                         description: null,
-                        moveData: {
-                            hitDamage: naValue,
-                            blockDamage: naValue,
-                            flawlessBlockDamage: naValue,
-                            type: notAvailableMove,
-                        },
+                        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                         frameData: {
                             startUp: naValue,
                             active: naValue,
@@ -1092,12 +878,7 @@ export const cassieCage: CharacterType = {
                         name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
                         description: null,
-                        moveData: {
-                            hitDamage: naValue,
-                            blockDamage: naValue,
-                            flawlessBlockDamage: naValue,
-                            type: notAvailableMove,
-                        },
+                        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                         frameData: {
                             startUp: naValue,
                             active: naValue,
@@ -1120,12 +901,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Ball_Buster',
                 sequence: [back, down, i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1141,12 +917,7 @@ export const cassieCage: CharacterType = {
                         name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
                         description: null,
-                        moveData: {
-                            hitDamage: naValue,
-                            blockDamage: naValue,
-                            flawlessBlockDamage: naValue,
-                            type: notAvailableMove,
-                        },
+                        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                         frameData: {
                             startUp: naValue,
                             active: naValue,
@@ -1169,12 +940,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__Up_Glow_Kick',
                 sequence: [back, ford, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1190,12 +956,7 @@ export const cassieCage: CharacterType = {
                         name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
                         description: null,
-                        moveData: {
-                            hitDamage: naValue,
-                            blockDamage: naValue,
-                            flawlessBlockDamage: naValue,
-                            type: notAvailableMove,
-                        },
+                        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                         frameData: {
                             startUp: naValue,
                             active: naValue,
@@ -1220,12 +981,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__PISSED_AF',
                 sequence: [[iL1, iR1]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1244,12 +1000,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__CLOSE_PISSED_AF',
                 sequence: [[back, iL1, iR1]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1268,12 +1019,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__FAR_PISSED_AF',
                 sequence: [[ford, iL1, iR1]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1292,12 +1038,7 @@ export const cassieCage: CharacterType = {
                 name: 'CHARACTER__Cassie_Cage__AIR_PISSED_AF',
                 sequence: [[iL1, iR1]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1318,12 +1059,7 @@ export const cassieCage: CharacterType = {
                 name: 'APP_NAME',
                 sequence: [],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,

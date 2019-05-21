@@ -2,6 +2,7 @@
 
 import type {ComboInputType, ComboType, FrameDataType, MayBeNaType, MoveFeatureType, MoveType} from '../character-type';
 import {inputMoveMap, moveTypeMap, naValue, moveFeatureMap} from '../character-type';
+import {getMoveData} from '../helper';
 
 const {
     // ComboInputDirectionType
@@ -36,12 +37,7 @@ const defaultComboList: Array<ComboType> = [
         name: 'APP_NAME',
         sequence: [],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -198,12 +194,7 @@ const defaultBasicList: Array<ComboType> = [
         name: 'APP_NAME',
         sequence: [i1n],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -222,12 +213,7 @@ const defaultBasicList: Array<ComboType> = [
         name: 'APP_NAME',
         sequence: [[back, i1n]],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -246,12 +232,7 @@ const defaultBasicList: Array<ComboType> = [
         name: 'APP_NAME',
         sequence: [[ford, i1n]],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -270,12 +251,7 @@ const defaultBasicList: Array<ComboType> = [
         name: 'APP_NAME',
         sequence: [[down, i1n]],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -297,12 +273,7 @@ const jumpingAttackList: Array<ComboType> = [
         name: 'APP_NAME',
         sequence: [i1n],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -321,12 +292,7 @@ const jumpingAttackList: Array<ComboType> = [
         name: 'APP_NAME',
         sequence: [i2n],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -345,12 +311,7 @@ const jumpingAttackList: Array<ComboType> = [
         name: 'APP_NAME',
         sequence: [i3n, ori, i4n],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -372,12 +333,7 @@ const hopAttackList: Array<ComboType> = [
         name: 'APP_NAME',
         sequence: [up, i1n, ori, up, i2n],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -396,12 +352,7 @@ const hopAttackList: Array<ComboType> = [
         name: 'APP_NAME',
         sequence: [up, i3n, ori, up, i3n],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -423,12 +374,7 @@ const getUpAttackList: Array<ComboType> = [
         name: 'APP_NAME',
         sequence: [[up, i2n]],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -447,12 +393,7 @@ const getUpAttackList: Array<ComboType> = [
         name: 'APP_NAME',
         sequence: [[up, i3n]],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -474,12 +415,7 @@ const moveAdditionalList: Array<ComboType> = [
         name: 'COMBO_CONTINUE__AMPLIFY',
         sequence: [iR1],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -498,12 +434,7 @@ const moveAdditionalList: Array<ComboType> = [
         name: 'COMBO_CONTINUE__FURTHER_AMPLIFY',
         sequence: [iR1],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -522,12 +453,7 @@ const moveAdditionalList: Array<ComboType> = [
         name: 'COMBO_CONTINUE__CANCEL',
         sequence: [],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -546,12 +472,7 @@ const moveAdditionalList: Array<ComboType> = [
         name: 'COMBO_CONTINUE__EXTEND_RAPIDLY_PRESS',
         sequence: [],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,
@@ -570,12 +491,7 @@ const moveAdditionalList: Array<ComboType> = [
         name: 'COMBO_CONTINUE__CHARGE',
         sequence: [],
         description: null,
-        moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: notAvailableMove,
-        },
+        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
         frameData: {
             startUp: naValue,
             active: naValue,

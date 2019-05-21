@@ -3,6 +3,7 @@
 import type {CharacterType} from '../../character-type';
 import {inputMoveMap, moveTypeMap, naValue, moveFeatureMap} from '../../character-type';
 import {defaultMoveData} from '../../default/character-default-data';
+import {getMoveData} from '../../helper';
 
 import faceImagePath from './face.png';
 
@@ -45,12 +46,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Bloody_Knuckles',
                 sequence: [i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -69,12 +65,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Blade_Evade',
                 sequence: [[back, i1n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -93,12 +84,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Lunging_Brute',
                 sequence: [[ford, i1n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -117,12 +103,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Knee_Cutter',
                 sequence: [[down, i1n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -142,12 +123,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Scarred',
                 sequence: [i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -166,12 +142,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Deadly_Graze',
                 sequence: [[back, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -190,12 +161,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Dirty_Hit',
                 sequence: [[ford, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -214,12 +180,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Black_Dragon_Bash',
                 sequence: [[down, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -239,12 +200,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__High_Boot',
                 sequence: [i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -263,12 +219,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Enzuigiri',
                 sequence: [[back, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -287,12 +238,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Under_Kick',
                 sequence: [[ford, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -311,12 +257,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Low_Hinge',
                 sequence: [[down, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -336,12 +277,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Face_Breaker',
                 sequence: [i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -360,12 +296,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Donkey_Kick',
                 sequence: [[back, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -384,12 +315,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Wheel_Kick',
                 sequence: [[ford, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -408,12 +334,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Devo_Strike',
                 sequence: [[down, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -434,12 +355,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Bladed',
                 sequence: [i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -458,12 +374,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Outback_Bash',
                 sequence: [i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -482,12 +393,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Kangaroo_Kick',
                 sequence: [i3n, ori, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -508,12 +414,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__G_day_Mate',
                 sequence: [up, i1n, ori, up, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -532,12 +433,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Brutal_Heel',
                 sequence: [up, i3n, ori, up, i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -558,12 +454,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Cheeky_Swipes',
                 sequence: [[up, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -582,12 +473,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Quick_Burn',
                 sequence: [[up, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -608,12 +494,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Cheeky_Swipes',
                 sequence: [[up, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -632,12 +513,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Quick_Burn',
                 sequence: [[up, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -661,12 +537,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Come_a_Gutser',
                 sequence: [i1n, i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -685,12 +556,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Blood_Worth_Bottling',
                 sequence: [i1n, i1n, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -709,12 +575,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Spewin',
                 sequence: [[ford, i1n], i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -733,12 +594,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Fair_Suck_of_the_Sav',
                 sequence: [[ford, i1n], i2n, [back, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -757,12 +613,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Cut_Snake',
                 sequence: [i2n, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -781,12 +632,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Piss_off',
                 sequence: [i2n, i2n, i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -805,12 +651,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Deadly_Digger',
                 sequence: [i2n, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -829,12 +670,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Enough_yabber',
                 sequence: [i2n, i4n, i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -853,12 +689,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__Blown_Away',
                 sequence: [[ford, i2n], up, [down, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -879,12 +710,7 @@ export const kano: CharacterType = {
                 name: 'APP_NAME',
                 sequence: [],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -905,12 +731,7 @@ export const kano: CharacterType = {
                 name: 'CHARACTER__Kano__NOT_HERE_TO_F_CK_SPIDERS',
                 sequence: [[iL1, iR2]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -931,12 +752,7 @@ export const kano: CharacterType = {
                 name: 'APP_NAME',
                 sequence: [],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,

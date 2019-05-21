@@ -3,6 +3,7 @@
 import type {CharacterType} from '../../character-type';
 import {inputMoveMap, moveTypeMap, naValue, moveFeatureMap} from '../../character-type';
 import {defaultMoveData} from '../../default/character-default-data';
+import {getMoveData} from '../../helper';
 
 import faceImagePath from './face.png';
 
@@ -45,12 +46,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Pupa_Poke',
                 sequence: [i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -69,12 +65,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Bug_Bash',
                 sequence: [[ford, i1n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -93,12 +84,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Low_Sting',
                 sequence: [[down, i1n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -118,12 +104,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Bludgeoned',
                 sequence: [i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -142,12 +123,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Killer_Strike',
                 sequence: [[ford, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -166,12 +142,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Swatted',
                 sequence: [[down, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -191,12 +162,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Larva_Tarsus',
                 sequence: [i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -215,12 +181,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Ovi_Posi_Poke',
                 sequence: [[back, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -239,12 +200,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Low_Tarsus_Strike',
                 sequence: [[down, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -264,12 +220,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Cocoon_Kick',
                 sequence: [i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -288,12 +239,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Spinning_Web',
                 sequence: [[back, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -312,12 +258,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Brood_Slam',
                 sequence: [[ford, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -336,12 +277,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Slight_Sting',
                 sequence: [[down, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -362,12 +298,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Deadly_Sting',
                 sequence: [i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -386,12 +317,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Poisonous_Touch',
                 sequence: [i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -410,12 +336,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Beetle_Kick',
                 sequence: [i3n, ori, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -436,12 +357,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Piercing_Ovipositors',
                 sequence: [up, i1n, ori, up, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -460,12 +376,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Hardened_Heel',
                 sequence: [up, i3n, ori, up, i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -486,12 +397,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Swarm_Burst',
                 sequence: [[up, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -510,12 +416,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Quick_Strike',
                 sequence: [[up, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -536,12 +437,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Swarm_Burst',
                 sequence: [[up, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -560,12 +456,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Quick_Strike',
                 sequence: [[up, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -589,12 +480,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Yellow_Jacket',
                 sequence: [i1n, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -613,12 +499,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Black_Widow',
                 sequence: [i1n, i2n, i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -637,12 +518,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Bot_Fly',
                 sequence: [[ford, i1n], i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -661,12 +537,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Assassin_Bug',
                 sequence: [i2n, i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -685,12 +556,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Wandering_Spider',
                 sequence: [i2n, i1n, i2n, i2n, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -709,12 +575,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Siafu',
                 sequence: [[ford, i2n], i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -733,12 +594,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Bugging_Out',
                 sequence: [[ford, i2n], i2n, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -757,12 +613,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Killer_Bee',
                 sequence: [[back, i3n], i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -781,12 +632,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Lonomia',
                 sequence: [i4n, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -807,12 +653,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Fireflies',
                 sequence: [back, ford, i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -828,12 +669,7 @@ export const dVorah: CharacterType = {
                         name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
                         description: null,
-                        moveData: {
-                            hitDamage: naValue,
-                            blockDamage: naValue,
-                            flawlessBlockDamage: naValue,
-                            type: notAvailableMove,
-                        },
+                        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                         frameData: {
                             startUp: naValue,
                             active: naValue,
@@ -856,12 +692,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Ground_Swarm',
                 sequence: [down, back, i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -877,12 +708,7 @@ export const dVorah: CharacterType = {
                         name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
                         description: null,
-                        moveData: {
-                            hitDamage: naValue,
-                            blockDamage: naValue,
-                            flawlessBlockDamage: naValue,
-                            type: notAvailableMove,
-                        },
+                        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                         frameData: {
                             startUp: naValue,
                             active: naValue,
@@ -905,12 +731,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Close_Ground_Swarm',
                 sequence: [down, back, i1n, back],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -926,12 +747,7 @@ export const dVorah: CharacterType = {
                         name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
                         description: null,
-                        moveData: {
-                            hitDamage: naValue,
-                            blockDamage: naValue,
-                            flawlessBlockDamage: naValue,
-                            type: notAvailableMove,
-                        },
+                        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                         frameData: {
                             startUp: naValue,
                             active: naValue,
@@ -954,12 +770,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Far_Ground_Swarm',
                 sequence: [down, back, i1n, ford],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -975,12 +786,7 @@ export const dVorah: CharacterType = {
                         name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
                         description: null,
-                        moveData: {
-                            hitDamage: naValue,
-                            blockDamage: naValue,
-                            flawlessBlockDamage: naValue,
-                            type: notAvailableMove,
-                        },
+                        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                         frameData: {
                             startUp: naValue,
                             active: naValue,
@@ -1003,12 +809,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Very_Far_Ground_Swarm',
                 sequence: [down, back, i1n, up],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1024,12 +825,7 @@ export const dVorah: CharacterType = {
                         name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
                         description: null,
-                        moveData: {
-                            hitDamage: naValue,
-                            blockDamage: naValue,
-                            flawlessBlockDamage: naValue,
-                            type: notAvailableMove,
-                        },
+                        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                         frameData: {
                             startUp: naValue,
                             active: naValue,
@@ -1052,12 +848,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Infested',
                 sequence: [down, ford, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1073,12 +864,7 @@ export const dVorah: CharacterType = {
                         name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
                         description: null,
-                        moveData: {
-                            hitDamage: naValue,
-                            blockDamage: naValue,
-                            flawlessBlockDamage: naValue,
-                            type: notAvailableMove,
-                        },
+                        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                         frameData: {
                             startUp: naValue,
                             active: naValue,
@@ -1101,12 +887,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Swarm',
                 sequence: [back, ford, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1122,12 +903,7 @@ export const dVorah: CharacterType = {
                         name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
                         description: null,
-                        moveData: {
-                            hitDamage: naValue,
-                            blockDamage: naValue,
-                            flawlessBlockDamage: naValue,
-                            type: notAvailableMove,
-                        },
+                        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                         frameData: {
                             startUp: naValue,
                             active: naValue,
@@ -1150,12 +926,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Katipo_Rush',
                 sequence: [down, back, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1171,12 +942,7 @@ export const dVorah: CharacterType = {
                         name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
                         description: null,
-                        moveData: {
-                            hitDamage: naValue,
-                            blockDamage: naValue,
-                            flawlessBlockDamage: naValue,
-                            type: notAvailableMove,
-                        },
+                        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                         frameData: {
                             startUp: naValue,
                             active: naValue,
@@ -1201,12 +967,7 @@ export const dVorah: CharacterType = {
                 name: 'CHARACTER__D_Vorah__Buggin_Out',
                 sequence: [[iL1, iR2]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1227,12 +988,7 @@ export const dVorah: CharacterType = {
                 name: 'APP_NAME',
                 sequence: [],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,

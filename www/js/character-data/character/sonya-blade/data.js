@@ -3,6 +3,7 @@
 import type {CharacterType} from '../../character-type';
 import {inputMoveMap, moveTypeMap, naValue, moveFeatureMap} from '../../character-type';
 import {defaultMoveData} from '../../default/character-default-data';
+import {getMoveData} from '../../helper';
 
 import faceImagePath from './face.png';
 
@@ -45,12 +46,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Knuckle_buster',
                 sequence: [i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -69,12 +65,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Bo_dash',
                 sequence: [[back, i1n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -93,12 +84,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Energy_burst',
                 sequence: [[down, i1n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -118,12 +104,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Heavy_blast',
                 sequence: [i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -142,12 +123,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Controlled_energy',
                 sequence: [[back, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -166,12 +142,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Hellish_hook',
                 sequence: [[ford, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -190,12 +161,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Rising_stars',
                 sequence: [[down, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -215,12 +181,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Steel_toe_strike',
                 sequence: [i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -239,12 +200,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Leg_strike',
                 sequence: [[back, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -263,12 +219,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Boot_kamp',
                 sequence: [[ford, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -287,12 +238,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Side_boot',
                 sequence: [[down, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -312,12 +258,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Damaged_boot',
                 sequence: [i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -336,12 +277,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Spinning_general',
                 sequence: [[back, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -360,12 +296,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Flying_knee',
                 sequence: [[ford, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -384,12 +315,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Low_burst',
                 sequence: [[down, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -410,12 +336,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Overpowered',
                 sequence: [i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -434,12 +355,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Military_jab',
                 sequence: [i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -458,12 +374,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Kevlar_kicker',
                 sequence: [i3n, ori, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -484,12 +395,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Boot_licker_dash',
                 sequence: [up, i1n, ori, up, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -508,12 +414,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Flip_kick',
                 sequence: [up, i3n, ori, up, i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -534,12 +435,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Backflip_kick',
                 sequence: [[up, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -558,12 +454,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Energy_discharge',
                 sequence: [[up, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -584,12 +475,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Backflip_kick',
                 sequence: [[up, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -608,12 +494,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Energy_discharge',
                 sequence: [[up, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -637,12 +518,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Advanced_warfare',
                 sequence: [i1n, i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -661,12 +537,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Target_acquired',
                 sequence: [i1n, i1n, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -685,12 +556,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Stars_and_stripes',
                 sequence: [i1n, i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -709,12 +575,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__At_ease',
                 sequence: [i1n, i3n, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -733,12 +594,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Ambush',
                 sequence: [[back, i1n], i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -757,12 +613,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Overwatch',
                 sequence: [[back, i1n], i2n, i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -781,12 +632,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Shoot_and_Scoot',
                 sequence: [[back, i1n], i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -805,12 +651,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Pulling_rank',
                 sequence: [i2n, i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -829,12 +670,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Kounter_Attack',
                 sequence: [i2n, i1n, i2n, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -853,12 +689,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Frontal_Assault',
                 sequence: [i2n, i1n, i2n, i2n, [i1n, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -877,12 +708,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Raided',
                 sequence: [[back, i2n], i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -901,12 +727,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Under_Siege',
                 sequence: [[back, i2n], i3n, [down, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -925,12 +746,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__HOOAH',
                 sequence: [[back, i2n], i3n, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -946,12 +762,7 @@ export const sonyaBlade: CharacterType = {
                         name: 'COMBO_CONTINUE__CANCEL',
                         sequence: [hold, down],
                         description: null,
-                        moveData: {
-                            hitDamage: naValue,
-                            blockDamage: naValue,
-                            flawlessBlockDamage: naValue,
-                            type: notAvailableMove,
-                        },
+                        moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                         frameData: {
                             startUp: naValue,
                             active: naValue,
@@ -974,12 +785,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__No_withdrawal',
                 sequence: [[ford, i2n], i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -998,12 +804,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__No_back_up',
                 sequence: [[ford, i2n], i1n, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1022,12 +823,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Unconditional_surrender',
                 sequence: [i3n, i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1046,12 +842,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__On_my_mark',
                 sequence: [i3n, i3n, i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1070,12 +861,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Vedette',
                 sequence: [i3n, i3n, i3n, [down, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1094,12 +880,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Going_rogue',
                 sequence: [[back, i3n], [down, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1118,12 +899,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Going_in_loud',
                 sequence: [[back, i3n], [up, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1142,12 +918,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Last_patrol',
                 sequence: [[back, i3n], [up, i4n], i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1166,12 +937,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Bravo_zulu',
                 sequence: [[ford, i4n], [i1n, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1190,12 +956,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Decisive_Victory',
                 sequence: [[ford, i4n], [i1n, i3n], i2n, i2n, i2n, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1216,12 +977,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'APP_NAME',
                 sequence: [],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1242,12 +998,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'CHARACTER__Sonya_Blade__Die_already',
                 sequence: [[iL1, iR2]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -1268,12 +1019,7 @@ export const sonyaBlade: CharacterType = {
                 name: 'APP_NAME',
                 sequence: [],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,

@@ -3,6 +3,7 @@
 import type {CharacterType} from '../../character-type';
 import {inputMoveMap, moveTypeMap, naValue, moveFeatureMap} from '../../character-type';
 import {defaultMoveData} from '../../default/character-default-data';
+import {getMoveData} from '../../helper';
 
 import faceImagePath from './face.png';
 
@@ -45,12 +46,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Straight_Jab',
                 sequence: [i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -69,12 +65,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Hook_Strike',
                 sequence: [[back, i1n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -93,12 +84,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Knee_Buckle',
                 sequence: [[down, i1n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -118,12 +104,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Hard_Cross',
                 sequence: [i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -142,12 +123,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Swinging_Hooks',
                 sequence: [[back, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -166,12 +142,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Hook_Jab',
                 sequence: [[ford, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -190,12 +161,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Rising_Fist',
                 sequence: [[down, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -215,12 +181,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Straight_Boot',
                 sequence: [i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -239,12 +200,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Heel_Strike',
                 sequence: [[ford, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -263,12 +219,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Side_Kick',
                 sequence: [[down, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -288,12 +239,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Spin_Kick',
                 sequence: [i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -312,12 +258,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Sweeping_Hooks',
                 sequence: [[back, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -336,12 +277,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Deadly_Knee',
                 sequence: [[ford, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -360,12 +296,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Hook_Swipe',
                 sequence: [[down, i4n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -386,12 +317,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Black_Dragon_Bash',
                 sequence: [i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -410,12 +336,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Blade_Jab',
                 sequence: [i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -434,12 +355,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Flick_Kick',
                 sequence: [i3n, ori, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -460,12 +376,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Hammering_Hooks',
                 sequence: [up, i1n, ori, up, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -484,12 +395,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Brute_Kick',
                 sequence: [up, i3n, ori, up, i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -510,12 +416,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Hook_Spin',
                 sequence: [[up, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -534,12 +435,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Hook_Punch',
                 sequence: [[up, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -560,12 +456,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Hook_Spin',
                 sequence: [[up, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -584,12 +475,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Hook_Punch',
                 sequence: [[up, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -613,12 +499,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Last_Breath',
                 sequence: [i1n, i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -637,12 +518,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Hooks_And_Blood_Splatter',
                 sequence: [i1n, i1n, i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -661,12 +537,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Eviscerated',
                 sequence: [[back, i1n], i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -685,12 +556,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Extermination_Squad',
                 sequence: [[back, i1n], i2n, [down, i2n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -709,12 +575,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Scary_Face',
                 sequence: [i2n, i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -733,12 +594,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Vapor_Trails',
                 sequence: [i2n, i2n, i1n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -757,12 +613,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Sandman',
                 sequence: [i2n, i3n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -781,12 +632,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Kabal_s_Deep',
                 sequence: [[ford, i2n], i2n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -805,12 +651,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Maimed_and_Mangled',
                 sequence: [[ford, i2n], i2n, i4n],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -829,12 +670,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Left_for_Dead',
                 sequence: [[ford, i4n], [i1n, i3n]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -855,12 +691,7 @@ export const kabal: CharacterType = {
                 name: 'APP_NAME',
                 sequence: [],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -881,12 +712,7 @@ export const kabal: CharacterType = {
                 name: 'CHARACTER__Kabal__Off_the_Hook',
                 sequence: [[iL1, iR2]],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,
@@ -907,12 +733,7 @@ export const kabal: CharacterType = {
                 name: 'APP_NAME',
                 sequence: [],
                 description: null,
-                moveData: {
-                    hitDamage: naValue,
-                    blockDamage: naValue,
-                    flawlessBlockDamage: naValue,
-                    type: notAvailableMove,
-                },
+                moveData: getMoveData(naValue, naValue, naValue, notAvailableMove),
                 frameData: {
                     startUp: naValue,
                     active: naValue,

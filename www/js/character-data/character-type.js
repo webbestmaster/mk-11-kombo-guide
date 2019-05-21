@@ -102,7 +102,7 @@ export const moveTypeTranslationMap: {+[key: MoveType]: LangKeyType} = {
     [moveTypeMap.notAvailableMove]: 'MOVE_TYPE__NOT_AVAILABLE',
 };
 
-type MoveDataType = {|
+export type MoveDataType = {|
     +hitDamage: MayBeNaType<number>,
     +blockDamage: MayBeNaType<number>,
     +flawlessBlockDamage: MayBeNaType<number>,
