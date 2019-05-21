@@ -93,7 +93,6 @@ export type LangDataType = {|
 
     // -> Baraka
     +CHARACTER__Baraka__NAME: string,
-    +CHARACTER__Baraka__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Baraka__Spiked_Cross: string,
     +CHARACTER__Baraka__Low_Stab: string,
@@ -138,7 +137,7 @@ export type LangDataType = {|
     +CHARACTER__Baraka__War_Banner: string,
     // Ability
     +CHARACTER__Baraka__Baraka_Barrage: string,
-    // CHARACTER__Baraka__Baraka_Serker: 'Baraka Serker',
+    +CHARACTER__Baraka__Baraka_Serker: string,
     +CHARACTER__Baraka__Blade_Charge: string,
     +CHARACTER__Baraka__Blood_Lunge: string,
     +CHARACTER__Baraka__Gutted: string,
@@ -157,7 +156,6 @@ export type LangDataType = {|
 
     // -> Cassie Cage
     +CHARACTER__Cassie_Cage__NAME: string,
-    +CHARACTER__Cassie_Cage__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Cassie_Cage__Justice_Jab: string,
     +CHARACTER__Cassie_Cage__Low_Shot: string,
@@ -228,7 +226,6 @@ export type LangDataType = {|
 
     // -> Cetrion
     +CHARACTER__Cetrion__NAME: string,
-    +CHARACTER__Cetrion__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Cetrion__Heavens_Wind: string,
     +CHARACTER__Cetrion__Tendril_Slap: string,
@@ -293,7 +290,6 @@ export type LangDataType = {|
 
     // -> D'vorah
     +CHARACTER__D_Vorah__NAME: string,
-    +CHARACTER__D_Vorah__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__D_Vorah__Pupa_Poke: string,
     +CHARACTER__D_Vorah__Low_Sting: string,
@@ -355,7 +351,6 @@ export type LangDataType = {|
 
     // -> Erron Black
     +CHARACTER__Erron_Black__NAME: string,
-    +CHARACTER__Erron_Black__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Erron_Black__Straight_Punch: string,
     +CHARACTER__Erron_Black__Spinning_Revolver: string,
@@ -414,7 +409,6 @@ export type LangDataType = {|
 
     // -> Frost
     +CHARACTER__Frost__NAME: string,
-    +CHARACTER__Frost__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Frost__Cold_Punch: string,
     +CHARACTER__Frost__Headbutt: string,
@@ -476,7 +470,6 @@ export type LangDataType = {|
 
     // -> Geras
     +CHARACTER__Geras__NAME: string,
-    +CHARACTER__Geras__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Geras__Straight_Jab: string,
     +CHARACTER__Geras__Shoulder_Charg: string,
@@ -544,7 +537,6 @@ export type LangDataType = {|
 
     // -> Jacqui Briggs
     +CHARACTER__Jacqui_Briggs__NAME: string,
-    +CHARACTER__Jacqui_Briggs__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Jacqui_Briggs__Quick_Jab: string,
     +CHARACTER__Jacqui_Briggs__Leaping_Bow: string,
@@ -615,7 +607,6 @@ export type LangDataType = {|
 
     // -> Jade
     +CHARACTER__Jade__NAME: string,
-    +CHARACTER__Jade__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Jade__Quick_Slap: string,
     +CHARACTER__Jade__Pole_Strike: string,
@@ -680,7 +671,6 @@ export type LangDataType = {|
 
     // -> Jax Briggs
     +CHARACTER__Jax_Briggs__NAME: string,
-    +CHARACTER__Jax_Briggs__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Jax_Briggs__Quick_Steel: string,
     +CHARACTER__Jax_Briggs__Power_Punch: string,
@@ -746,7 +736,6 @@ export type LangDataType = {|
 
     // -> Johnny Cage
     +CHARACTER__Johnny_Cage__NAME: string,
-    +CHARACTER__Johnny_Cage__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Johnny_Cage__First_Take: string,
     +CHARACTER__Johnny_Cage__Low_Jab: string,
@@ -813,7 +802,6 @@ export type LangDataType = {|
 
     // -> Kabal
     +CHARACTER__Kabal__NAME: string,
-    +CHARACTER__Kabal__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Kabal__Straight_Jab: string,
     +CHARACTER__Kabal__Hook_Strike: string,
@@ -876,7 +864,6 @@ export type LangDataType = {|
 
     // -> Kano
     +CHARACTER__Kano__NAME: string,
-    +CHARACTER__Kano__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Kano__Bloody_Knuckles: string,
     +CHARACTER__Kano__Blade_Evade: string,
@@ -938,7 +925,6 @@ export type LangDataType = {|
 
     // -> Kitana
     +CHARACTER__Kitana__NAME: string,
-    +CHARACTER__Kitana__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Kitana__Blade_Jab: string,
     +CHARACTER__Kitana__Back_Swipe: string,
@@ -1009,7 +995,6 @@ export type LangDataType = {|
 
     // -> Kollector
     +CHARACTER__Kollector__NAME: string,
-    +CHARACTER__Kollector__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Kollector__Claw_Swipe: string,
     +CHARACTER__Kollector__Raising_Hell: string,
@@ -1079,7 +1064,6 @@ export type LangDataType = {|
 
     // -> Kotal Kahn
     +CHARACTER__Kotal_Kahn__NAME: string,
-    +CHARACTER__Kotal_Kahn__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Kotal_Kahn__Bloody_Knuckles: string,
     +CHARACTER__Kotal_Kahn__Royal_Backhand: string,
@@ -1145,7 +1129,6 @@ export type LangDataType = {|
 
     // -> Kung Lao
     +CHARACTER__Kung_Lao__NAME: string,
-    +CHARACTER__Kung_Lao__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Kung_Lao__Shaolin_Fist: string,
     +CHARACTER__Kung_Lao__Step_Punch: string,
@@ -1210,7 +1193,6 @@ export type LangDataType = {|
 
     // -> Liu Kang
     +CHARACTER__Liu_Kang__NAME: string,
-    +CHARACTER__Liu_Kang__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Liu_Kang__Power_Punch: string,
     +CHARACTER__Liu_Kang__Silent_Chop: string,
@@ -1273,7 +1255,6 @@ export type LangDataType = {|
 
     // -> Noob Saibot
     +CHARACTER__Noob_Saibot__NAME: string,
-    +CHARACTER__Noob_Saibot__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Noob_Saibot__Heavy_Knuckles: string,
     +CHARACTER__Noob_Saibot__Shadow_Poke: string,
@@ -1334,7 +1315,6 @@ export type LangDataType = {|
 
     // -> Raiden
     +CHARACTER__Raiden__NAME: string,
-    +CHARACTER__Raiden__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Raiden__Heavy_palm: string,
     +CHARACTER__Raiden__God_fist: string,
@@ -1396,7 +1376,6 @@ export type LangDataType = {|
 
     // -> Scorpion
     +CHARACTER__Scorpion__NAME: string,
-    +CHARACTER__Scorpion__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Scorpion__Straight_Punch: string,
     +CHARACTER__Scorpion__Gut_Slice: string,
@@ -1455,7 +1434,6 @@ export type LangDataType = {|
 
     // -> Shao Kahn
     +CHARACTER__Shao_Kahn__NAME: string,
-    +CHARACTER__Shao_Kahn__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Shao_Kahn__Face_smash: string,
     +CHARACTER__Shao_Kahn__Dragon_fist: string,
@@ -1504,7 +1482,6 @@ export type LangDataType = {|
 
     // -> Skarlet
     +CHARACTER__Skarlet__NAME: string,
-    +CHARACTER__Skarlet__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Skarlet__Quick_Prick: string,
     +CHARACTER__Skarlet__Slick_Scimitar: string,
@@ -1568,7 +1545,6 @@ export type LangDataType = {|
 
     // -> Sonya Blade
     +CHARACTER__Sonya_Blade__NAME: string,
-    +CHARACTER__Sonya_Blade__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Sonya_Blade__Knuckle_buster: string,
     +CHARACTER__Sonya_Blade__Bo_dash: string,
@@ -1636,7 +1612,6 @@ export type LangDataType = {|
 
     // -> Sub-Zero
     +CHARACTER__Sub_Zero__NAME: string,
-    +CHARACTER__Sub_Zero__DESCRIPTION: string,
     // Basic Attacks
     +CHARACTER__Sub_Zero__Straight_chop: string,
     +CHARACTER__Sub_Zero__Axe_bash: string,

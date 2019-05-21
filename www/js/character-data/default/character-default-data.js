@@ -35,7 +35,7 @@ const defaultComboList: Array<ComboType> = [
     {
         name: 'APP_NAME',
         sequence: [],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -61,7 +61,7 @@ const throwList: Array<ComboType> = [
     {
         name: 'DEFAULT_MOVE__TOWARD_THROW',
         sequence: [[ford, iL1], ori, [ford, i1n, i3n]],
-        description: '',
+        description: null,
         moveData: {
             type: notAvailableMove,
             hitDamage: naValue,
@@ -84,7 +84,7 @@ const throwList: Array<ComboType> = [
     {
         name: 'DEFAULT_MOVE__BACK_THROW',
         sequence: [iL1, ori, [i1n, i3n]],
-        description: '',
+        description: null,
         moveData: {
             type: notAvailableMove,
             hitDamage: naValue,
@@ -110,7 +110,7 @@ const rollEscapeList: Array<ComboType> = [
     {
         name: 'DEFAULT_MOVE__FORWARD_ROLL_ESCAPE',
         sequence: [[ford, iL2]],
-        description: '',
+        description: null,
         moveData: {
             type: notAvailableMove,
             hitDamage: naValue,
@@ -133,7 +133,7 @@ const rollEscapeList: Array<ComboType> = [
     {
         name: 'DEFAULT_MOVE__AWAY_ROLL_ESCAPE',
         sequence: [[back, iL2]],
-        description: '',
+        description: null,
         moveData: {
             type: notAvailableMove,
             hitDamage: naValue,
@@ -159,7 +159,7 @@ const airEscapeList: Array<ComboType> = [
     {
         name: 'DEFAULT_MOVE__AIR_BREAKAWAY',
         sequence: [[down, iR2]],
-        description: '',
+        description: null,
         moveData: {
             type: notAvailableMove,
             hitDamage: naValue,
@@ -191,7 +191,7 @@ const defaultBasicList: Array<ComboType> = [
     {
         name: 'APP_NAME',
         sequence: [i1n],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -214,7 +214,7 @@ const defaultBasicList: Array<ComboType> = [
     {
         name: 'APP_NAME',
         sequence: [[back, i1n]],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -237,7 +237,7 @@ const defaultBasicList: Array<ComboType> = [
     {
         name: 'APP_NAME',
         sequence: [[ford, i1n]],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -260,7 +260,7 @@ const defaultBasicList: Array<ComboType> = [
     {
         name: 'APP_NAME',
         sequence: [[down, i1n]],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -286,7 +286,7 @@ const jumpingAttackList: Array<ComboType> = [
     {
         name: 'APP_NAME',
         sequence: [i1n],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -309,7 +309,7 @@ const jumpingAttackList: Array<ComboType> = [
     {
         name: 'APP_NAME',
         sequence: [i2n],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -332,7 +332,7 @@ const jumpingAttackList: Array<ComboType> = [
     {
         name: 'APP_NAME',
         sequence: [i3n, ori, i4n],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -358,7 +358,7 @@ const hopAttackList: Array<ComboType> = [
     {
         name: 'APP_NAME',
         sequence: [up, i1n, ori, up, i2n],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -381,7 +381,7 @@ const hopAttackList: Array<ComboType> = [
     {
         name: 'APP_NAME',
         sequence: [up, i3n, ori, up, i3n],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -407,7 +407,7 @@ const getUpAttackList: Array<ComboType> = [
     {
         name: 'APP_NAME',
         sequence: [[up, i2n]],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -430,7 +430,7 @@ const getUpAttackList: Array<ComboType> = [
     {
         name: 'APP_NAME',
         sequence: [[up, i3n]],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -456,7 +456,7 @@ const moveAdditionalList: Array<ComboType> = [
     {
         name: 'COMBO_CONTINUE__AMPLIFY',
         sequence: [iR1],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -479,7 +479,7 @@ const moveAdditionalList: Array<ComboType> = [
     {
         name: 'COMBO_CONTINUE__FURTHER_AMPLIFY',
         sequence: [iR1],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -502,7 +502,7 @@ const moveAdditionalList: Array<ComboType> = [
     {
         name: 'COMBO_CONTINUE__CANCEL',
         sequence: [],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -525,7 +525,7 @@ const moveAdditionalList: Array<ComboType> = [
     {
         name: 'COMBO_CONTINUE__EXTEND_RAPIDLY_PRESS',
         sequence: [],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,
@@ -548,7 +548,7 @@ const moveAdditionalList: Array<ComboType> = [
     {
         name: 'COMBO_CONTINUE__CHARGE',
         sequence: [],
-        description: '',
+        description: null,
         moveData: {
             hitDamage: naValue,
             blockDamage: naValue,

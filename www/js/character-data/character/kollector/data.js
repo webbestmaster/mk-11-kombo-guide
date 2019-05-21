@@ -43,7 +43,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Claw_Swipe',
                 sequence: [i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -66,7 +66,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Raising_Hell',
                 sequence: [[back, i1n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -89,7 +89,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Sickle_Slice',
                 sequence: [[ford, i1n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -112,7 +112,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Bloody_Nails',
                 sequence: [[down, i1n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -136,7 +136,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Lantern_Burst',
                 sequence: [i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -159,7 +159,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Lantern_Slam',
                 sequence: [[back, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -182,7 +182,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Knee_Breaker',
                 sequence: [[ford, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -205,7 +205,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Rising_Claws',
                 sequence: [[down, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -229,7 +229,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Violent_Heel',
                 sequence: [i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -252,7 +252,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Death_Spin',
                 sequence: [[back, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -275,7 +275,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Koruppted_Kick',
                 sequence: [[ford, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -298,7 +298,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Leg_Check',
                 sequence: [[down, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -322,7 +322,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Malice_Mace',
                 sequence: [i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -345,7 +345,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Tax_Burden',
                 sequence: [[back, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -368,7 +368,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Mace_Drop',
                 sequence: [[ford, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -391,7 +391,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Low_Mace',
                 sequence: [[down, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -416,7 +416,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Punishing_Strike',
                 sequence: [i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -439,7 +439,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Kura_Slam',
                 sequence: [i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -462,7 +462,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Kura_Heel',
                 sequence: [i3n, ori, i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -487,7 +487,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Menacing_Fist',
                 sequence: [up, i1n, ori, up, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -510,7 +510,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Debt_Kick',
                 sequence: [up, i3n, ori, up, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -535,7 +535,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Flailing_Mace',
                 sequence: [[up, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -558,7 +558,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Rising_Flames',
                 sequence: [[up, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -583,7 +583,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Flailing_Mace',
                 sequence: [[up, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -606,7 +606,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Rising_Flames',
                 sequence: [[up, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -634,7 +634,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Blood_Money',
                 sequence: [i1n, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -657,7 +657,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Price_to_Pay',
                 sequence: [i1n, i3n, i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -680,7 +680,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__The_Enforcer',
                 sequence: [[back, i1n], i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -703,7 +703,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Chaotic_Magic',
                 sequence: [[back, i1n], i2n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -726,7 +726,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Ill_Gotten_Gains',
                 sequence: [[ford, i1n], i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -749,7 +749,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Slice_and_Dice',
                 sequence: [[ford, i1n], i2n, [down, i1n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -772,7 +772,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Debt_is_Paid',
                 sequence: [[ford, i1n], i2n, [down, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -795,7 +795,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Mine_Mine_Mine',
                 sequence: [i2n, [i1n, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -818,7 +818,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Play_for_Souls',
                 sequence: [i2n, [i1n, i3n], i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -841,7 +841,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Pillaged',
                 sequence: [[ford, i2n], i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -864,7 +864,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Taxed',
                 sequence: [[ford, i2n], i2n, [i1n, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -887,7 +887,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Lie_and_Cheat',
                 sequence: [[back, i2n], i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -910,7 +910,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Greed',
                 sequence: [[back, i2n], i3n, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -933,7 +933,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Take_It_All',
                 sequence: [i3n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -956,7 +956,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Paid_in_Full',
                 sequence: [[ford, i3n], i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -979,7 +979,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__With_Interest',
                 sequence: [[ford, i3n], i1n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -1002,7 +1002,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Take_and_Deny',
                 sequence: [[ford, i3n], i1n, i2n, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -1025,7 +1025,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__No_Collateral',
                 sequence: [i4n, i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -1048,7 +1048,7 @@ export const kollector: CharacterType = {
             {
                 name: 'CHARACTER__Kollector__Ravages_of_Time',
                 sequence: [i4n, i4n, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -1073,7 +1073,7 @@ export const kollector: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -1098,7 +1098,7 @@ export const kollector: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -1123,7 +1123,7 @@ export const kollector: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [[iL1, iR2]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -1148,7 +1148,7 @@ export const kollector: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,

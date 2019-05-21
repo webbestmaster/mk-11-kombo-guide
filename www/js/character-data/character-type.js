@@ -142,15 +142,20 @@ export const moveFeatureDataMap: {+[key: MoveFeatureType]: MoveFeatureDataType} 
     },
 };
 
+type AbilityType = {|
+    +name: LangKeyType | null,
+|};
+
 export type ComboType = {|
     +name: LangKeyType,
     +sequence: Array<ComboInputType>,
-    +description: LangKeyType | '',
+    +description: LangKeyType | null,
     +moveData: MoveDataType,
     +frameData: FrameDataType,
     +moveFeatureList: Array<MoveFeatureType>,
     +extendedComboList: Array<ComboType>,
     +crushingBlowCondition: LangKeyType | null,
+    // +ability: AbilityType | null,
 |};
 
 export type CharacterType = {|

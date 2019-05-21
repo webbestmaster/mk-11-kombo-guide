@@ -43,7 +43,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Quick_Prick',
                 sequence: [i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -66,7 +66,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Slick_Scimitar',
                 sequence: [[back, i1n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -89,7 +89,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Silent_Stab',
                 sequence: [[down, i1n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -113,7 +113,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Slicing_Scimitar',
                 sequence: [i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -136,7 +136,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Scythe_Slam',
                 sequence: [[back, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -159,7 +159,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Whip_Snap',
                 sequence: [[ford, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -182,7 +182,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Cutter',
                 sequence: [[down, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -206,7 +206,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Crack_The_Whip',
                 sequence: [i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -229,7 +229,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Spear_Stab',
                 sequence: [[back, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -252,7 +252,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Spear_Strike',
                 sequence: [[down, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -276,7 +276,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Snap_Kick',
                 sequence: [i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -299,7 +299,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Reaching_Whip',
                 sequence: [[back, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -322,7 +322,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Gut_Buster',
                 sequence: [[ford, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -345,7 +345,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Spinning_Scythe',
                 sequence: [[down, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -370,7 +370,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Bleeding_Dagger',
                 sequence: [i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -393,7 +393,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Downward_Stab',
                 sequence: [i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -416,7 +416,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Blood_Kick',
                 sequence: [i3n, ori, i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -441,7 +441,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Punishing_Spear',
                 sequence: [up, i1n, ori, up, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -464,7 +464,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Krimson_Kick',
                 sequence: [up, i3n, ori, up, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -489,7 +489,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Bloody_Boots',
                 sequence: [[up, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -512,7 +512,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Side_Slice',
                 sequence: [[up, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -537,7 +537,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Bloody_Boots',
                 sequence: [[up, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -560,7 +560,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Side_Slice',
                 sequence: [[up, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -588,7 +588,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Redrum',
                 sequence: [i1n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -611,7 +611,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Marrow_Massacre',
                 sequence: [i1n, i2n, i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -634,7 +634,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Thicker_than_Water',
                 sequence: [[back, i1n], i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -657,7 +657,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Komplete_Karnage',
                 sequence: [i2n, i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -680,7 +680,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__The_End_Is_Nigh',
                 sequence: [i2n, i1n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -703,7 +703,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Quick_Tranfusion',
                 sequence: [[ford, i2n], i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -726,7 +726,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Simple_Slaughter',
                 sequence: [[back, i3n], i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -749,7 +749,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Koagulation',
                 sequence: [i4n, i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -772,7 +772,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'CHARACTER__Skarlet__Bleeding',
                 sequence: [[ford, i4n], i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -797,7 +797,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -822,7 +822,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -847,7 +847,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [[iL1, iR2]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -872,7 +872,7 @@ export const skarlet: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,

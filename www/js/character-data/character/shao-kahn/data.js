@@ -43,7 +43,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Face_smash',
                 sequence: [i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -66,7 +66,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Dragon_fist',
                 sequence: [[down, i1n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -90,7 +90,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Hammer_slam',
                 sequence: [i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -113,7 +113,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Tenderizer',
                 sequence: [[back, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -136,7 +136,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Rage_strike',
                 sequence: [[ford, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -159,7 +159,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Rising_wrath',
                 sequence: [[down, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -183,7 +183,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Brutal_kick',
                 sequence: [i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -206,7 +206,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Dragon_toe',
                 sequence: [[back, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -229,7 +229,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Shao_shimmy',
                 sequence: [[ford, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -252,7 +252,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Knee_shatter',
                 sequence: [[down, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -276,7 +276,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Petty_kick',
                 sequence: [i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -299,7 +299,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Hammer_slammer',
                 sequence: [[back, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -322,7 +322,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Kahn_kick',
                 sequence: [[ford, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -345,7 +345,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Side_spike',
                 sequence: [[down, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -370,7 +370,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Hammer_poke',
                 sequence: [i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -393,7 +393,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Final_strike',
                 sequence: [i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -416,7 +416,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Double_dragon_kick',
                 sequence: [i3n, ori, i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -441,7 +441,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Quick_slam',
                 sequence: [up, i1n, ori, up, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -464,7 +464,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Breaking_dragon_claw',
                 sequence: [up, i3n, ori, up, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -489,7 +489,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Fatal_warning',
                 sequence: [[up, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -512,7 +512,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Deadly_swipe',
                 sequence: [[up, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -537,7 +537,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Fatal_warning',
                 sequence: [[up, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -560,7 +560,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Deadly_swipe',
                 sequence: [[up, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -588,7 +588,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Warlord',
                 sequence: [i1n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -611,7 +611,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__DIE',
                 sequence: [i1n, i2n, [i1n, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -634,7 +634,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Takeover',
                 sequence: [i1n, i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -657,7 +657,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Merging_realms',
                 sequence: [i1n, i4n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -680,7 +680,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__You_will_die',
                 sequence: [i2n, i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -703,7 +703,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Is_that_your_best',
                 sequence: [i2n, i1n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -726,7 +726,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Power_of_Shao_Kahn',
                 sequence: [i2n, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -749,7 +749,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Die_by_my_hands',
                 sequence: [i2n, i3n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -772,7 +772,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Will_you_fail',
                 sequence: [[ford, i2n], i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -795,7 +795,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Bow_to_me',
                 sequence: [[ford, i2n], i1n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -818,7 +818,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Fear_me',
                 sequence: [[ford, i2n], i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -841,7 +841,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__You_will_never_win',
                 sequence: [[ford, i3n], i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -864,7 +864,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Last_breath',
                 sequence: [[ford, i3n], i4n, [i1n, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -887,7 +887,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'CHARACTER__Shao_Kahn__Konquer_all',
                 sequence: [i4n, i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -912,7 +912,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -937,7 +937,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -962,7 +962,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [[iL1, iR2]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -987,7 +987,7 @@ export const shaoKahn: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,

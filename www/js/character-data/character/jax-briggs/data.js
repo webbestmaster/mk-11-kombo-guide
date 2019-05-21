@@ -43,7 +43,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Quick_Steel',
                 sequence: [i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -66,7 +66,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Power_Punch',
                 sequence: [[back, i1n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -89,7 +89,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Knee_Jab',
                 sequence: [[down, i1n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -113,7 +113,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Straight_Punch',
                 sequence: [i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -136,7 +136,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Head_Slammer',
                 sequence: [[back, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -159,7 +159,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Hammer_Hook',
                 sequence: [[ford, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -182,7 +182,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Upper_Muscle',
                 sequence: [[down, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -206,7 +206,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Boot_Bash',
                 sequence: [i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -229,7 +229,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Knee_Shatter',
                 sequence: [[back, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -252,7 +252,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Steel_Toe',
                 sequence: [[ford, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -275,7 +275,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Side_Strike',
                 sequence: [[down, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -299,7 +299,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Get_Back',
                 sequence: [i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -322,7 +322,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Ankle_Breaker',
                 sequence: [[back, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -345,7 +345,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Gur_Knee',
                 sequence: [[ford, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -368,7 +368,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Step_Back',
                 sequence: [[down, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -393,7 +393,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Leaping_Fist',
                 sequence: [i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -416,7 +416,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Double_Damage',
                 sequence: [i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -439,7 +439,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Hit_with_a_Size_12',
                 sequence: [i3n, ori, i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -464,7 +464,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Ground_Smash',
                 sequence: [up, i1n, ori, up, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -487,7 +487,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__S_F_Stomp',
                 sequence: [up, i3n, ori, up, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -512,7 +512,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Krushing_Backhand',
                 sequence: [[up, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -535,7 +535,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Ground_Slam',
                 sequence: [[up, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -560,7 +560,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Krushing_Backhand',
                 sequence: [[up, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -583,7 +583,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Ground_Slam',
                 sequence: [[up, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -611,7 +611,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__The_Briggs',
                 sequence: [i1n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -634,7 +634,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Active_Duty',
                 sequence: [i1n, i2n, i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -657,7 +657,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Quick_Drill',
                 sequence: [[down, i1n], i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -680,7 +680,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Outranked',
                 sequence: [i2n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -703,7 +703,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Get_In_Line',
                 sequence: [i2n, i2n, [down, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -726,7 +726,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Breakdown',
                 sequence: [[ford, i2n], i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -749,7 +749,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Won_t_Back_Down',
                 sequence: [[ford, i2n], [down, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -772,7 +772,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Boot_Kamp',
                 sequence: [[back, i3n], i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -795,7 +795,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Sleep_Bitch',
                 sequence: [[back, i3n], i2n, [i1n, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -818,7 +818,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Last_Chance',
                 sequence: [[ford, i3n], i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -841,7 +841,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__America_Strong',
                 sequence: [[ford, i3n], i3n, i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -864,7 +864,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'CHARACTER__Jax_Briggs__Get_Outta_Here',
                 sequence: [[ford, i4n], i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -889,7 +889,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -914,7 +914,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -939,7 +939,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [[iL1, iR2]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -964,7 +964,7 @@ export const jaxBriggs: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,

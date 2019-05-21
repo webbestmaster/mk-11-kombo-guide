@@ -98,7 +98,6 @@ export const enUs: LangDataType = {
 
     // -> Baraka
     CHARACTER__Baraka__NAME: 'Baraka',
-    CHARACTER__Baraka__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Baraka__Spiked_Cross: 'Spiked Cross',
     CHARACTER__Baraka__Low_Stab: 'Low Stab',
@@ -162,7 +161,6 @@ export const enUs: LangDataType = {
 
     // -> Cassie Cage
     CHARACTER__Cassie_Cage__NAME: 'Cassie Cage',
-    CHARACTER__Cassie_Cage__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Cassie_Cage__Justice_Jab: 'Justice Jab',
     CHARACTER__Cassie_Cage__Low_Shot: 'Low Shot',
@@ -233,7 +231,6 @@ export const enUs: LangDataType = {
 
     // -> Cetrion
     CHARACTER__Cetrion__NAME: 'Cetrion',
-    CHARACTER__Cetrion__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Cetrion__Heavens_Wind: 'Heavens Wind',
     CHARACTER__Cetrion__Tendril_Slap: 'Tendril Slap',
@@ -298,7 +295,6 @@ export const enUs: LangDataType = {
 
     // -> D'vorah
     CHARACTER__D_Vorah__NAME: 'D\'Vorah',
-    CHARACTER__D_Vorah__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__D_Vorah__Pupa_Poke: 'Pupa Poke',
     CHARACTER__D_Vorah__Low_Sting: 'Low Sting',
@@ -360,7 +356,6 @@ export const enUs: LangDataType = {
 
     // -> Erron Black
     CHARACTER__Erron_Black__NAME: 'Erron Black',
-    CHARACTER__Erron_Black__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Erron_Black__Straight_Punch: 'Straight Punch',
     CHARACTER__Erron_Black__Spinning_Revolver: 'Spinning Revolver',
@@ -419,7 +414,6 @@ export const enUs: LangDataType = {
 
     // -> Frost
     CHARACTER__Frost__NAME: 'Frost',
-    CHARACTER__Frost__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Frost__Cold_Punch: 'Cold Punch',
     CHARACTER__Frost__Headbutt: 'Headbutt',
@@ -481,7 +475,6 @@ export const enUs: LangDataType = {
 
     // -> Geras
     CHARACTER__Geras__NAME: 'Geras',
-    CHARACTER__Geras__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Geras__Straight_Jab: 'Straight Jab',
     CHARACTER__Geras__Shoulder_Charg: 'Shoulder Charg',
@@ -549,7 +542,6 @@ export const enUs: LangDataType = {
 
     // -> Jacqui Briggs
     CHARACTER__Jacqui_Briggs__NAME: 'Jacqui Briggs',
-    CHARACTER__Jacqui_Briggs__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Jacqui_Briggs__Quick_Jab: 'Quick Jab',
     CHARACTER__Jacqui_Briggs__Leaping_Bow: 'Leaping Bow',
@@ -620,7 +612,6 @@ export const enUs: LangDataType = {
 
     // -> Jade
     CHARACTER__Jade__NAME: 'Jade',
-    CHARACTER__Jade__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Jade__Quick_Slap: 'Quick Slap',
     CHARACTER__Jade__Pole_Strike: 'Pole Strike',
@@ -685,7 +676,6 @@ export const enUs: LangDataType = {
 
     // -> Jax Briggs
     CHARACTER__Jax_Briggs__NAME: 'Jax Briggs',
-    CHARACTER__Jax_Briggs__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Jax_Briggs__Quick_Steel: 'Quick Steel',
     CHARACTER__Jax_Briggs__Power_Punch: 'Power Punch',
@@ -751,7 +741,6 @@ export const enUs: LangDataType = {
 
     // -> Johnny Cage
     CHARACTER__Johnny_Cage__NAME: 'Johnny Cage',
-    CHARACTER__Johnny_Cage__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Johnny_Cage__First_Take: 'First Take',
     CHARACTER__Johnny_Cage__Low_Jab: 'Low Jab',
@@ -818,7 +807,6 @@ export const enUs: LangDataType = {
 
     // -> Kabal
     CHARACTER__Kabal__NAME: 'Kabal',
-    CHARACTER__Kabal__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Kabal__Straight_Jab: 'Straight Jab',
     CHARACTER__Kabal__Hook_Strike: 'Hook Strike',
@@ -881,7 +869,6 @@ export const enUs: LangDataType = {
 
     // -> Kano
     CHARACTER__Kano__NAME: 'Kano',
-    CHARACTER__Kano__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Kano__Bloody_Knuckles: 'Bloody Knuckles',
     CHARACTER__Kano__Blade_Evade: 'Blade Evade',
@@ -943,7 +930,6 @@ export const enUs: LangDataType = {
 
     // -> Kitana
     CHARACTER__Kitana__NAME: 'Kitana',
-    CHARACTER__Kitana__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Kitana__Blade_Jab: 'Blade Jab',
     CHARACTER__Kitana__Back_Swipe: 'Back Swipe',
@@ -1014,7 +1000,6 @@ export const enUs: LangDataType = {
 
     // -> Kollector
     CHARACTER__Kollector__NAME: 'Kollector',
-    CHARACTER__Kollector__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Kollector__Claw_Swipe: 'Claw Swipe',
     CHARACTER__Kollector__Raising_Hell: 'Raising Hell',
@@ -1084,7 +1069,6 @@ export const enUs: LangDataType = {
 
     // -> Kotal Kahn
     CHARACTER__Kotal_Kahn__NAME: 'Kotal Kahn',
-    CHARACTER__Kotal_Kahn__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Kotal_Kahn__Bloody_Knuckles: 'Bloody Knuckles',
     CHARACTER__Kotal_Kahn__Royal_Backhand: 'Royal Backhand',
@@ -1150,7 +1134,6 @@ export const enUs: LangDataType = {
 
     // -> Kung Lao
     CHARACTER__Kung_Lao__NAME: 'Kung Lao',
-    CHARACTER__Kung_Lao__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Kung_Lao__Shaolin_Fist: 'Shaolin Fist',
     CHARACTER__Kung_Lao__Step_Punch: 'Step Punch',
@@ -1215,7 +1198,6 @@ export const enUs: LangDataType = {
 
     // -> Liu Kang
     CHARACTER__Liu_Kang__NAME: 'Liu Kang',
-    CHARACTER__Liu_Kang__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Liu_Kang__Power_Punch: 'Power Punch',
     CHARACTER__Liu_Kang__Silent_Chop: 'Silent Chop',
@@ -1278,7 +1260,6 @@ export const enUs: LangDataType = {
 
     // -> Noob Saibot
     CHARACTER__Noob_Saibot__NAME: 'Noob Saibot',
-    CHARACTER__Noob_Saibot__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Noob_Saibot__Heavy_Knuckles: 'Heavy Knuckles',
     CHARACTER__Noob_Saibot__Shadow_Poke: 'Shadow Poke',
@@ -1339,7 +1320,6 @@ export const enUs: LangDataType = {
 
     // -> Raiden
     CHARACTER__Raiden__NAME: 'Raiden',
-    CHARACTER__Raiden__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Raiden__Heavy_palm: 'Heavy palm',
     CHARACTER__Raiden__God_fist: 'God fist',
@@ -1401,7 +1381,6 @@ export const enUs: LangDataType = {
 
     // -> Scorpion
     CHARACTER__Scorpion__NAME: 'Scorpion',
-    CHARACTER__Scorpion__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Scorpion__Straight_Punch: 'Straight Punch',
     CHARACTER__Scorpion__Gut_Slice: 'Gut Slice',
@@ -1460,7 +1439,6 @@ export const enUs: LangDataType = {
 
     // -> Shao Kahn
     CHARACTER__Shao_Kahn__NAME: 'Shao Kahn',
-    CHARACTER__Shao_Kahn__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Shao_Kahn__Face_smash: 'Face smash',
     CHARACTER__Shao_Kahn__Dragon_fist: 'Dragon fist',
@@ -1509,7 +1487,6 @@ export const enUs: LangDataType = {
 
     // -> Skarlet
     CHARACTER__Skarlet__NAME: 'Skarlet',
-    CHARACTER__Skarlet__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Skarlet__Quick_Prick: 'Quick Prick',
     CHARACTER__Skarlet__Slick_Scimitar: 'Slick Scimitar',
@@ -1573,7 +1550,6 @@ export const enUs: LangDataType = {
 
     // -> Sonya Blade
     CHARACTER__Sonya_Blade__NAME: 'Sonya Blade',
-    CHARACTER__Sonya_Blade__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Sonya_Blade__Knuckle_buster: 'Knuckle buster',
     CHARACTER__Sonya_Blade__Bo_dash: 'Bo dash',
@@ -1641,7 +1617,6 @@ export const enUs: LangDataType = {
 
     // -> Sub-Zero
     CHARACTER__Sub_Zero__NAME: 'Sub-Zero',
-    CHARACTER__Sub_Zero__DESCRIPTION: '',
     // Basic Attacks
     CHARACTER__Sub_Zero__Straight_chop: 'Straight chop',
     CHARACTER__Sub_Zero__Axe_bash: 'Axe bash',

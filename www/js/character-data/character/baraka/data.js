@@ -43,7 +43,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Spiked_Cross',
                 sequence: [i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -66,7 +66,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Low_Stab',
                 sequence: [[down, i1n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -89,7 +89,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Warrior_Strike',
                 sequence: [i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -112,7 +112,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Lunging_Blades',
                 sequence: [[back, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -135,7 +135,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Blade_Swipe',
                 sequence: [[ford, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -158,7 +158,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Rising_Blades',
                 sequence: [[down, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -181,7 +181,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Hinge_Kick',
                 sequence: [i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -204,7 +204,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Foot_Stomp',
                 sequence: [[back, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -227,7 +227,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Low_Poke',
                 sequence: [[down, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -250,7 +250,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Big_Leg',
                 sequence: [i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -273,7 +273,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Leg_Chop',
                 sequence: [[back, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -296,7 +296,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Knee_Lunge',
                 sequence: [[ford, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -319,7 +319,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Side_Kick',
                 sequence: [[down, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -344,7 +344,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Hangry_Jab',
                 sequence: [i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -367,7 +367,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Sinister_Slice',
                 sequence: [i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -390,7 +390,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Drop_Kick',
                 sequence: [i3n, ori, i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -415,7 +415,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Bladed_Doom',
                 sequence: [up, i1n, ori, up, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -438,7 +438,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Karbrac_Kick',
                 sequence: [up, i3n, ori, up, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -463,7 +463,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Fatal_Strike',
                 sequence: [[up, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -486,7 +486,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Karbrac_Stab',
                 sequence: [[up, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -511,7 +511,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Fatal_Strike',
                 sequence: [[up, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -534,7 +534,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Karbrac_Stab',
                 sequence: [[up, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -562,7 +562,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Easy_Kill',
                 sequence: [i1n, i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -585,7 +585,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Mangled',
                 sequence: [i1n, i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -608,7 +608,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Bloodthirsty',
                 sequence: [i1n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -631,7 +631,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Outworld_Bash',
                 sequence: [i1n, i2n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -654,7 +654,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Splintered',
                 sequence: [i2n, [i1n, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -677,7 +677,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Painful_Swipes',
                 sequence: [[ford, i2n], i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -700,7 +700,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Bloody_Mess',
                 sequence: [[ford, i2n], i1n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -723,7 +723,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Tarkatan_Rush',
                 sequence: [[back, i3n], i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -746,7 +746,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Kutting_Loose',
                 sequence: [[back, i3n], i1n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -769,7 +769,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Doom_Kicks',
                 sequence: [[ford, i4n], i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -794,7 +794,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Blade_Spark',
                 sequence: [down, back, i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -815,7 +815,7 @@ export const baraka: CharacterType = {
                     {
                         name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
-                        description: '',
+                        description: null,
                         moveData: {
                             hitDamage: naValue,
                             blockDamage: naValue,
@@ -841,7 +841,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Chop_Chop',
                 sequence: [down, back, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -862,7 +862,7 @@ export const baraka: CharacterType = {
                     {
                         name: 'COMBO_CONTINUE__EXTEND_RAPIDLY_PRESS',
                         sequence: [i3n],
-                        description: '',
+                        description: null,
                         moveData: {
                             hitDamage: naValue,
                             blockDamage: naValue,
@@ -885,7 +885,7 @@ export const baraka: CharacterType = {
                     {
                         name: 'COMBO_CONTINUE__AMPLIFY',
                         sequence: [iR1],
-                        description: '',
+                        description: null,
                         moveData: {
                             hitDamage: naValue,
                             blockDamage: naValue,
@@ -908,7 +908,7 @@ export const baraka: CharacterType = {
                     {
                         name: 'COMBO_CONTINUE__FURTHER_AMPLIFY',
                         sequence: [iR1],
-                        description: '',
+                        description: null,
                         moveData: {
                             hitDamage: naValue,
                             blockDamage: naValue,
@@ -934,7 +934,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__War_Banner',
                 sequence: [down, back, i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -959,7 +959,7 @@ export const baraka: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -984,7 +984,7 @@ export const baraka: CharacterType = {
             {
                 name: 'CHARACTER__Baraka__Skewered',
                 sequence: [[iL2, iR2]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -1009,7 +1009,7 @@ export const baraka: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,

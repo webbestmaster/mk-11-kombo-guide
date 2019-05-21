@@ -43,7 +43,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Straight_Punch',
                 sequence: [i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -66,7 +66,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Gut_Slice',
                 sequence: [[back, i1n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -89,7 +89,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Low_Jab',
                 sequence: [[down, i1n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -112,7 +112,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Specter_Strike',
                 sequence: [i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -135,7 +135,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Rising_Cut',
                 sequence: [[back, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -158,7 +158,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Rising_Spear',
                 sequence: [[down, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -181,7 +181,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Hinge_Kick',
                 sequence: [i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -204,7 +204,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Flip_Kick',
                 sequence: [[back, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -227,7 +227,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Flick_Kick',
                 sequence: [[ford, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -250,7 +250,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Side_Strike',
                 sequence: [[down, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -273,7 +273,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Step_Kick',
                 sequence: [i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -296,7 +296,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Scorpion_Sting',
                 sequence: [[back, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -319,7 +319,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Shin_Strike',
                 sequence: [[ford, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -342,7 +342,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Quick_Kick',
                 sequence: [[down, i4n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -367,7 +367,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Hell_Hook',
                 sequence: [up, i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -390,7 +390,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Straight_Stab',
                 sequence: [up, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -413,7 +413,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Devil_Kick',
                 sequence: [up, i3n, ori, up, i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -438,7 +438,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Spear_Stab',
                 sequence: [up, i1n, ori, up, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -461,7 +461,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Corckscrew_Kick',
                 sequence: [up, i3n, ori, up, i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -486,7 +486,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Rising_Blade',
                 sequence: [[up, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -509,7 +509,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Spear_Slice',
                 sequence: [[up, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -534,7 +534,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Rising_Blade',
                 sequence: [[up, i2n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -557,7 +557,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Spear_Slice',
                 sequence: [[up, i3n]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -585,7 +585,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__The_Damned',
                 sequence: [i1n, i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -608,7 +608,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Torment',
                 sequence: [i1n, i1n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -631,7 +631,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Eternal_Vengeance',
                 sequence: [[back, i1n], i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -654,7 +654,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Haunted',
                 sequence: [[back, i1n], i4n, i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -677,7 +677,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__The_Killing',
                 sequence: [[back, i1n], i4n, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -700,7 +700,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Banished',
                 sequence: [i2n, i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -723,7 +723,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Dark_Soul',
                 sequence: [i2n, i1n, i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -746,7 +746,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Fallen_Ashes',
                 sequence: [[ford, i3n], i4n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -769,7 +769,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Inner_Demon',
                 sequence: [[ford, i4n], i2n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -792,7 +792,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Soulless',
                 sequence: [[ford, i4n], i2n, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -817,7 +817,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Spear',
                 sequence: [back, ford, i1n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -840,7 +840,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Hell_Port',
                 sequence: [down, back, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -863,7 +863,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Air_Hell_Port',
                 sequence: [down, back, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -888,7 +888,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'APP_NAME',
                 sequence: [],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -913,7 +913,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Get_Over_Here',
                 sequence: [[iL1, iR2]],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -938,7 +938,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Ashes',
                 sequence: [iL1, hold, back],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
@@ -961,7 +961,7 @@ export const scorpion: CharacterType = {
             {
                 name: 'CHARACTER__Scorpion__Burn',
                 sequence: [down, ford, i3n, hold, i3n],
-                description: '',
+                description: null,
                 moveData: {
                     hitDamage: naValue,
                     blockDamage: naValue,
