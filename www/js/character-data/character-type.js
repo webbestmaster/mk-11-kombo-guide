@@ -143,8 +143,8 @@ export const moveFeatureDataMap: {+[key: MoveFeatureType]: MoveFeatureDataType} 
 };
 
 type AbilityType = {|
-    +name: LangKeyType | null,
-    +value: 1 | 2 | 3,
+    +name: LangKeyType,
+    +value: 1 | 2,
 |};
 
 export type ComboType = {|
