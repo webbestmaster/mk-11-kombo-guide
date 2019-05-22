@@ -102,7 +102,7 @@ export class Character extends Component<PropsType, StateType> {
             </div>,
         ];
 
-        const activeIndex = 2;
+        const activeIndex = 0;
 
         return <TabList activeIndex={activeIndex} contentList={contentList} titleList={titleList}/>;
     }
