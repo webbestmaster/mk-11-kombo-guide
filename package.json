@@ -16,6 +16,7 @@
   "scripts": {
     "start": "cross-env BRANCH_NAME=`git symbolic-ref --short HEAD` webpack-dev-server --progress --no-inline",
     "start-hot": "cross-env BRANCH_NAME=`git symbolic-ref --short HEAD` webpack-dev-server --progress --hot",
+    "get-data": "babel-node ./util/get-data/get-data.js",
     "build": "cross-env BRANCH_NAME=`git symbolic-ref --short HEAD` NODE_ENV=production webpack --mode=production --progress",
     "webpack": "webpack --mode=development --progress",
     "check": "npm run eslint; npm run stylelint; npm run flow;",
@@ -47,6 +48,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
     "@babel/plugin-proposal-decorators": "^7.4.4",
     "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
     "@babel/plugin-proposal-throw-expressions": "^7.2.0",
@@ -96,6 +98,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-loader": "^3.0.0",
     "prettier": "^1.17.1",
+    "puppeteer": "^1.17.0",
     "react-hot-loader": "^4.8.8",
     "redux-devtools-extension": "^2.13.8",
     "sass-loader": "^7.1.0",
