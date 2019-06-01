@@ -4,7 +4,7 @@ import type {CharacterType} from './character-type';
 import {baraka} from './character/baraka/data';
 import {cassieCage} from './character/cassie-cage/data';
 import {cetrion} from './character/cetrion/data';
-import {dVorah} from './character/d-vorah/data';
+import {dVorah} from './character/dvorah/data';
 import {erronBlack} from './character/erron-black/data';
 import {frost} from './character/frost/data';
 import {geras} from './character/geras/data';

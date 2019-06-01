@@ -36,7 +36,7 @@ const {low, mid, high, overhead, throwMove, unblockable, notAvailableMove} = mov
 const {invul, parry, projectile, projectileInvul} = moveFeatureMap;
 
 export const dVorah: CharacterType = {
-    id: 'd-vorah',
+    id: 'dvorah',
     imagePath: faceImagePath,
     name: 'CHARACTER__D_Vorah__NAME',
     abilityList: [],
