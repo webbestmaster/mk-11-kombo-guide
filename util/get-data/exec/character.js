@@ -51,6 +51,8 @@ export async function getCharacterData(characterId: string, page: Page): Promise
         id: characterId,
         imagePath: './face.png',
         name,
+        abilityList: [],
+        move: {},
     };
 
     console.log(character);
