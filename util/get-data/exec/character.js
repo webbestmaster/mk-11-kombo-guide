@@ -4,7 +4,7 @@ import {Page} from 'puppeteer';
 
 import {getDataConst} from '../const';
 import {isNotString} from '../../../www/js/lib/is';
-import type {CharacterType} from '../../../www/js/character-data/character-type';
+import type {CharacterType, ComboType} from '../../../www/js/character-data/character-type';
 
 export type CharacterDataType = {|
     +id: string,
@@ -52,7 +52,20 @@ export async function getCharacterData(characterId: string, page: Page): Promise
         imagePath: './face.png',
         name,
         abilityList: [],
-        move: {},
+        move: {
+            basicList: [],
+            jumpingAttackList: [],
+            hopAttackList: [],
+            getUpAttackList: [],
+            flawlessBlockAttacksList: [],
+            throwsList: [],
+            rollEscapeList: [],
+            airEscapeList: [],
+            comboList: [],
+            specialList: [],
+            fatalBlowList: [],
+            brutalityList: [],
+        },
     };
 
     console.log(character);
