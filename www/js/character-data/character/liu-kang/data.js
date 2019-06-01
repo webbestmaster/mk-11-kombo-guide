@@ -481,6 +481,7 @@ export const liuKang: CharacterType = {
                 abilityName: null,
             },
         ],
+        fatalityList: [],
         brutalityList: [
             {
                 name: 'APP_NAME',

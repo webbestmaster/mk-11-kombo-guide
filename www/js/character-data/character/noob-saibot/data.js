@@ -470,6 +470,7 @@ export const noobSaibot: CharacterType = {
                 abilityName: null,
             },
         ],
+        fatalityList: [],
         brutalityList: [
             {
                 name: 'APP_NAME',

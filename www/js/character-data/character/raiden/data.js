@@ -525,6 +525,7 @@ export const raiden: CharacterType = {
                 abilityName: null,
             },
         ],
+        fatalityList: [],
         brutalityList: [
             {
                 name: 'APP_NAME',

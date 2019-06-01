@@ -481,6 +481,7 @@ export const jaxBriggs: CharacterType = {
                 abilityName: null,
             },
         ],
+        fatalityList: [],
         brutalityList: [
             {
                 name: 'APP_NAME',

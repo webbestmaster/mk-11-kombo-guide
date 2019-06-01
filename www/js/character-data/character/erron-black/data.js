@@ -616,6 +616,7 @@ export const erronBlack: CharacterType = {
                 abilityName: null,
             },
         ],
+        fatalityList: [],
         brutalityList: [
             {
                 name: 'APP_NAME',

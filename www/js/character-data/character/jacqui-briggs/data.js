@@ -536,6 +536,7 @@ export const jacquiBriggs: CharacterType = {
                 abilityName: null,
             },
         ],
+        fatalityList: [],
         brutalityList: [
             {
                 name: 'APP_NAME',

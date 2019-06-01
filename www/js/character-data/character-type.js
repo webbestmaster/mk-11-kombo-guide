@@ -171,6 +171,7 @@ export type CharacterMoveType = {|
     +comboList: Array<ComboType>,
     +specialList: Array<ComboType>,
     +fatalBlowList: Array<ComboType>,
+    +fatalityList: Array<ComboType>,
     +brutalityList: Array<ComboType>,
 |};
 

@@ -64,6 +64,7 @@ export async function getCharacterData(characterId: string, page: Page): Promise
             comboList: [],
             specialList: [],
             fatalBlowList: [],
+            fatalityList: [],
             brutalityList: [],
         },
     };
@@ -73,13 +74,40 @@ export async function getCharacterData(characterId: string, page: Page): Promise
     return character;
 }
 
-async function parseTable(characterMoveData: CharacterMoveType, page: Page) {
-    const rowNodeList = await page.$$('#move_list tr');
+// eslint-disable-next-line complexity
+async function getStartPageComboList(characterMoveData: CharacterMoveType, page: Page): Promise<Array<ComboType>> {
     const pageNameNode = await page.$('#category #active');
 
     if (!pageNameNode) {
         throw new Error('Can not find node with page name');
     }
+    const pageName = String(await (await pageNameNode.getProperty('innerHTML')).jsonValue());
+
+    if (pageName === 'BASIC ATTACKS') {
+        return characterMoveData.basicList;
+    }
+
+    if (pageName === 'KOMBO ATTACKS') {
+        return characterMoveData.comboList;
+    }
+
+    if (pageName === 'SPECIAL MOVES') {
+        return characterMoveData.specialList;
+    }
+
+    if (pageName === 'FINISHERS') {
+        return characterMoveData.fatalityList;
+    }
+
+    throw new Error('Can not detect page name');
+}
+
+async function parseRow(characterMoveData: CharacterMoveType, page: Page) {}
+
+async function parseTable(characterMoveData: CharacterMoveType, page: Page) {
+    const rowNodeList = await page.$$('#move_list tr');
+
+    const comboList = getStartPageComboList(characterMoveData, page);
 
     console.log(rowNodeList.length);
 }

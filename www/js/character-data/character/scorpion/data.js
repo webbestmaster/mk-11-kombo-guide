@@ -467,6 +467,7 @@ export const scorpion: CharacterType = {
                 abilityName: null,
             },
         ],
+        fatalityList: [],
         brutalityList: [
             {
                 name: 'CHARACTER__Scorpion__Ashes',
