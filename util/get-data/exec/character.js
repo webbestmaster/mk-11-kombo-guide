@@ -4,6 +4,7 @@ import {Page} from 'puppeteer';
 
 import {getDataConst} from '../const';
 import {isNotString} from '../../../www/js/lib/is';
+import type {CharacterType} from '../../../www/js/character-data/character-type';
 
 export type CharacterDataType = {|
     +id: string,
@@ -34,4 +35,25 @@ export async function getCharacterList(page: Page): Promise<Array<CharacterDataT
     }
 
     return characterDataList;
+}
+
+export async function getCharacterData(characterId: string, page: Page): Promise<{}> {
+    await page.goto(`${getDataConst.url.root}/${characterId}`);
+    const nameNode = await page.$('.inner-page-content-location .entry-title');
+
+    if (!nameNode) {
+        throw new Error('Can not find node with name');
+    }
+
+    const name = await (await nameNode.getProperty('innerHTML')).jsonValue();
+
+    const character = {
+        id: characterId,
+        imagePath: './face.png',
+        name,
+    };
+
+    console.log(character);
+
+    return {};
 }

@@ -3,8 +3,8 @@
 export const getDataConst = {
     window: {
         size: {
-            width: 400,
-            height: 620,
+            width: 800,
+            height: 600,
         },
     },
     url: {
