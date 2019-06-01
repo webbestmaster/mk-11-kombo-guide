@@ -4,7 +4,7 @@ import {Page} from 'puppeteer';
 
 import {getDataConst} from '../const';
 import {isNotString} from '../../../www/js/lib/is';
-import type {CharacterType, ComboType} from '../../../www/js/character-data/character-type';
+import type {CharacterMoveType, CharacterType, ComboType} from '../../../www/js/character-data/character-type';
 
 export type CharacterDataType = {|
     +id: string,
@@ -45,7 +45,7 @@ export async function getCharacterData(characterId: string, page: Page): Promise
         throw new Error('Can not find node with name');
     }
 
-    const name = await (await nameNode.getProperty('innerHTML')).jsonValue();
+    const name = String(await (await nameNode.getProperty('innerHTML')).jsonValue());
 
     const character = {
         id: characterId,
@@ -68,7 +68,18 @@ export async function getCharacterData(characterId: string, page: Page): Promise
         },
     };
 
-    console.log(character);
+    await parseTable(character.move, page);
 
-    return {};
+    return character;
+}
+
+async function parseTable(characterMoveData: CharacterMoveType, page: Page) {
+    const rowNodeList = await page.$$('#move_list tr');
+    const pageNameNode = await page.$('#category #active');
+
+    if (!pageNameNode) {
+        throw new Error('Can not find node with page name');
+    }
+
+    console.log(rowNodeList.length);
 }

@@ -159,23 +159,25 @@ export type ComboType = {|
     +abilityName: LangKeyType | null,
 |};
 
+export type CharacterMoveType = {|
+    +basicList: Array<ComboType>,
+    +jumpingAttackList: Array<ComboType>,
+    +hopAttackList: Array<ComboType>,
+    +getUpAttackList: Array<ComboType>,
+    +flawlessBlockAttacksList: Array<ComboType>,
+    +throwsList: Array<ComboType>,
+    +rollEscapeList: Array<ComboType>,
+    +airEscapeList: Array<ComboType>,
+    +comboList: Array<ComboType>,
+    +specialList: Array<ComboType>,
+    +fatalBlowList: Array<ComboType>,
+    +brutalityList: Array<ComboType>,
+|};
+
 export type CharacterType = {|
     +id: string,
     +imagePath: string,
     +name: LangKeyType,
     +abilityList: Array<AbilityType>,
-    +move: {
-        +basicList: Array<ComboType>,
-        +jumpingAttackList: Array<ComboType>,
-        +hopAttackList: Array<ComboType>,
-        +getUpAttackList: Array<ComboType>,
-        +flawlessBlockAttacksList: Array<ComboType>,
-        +throwsList: Array<ComboType>,
-        +rollEscapeList: Array<ComboType>,
-        +airEscapeList: Array<ComboType>,
-        +comboList: Array<ComboType>,
-        +specialList: Array<ComboType>,
-        +fatalBlowList: Array<ComboType>,
-        +brutalityList: Array<ComboType>,
-    },
+    +move: CharacterMoveType,
 |};
