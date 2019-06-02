@@ -116,9 +116,6 @@ export class FrameData extends Component<PropsType, StateType> {
                     <td className={frameDataStyle.frame_data__table_th}>
                         <Locale stringKey="FRAME_DATA__CANCEL"/>
                     </td>
-                    <td className={frameDataStyle.frame_data__table_th}>
-                        <Locale stringKey="FRAME_DATA__ADDITIONALLY"/>
-                    </td>
                 </tr>
                 <tr className={frameDataStyle.frame_data__table_tr}>
                     <td className={frameDataStyle.frame_data__table_td}>{renderFrameDataValue(hitAdvance)}</td>

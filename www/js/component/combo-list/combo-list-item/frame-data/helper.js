@@ -12,5 +12,5 @@ export function renderFrameDataValue(value: MayBeNaType<number>): Node | number 
         return value;
     }
 
-    return <Locale stringKey="FRAME_DATA__NOT_AVAILABLE_VALUE"/>;
+    return <Locale stringKey="FRAME_DATA__NOT_AVAILABLE_FRAME_DATA"/>;
 }

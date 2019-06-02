@@ -7,7 +7,6 @@ import React, {Component, Fragment} from 'react';
 
 import type {ComboType, MoveFeatureDataType, MoveFeatureType} from '../../../../character-data/character-type';
 
-import {moveFeatureDataMap} from '../../../../character-data/character-type';
 import {Locale} from '../../../locale/c-locale';
 
 import additionalInfoStyle from './additional-info.style.scss';
@@ -36,26 +35,11 @@ export class AdditionalInfo extends Component<PropsType, StateType> {
     state: StateType;
     props: PropsType;
 
-    renderItem = (moveFeatureType: MoveFeatureType): Node => {
-        const getMoveFeatureData = moveFeatureDataMap[moveFeatureType];
-
-        return (
-            <div key={getMoveFeatureData.name}>
-                <Locale stringKey={getMoveFeatureData.name}/>
-            </div>
-        );
-    };
-
     render(): Node {
         const view = this;
         const {props} = view;
         const {combo} = props;
-        const {moveFeatureList} = combo;
 
-        if (moveFeatureList.length === 0) {
-            return null;
-        }
-
-        return <div>{moveFeatureList.map(view.renderItem)}</div>;
+        return <div>moveFeatureList is here</div>;
     }
 }

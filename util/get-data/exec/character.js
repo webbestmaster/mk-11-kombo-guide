@@ -1,10 +1,11 @@
 // @flow
 
-import {Page} from 'puppeteer';
+import type {Page, ElementHandle} from 'puppeteer';
 
 import {getDataConst} from '../const';
-import {isNotString} from '../../../www/js/lib/is';
+import {isNotString, isString} from '../../../www/js/lib/is';
 import type {CharacterMoveType, CharacterType, ComboType} from '../../../www/js/character-data/character-type';
+import {trim} from '../helper';
 
 export type CharacterDataType = {|
     +id: string,
@@ -69,6 +70,19 @@ export async function getCharacterData(characterId: string, page: Page): Promise
         },
     };
 
+    // parse basic
+    await parseTable(character.move, page);
+
+    // parse combo
+    await page.goto(`${getDataConst.url.root}/${characterId}/?category=Kombo%20Attacks#1.2`);
+    await parseTable(character.move, page);
+
+    // parse special
+    await page.goto(`${getDataConst.url.root}/${characterId}/?category=Special%20Moves#1.3`);
+    await parseTable(character.move, page);
+
+    // parse finishers
+    await page.goto(`${getDataConst.url.root}/${characterId}/?category=Finishers#1.4`);
     await parseTable(character.move, page);
 
     return character;
@@ -76,7 +90,7 @@ export async function getCharacterData(characterId: string, page: Page): Promise
 
 // eslint-disable-next-line complexity
 async function getStartPageComboList(characterMoveData: CharacterMoveType, page: Page): Promise<Array<ComboType>> {
-    const pageNameNode = await page.$('#category #active');
+    const pageNameNode = await page.$('#category .active');
 
     if (!pageNameNode) {
         throw new Error('Can not find node with page name');
@@ -102,12 +116,101 @@ async function getStartPageComboList(characterMoveData: CharacterMoveType, page:
     throw new Error('Can not detect page name');
 }
 
-async function parseRow(characterMoveData: CharacterMoveType, page: Page) {}
+type RowDataHeaderType = {
+    type: 'header',
+    text: string,
+};
 
+type RowDataComboType = {
+    type: 'combo',
+    text: string,
+    combo: ComboType,
+};
+
+type RowDataType = RowDataHeaderType | RowDataComboType;
+
+async function parseRow(rowNode: ElementHandle): Promise<RowDataType> {
+    const innerHtml = String(await (await rowNode.getProperty('innerHTML')).jsonValue());
+    const innerText = String(await (await rowNode.getProperty('innerText')).jsonValue());
+    const innerTextList = innerText
+        .split('\n')
+        .map(trim)
+        .filter(Boolean);
+
+    // detect header
+    if (innerTextList.length === 1) {
+        return {
+            type: 'header',
+            text: innerTextList[0],
+        };
+    }
+
+    // detect combo
+    if (innerTextList.length === 2) {
+        const comboName = innerTextList[0];
+        const comboInput = innerTextList[1];
+
+        /*
+        return {
+            type: 'combo',
+            text: comboName + ' - ' + comboInput,
+        };
+*/
+    }
+
+    throw new Error('Can not parse row');
+}
+
+// eslint-disable-next-line complexity
 async function parseTable(characterMoveData: CharacterMoveType, page: Page) {
     const rowNodeList = await page.$$('#move_list tr');
 
-    const comboList = getStartPageComboList(characterMoveData, page);
+    let comboList = await getStartPageComboList(characterMoveData, page);
 
-    console.log(rowNodeList.length);
+    // eslint-disable-next-line no-loops/no-loops
+    for (const rowNode of rowNodeList) {
+        const rowData = await parseRow(rowNode);
+        const {type, text} = rowData;
+
+        if (type === 'header') {
+            switch (text) {
+                case 'JUMPING ATTACKS':
+                    comboList = characterMoveData.jumpingAttackList;
+                    break;
+                case 'HOP ATTACKS':
+                    comboList = characterMoveData.hopAttackList;
+                    break;
+                case 'GETUP ATTACKS':
+                    comboList = characterMoveData.getUpAttackList;
+                    break;
+                case 'FLAWLESS BLOCK ATTACKS':
+                    comboList = characterMoveData.flawlessBlockAttacksList;
+                    break;
+                case 'THROWS':
+                    comboList = characterMoveData.throwsList;
+                    break;
+                case 'ROLL ESCAPES':
+                    comboList = characterMoveData.throwsList;
+                    break;
+                case 'AIR ESCAPE':
+                    comboList = characterMoveData.airEscapeList;
+                    break;
+                case 'FATAL BLOW':
+                    comboList = characterMoveData.fatalBlowList;
+                    break;
+                case 'FATALITIES':
+                    // Do nothing fatalities already defined by getStartPageComboList
+                    break;
+                case 'BRUTALITIES':
+                    comboList = characterMoveData.brutalityList;
+                    break;
+                default:
+                    throw new Error('Can not parse header');
+            }
+        }
+
+        if (type === 'combo') {
+            comboList.push(rowData.combo);
+        }
+    }
 }

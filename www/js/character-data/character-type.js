@@ -99,7 +99,7 @@ export const moveTypeTranslationMap: {+[key: MoveType]: LangKeyType} = {
     [moveTypeMap.overhead]: 'MOVE_TYPE__OVERHEAD',
     [moveTypeMap.throwMove]: 'MOVE_TYPE__THROW',
     [moveTypeMap.unblockable]: 'MOVE_TYPE__UNBLOCKABLE',
-    [moveTypeMap.notAvailableMove]: 'MOVE_TYPE__NOT_AVAILABLE',
+    [moveTypeMap.notAvailableMove]: 'MOVE_TYPE__NOT_AVAILABLE_MOVE_TYPE',
 };
 
 export type MoveDataType = {|
@@ -123,40 +123,15 @@ export type MoveFeatureDataType = {|
     +name: LangKeyType,
 |};
 
-export const moveFeatureDataMap: {+[key: MoveFeatureType]: MoveFeatureDataType} = {
-    [moveFeatureMap.projectile]: {
-        image: 'image projectile path',
-        name: 'MOVE_FEATURE__PROJECTILE',
-    },
-    [moveFeatureMap.parry]: {
-        image: 'image parry path',
-        name: 'MOVE_FEATURE__PARRY',
-    },
-    [moveFeatureMap.invul]: {
-        image: 'image invul path',
-        name: 'MOVE_FEATURE__INVULNERABLE',
-    },
-    [moveFeatureMap.projectileInvul]: {
-        image: 'image projectile-invul path',
-        name: 'MOVE_FEATURE__PROJECTILE_INVULNERABLE',
-    },
-};
-
-type AbilityType = {|
-    +name: LangKeyType,
-    +value: 1 | 2,
-|};
-
 export type ComboType = {|
-    +name: LangKeyType,
+    +name: string,
     +sequence: Array<ComboInputType>,
-    +description: LangKeyType | null,
+    +description: string | null,
     +moveData: MoveDataType,
     +frameData: FrameDataType,
-    +moveFeatureList: Array<MoveFeatureType>,
-    +extendedComboList: Array<ComboType>,
-    +crushingBlowCondition: LangKeyType | null,
-    +abilityName: LangKeyType | null,
+    // +moveFeatureList: Array<MoveFeatureType>,
+    // +extendedComboList: Array<ComboType>,
+    // +abilityName: string | null,
 |};
 
 export type CharacterMoveType = {|
@@ -178,7 +153,6 @@ export type CharacterMoveType = {|
 export type CharacterType = {|
     +id: string,
     +imagePath: string,
-    +name: LangKeyType,
-    +abilityList: Array<AbilityType>,
+    +name: string,
     +move: CharacterMoveType,
 |};

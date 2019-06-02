@@ -92,9 +92,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
 
         return (
             <div className={comboListItemStyle.combo_name}>
-                <h3 className={serviceStyle.ellipsis}>
-                    <Locale stringKey={combo.name}/>
-                </h3>
+                <h3 className={serviceStyle.ellipsis}>{combo.name}</h3>
             </div>
         );
     }
@@ -123,8 +121,9 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         const view = this;
         const {props, state} = view;
         const {combo} = props;
-        const {extendedComboList} = combo;
+        // const {extendedComboList} = combo;
 
+        /*
         if (extendedComboList.length === 0) {
             return null;
         }
@@ -138,6 +137,8 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
                 )}
             </div>
         );
+*/
+        return null;
     }
 
     render(): Node {

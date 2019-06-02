@@ -17,5 +17,7 @@ import {getCharacterData, getCharacterList} from './exec/character';
     // eslint-disable-next-line no-loops/no-loops
     for (const characterDataInList of characterDataList) {
         const characterData = await getCharacterData(characterDataInList.id, page);
+
+        console.log(characterData);
     }
 })();

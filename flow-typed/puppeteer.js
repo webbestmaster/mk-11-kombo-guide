@@ -15,10 +15,10 @@ declare module 'puppeteer' {
         delay?: number, // Time to wait between mousedown and mouseup in milliseconds. Defaults to 0.
     };
 
-    declare type ElementHandleType = {
+    declare class ElementHandle {
         click(options?: ElementHandleClickOptionsType): Promise<mixed>,
         getProperty(propertyName: string): Promise<ElementHandleProperty>,
-    };
+    }
 
     declare type PageScreenshotOptionsType = {
         path: string,
@@ -60,8 +60,8 @@ declare module 'puppeteer' {
         screenshot(options: PageScreenshotOptionsType): Promise<mixed>,
         click(cssSelector: string, options?: ClickOptionType): Promise<mixed>,
         type(cssSelector: string, text: string): Promise<mixed>,
-        $(cssSelector: string): Promise<?ElementHandleType>,
-        $$(cssSelector: string): Promise<Array<ElementHandleType>>,
+        $(cssSelector: string): Promise<?ElementHandle>,
+        $$(cssSelector: string): Promise<Array<ElementHandle>>,
         evaluate<T>(funcOrStringFunc: (() => T) | string): Promise<T>,
         url(): string,
         waitFor(timeoutInMs: number): Promise<mixed>,
@@ -70,7 +70,7 @@ declare module 'puppeteer' {
         setRequestInterception(isEnable: boolean): Promise<mixed>,
         on<T>(eventName: string, callback: (context: T) => mixed): mixed,
         waitForNavigation(options?: WaitForNavigationOptionType): Promise<mixed>,
-        waitForSelector(selector: string, options?: WaitForSelectorOptionType): Promise<?ElementHandleType>,
+        waitForSelector(selector: string, options?: WaitForSelectorOptionType): Promise<?ElementHandle>,
     }
 
     declare class Browser {

@@ -36,9 +36,7 @@ export class CharacterListItem extends Component<PropsType, StateType> {
         return (
             <Link className={characterListItemStyle.character_wrapper} to={getCharacterPath(characterData.id)}>
                 <div className={characterListItemStyle.character_name}>
-                    <p className={serviceStyle.ellipsis}>
-                        <Locale stringKey={characterData.name}/>
-                    </p>
+                    <p className={serviceStyle.ellipsis}>{characterData.name}</p>
                 </div>
                 <img alt="" className={characterListItemStyle.character_image} src={characterData.imagePath}/>
             </Link>

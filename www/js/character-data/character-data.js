@@ -1,6 +1,8 @@
 // @flow
 
 import type {CharacterType} from './character-type';
+
+/*
 import {baraka} from './character/baraka/data';
 import {cassieCage} from './character/cassie-cage/data';
 import {cetrion} from './character/cetrion/data';
@@ -26,8 +28,11 @@ import {skarlet} from './character/skarlet/data';
 import {shaoKahn} from './character/shao-kahn/data';
 import {sonyaBlade} from './character/sonya-blade/data';
 import {subZero} from './character/sub-zero/data';
+*/
 
 export const characterList: Array<CharacterType> = [
+
+    /*
     baraka,
     cassieCage,
     cetrion,
@@ -53,6 +58,7 @@ export const characterList: Array<CharacterType> = [
     skarlet,
     sonyaBlade,
     subZero,
+*/
 ];
 
 export function getCharacterById(characterId: string): CharacterType | null {
