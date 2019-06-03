@@ -129,6 +129,7 @@ export type ComboType = {|
     +description: string | null,
     +moveData: MoveDataType,
     +frameData: FrameDataType,
+    +deepLevel: 0 | 1, // usual combo or subCombo
     // +moveFeatureList: Array<MoveFeatureType>,
     // +extendedComboList: Array<ComboType>,
     // +abilityName: string | null,
