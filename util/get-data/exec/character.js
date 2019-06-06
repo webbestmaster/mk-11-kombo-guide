@@ -4,7 +4,16 @@ import type {Page, ElementHandle} from 'puppeteer';
 
 import {getDataConst} from '../const';
 import {isNotString, isString} from '../../../www/js/lib/is';
-import type {CharacterMoveType, CharacterType, ComboType} from '../../../www/js/character-data/character-type';
+import type {
+    CharacterMoveType,
+    CharacterType,
+    ComboInputType,
+    ComboType,
+    FrameDataType,
+    MayBeNaType,
+    MoveDataType,
+    MoveType,
+} from '../../../www/js/character-data/character-type';
 import {trim} from '../helper';
 
 export type CharacterDataType = {|
@@ -119,6 +128,7 @@ async function getStartPageComboList(characterMoveData: CharacterMoveType, page:
 type RowDataHeaderType = {
     type: 'header',
     text: string,
+    combo: null,
 };
 
 type RowDataComboType = {
@@ -142,6 +152,7 @@ async function parseRow(rowNode: ElementHandle): Promise<RowDataType> {
         return {
             type: 'header',
             text: innerTextList[0],
+            combo: null,
         };
     }
 
@@ -150,12 +161,31 @@ async function parseRow(rowNode: ElementHandle): Promise<RowDataType> {
         const comboName = innerTextList[0];
         const comboInput = innerTextList[1];
 
-        /*
         return {
             type: 'combo',
             text: comboName + ' - ' + comboInput,
+            combo: {
+                name: comboName,
+                sequence: [],
+                description: null,
+                moveData: {
+                    hitDamage: 100,
+                    blockDamage: 100,
+                    flawlessBlockDamage: 100,
+                    type: 'N/A Move',
+                },
+                frameData: {
+                    startUp: -1,
+                    active: -1,
+                    recover: -1,
+                    cancel: -1,
+                    hitAdvance: -1,
+                    blockAdvance: -1,
+                    flawlessBlockAdvance: -1,
+                },
+                deepLevel: 0, // usual combo or subCombo
+            },
         };
-*/
     }
 
     throw new Error('Can not parse row');
@@ -209,8 +239,10 @@ async function parseTable(characterMoveData: CharacterMoveType, page: Page) {
             }
         }
 
-        if (type === 'combo') {
-            comboList.push(rowData.combo);
+        const {combo} = rowData;
+
+        if (combo) {
+            comboList.push(combo);
         }
     }
 }
