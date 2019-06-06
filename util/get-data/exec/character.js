@@ -15,6 +15,7 @@ import type {
     MoveType,
 } from '../../../www/js/character-data/character-type';
 import {trim} from '../helper';
+import {moveTypeMap, naValue} from '../../../www/js/character-data/character-type';
 
 export type CharacterDataType = {|
     +id: string,
@@ -139,6 +140,30 @@ type RowDataComboType = {
 
 type RowDataType = RowDataHeaderType | RowDataComboType;
 
+async function extractCombo(rowNode: ElementHandle): Promise<ComboType> {
+    return {
+        name: '1',
+        sequence: [],
+        description: null,
+        moveData: {
+            hitDamage: naValue,
+            blockDamage: naValue,
+            flawlessBlockDamage: naValue,
+            type: moveTypeMap.notAvailableMove,
+        },
+        frameData: {
+            startUp: naValue,
+            active: naValue,
+            recover: naValue,
+            cancel: naValue,
+            hitAdvance: naValue,
+            blockAdvance: naValue,
+            flawlessBlockAdvance: naValue,
+        },
+        deepLevel: 0, // usual combo or subCombo
+    };
+}
+
 async function parseRow(rowNode: ElementHandle): Promise<RowDataType> {
     const innerHtml = String(await (await rowNode.getProperty('innerHTML')).jsonValue());
     const innerText = String(await (await rowNode.getProperty('innerText')).jsonValue());
@@ -164,27 +189,7 @@ async function parseRow(rowNode: ElementHandle): Promise<RowDataType> {
         return {
             type: 'combo',
             text: comboName + ' - ' + comboInput,
-            combo: {
-                name: comboName,
-                sequence: [],
-                description: null,
-                moveData: {
-                    hitDamage: 100,
-                    blockDamage: 100,
-                    flawlessBlockDamage: 100,
-                    type: 'N/A Move',
-                },
-                frameData: {
-                    startUp: -1,
-                    active: -1,
-                    recover: -1,
-                    cancel: -1,
-                    hitAdvance: -1,
-                    blockAdvance: -1,
-                    flawlessBlockAdvance: -1,
-                },
-                deepLevel: 0, // usual combo or subCombo
-            },
+            combo: await extractCombo(rowNode),
         };
     }
 
