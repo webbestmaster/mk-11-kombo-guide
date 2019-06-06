@@ -92,6 +92,37 @@ export const moveTypeMap: {+[key: string]: MoveType} = {
     notAvailableMove: 'N/A Move',
 };
 
+// eslint-disable-next-line complexity
+export function ensureMoveType(bayBeMoveType: string): MoveType {
+    const {low, mid, high, overhead, throwMove, unblockable, notAvailableMove} = moveTypeMap;
+    const bayBeMoveTypeLowCase = bayBeMoveType.toLowerCase();
+
+    switch (bayBeMoveTypeLowCase) {
+        case low:
+            return low;
+        case mid:
+            return mid;
+        case high:
+            return high;
+        case overhead:
+            return overhead;
+        case throwMove:
+            return throwMove;
+        case unblockable:
+            return unblockable;
+        case '': // some time '' used instead of N/A
+        case 'N/A': // some time '' used instead of N/A
+        case notAvailableMove:
+            return notAvailableMove;
+        default:
+            console.error('Can not detect move type', bayBeMoveType);
+    }
+
+    throw new Error('Can not detect move type');
+
+    // return notAvailableMove;
+}
+
 export const moveTypeTranslationMap: {+[key: MoveType]: LangKeyType} = {
     [moveTypeMap.low]: 'MOVE_TYPE__LOW',
     [moveTypeMap.mid]: 'MOVE_TYPE__MID',

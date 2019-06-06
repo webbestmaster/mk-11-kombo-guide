@@ -15,7 +15,7 @@ import type {
     MoveType,
 } from '../../../www/js/character-data/character-type';
 import {trim} from '../helper';
-import {moveTypeMap, naValue} from '../../../www/js/character-data/character-type';
+import {ensureMoveType, moveTypeMap, naValue} from '../../../www/js/character-data/character-type';
 
 export type CharacterDataType = {|
     +id: string,
@@ -141,13 +141,13 @@ type RowDataComboType = {|
 type RowDataType = RowDataHeaderType | RowDataComboType;
 
 type NodeDataType = {|
-    +innerHtml: string,
+    +html: string,
     +innerText: string,
     +innerTextList: Array<string>,
 |};
 
 async function getNodeData(rowNode: ElementHandle): Promise<NodeDataType> {
-    const innerHtml = String(await (await rowNode.getProperty('innerHTML')).jsonValue());
+    const html = String(await (await rowNode.getProperty('outerHTML')).jsonValue());
     const innerText = String(await (await rowNode.getProperty('innerText')).jsonValue());
     const innerTextList = innerText
         .split('\n')
@@ -155,22 +155,40 @@ async function getNodeData(rowNode: ElementHandle): Promise<NodeDataType> {
         .filter(Boolean);
 
     return {
-        innerHtml,
+        html,
         innerText,
         innerTextList,
     };
 }
 
 async function getCombo(rowNode: ElementHandle): Promise<ComboType> {
+    const {html, innerTextList} = await getNodeData(rowNode);
+    const comboName = innerTextList[0];
+
+    const matchedHTML = html.replace(/\s+/g, ' ').match(/'[\S\s]*?'/g);
+
+    if (matchedHTML === null) {
+        throw new Error('Can not match html');
+    }
+
+    const rawData = matchedHTML.map((value: string): string => value.replace('\'', '').replace(/'$/g, ''));
+
+    const [hitDamage, blockDamage, flawlessBlockDamage, moveType] = rawData;
+
+    console.log(rawData);
+
     return {
-        name: '1',
+        name: comboName,
         sequence: [],
         description: null,
+        deepLevel: 0, // usual combo or subCombo
         moveData: {
-            hitDamage: naValue,
-            blockDamage: naValue,
-            flawlessBlockDamage: naValue,
-            type: moveTypeMap.notAvailableMove,
+            hitDamage: Number.isNaN(parseFloat(hitDamage)) ? naValue : parseFloat(hitDamage),
+            blockDamage: Number.isNaN(parseFloat(blockDamage)) ? naValue : parseFloat(blockDamage),
+            flawlessBlockDamage: Number.isNaN(parseFloat(flawlessBlockDamage))
+                ? naValue
+                : parseFloat(flawlessBlockDamage),
+            type: ensureMoveType(moveType),
         },
         frameData: {
             startUp: naValue,
@@ -181,7 +199,6 @@ async function getCombo(rowNode: ElementHandle): Promise<ComboType> {
             blockAdvance: naValue,
             flawlessBlockAdvance: naValue,
         },
-        deepLevel: 0, // usual combo or subCombo
     };
 }
 
