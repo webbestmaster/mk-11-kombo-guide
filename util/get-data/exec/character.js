@@ -126,21 +126,42 @@ async function getStartPageComboList(characterMoveData: CharacterMoveType, page:
     throw new Error('Can not detect page name');
 }
 
-type RowDataHeaderType = {
-    type: 'header',
-    text: string,
-    combo: null,
-};
+type RowDataHeaderType = {|
+    +type: 'header',
+    +text: string,
+    +combo: null,
+|};
 
-type RowDataComboType = {
-    type: 'combo',
-    text: string,
-    combo: ComboType,
-};
+type RowDataComboType = {|
+    +type: 'combo',
+    +text: string,
+    +combo: ComboType,
+|};
 
 type RowDataType = RowDataHeaderType | RowDataComboType;
 
-async function extractCombo(rowNode: ElementHandle): Promise<ComboType> {
+type NodeDataType = {|
+    +innerHtml: string,
+    +innerText: string,
+    +innerTextList: Array<string>,
+|};
+
+async function getNodeData(rowNode: ElementHandle): Promise<NodeDataType> {
+    const innerHtml = String(await (await rowNode.getProperty('innerHTML')).jsonValue());
+    const innerText = String(await (await rowNode.getProperty('innerText')).jsonValue());
+    const innerTextList = innerText
+        .split('\n')
+        .map(trim)
+        .filter(Boolean);
+
+    return {
+        innerHtml,
+        innerText,
+        innerTextList,
+    };
+}
+
+async function getCombo(rowNode: ElementHandle): Promise<ComboType> {
     return {
         name: '1',
         sequence: [],
@@ -165,12 +186,7 @@ async function extractCombo(rowNode: ElementHandle): Promise<ComboType> {
 }
 
 async function parseRow(rowNode: ElementHandle): Promise<RowDataType> {
-    const innerHtml = String(await (await rowNode.getProperty('innerHTML')).jsonValue());
-    const innerText = String(await (await rowNode.getProperty('innerText')).jsonValue());
-    const innerTextList = innerText
-        .split('\n')
-        .map(trim)
-        .filter(Boolean);
+    const {innerTextList} = await getNodeData(rowNode);
 
     // detect header
     if (innerTextList.length === 1) {
@@ -189,7 +205,7 @@ async function parseRow(rowNode: ElementHandle): Promise<RowDataType> {
         return {
             type: 'combo',
             text: comboName + ' - ' + comboInput,
-            combo: await extractCombo(rowNode),
+            combo: await getCombo(rowNode),
         };
     }
 
