@@ -95,7 +95,7 @@ export const moveTypeMap: {+[key: string]: MoveType} = {
 // eslint-disable-next-line complexity
 export function ensureMoveType(bayBeMoveType: string): MoveType {
     const {low, mid, high, overhead, throwMove, unblockable, notAvailableMove} = moveTypeMap;
-    const bayBeMoveTypeLowCase = bayBeMoveType.toLowerCase();
+    const bayBeMoveTypeLowCase = bayBeMoveType.trim().toLowerCase();
 
     switch (bayBeMoveTypeLowCase) {
         case low:
@@ -115,7 +115,7 @@ export function ensureMoveType(bayBeMoveType: string): MoveType {
         case notAvailableMove:
             return notAvailableMove;
         default:
-            console.error('Can not detect move type', bayBeMoveType);
+            console.error(`Can not detect move type: '${bayBeMoveType}' -> '${bayBeMoveTypeLowCase}'`);
     }
 
     throw new Error('Can not detect move type');

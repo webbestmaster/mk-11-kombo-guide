@@ -48,7 +48,7 @@ export async function getCharacterList(page: Page): Promise<Array<CharacterDataT
     return characterDataList;
 }
 
-export async function getCharacterData(characterId: string, page: Page): Promise<{}> {
+export async function getCharacterData(characterId: string, page: Page): Promise<CharacterType> {
     await page.goto(`${getDataConst.url.root}/${characterId}`);
     const nameNode = await page.$('.inner-page-content-location .entry-title');
 
@@ -62,7 +62,6 @@ export async function getCharacterData(characterId: string, page: Page): Promise
         id: characterId,
         imagePath: './face.png',
         name,
-        abilityList: [],
         move: {
             basicList: [],
             jumpingAttackList: [],
