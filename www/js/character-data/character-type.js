@@ -121,12 +121,18 @@ export function ensureMoveType(mayBeMoveType: string): MoveType {
     throw new Error('Can not detect move type');
 }
 
-export function ensureNumberType(bayBeNumberType: string): MayBeNaType<number> {
-    return Number.isNaN(parseFloat(bayBeNumberType)) ? naValue : parseFloat(bayBeNumberType);
+export function ensureNumberType(bayBeNumberType: string): number {
+    const parsedNumber = parseFloat(trim(bayBeNumberType));
+
+    if (Number.isNaN(parsedNumber)) {
+        throw new TypeError(`Can not use parseFloat for: '${bayBeNumberType}'`);
+    }
+
+    return parsedNumber;
 }
 
 export function ensureVariationType(variationName: string): string | null {
-    const variationNameTrimmed = variationName.trim().replace(/\s+/g, ' ');
+    const variationNameTrimmed = trim(variationName);
 
     if (variationNameTrimmed === '') {
         return null;

@@ -191,31 +191,47 @@ async function getCombo(rowNode: ElementHandle): Promise<ComboType> {
         throw new Error('Can not contain \'N/A\'');
     }
 
-    const [hitDamage, blockDamage, flawlessBlockDamage, moveType, variation, property1, property2] = rawData;
+    const [
+        hitDamage,
+        blockDamage,
+        flawlessBlockDamage,
+        moveType,
+        variation,
+        property1,
+        property2,
+        description,
+        startUp,
+        active,
+        recover,
+        cancel,
+        hitAdvance,
+        blockAdvance,
+        flawlessBlockAdvance,
+    ] = rawData;
 
     console.log(rawData);
 
     return {
-        name: comboName, // +
-        sequence: [], // +
-        description: null, // +
-        deepLevel: html.includes('id="submove"') ? 1 : 0, // +
-        variation: ensureVariationType(variation), // +
+        name: comboName,
+        sequence: [], // TODO: JUST DO IT !!!
+        description: trim(description) || null,
+        deepLevel: html.includes('id="submove"') ? 1 : 0,
+        variation: ensureVariationType(variation),
         propertyList: ensurePropertyListType([property1, property2]),
         moveData: {
-            hitDamage: ensureNumberType(hitDamage), // +
-            blockDamage: ensureNumberType(blockDamage), // +
-            flawlessBlockDamage: ensureNumberType(flawlessBlockDamage), // +
-            type: ensureMoveType(moveType), // +
+            hitDamage: ensureNumberType(hitDamage),
+            blockDamage: ensureNumberType(blockDamage),
+            flawlessBlockDamage: ensureNumberType(flawlessBlockDamage),
+            type: ensureMoveType(moveType),
         },
         frameData: {
-            startUp: naValue,
-            active: naValue,
-            recover: naValue,
-            cancel: naValue,
-            hitAdvance: naValue,
-            blockAdvance: naValue,
-            flawlessBlockAdvance: naValue,
+            startUp: ensureNumberType(startUp),
+            active: ensureNumberType(active),
+            recover: ensureNumberType(recover),
+            cancel: ensureNumberType(cancel),
+            hitAdvance: ensureNumberType(hitAdvance),
+            blockAdvance: ensureNumberType(blockAdvance),
+            flawlessBlockAdvance: ensureNumberType(flawlessBlockAdvance),
         },
     };
 }

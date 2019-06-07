@@ -17,7 +17,7 @@ function dashToCamelCase(word: string): string {
 function getCharacterDataWriteContent(characterData: CharacterType): string {
     return `// @flow
 
-        /* eslint-disable sonarjs/no-duplicate-string */
+        /* eslint-disable sonarjs/no-duplicate-string, max-len */
 
         // WARNING: generated file!
         
