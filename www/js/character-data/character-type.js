@@ -141,6 +141,15 @@ export function ensureVariationType(variationName: string): string | null {
     return variationNameTrimmed;
 }
 
+export function ensureDescriptionType(description: string): Array<string> {
+    return description
+        .split(/<br\s*?\/?>/gi)
+        .map(trim)
+        .map((part: string): string => part.replace(/^•/g, '').replace(/\.$/g, ''))
+        .map(trim)
+        .filter(Boolean);
+}
+
 export type PropertyNameType =
     | 'invulnerable'
     | 'parry'
@@ -236,7 +245,7 @@ export type MoveFeatureDataType = {|
 export type ComboType = {|
     +name: string,
     +sequence: Array<ComboInputType>,
-    +description: string | null,
+    +description: Array<string>,
     +moveData: MoveDataType,
     +frameData: FrameDataType,
     +deepLevel: 0 | 1,

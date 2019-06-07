@@ -16,6 +16,7 @@ import type {
 } from '../../../www/js/character-data/character-type';
 import {trim} from '../helper';
 import {
+    ensureDescriptionType,
     ensureMoveType,
     ensureNumberType,
     ensurePropertyListType,
@@ -214,7 +215,7 @@ async function getCombo(rowNode: ElementHandle): Promise<ComboType> {
     return {
         name: comboName,
         sequence: [], // TODO: JUST DO IT !!!
-        description: trim(description) || null,
+        description: ensureDescriptionType(description),
         deepLevel: html.includes('id="submove"') ? 1 : 0,
         variation: ensureVariationType(variation),
         propertyList: ensurePropertyListType([property1, property2]),
