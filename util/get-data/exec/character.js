@@ -180,11 +180,9 @@ async function getCombo(rowNode: ElementHandle): Promise<ComboType> {
     }
 
     const rawData = matchedHTML
-        .map((value: string): string => {
-            return trim(value)
-                .replace('\'', '')
-                .replace(/'$/g, '');
-        })
+        .map(trim)
+        .map((value: string): string => value.replace('\'', '').replace(/'$/g, ''))
+        .map(trim)
         .splice(0, 15);
 
     if (/n\s*?\/\s*?a/i.test(rawData.join(','))) {
