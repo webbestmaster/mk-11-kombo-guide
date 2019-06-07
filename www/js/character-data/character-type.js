@@ -1,6 +1,7 @@
 // @flow
 
 import type {LangKeyType} from '../component/locale/translation/type';
+import {trim} from '../../../util/get-data/helper';
 
 type ComboInputDirectionType = 'u' | 'd' | 'b' | 'f' | 'uf' | 'df' | 'ub' | 'db';
 type ComboInputMoveType = '1' | '2' | '3' | '4' | 'l1' | 'l2' | 'r1' | 'r2';
@@ -93,11 +94,11 @@ export const moveTypeMap: {+[key: string]: MoveType} = {
 };
 
 // eslint-disable-next-line complexity
-export function ensureMoveType(bayBeMoveType: string): MoveType {
+export function ensureMoveType(mayBeMoveType: string): MoveType {
     const {low, mid, high, overhead, throwMove, unblockable, notAvailableMove} = moveTypeMap;
-    const bayBeMoveTypeLowCase = bayBeMoveType.trim().toLowerCase();
+    const mayBeMoveTypeLowCase = trim(mayBeMoveType).toLowerCase();
 
-    switch (bayBeMoveTypeLowCase) {
+    switch (mayBeMoveTypeLowCase) {
         case low:
             return low;
         case mid:
@@ -110,17 +111,98 @@ export function ensureMoveType(bayBeMoveType: string): MoveType {
             return throwMove;
         case unblockable:
             return unblockable;
-        case '': // some time '' used instead of N/A
-        case 'N/A': // some time '' used instead of N/A
+        case '':
         case notAvailableMove:
             return notAvailableMove;
         default:
-            console.error(`Can not detect move type: '${bayBeMoveType}' -> '${bayBeMoveTypeLowCase}'`);
+            console.error(`Can not detect move type: '${mayBeMoveType}' -> '${mayBeMoveTypeLowCase}'`);
     }
 
     throw new Error('Can not detect move type');
+}
 
-    // return notAvailableMove;
+export function ensureNumberType(bayBeNumberType: string): MayBeNaType<number> {
+    return Number.isNaN(parseFloat(bayBeNumberType)) ? naValue : parseFloat(bayBeNumberType);
+}
+
+export function ensureVariationType(variationName: string): string | null {
+    const variationNameTrimmed = variationName.trim().replace(/\s+/g, ' ');
+
+    if (variationNameTrimmed === '') {
+        return null;
+    }
+
+    return variationNameTrimmed;
+}
+
+export type PropertyNameType =
+    | 'invulnerable'
+    | 'parry'
+    | 'projectile'
+    | 'projectile invulnerable'
+    | 'krushing blow'
+    | 'debuff'
+    | 'ranged'
+    | 'cancel'
+    | 'armor';
+
+export const propertyNameMap: {+[key: string]: PropertyNameType} = {
+    projectile: 'projectile',
+    parry: 'parry',
+    invulnerable: 'invulnerable',
+    projectileInvulnerable: 'projectile invulnerable',
+    krushingBlow: 'krushing blow',
+    debuff: 'debuff',
+    ranged: 'ranged',
+    cancel: 'cancel',
+    armor: 'armor',
+};
+
+// eslint-disable-next-line complexity
+export function ensurePropertyType(mayBePropertyName: string): PropertyNameType | null {
+    const {
+        projectile,
+        parry,
+        invulnerable,
+        projectileInvulnerable,
+        krushingBlow,
+        debuff,
+        ranged,
+        cancel,
+        armor,
+    } = propertyNameMap;
+    const mayBePropertyNameLowCase = trim(mayBePropertyName).toLowerCase();
+
+    switch (mayBePropertyNameLowCase) {
+        case projectile:
+            return projectile;
+        case parry:
+            return parry;
+        case invulnerable:
+            return invulnerable;
+        case projectileInvulnerable:
+            return projectileInvulnerable;
+        case krushingBlow:
+            return krushingBlow;
+        case debuff:
+            return debuff;
+        case ranged:
+            return ranged;
+        case cancel:
+            return cancel;
+        case armor:
+            return armor;
+        case '':
+            return null;
+        default:
+            console.error(`Can not detect property name: '${mayBePropertyName}' -> '${mayBePropertyNameLowCase}'`);
+    }
+
+    throw new Error('Can not detect property name');
+}
+
+export function ensurePropertyListType(propertyList: Array<string>): Array<PropertyNameType> {
+    return propertyList.map(ensurePropertyType).filter(Boolean);
 }
 
 export const moveTypeTranslationMap: {+[key: MoveType]: LangKeyType} = {
@@ -140,15 +222,6 @@ export type MoveDataType = {|
     +type: MoveType,
 |};
 
-export type MoveFeatureType = 'invulnerable' | 'parry' | 'projectile' | 'projectile invulnerable';
-
-export const moveFeatureMap: {+[key: string]: MoveFeatureType} = {
-    projectile: 'projectile',
-    parry: 'parry',
-    invul: 'invulnerable',
-    projectileInvul: 'projectile invulnerable',
-};
-
 export type MoveFeatureDataType = {|
     +image: string,
     +name: LangKeyType,
@@ -160,10 +233,9 @@ export type ComboType = {|
     +description: string | null,
     +moveData: MoveDataType,
     +frameData: FrameDataType,
-    +deepLevel: 0 | 1, // usual combo or subCombo
-    // +moveFeatureList: Array<MoveFeatureType>,
-    // +extendedComboList: Array<ComboType>,
-    // +abilityName: string | null,
+    +deepLevel: 0 | 1,
+    +variation: string | null,
+    +propertyList: Array<PropertyNameType>,
 |};
 
 export type CharacterMoveType = {|

@@ -7,7 +7,7 @@ const fsPromises = fileSystem.promises;
 import type {CharacterType} from '../../www/js/character-data/character-type';
 
 export function trim(text: string): string {
-    return text.trim();
+    return text.trim().replace(/\s+/g, ' ');
 }
 
 function dashToCamelCase(word: string): string {
@@ -16,6 +16,8 @@ function dashToCamelCase(word: string): string {
 
 function getCharacterDataWriteContent(characterData: CharacterType): string {
     return `// @flow
+
+        /* eslint-disable sonarjs/no-duplicate-string */
 
         // WARNING: generated file!
         
@@ -34,5 +36,5 @@ export function writeCharacterFile(characterData: CharacterType): Promise<?Errno
     const filePath = `./www/js/character-data/character/${characterData.id}/data.js`;
     const dataString = getCharacterDataWriteContent(characterData);
 
-    return fsPromises.appendFile(filePath, dataString, 'utf8');
+    return fsPromises.writeFile(filePath, dataString, 'utf8');
 }

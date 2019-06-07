@@ -15,7 +15,14 @@ import type {
     MoveType,
 } from '../../../www/js/character-data/character-type';
 import {trim} from '../helper';
-import {ensureMoveType, moveTypeMap, naValue} from '../../../www/js/character-data/character-type';
+import {
+    ensureMoveType,
+    ensureNumberType,
+    ensurePropertyListType,
+    ensureVariationType,
+    moveTypeMap,
+    naValue,
+} from '../../../www/js/character-data/character-type';
 
 export type CharacterDataType = {|
     +id: string,
@@ -171,24 +178,35 @@ async function getCombo(rowNode: ElementHandle): Promise<ComboType> {
         throw new Error('Can not match html');
     }
 
-    const rawData = matchedHTML.map((value: string): string => value.replace('\'', '').replace(/'$/g, ''));
+    const rawData = matchedHTML
+        .map((value: string): string => {
+            return trim(value)
+                .replace('\'', '')
+                .replace(/'$/g, '');
+        })
+        .splice(0, 15);
 
-    const [hitDamage, blockDamage, flawlessBlockDamage, moveType] = rawData;
+    if (/n\s*?\/\s*?a/i.test(rawData.join(','))) {
+        console.log(rawData);
+        throw new Error('Can not contain \'N/A\'');
+    }
+
+    const [hitDamage, blockDamage, flawlessBlockDamage, moveType, variation, property1, property2] = rawData;
 
     console.log(rawData);
 
     return {
-        name: comboName,
-        sequence: [],
-        description: null,
-        deepLevel: html.includes('id="submove"') ? 1 : 0,
+        name: comboName, // +
+        sequence: [], // +
+        description: null, // +
+        deepLevel: html.includes('id="submove"') ? 1 : 0, // +
+        variation: ensureVariationType(variation), // +
+        propertyList: ensurePropertyListType([property1, property2]),
         moveData: {
-            hitDamage: Number.isNaN(parseFloat(hitDamage)) ? naValue : parseFloat(hitDamage),
-            blockDamage: Number.isNaN(parseFloat(blockDamage)) ? naValue : parseFloat(blockDamage),
-            flawlessBlockDamage: Number.isNaN(parseFloat(flawlessBlockDamage))
-                ? naValue
-                : parseFloat(flawlessBlockDamage),
-            type: ensureMoveType(moveType),
+            hitDamage: ensureNumberType(hitDamage), // +
+            blockDamage: ensureNumberType(blockDamage), // +
+            flawlessBlockDamage: ensureNumberType(flawlessBlockDamage), // +
+            type: ensureMoveType(moveType), // +
         },
         frameData: {
             startUp: naValue,

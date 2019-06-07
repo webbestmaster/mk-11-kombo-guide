@@ -1,5 +1,7 @@
 // @flow
 
+/* eslint-disable sonarjs/no-duplicate-string */
+
 // WARNING: generated file!
 
 import faceImagePath from './face.png';
@@ -15,6 +17,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 2, blockDamage: 0.3, flawlessBlockDamage: 0.0003, type: 'high'},
                 frameData: {
                     startUp: 'N/A',
@@ -31,6 +35,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 3, blockDamage: 0.45, flawlessBlockDamage: 0.0005, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -47,6 +53,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 2, blockDamage: 0.3, flawlessBlockDamage: 0.0003, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -63,6 +71,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 3, blockDamage: 0.45, flawlessBlockDamage: 0.0005, type: 'high'},
                 frameData: {
                     startUp: 'N/A',
@@ -79,6 +89,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 5, blockDamage: 0.75, flawlessBlockDamage: 0.0008, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -95,6 +107,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 3, blockDamage: 0.45, flawlessBlockDamage: 0.0005, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -111,6 +125,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: ['krushing blow'],
                 moveData: {hitDamage: 14, blockDamage: 2, flawlessBlockDamage: 0.0021, type: 'high'},
                 frameData: {
                     startUp: 'N/A',
@@ -127,6 +143,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 5, blockDamage: 0.75, flawlessBlockDamage: 0.0008, type: 'high'},
                 frameData: {
                     startUp: 'N/A',
@@ -143,6 +161,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 5, blockDamage: 0.75, flawlessBlockDamage: 0.0008, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -159,6 +179,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 2, blockDamage: 0.3, flawlessBlockDamage: 0.0003, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -175,6 +197,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 7, blockDamage: 1.05, flawlessBlockDamage: 0.0011, type: 'high'},
                 frameData: {
                     startUp: 'N/A',
@@ -191,6 +215,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 7, blockDamage: 1.05, flawlessBlockDamage: 0.0011, type: 'low'},
                 frameData: {
                     startUp: 'N/A',
@@ -207,6 +233,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 3, blockDamage: 0.45, flawlessBlockDamage: 0.0005, type: 'low'},
                 frameData: {
                     startUp: 'N/A',
@@ -225,6 +253,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 7, blockDamage: 1.05, flawlessBlockDamage: 0.0011, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -241,6 +271,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 7, blockDamage: 1.05, flawlessBlockDamage: 0.0011, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -257,6 +289,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 7, blockDamage: 1.05, flawlessBlockDamage: 0.0011, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -273,6 +307,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 9, blockDamage: 1.35, flawlessBlockDamage: 0.0014, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -291,6 +327,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 9, blockDamage: 1.35, flawlessBlockDamage: 0.0014, type: 'overhead'},
                 frameData: {
                     startUp: 'N/A',
@@ -307,6 +345,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 9, blockDamage: 1.35, flawlessBlockDamage: 0.0014, type: 'overhead'},
                 frameData: {
                     startUp: 'N/A',
@@ -325,6 +365,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 5, blockDamage: 0.75, flawlessBlockDamage: 0.0008, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -341,6 +383,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: ['invulnerable'],
                 moveData: {hitDamage: 9, blockDamage: 1.35, flawlessBlockDamage: 0.0014, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -359,6 +403,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 5, blockDamage: 0.75, flawlessBlockDamage: 0.0008, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -375,6 +421,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: ['invulnerable'],
                 moveData: {hitDamage: 9, blockDamage: 1.35, flawlessBlockDamage: 0.0014, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -393,6 +441,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 14, blockDamage: 0, flawlessBlockDamage: 0, type: 'throw'},
                 frameData: {
                     startUp: 'N/A',
@@ -409,6 +459,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 14, blockDamage: 0, flawlessBlockDamage: 0, type: 'throw'},
                 frameData: {
                     startUp: 'N/A',
@@ -425,6 +477,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: ['invulnerable'],
                 moveData: {hitDamage: 0, blockDamage: 0, flawlessBlockDamage: 0, type: 'N/A Move'},
                 frameData: {
                     startUp: 'N/A',
@@ -441,6 +495,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: ['invulnerable'],
                 moveData: {hitDamage: 0, blockDamage: 0, flawlessBlockDamage: 0, type: 'N/A Move'},
                 frameData: {
                     startUp: 'N/A',
@@ -460,6 +516,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 0, blockDamage: 0, flawlessBlockDamage: 0, type: 'N/A Move'},
                 frameData: {
                     startUp: 'N/A',
@@ -478,6 +536,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 3, blockDamage: 0.45, flawlessBlockDamage: 0.0005, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -494,6 +554,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 7, blockDamage: 1.05, flawlessBlockDamage: 0.0011, type: 'overhead'},
                 frameData: {
                     startUp: 'N/A',
@@ -510,6 +572,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: ['krushing blow'],
                 moveData: {hitDamage: 10, blockDamage: 0.45, flawlessBlockDamage: 0.0005, type: 'low'},
                 frameData: {
                     startUp: 'N/A',
@@ -526,6 +590,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 3, blockDamage: 0.45, flawlessBlockDamage: 0.0005, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -542,6 +608,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: ['krushing blow'],
                 moveData: {hitDamage: 7, blockDamage: 1.05, flawlessBlockDamage: 0.0011, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -558,6 +626,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 3, blockDamage: 0.45, flawlessBlockDamage: 0.0005, type: 'low'},
                 frameData: {
                     startUp: 'N/A',
@@ -574,6 +644,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 7, blockDamage: 1.05, flawlessBlockDamage: 0.0011, type: 'overhead'},
                 frameData: {
                     startUp: 'N/A',
@@ -590,6 +662,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 7, blockDamage: 1.05, flawlessBlockDamage: 0.0011, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -606,6 +680,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 3, blockDamage: 0.45, flawlessBlockDamage: 0.0005, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -622,6 +698,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 7, blockDamage: 1.05, flawlessBlockDamage: 0.0011, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -638,6 +716,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 5, blockDamage: 0.75, flawlessBlockDamage: 0.0008, type: 'low'},
                 frameData: {
                     startUp: 'N/A',
@@ -654,6 +734,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: ['krushing blow'],
                 moveData: {hitDamage: 10, blockDamage: 0.45, flawlessBlockDamage: 0.0005, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -670,6 +752,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 7, blockDamage: 1.05, flawlessBlockDamage: 0.0011, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -688,6 +772,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 4.6, blockDamage: 0.12, flawlessBlockDamage: 0.0001, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -704,6 +790,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 1,
+                variation: null,
+                propertyList: ['debuff'],
                 moveData: {hitDamage: 4.6, blockDamage: 0.12, flawlessBlockDamage: 0.0001, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -720,6 +808,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: ['ranged', 'krushing blow'],
                 moveData: {hitDamage: 11.65, blockDamage: 1.62, flawlessBlockDamage: 0.0016, type: 'low'},
                 frameData: {
                     startUp: 'N/A',
@@ -736,6 +826,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: ['ranged', 'krushing blow'],
                 moveData: {hitDamage: 11.65, blockDamage: 1.62, flawlessBlockDamage: 0.0016, type: 'low'},
                 frameData: {
                     startUp: 'N/A',
@@ -752,6 +844,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: ['ranged', 'krushing blow'],
                 moveData: {hitDamage: 11.65, blockDamage: 1.62, flawlessBlockDamage: 0.0016, type: 'low'},
                 frameData: {
                     startUp: 'N/A',
@@ -768,6 +862,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: ['ranged', 'krushing blow'],
                 moveData: {hitDamage: 11.65, blockDamage: 1.62, flawlessBlockDamage: 0.0016, type: 'low'},
                 frameData: {
                     startUp: 'N/A',
@@ -784,6 +880,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: 'Infinite Warden',
+                propertyList: ['ranged', 'krushing blow'],
                 moveData: {hitDamage: 14.5, blockDamage: 1.62, flawlessBlockDamage: 0.0016, type: 'low'},
                 frameData: {
                     startUp: 'N/A',
@@ -800,6 +898,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: 'Infinite Warden',
+                propertyList: ['ranged', 'krushing blow'],
                 moveData: {hitDamage: 14.5, blockDamage: 1.62, flawlessBlockDamage: 0.0016, type: 'low'},
                 frameData: {
                     startUp: 'N/A',
@@ -816,6 +916,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: 'Infinite Warden',
+                propertyList: ['ranged', 'krushing blow'],
                 moveData: {hitDamage: 14.5, blockDamage: 1.62, flawlessBlockDamage: 0.0016, type: 'low'},
                 frameData: {
                     startUp: 'N/A',
@@ -832,6 +934,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: 'Infinite Warden',
+                propertyList: ['ranged', 'krushing blow'],
                 moveData: {hitDamage: 14.5, blockDamage: 1.62, flawlessBlockDamage: 0.0016, type: 'low'},
                 frameData: {
                     startUp: 'N/A',
@@ -848,6 +952,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: ['krushing blow'],
                 moveData: {hitDamage: 12, blockDamage: 0, flawlessBlockDamage: 0.0015, type: 'throw'},
                 frameData: {
                     startUp: 'N/A',
@@ -864,6 +970,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: 'Infinite Warden',
+                propertyList: [],
                 moveData: {hitDamage: 14, blockDamage: 1.88, flawlessBlockDamage: 0.0019, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -880,6 +988,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 1,
+                variation: 'Infinite Warden',
+                propertyList: [],
                 moveData: {hitDamage: 9.25, blockDamage: 0, flawlessBlockDamage: 0.0925, type: 'N/A Move'},
                 frameData: {
                     startUp: 'N/A',
@@ -896,6 +1006,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: ['krushing blow'],
                 moveData: {hitDamage: 7, blockDamage: 1.88, flawlessBlockDamage: 0.0019, type: 'high'},
                 frameData: {
                     startUp: 'N/A',
@@ -912,6 +1024,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: 'Infinite Warden',
+                propertyList: [],
                 moveData: {hitDamage: 0, blockDamage: 0, flawlessBlockDamage: 0, type: 'N/A Move'},
                 frameData: {
                     startUp: 'N/A',
@@ -928,6 +1042,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 1,
+                variation: 'Infinite Warden',
+                propertyList: ['krushing blow'],
                 moveData: {hitDamage: 7, blockDamage: 1.88, flawlessBlockDamage: 0.0019, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -944,6 +1060,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 1,
+                variation: 'Infinite Warden',
+                propertyList: ['cancel'],
                 moveData: {hitDamage: 0, blockDamage: 0, flawlessBlockDamage: 0, type: 'N/A Move'},
                 frameData: {
                     startUp: 'N/A',
@@ -960,6 +1078,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: 'New Era',
+                propertyList: ['ranged'],
                 moveData: {hitDamage: 7, blockDamage: 1.88, flawlessBlockDamage: 0.0019, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -976,6 +1096,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 1,
+                variation: 'New Era',
+                propertyList: ['ranged'],
                 moveData: {hitDamage: 7, blockDamage: 1.88, flawlessBlockDamage: 0.0019, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -992,6 +1114,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: 'New Era',
+                propertyList: ['ranged'],
                 moveData: {hitDamage: 7, blockDamage: 1.88, flawlessBlockDamage: 0.0019, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -1008,6 +1132,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 1,
+                variation: 'New Era',
+                propertyList: ['ranged'],
                 moveData: {hitDamage: 7, blockDamage: 1.88, flawlessBlockDamage: 0.0019, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -1024,6 +1150,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: 'New Era',
+                propertyList: ['ranged'],
                 moveData: {hitDamage: 7, blockDamage: 1.88, flawlessBlockDamage: 0.0019, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -1040,6 +1168,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 1,
+                variation: 'New Era',
+                propertyList: ['ranged'],
                 moveData: {hitDamage: 7, blockDamage: 1.88, flawlessBlockDamage: 0.0019, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -1056,6 +1186,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: 'New Era',
+                propertyList: ['ranged'],
                 moveData: {hitDamage: 7, blockDamage: 1.88, flawlessBlockDamage: 0.0019, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -1072,6 +1204,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 1,
+                variation: 'New Era',
+                propertyList: ['ranged'],
                 moveData: {hitDamage: 7, blockDamage: 1.88, flawlessBlockDamage: 0.0019, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -1088,6 +1222,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: 'New Era',
+                propertyList: [],
                 moveData: {hitDamage: 0, blockDamage: 0, flawlessBlockDamage: 0, type: 'N/A Move'},
                 frameData: {
                     startUp: 'N/A',
@@ -1106,6 +1242,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: ['armor'],
                 moveData: {hitDamage: 32, blockDamage: 1.5, flawlessBlockDamage: 0.0015, type: 'mid'},
                 frameData: {
                     startUp: 'N/A',
@@ -1124,6 +1262,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 0, blockDamage: 0, flawlessBlockDamage: 0, type: 'N/A Move'},
                 frameData: {
                     startUp: 'N/A',
@@ -1140,6 +1280,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 0, blockDamage: 0, flawlessBlockDamage: 0, type: 'N/A Move'},
                 frameData: {
                     startUp: 'N/A',
@@ -1158,6 +1300,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 0, blockDamage: 0, flawlessBlockDamage: 0, type: 'N/A Move'},
                 frameData: {
                     startUp: 'N/A',
@@ -1174,6 +1318,8 @@ export const geras = {
                 sequence: [],
                 description: null,
                 deepLevel: 0,
+                variation: null,
+                propertyList: [],
                 moveData: {hitDamage: 0, blockDamage: 0, flawlessBlockDamage: 0, type: 'N/A Move'},
                 frameData: {
                     startUp: 'N/A',

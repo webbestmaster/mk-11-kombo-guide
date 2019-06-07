@@ -5,7 +5,7 @@
 import type {Node} from 'react';
 import React, {Component, Fragment} from 'react';
 
-import type {ComboType, MoveFeatureDataType, MoveFeatureType} from '../../../../character-data/character-type';
+import type {ComboType} from '../../../../character-data/character-type';
 
 import {Locale} from '../../../locale/c-locale';
 
