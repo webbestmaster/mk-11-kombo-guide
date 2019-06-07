@@ -82,19 +82,17 @@ class SettingsPage extends Component<PropsType, StateType> {
     renderSelectPlatformInputList(platformName: PlatformNameType): Node {
         return (
             <div className={comboListItemStyle.combo_move_wrapper}>
-                {inputList.map(
-                    (inputType: ComboInputSingleType): Node => {
-                        return (
-                            <img
-                                alt={inputType}
-                                className={moveStyle.move__image}
-                                data-input={inputType}
-                                key={inputType}
-                                src={getImagePath(platformName, inputType)}
-                            />
-                        );
-                    }
-                )}
+                {inputList.map((inputType: ComboInputSingleType): Node => {
+                    return (
+                        <img
+                            alt={inputType}
+                            className={moveStyle.move__image}
+                            data-input={inputType}
+                            key={inputType}
+                            src={getImagePath(platformName, inputType)}
+                        />
+                    );
+                })}
             </div>
         );
     }
@@ -111,21 +109,19 @@ class SettingsPage extends Component<PropsType, StateType> {
                 <Locale stringKey="SETTING__SELECT_PLATFORM"/>
             </h3>,
             <div key="content">
-                {[playStation, xBox, universal].map(
-                    (platformName: PlatformNameType): Node => {
-                        return (
-                            <InputRadio
-                                isDefaultChecked={currentPlatform === platformName}
-                                key={platformName}
-                                name="platform"
-                                onSelect={view.handleSelectPlatform}
-                                value={platformName}
-                            >
-                                {view.renderSelectPlatformInputList(platformName)}
-                            </InputRadio>
-                        );
-                    }
-                )}
+                {[playStation, xBox, universal].map((platformName: PlatformNameType): Node => {
+                    return (
+                        <InputRadio
+                            isDefaultChecked={currentPlatform === platformName}
+                            key={platformName}
+                            name="platform"
+                            onSelect={view.handleSelectPlatform}
+                            value={platformName}
+                        >
+                            {view.renderSelectPlatformInputList(platformName)}
+                        </InputRadio>
+                    );
+                })}
             </div>,
         ];
     }

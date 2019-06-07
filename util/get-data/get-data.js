@@ -23,4 +23,6 @@ import {writeCharacterFile} from './helper';
         await writeCharacterFile(characterData);
         console.log(`---> ${characterDataInList.id} - DONE`);
     }
+
+    await browser.close();
 })();

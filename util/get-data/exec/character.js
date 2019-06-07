@@ -160,6 +160,7 @@ async function getNodeData(rowNode: ElementHandle): Promise<NodeDataType> {
     };
 }
 
+// eslint-disable-next-line complexity
 async function getCombo(rowNode: ElementHandle): Promise<ComboType> {
     const {html, innerTextList} = await getNodeData(rowNode);
     const comboName = innerTextList[0];
@@ -180,7 +181,7 @@ async function getCombo(rowNode: ElementHandle): Promise<ComboType> {
         name: comboName,
         sequence: [],
         description: null,
-        deepLevel: 0, // usual combo or subCombo
+        deepLevel: html.includes('id="submove"') ? 1 : 0,
         moveData: {
             hitDamage: Number.isNaN(parseFloat(hitDamage)) ? naValue : parseFloat(hitDamage),
             blockDamage: Number.isNaN(parseFloat(blockDamage)) ? naValue : parseFloat(blockDamage),

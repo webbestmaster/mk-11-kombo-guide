@@ -9,7 +9,10 @@ import {cetrion} from './character/cetrion/data';
 import {dVorah} from './character/dvorah/data';
 import {erronBlack} from './character/erron-black/data';
 import {frost} from './character/frost/data';
+*/
 import {geras} from './character/geras/data';
+
+/*
 import {jade} from './character/jade/data';
 import {jacquiBriggs} from './character/jacqui-briggs/data';
 import {jaxBriggs} from './character/jax-briggs/data';
@@ -39,7 +42,10 @@ export const characterList: Array<CharacterType> = [
     dVorah,
     erronBlack,
     frost,
+    */
     geras,
+
+    /*
     jacquiBriggs,
     jade,
     jaxBriggs,
@@ -63,10 +69,8 @@ export const characterList: Array<CharacterType> = [
 
 export function getCharacterById(characterId: string): CharacterType | null {
     return (
-        characterList.find(
-            (characterData: CharacterType): boolean => {
-                return characterData.id === characterId;
-            }
-        ) || null
+        characterList.find((characterData: CharacterType): boolean => {
+            return characterData.id === characterId;
+        }) || null
     );
 }
