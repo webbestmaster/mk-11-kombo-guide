@@ -173,6 +173,18 @@ export const propertyNameMap: {+[key: string]: PropertyNameType} = {
     armor: 'armor',
 };
 
+export const propertyNameTranslationMap: {+[key: PropertyNameType]: LangKeyType} = {
+    [propertyNameMap.projectile]: 'MOVE_PROPERTY__INVULNERABLE',
+    [propertyNameMap.parry]: 'MOVE_PROPERTY__PARRY',
+    [propertyNameMap.invulnerable]: 'MOVE_PROPERTY__PROJECTILE',
+    [propertyNameMap.projectileInvulnerable]: 'MOVE_PROPERTY__PROJECTILE_INVULNERABLE',
+    [propertyNameMap.krushingBlow]: 'MOVE_PROPERTY__KRUSHING_BLOW',
+    [propertyNameMap.debuff]: 'MOVE_PROPERTY__DEBUFF',
+    [propertyNameMap.ranged]: 'MOVE_PROPERTY__RANGED',
+    [propertyNameMap.cancel]: 'MOVE_PROPERTY__CANCEL',
+    [propertyNameMap.armor]: 'MOVE_PROPERTY__ARMOR',
+};
+
 // eslint-disable-next-line complexity
 export function ensurePropertyType(mayBePropertyName: string): PropertyNameType | null {
     const {

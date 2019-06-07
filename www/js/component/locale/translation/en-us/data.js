@@ -47,6 +47,17 @@ export const enUs: LangDataType = {
     MOVE_TYPE__UNBLOCKABLE: 'Unblockable',
     MOVE_TYPE__NOT_AVAILABLE_MOVE_TYPE: 'N/A Type',
 
+    // move property name
+    MOVE_PROPERTY__INVULNERABLE: 'Invulnerable',
+    MOVE_PROPERTY__PARRY: 'Parry',
+    MOVE_PROPERTY__PROJECTILE: 'Projectile',
+    MOVE_PROPERTY__PROJECTILE_INVULNERABLE: 'Projectile invulnerable',
+    MOVE_PROPERTY__KRUSHING_BLOW: 'Krushing blow',
+    MOVE_PROPERTY__DEBUFF: 'Debuff',
+    MOVE_PROPERTY__RANGED: 'Danged',
+    MOVE_PROPERTY__CANCEL: 'Cancel',
+    MOVE_PROPERTY__ARMOR: 'Armor',
+
     // setting page
     SETTING__TITLE: 'Settings',
     SETTING__SELECT_PLATFORM: 'Select platform',

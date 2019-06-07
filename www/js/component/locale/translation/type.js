@@ -47,6 +47,17 @@ export type LangDataType = {|
     +MOVE_TYPE__UNBLOCKABLE: string,
     +MOVE_TYPE__NOT_AVAILABLE_MOVE_TYPE: string,
 
+    // move property name
+    +MOVE_PROPERTY__INVULNERABLE: string,
+    +MOVE_PROPERTY__PARRY: string,
+    +MOVE_PROPERTY__PROJECTILE: string,
+    +MOVE_PROPERTY__PROJECTILE_INVULNERABLE: string,
+    +MOVE_PROPERTY__KRUSHING_BLOW: string,
+    +MOVE_PROPERTY__DEBUFF: string,
+    +MOVE_PROPERTY__RANGED: string,
+    +MOVE_PROPERTY__CANCEL: string,
+    +MOVE_PROPERTY__ARMOR: string,
+
     // setting page
     +SETTING__TITLE: string,
     +SETTING__SELECT_PLATFORM: string,
