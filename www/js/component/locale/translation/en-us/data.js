@@ -1,6 +1,7 @@
 // @flow
 
 import type {LangDataType} from '../type';
+import {propertyNameMap} from '../../../../move-type/move-property-type';
 
 export const enUs: LangDataType = {
     /* eslint-disable id-match, id-length */
@@ -61,6 +62,8 @@ export const enUs: LangDataType = {
     MOVE_PROPERTY__RANGED: 'Danged',
     MOVE_PROPERTY__CANCEL: 'Cancel',
     MOVE_PROPERTY__ARMOR: 'Armor',
+    MOVE_PROPERTY__PROXIMITY: 'Proximity',
+    MOVE_PROPERTY__RANGED_DIRECTABLE: 'Ranged / directable',
 
     // setting page
     SETTING__TITLE: 'Settings',

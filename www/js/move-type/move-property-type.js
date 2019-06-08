@@ -12,7 +12,9 @@ export type PropertyNameType =
     | 'debuff'
     | 'ranged'
     | 'cancel'
-    | 'armor';
+    | 'armor'
+    | 'proximity'
+    | 'ranged - directable';
 
 export const propertyNameMap: {+[key: string]: PropertyNameType} = {
     projectile: 'projectile',
@@ -24,6 +26,8 @@ export const propertyNameMap: {+[key: string]: PropertyNameType} = {
     ranged: 'ranged',
     cancel: 'cancel',
     armor: 'armor',
+    proximity: 'proximity',
+    rangedDirectable: 'ranged - directable',
 };
 
 export const propertyNameTranslationMap: {+[key: PropertyNameType]: LangKeyType} = {
@@ -36,6 +40,8 @@ export const propertyNameTranslationMap: {+[key: PropertyNameType]: LangKeyType}
     [propertyNameMap.ranged]: 'MOVE_PROPERTY__RANGED',
     [propertyNameMap.cancel]: 'MOVE_PROPERTY__CANCEL',
     [propertyNameMap.armor]: 'MOVE_PROPERTY__ARMOR',
+    [propertyNameMap.proximity]: 'MOVE_PROPERTY__PROXIMITY',
+    [propertyNameMap.rangedDirectable]: 'MOVE_PROPERTY__RANGED_DIRECTABLE',
 };
 
 // eslint-disable-next-line complexity
@@ -50,6 +56,8 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
         ranged,
         cancel,
         armor,
+        proximity,
+        rangedDirectable,
     } = propertyNameMap;
     const mayBePropertyNameLowCase = trim(mayBePropertyName).toLowerCase();
 
@@ -72,6 +80,10 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
             return cancel;
         case armor:
             return armor;
+        case proximity:
+            return proximity;
+        case rangedDirectable:
+            return rangedDirectable;
         case '':
             return null;
         default:

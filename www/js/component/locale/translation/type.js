@@ -61,6 +61,8 @@ export type LangDataType = {|
     +MOVE_PROPERTY__RANGED: string,
     +MOVE_PROPERTY__CANCEL: string,
     +MOVE_PROPERTY__ARMOR: string,
+    +MOVE_PROPERTY__PROXIMITY: string,
+    +MOVE_PROPERTY__RANGED_DIRECTABLE: string,
 
     // setting page
     +SETTING__TITLE: string,
