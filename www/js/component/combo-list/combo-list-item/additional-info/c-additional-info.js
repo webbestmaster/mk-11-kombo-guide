@@ -40,6 +40,11 @@ export class AdditionalInfo extends Component<PropsType, StateType> {
         const {props} = view;
         const {combo} = props;
 
-        return <div>moveFeatureList is here</div>;
+        return (
+            <>
+                <div>propertyList: {JSON.stringify(combo.propertyList)}</div>
+                <div>variation: {combo.variation}</div>
+            </>
+        );
     }
 }
