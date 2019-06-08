@@ -26,18 +26,20 @@ export type LangDataType = {|
     +COMBO_LIST__FATALITY: string,
     +COMBO_LIST__BRUTALITY: string,
 
-    // frame data
+    // move data
     +FRAME_DATA__MOVE_TYPE: string,
     +FRAME_DATA__HIT_DAMAGE: string,
     +FRAME_DATA__BLOCK_DAMAGE: string,
     +FRAME_DATA__FLAWLESS_BLOCK_DAMAGE: string,
+
+    // frame data
     +FRAME_DATA__START_UP: string,
     +FRAME_DATA__ACTIVE: string,
-    +FRAME_DATA__RECOVER: string,
+    +FRAME_DATA__RECOVERY: string,
+    +FRAME_DATA__CANCEL_ADVANTAGE: string,
+    +FRAME_DATA__HIT_ADVANTAGE: string,
     +FRAME_DATA__BLOCK_ADVANTAGE: string,
     +FRAME_DATA__FLAWLESS_BLOCK_ADVANTAGE: string,
-    +FRAME_DATA__HIT_ADVANTAGE: string,
-    +FRAME_DATA__CANCEL: string,
     +FRAME_DATA__NOT_AVAILABLE_FRAME_DATA: string,
 
     // move type

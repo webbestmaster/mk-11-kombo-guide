@@ -93,7 +93,7 @@ export class FrameData extends Component<PropsType, StateType> {
                         <Locale stringKey="FRAME_DATA__ACTIVE"/>
                     </td>
                     <td className={frameDataStyle.frame_data__table_th}>
-                        <Locale stringKey="FRAME_DATA__RECOVER"/>
+                        <Locale stringKey="FRAME_DATA__RECOVERY"/>
                     </td>
                     <td className={frameDataStyle.frame_data__table_th}>
                         <Locale stringKey="FRAME_DATA__FLAWLESS_BLOCK_ADVANTAGE"/>
@@ -115,7 +115,7 @@ export class FrameData extends Component<PropsType, StateType> {
                         <Locale stringKey="FRAME_DATA__BLOCK_ADVANTAGE"/>
                     </td>
                     <td className={frameDataStyle.frame_data__table_th}>
-                        <Locale stringKey="FRAME_DATA__CANCEL"/>
+                        <Locale stringKey="FRAME_DATA__CANCEL_ADVANTAGE"/>
                     </td>
                 </tr>
                 <tr className={frameDataStyle.frame_data__table_tr}>

@@ -119,30 +119,6 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         view.setState({isShowFrameData: !isShowFrameData}, forceResize);
     };
 
-    renderExtendedComboList(): Node {
-        const view = this;
-        const {props, state} = view;
-        const {combo} = props;
-        // const {extendedComboList} = combo;
-
-        /*
-        if (extendedComboList.length === 0) {
-            return null;
-        }
-
-        return (
-            <div>
-                {extendedComboList.map(
-                    (comboInList: ComboType): Node => {
-                        return <ConnectedComponent combo={comboInList} key={JSON.stringify(comboInList)}/>;
-                    }
-                )}
-            </div>
-        );
-*/
-        return null;
-    }
-
     render(): Node {
         const view = this;
         const {props, state} = view;
@@ -153,16 +129,15 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
             <>
                 <div
                     className={comboListItemStyle.combo_wrapper}
-                    // onClick={view.handleWrapperClick}
-                    // onKeyPress={view.handleWrapperClick}
-                    // role="button"
-                    // tabIndex="0"
+                    onClick={view.handleWrapperClick}
+                    onKeyPress={view.handleWrapperClick}
+                    role="button"
+                    tabIndex="0"
                 >
                     {view.renderComboTitle()}
                     {view.renderMoveList()}
                 </div>
                 {isShowFrameData ? <FrameData combo={combo}/> : null}
-                {view.renderExtendedComboList()}
             </>
         );
     }

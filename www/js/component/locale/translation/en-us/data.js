@@ -26,19 +26,21 @@ export const enUs: LangDataType = {
     COMBO_LIST__FATALITY: 'Fatality',
     COMBO_LIST__BRUTALITY: 'Brutality',
 
-    // frame data
+    // move data
     FRAME_DATA__MOVE_TYPE: 'Move type',
-    FRAME_DATA__HIT_DAMAGE: 'Hit damage',
+    FRAME_DATA__HIT_DAMAGE: 'Damage',
     FRAME_DATA__BLOCK_DAMAGE: 'Block damage',
-    FRAME_DATA__FLAWLESS_BLOCK_DAMAGE: 'Flawless block damage',
+    FRAME_DATA__FLAWLESS_BLOCK_DAMAGE: 'F/Block damage',
+
+    // frame data
     FRAME_DATA__START_UP: 'Start-up',
     FRAME_DATA__ACTIVE: 'Active',
-    FRAME_DATA__RECOVER: 'Recover',
-    FRAME_DATA__BLOCK_ADVANTAGE: 'Block advantage',
-    FRAME_DATA__FLAWLESS_BLOCK_ADVANTAGE: 'Flawless block advantage',
-    FRAME_DATA__HIT_ADVANTAGE: 'Hit advantage',
-    FRAME_DATA__CANCEL: 'Cancel',
-    FRAME_DATA__NOT_AVAILABLE_FRAME_DATA: 'N/A Value',
+    FRAME_DATA__RECOVERY: 'Recovery',
+    FRAME_DATA__CANCEL_ADVANTAGE: 'Cancel adv',
+    FRAME_DATA__HIT_ADVANTAGE: 'Hit adv',
+    FRAME_DATA__BLOCK_ADVANTAGE: 'Block adv',
+    FRAME_DATA__FLAWLESS_BLOCK_ADVANTAGE: 'F/Block adv',
+    FRAME_DATA__NOT_AVAILABLE_FRAME_DATA: 'N/A',
 
     // move type
     MOVE_TYPE__LOW: 'Low',
@@ -47,7 +49,7 @@ export const enUs: LangDataType = {
     MOVE_TYPE__OVERHEAD: 'Overhead',
     MOVE_TYPE__THROW: 'Throw',
     MOVE_TYPE__UNBLOCKABLE: 'Unblockable',
-    MOVE_TYPE__NOT_AVAILABLE_MOVE_TYPE: 'N/A Type',
+    MOVE_TYPE__NOT_AVAILABLE_MOVE_TYPE: 'N/A',
 
     // move property name
     MOVE_PROPERTY__INVULNERABLE: 'Invulnerable',
