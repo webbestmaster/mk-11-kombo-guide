@@ -7,7 +7,7 @@ import React, {Component, Fragment} from 'react';
 import {connect} from 'react-redux';
 
 import type {GlobalStateType} from '../../../redux-store-provider/reducer';
-import type {ComboInputType, ComboInputSingleType} from '../../../move-type/combo-input-type';
+import type {ComboInputSingleType} from '../../../move-type/combo-input-type';
 import type {ComboType} from '../../../move-type/combo-type';
 import {Locale} from '../../locale/c-locale';
 import serviceStyle from '../../../../css/service.scss';
@@ -46,32 +46,8 @@ type StateType = {|
 |};
 
 class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType> {
-    static renderSingleMoveItem(inputType: ComboInputSingleType, index: number): Node {
+    static renderMoveItem(inputType: ComboInputSingleType, index: number): Node | Array<Node> {
         return <Move input={inputType} key={index}/>;
-    }
-
-    static renderMoveItem(inputType: ComboInputType, index: number): Node | Array<Node> {
-        if (!Array.isArray(inputType)) {
-            return ComboListItem.renderSingleMoveItem(inputType, index);
-        }
-
-        const inputLength = inputType.length;
-
-        const newInputTypeList: Array<ComboInputSingleType> = [];
-
-        inputType.forEach((inputTypeInList: ComboInputSingleType, innerIndex: number) => {
-            const isLast = inputLength - 1 === innerIndex;
-
-            if (isLast) {
-                newInputTypeList.push(inputTypeInList);
-                return;
-            }
-
-            newInputTypeList.push(inputTypeInList);
-            newInputTypeList.push(inputMoveMap.plus);
-        });
-
-        return newInputTypeList.map(ComboListItem.renderSingleMoveItem);
     }
 
     constructor(props: PropsType) {

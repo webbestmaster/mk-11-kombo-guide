@@ -1,7 +1,7 @@
 // @flow
 
-import type {ComboInputType} from './combo-input-type';
+import type {ComboInputSingleType} from './combo-input-type';
 
-export function getSequence(rawSequence: string, accumulator: Array<ComboInputType>): Array<ComboInputType> {
+export function getSequence(rawSequence: string, accum: Array<ComboInputSingleType>): Array<ComboInputSingleType> {
     return [];
 }
