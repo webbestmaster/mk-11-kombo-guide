@@ -48,8 +48,7 @@ export class Character extends Component<PropsType, StateType> {
             'CHARACTER_DATA__TOP_MENU__BASIC',
             'CHARACTER_DATA__TOP_MENU__COMBO',
             'CHARACTER_DATA__TOP_MENU__SPECIAL',
-            'CHARACTER_DATA__TOP_MENU__ABILITY',
-            'CHARACTER_DATA__TOP_MENU__BRUTALITY',
+            'CHARACTER_DATA__TOP_MENU__FINISHER',
         ];
 
         const {
@@ -64,7 +63,7 @@ export class Character extends Component<PropsType, StateType> {
             comboList,
             specialList,
             fatalBlowList,
-            // abilityList,
+            fatalityList,
             brutalityList,
         } = characterData.move;
 
@@ -94,10 +93,10 @@ export class Character extends Component<PropsType, StateType> {
                 <ComboListHeader title="COMBO_LIST__FATAL_BLOW"/>
                 <ComboList list={fatalBlowList}/>
             </div>,
-            <div key={titleList[3]}>
-                <ComboList list={[]}/>
-            </div>,
             <div key={titleList[4]}>
+                <ComboListHeader title="COMBO_LIST__FATALITY"/>
+                <ComboList list={fatalityList}/>
+                <ComboListHeader title="COMBO_LIST__BRUTALITY"/>
                 <ComboList list={brutalityList}/>
             </div>,
         ];

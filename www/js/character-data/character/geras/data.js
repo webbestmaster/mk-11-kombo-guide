@@ -484,6 +484,8 @@ export const geras = {
                     flawlessBlockAdvance: 0,
                 },
             },
+        ],
+        rollEscapeList: [
             {
                 name: 'Forward Roll Escape',
                 sequence: [],
@@ -521,7 +523,6 @@ export const geras = {
                 },
             },
         ],
-        rollEscapeList: [],
         airEscapeList: [
             {
                 name: '(Air) Breakaway',

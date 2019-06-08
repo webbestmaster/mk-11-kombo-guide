@@ -24,9 +24,9 @@ export class ComboList extends Component<PropsType, StateType> {
     state: StateType;
     props: PropsType;
 
-    renderComboItem(combo: ComboType): Node {
+    renderComboItem(combo: ComboType, index: number): Node {
         return (
-            <li className={comboListStyle.list_item} key={JSON.stringify(combo)}>
+            <li className={comboListStyle.list_item} key={index}>
                 <ComboListItem combo={combo}/>
             </li>
         );

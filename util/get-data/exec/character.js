@@ -279,7 +279,7 @@ async function parseTable(characterMoveData: CharacterMoveType, page: Page) {
                     comboList = characterMoveData.throwsList;
                     break;
                 case 'ROLL ESCAPES':
-                    comboList = characterMoveData.throwsList;
+                    comboList = characterMoveData.rollEscapeList;
                     break;
                 case 'AIR ESCAPE':
                     comboList = characterMoveData.airEscapeList;

@@ -15,7 +15,7 @@ import {BackButton} from './back-button/c-back-button';
 import headerStyle from './header.style.scss';
 
 type PassedPropsType = {|
-    +title: LangKeyType,
+    +title: string,
     +hasBackButton: boolean,
     +hasMenuButton: boolean,
 |};
@@ -49,9 +49,7 @@ export class Header extends Component<PropsType, StateType> {
             <header className={headerStyle.header_wrapper}>
                 {hasBackButton ? <BackButton/> : null}
                 <div className={headerStyle.header_title_wrapper}>
-                    <h1 className={serviceStyle.ellipsis}>
-                        <Locale stringKey={title}/>
-                    </h1>
+                    <h1 className={serviceStyle.ellipsis}>{title}</h1>
                 </div>
                 {hasMenuButton ? <Menu/> : null}
             </header>

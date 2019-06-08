@@ -23,6 +23,8 @@ export const enUs: LangDataType = {
     COMBO_LIST__ROLL_ESCAPES: 'Roll Escapes',
     COMBO_LIST__AIR_ESCAPE: 'Air Escape',
     COMBO_LIST__FATAL_BLOW: 'Fatal Blow',
+    COMBO_LIST__FATALITY: 'Fatality',
+    COMBO_LIST__BRUTALITY: 'Brutality',
 
     // frame data
     FRAME_DATA__MOVE_TYPE: 'Move type',
