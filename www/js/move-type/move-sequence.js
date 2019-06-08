@@ -5,6 +5,8 @@ import {trim} from '../lib/string-helper';
 import type {ComboInputSingleType} from './combo-input-type';
 import {inputMoveMap} from './combo-input-type';
 
+const downPlusBlockString = 'd+block';
+
 const inputList = [
     'amp',
     'block',
@@ -100,6 +102,11 @@ export function getSequence(rawSequence: string, accum: Array<ComboInputSingleTy
         return accum;
     }
 
+    if (normalizedString.startsWith(downPlusBlockString)) {
+        accum.push(down, plus, iR2);
+        return getSequence(normalizedString.replace(downPlusBlockString, ''), accum);
+    }
+
     // eslint-disable-next-line no-loops/no-loops
     for (const input of inputList) {
         if (normalizedString.startsWith(input)) {
@@ -108,7 +115,7 @@ export function getSequence(rawSequence: string, accum: Array<ComboInputSingleTy
         }
     }
 
-    throw new Error('Can not detect input');
+    throw new Error(`Can not detect input: '${normalizedString}'`);
 }
 
 // test

@@ -14,7 +14,7 @@ export const geras = {
         basicList: [
             {
                 name: 'Straight Jab',
-                sequence: [],
+                sequence: ['1'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -32,7 +32,7 @@ export const geras = {
             },
             {
                 name: 'Shoulder Charge',
-                sequence: [],
+                sequence: ['f', '+', '1'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -50,7 +50,7 @@ export const geras = {
             },
             {
                 name: 'Knee Bash',
-                sequence: [],
+                sequence: ['d', '+', '1'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -68,7 +68,7 @@ export const geras = {
             },
             {
                 name: 'Heavy Fist',
-                sequence: [],
+                sequence: ['2'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -86,7 +86,7 @@ export const geras = {
             },
             {
                 name: 'Sledge Hammer',
-                sequence: [],
+                sequence: ['b', '+', '2'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -104,7 +104,7 @@ export const geras = {
             },
             {
                 name: 'Body Buster',
-                sequence: [],
+                sequence: ['f', '+', '2'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -122,7 +122,7 @@ export const geras = {
             },
             {
                 name: 'Rising Gauntlet',
-                sequence: [],
+                sequence: ['d', '+', '2'],
                 description: ['KRUSHING BLOW:', 'Triggers if this ATTACK KOUNTERS or PUNISHES a HIGH ATTACK'],
                 deepLevel: 0,
                 variation: null,
@@ -140,7 +140,7 @@ export const geras = {
             },
             {
                 name: 'Straight Boot',
-                sequence: [],
+                sequence: ['3'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -158,7 +158,7 @@ export const geras = {
             },
             {
                 name: 'Flying Knee',
-                sequence: [],
+                sequence: ['f', '+', '3'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -176,7 +176,7 @@ export const geras = {
             },
             {
                 name: 'Gauntlet Slam',
-                sequence: [],
+                sequence: ['d', '+', '3'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -194,7 +194,7 @@ export const geras = {
             },
             {
                 name: 'Chrono Kick',
-                sequence: [],
+                sequence: ['4'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -212,7 +212,7 @@ export const geras = {
             },
             {
                 name: 'Time Sweeper',
-                sequence: [],
+                sequence: ['b', '+', '4'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -230,7 +230,7 @@ export const geras = {
             },
             {
                 name: 'Pounding Sand',
-                sequence: [],
+                sequence: ['d', '+', '4'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -250,7 +250,7 @@ export const geras = {
         jumpingAttackList: [
             {
                 name: 'Quick Jab',
-                sequence: [],
+                sequence: ['1'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -268,7 +268,7 @@ export const geras = {
             },
             {
                 name: 'Elbow Drop',
-                sequence: [],
+                sequence: ['2'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -286,7 +286,7 @@ export const geras = {
             },
             {
                 name: 'Time Splash',
-                sequence: [],
+                sequence: ['d', '+', '2'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -304,7 +304,7 @@ export const geras = {
             },
             {
                 name: 'Titan Toe',
-                sequence: [],
+                sequence: ['3', 'or', '4'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -324,7 +324,7 @@ export const geras = {
         hopAttackList: [
             {
                 name: 'Timequake',
-                sequence: [],
+                sequence: ['u', ',', '1', 'or', 'u', ',', '2'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -342,7 +342,7 @@ export const geras = {
             },
             {
                 name: 'Heavy Knee',
-                sequence: [],
+                sequence: ['u', ',', '3', 'or', 'u', ',', '4'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -362,7 +362,7 @@ export const geras = {
         getUpAttackList: [
             {
                 name: 'Titan Charge',
-                sequence: [],
+                sequence: ['u', '+', '2'],
                 description: [
                     'Can only be performed after being KNOCKED DOWN',
                     'Costs 1 bar of Defensive Meter and Offensive Meter',
@@ -383,7 +383,7 @@ export const geras = {
             },
             {
                 name: 'Sand Storm',
-                sequence: [],
+                sequence: ['u', '+', '3'],
                 description: [
                     'Can only be performed after being KNOCKED DOWN',
                     'Costs 1 bar of Defensive Meter and Offensive Meter',
@@ -406,7 +406,7 @@ export const geras = {
         flawlessBlockAttacksList: [
             {
                 name: 'Titan Charge',
-                sequence: [],
+                sequence: ['u', '+', '2'],
                 description: [
                     'Can only be performed after connecting a FLAWLESS BLOCK',
                     'Costs 1 bar of Defensive Meter and Offensive Meter',
@@ -427,7 +427,7 @@ export const geras = {
             },
             {
                 name: 'Sand Storm',
-                sequence: [],
+                sequence: ['u', '+', '3'],
                 description: [
                     'Can only be performed after connecting a FLAWLESS BLOCK',
                     'Costs 1 bar of Defensive Meter and Offensive Meter',
@@ -450,7 +450,7 @@ export const geras = {
         throwsList: [
             {
                 name: 'Toward Throw',
-                sequence: [],
+                sequence: ['l1', '+', 'f', 'or', 'f', '+', '1', '+', '3'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -468,7 +468,7 @@ export const geras = {
             },
             {
                 name: 'Back Throw',
-                sequence: [],
+                sequence: ['l1', 'or', '1', '+', '3'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -488,7 +488,7 @@ export const geras = {
         rollEscapeList: [
             {
                 name: 'Forward Roll Escape',
-                sequence: [],
+                sequence: ['f', '+', 'l2'],
                 description: ['Uses 1 bar of Defensive Meter to perform Forward Roll Escape'],
                 deepLevel: 0,
                 variation: null,
@@ -506,7 +506,7 @@ export const geras = {
             },
             {
                 name: 'Away Roll Escape',
-                sequence: [],
+                sequence: ['b', '+', 'l2'],
                 description: ['Uses 1 bar of Defensive Meter to perform Away Roll Escape'],
                 deepLevel: 0,
                 variation: null,
@@ -526,7 +526,7 @@ export const geras = {
         airEscapeList: [
             {
                 name: '(Air) Breakaway',
-                sequence: [],
+                sequence: ['d', '+', 'r2'],
                 description: ['Uses 2 bars of Defensive Meter to perform (Air) Breakaway'],
                 deepLevel: 0,
                 variation: null,
@@ -546,7 +546,7 @@ export const geras = {
         comboList: [
             {
                 name: 'Without Beginning',
-                sequence: [],
+                sequence: ['1', ',', '1'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -564,7 +564,7 @@ export const geras = {
             },
             {
                 name: 'Without End',
-                sequence: [],
+                sequence: ['1', ',', '1', ',', '1'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -582,7 +582,7 @@ export const geras = {
             },
             {
                 name: 'Out Of Time',
-                sequence: [],
+                sequence: ['1', ',', '1', ',', '1', ',', '1', '+', '3'],
                 description: ['KRUSHING BLOW:', 'Triggers third hit of the KOMBO is the first to connect'],
                 deepLevel: 0,
                 variation: null,
@@ -600,7 +600,7 @@ export const geras = {
             },
             {
                 name: 'Eternal Hate',
-                sequence: [],
+                sequence: ['f', '+', '1', ',', '1', '+', '3'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -618,7 +618,7 @@ export const geras = {
             },
             {
                 name: 'Xuid & Guid',
-                sequence: [],
+                sequence: ['f', '+', '1', ',', '1', '+', '3', ',', '4'],
                 description: ['KRUSHING BLOW:', 'Triggers if this KOMBO ATTACK is a KOUNTER or PUNISH'],
                 deepLevel: 0,
                 variation: null,
@@ -636,7 +636,7 @@ export const geras = {
             },
             {
                 name: 'Time Immemorial',
-                sequence: [],
+                sequence: ['2', ',', '4'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -654,7 +654,7 @@ export const geras = {
             },
             {
                 name: 'The Undying',
-                sequence: [],
+                sequence: ['2', ',', '4', ',', '1'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -672,7 +672,7 @@ export const geras = {
             },
             {
                 name: 'Timeless',
-                sequence: [],
+                sequence: ['b', '+', '2', ',', '2'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -690,7 +690,7 @@ export const geras = {
             },
             {
                 name: 'The Deathless Giant',
-                sequence: [],
+                sequence: ['f', '+', '2', ',', '1'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -708,7 +708,7 @@ export const geras = {
             },
             {
                 name: 'Matter Of Time',
-                sequence: [],
+                sequence: ['f', '+', '2', ',', '1', ',', '2'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -726,7 +726,7 @@ export const geras = {
             },
             {
                 name: 'Sand Blaster',
-                sequence: [],
+                sequence: ['f', '+', '2', ',', '2'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -744,7 +744,7 @@ export const geras = {
             },
             {
                 name: 'Dangerous Chronology',
-                sequence: [],
+                sequence: ['f', '+', '2', ',', '2', ',', '1', '+', '3'],
                 description: ['KRUSHING BLOW:', 'Triggers if this KOMBO ATTACK is a KOUNTER or PUNISH'],
                 deepLevel: 0,
                 variation: null,
@@ -762,7 +762,7 @@ export const geras = {
             },
             {
                 name: 'Ripple In Time',
-                sequence: [],
+                sequence: ['f', '+', '3', ',', '2'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -782,7 +782,7 @@ export const geras = {
         specialList: [
             {
                 name: 'Temporal Advantage',
-                sequence: [],
+                sequence: ['b', 'f', '1'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -800,7 +800,7 @@ export const geras = {
             },
             {
                 name: 'Amplify',
-                sequence: [],
+                sequence: ['r1'],
                 description: [],
                 deepLevel: 1,
                 variation: null,
@@ -818,7 +818,7 @@ export const geras = {
             },
             {
                 name: 'Sand Trap',
-                sequence: [],
+                sequence: ['d', 'b', '1'],
                 description: ['KRUSHING BLOW:', 'Triggers if opponent is STAND BLOCKING'],
                 deepLevel: 0,
                 variation: null,
@@ -836,7 +836,7 @@ export const geras = {
             },
             {
                 name: 'Close Sand Trap',
-                sequence: [],
+                sequence: ['d', 'b', '1', ',', 'b'],
                 description: ['KRUSHING BLOW:', 'Triggers if opponent is STAND BLOCKING'],
                 deepLevel: 0,
                 variation: null,
@@ -854,7 +854,7 @@ export const geras = {
             },
             {
                 name: 'Far Sand Trap',
-                sequence: [],
+                sequence: ['d', 'b', '1', ',', 'f'],
                 description: ['KRUSHING BLOW:', 'Triggers if opponent is STAND BLOCKING'],
                 deepLevel: 0,
                 variation: null,
@@ -872,7 +872,7 @@ export const geras = {
             },
             {
                 name: 'Very Far Sand Trap',
-                sequence: [],
+                sequence: ['d', 'b', '1', ',', 'u'],
                 description: ['KRUSHING BLOW:', 'Triggers if opponent is STAND BLOCKING'],
                 deepLevel: 0,
                 variation: null,
@@ -890,7 +890,7 @@ export const geras = {
             },
             {
                 name: 'Quick Sand',
-                sequence: [],
+                sequence: ['d', 'b', '1'],
                 description: ['KRUSHING BLOW:', 'Triggers if this ATTACK is a KOUNTER or PUNISH'],
                 deepLevel: 0,
                 variation: 'Infinite Warden',
@@ -908,7 +908,7 @@ export const geras = {
             },
             {
                 name: 'Close Quick Sand',
-                sequence: [],
+                sequence: ['d', 'b', '1', ',', 'b'],
                 description: ['KRUSHING BLOW:', 'Triggers if this ATTACK is a KOUNTER or PUNISH'],
                 deepLevel: 0,
                 variation: 'Infinite Warden',
@@ -926,7 +926,7 @@ export const geras = {
             },
             {
                 name: 'Far Quick Sand',
-                sequence: [],
+                sequence: ['d', 'b', '1', ',', 'f'],
                 description: ['KRUSHING BLOW:', 'Triggers if this ATTACK is a KOUNTER or PUNISH'],
                 deepLevel: 0,
                 variation: 'Infinite Warden',
@@ -944,7 +944,7 @@ export const geras = {
             },
             {
                 name: 'Very Far Quick Sand',
-                sequence: [],
+                sequence: ['d', 'b', '1', ',', 'u'],
                 description: ['KRUSHING BLOW:', 'Triggers if this ATTACK is a KOUNTER or PUNISH'],
                 deepLevel: 0,
                 variation: 'Infinite Warden',
@@ -962,7 +962,7 @@ export const geras = {
             },
             {
                 name: 'Titan Tackle',
-                sequence: [],
+                sequence: ['b', 'f', '2'],
                 description: [
                     'KRUSHING BLOW:',
                     'Triggers if opponent is carried MAXIMUM DISTANCE before hitting the wall',
@@ -983,7 +983,7 @@ export const geras = {
             },
             {
                 name: 'Bed Of Spikes',
-                sequence: [],
+                sequence: ['b', 'f', '2'],
                 description: [],
                 deepLevel: 0,
                 variation: 'Infinite Warden',
@@ -1001,7 +1001,7 @@ export const geras = {
             },
             {
                 name: 'Amplify',
-                sequence: [],
+                sequence: ['r1'],
                 description: [],
                 deepLevel: 1,
                 variation: 'Infinite Warden',
@@ -1019,7 +1019,7 @@ export const geras = {
             },
             {
                 name: 'Big Fist',
-                sequence: [],
+                sequence: ['d', 'b', '2'],
                 description: ['KRUSHING BLOW:', 'Triggers after two KOUNTER Hits in a row'],
                 deepLevel: 0,
                 variation: null,
@@ -1037,7 +1037,7 @@ export const geras = {
             },
             {
                 name: 'Gauntlet Of The Ages',
-                sequence: [],
+                sequence: ['d', 'b', '2'],
                 description: [],
                 deepLevel: 0,
                 variation: 'Infinite Warden',
@@ -1055,7 +1055,7 @@ export const geras = {
             },
             {
                 name: 'History Lesson',
-                sequence: [],
+                sequence: ['1'],
                 description: ['KRUSHING BLOW:', 'Triggers if fully CHARGED'],
                 deepLevel: 1,
                 variation: 'Infinite Warden',
@@ -1073,7 +1073,7 @@ export const geras = {
             },
             {
                 name: 'Cancel',
-                sequence: [],
+                sequence: ['2'],
                 description: [],
                 deepLevel: 1,
                 variation: 'Infinite Warden',
@@ -1091,7 +1091,7 @@ export const geras = {
             },
             {
                 name: 'Sand Pillar',
-                sequence: [],
+                sequence: ['d', 'f', '3'],
                 description: [],
                 deepLevel: 0,
                 variation: 'New Era',
@@ -1109,7 +1109,7 @@ export const geras = {
             },
             {
                 name: 'Amplify',
-                sequence: [],
+                sequence: ['r1'],
                 description: [],
                 deepLevel: 1,
                 variation: 'New Era',
@@ -1127,7 +1127,7 @@ export const geras = {
             },
             {
                 name: 'Close Sand Pillar',
-                sequence: [],
+                sequence: ['d', 'f', '3', ',', 'b'],
                 description: [],
                 deepLevel: 0,
                 variation: 'New Era',
@@ -1145,7 +1145,7 @@ export const geras = {
             },
             {
                 name: 'Amplify',
-                sequence: [],
+                sequence: ['r1'],
                 description: [],
                 deepLevel: 1,
                 variation: 'New Era',
@@ -1163,7 +1163,7 @@ export const geras = {
             },
             {
                 name: 'Far Sand Pillar',
-                sequence: [],
+                sequence: ['d', 'f', '3', ',', 'f'],
                 description: [],
                 deepLevel: 0,
                 variation: 'New Era',
@@ -1181,7 +1181,7 @@ export const geras = {
             },
             {
                 name: 'Amplify',
-                sequence: [],
+                sequence: ['r1'],
                 description: [],
                 deepLevel: 1,
                 variation: 'New Era',
@@ -1199,7 +1199,7 @@ export const geras = {
             },
             {
                 name: 'Very Far Sand Pillar',
-                sequence: [],
+                sequence: ['d', 'f', '3', ',', 'u'],
                 description: [],
                 deepLevel: 0,
                 variation: 'New Era',
@@ -1217,7 +1217,7 @@ export const geras = {
             },
             {
                 name: 'Amplify',
-                sequence: [],
+                sequence: ['r1'],
                 description: [],
                 deepLevel: 1,
                 variation: 'New Era',
@@ -1235,7 +1235,7 @@ export const geras = {
             },
             {
                 name: 'Stepping It Back',
-                sequence: [],
+                sequence: ['d', 'd', 'r1'],
                 description: [],
                 deepLevel: 0,
                 variation: 'New Era',
@@ -1255,7 +1255,7 @@ export const geras = {
         fatalBlowList: [
             {
                 name: 'STASIS ASSAULT',
-                sequence: [],
+                sequence: ['l2', '+', 'r2'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -1275,7 +1275,7 @@ export const geras = {
         fatalityList: [
             {
                 name: 'Phasing Through Time (Anywhere)',
-                sequence: [],
+                sequence: ['b', 'd', 'd', '3'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -1293,7 +1293,7 @@ export const geras = {
             },
             {
                 name: 'Peeling Back (Close)',
-                sequence: [],
+                sequence: ['d', 'f', 'b', '1'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -1313,7 +1313,7 @@ export const geras = {
         brutalityList: [
             {
                 name: 'The Klassic',
-                sequence: [],
+                sequence: ['d', '+', '2'],
                 description: [
                     'DO NOT Block An Attack During The Final Round',
                     'Must Hold 2',
@@ -1335,7 +1335,7 @@ export const geras = {
             },
             {
                 name: 'Sinking Feeling',
-                sequence: [],
+                sequence: ['d', 'b', '1'],
                 description: ['Must Hit With 3 Quick Sands', 'Final Hit Must Come From Quick Sand'],
                 deepLevel: 0,
                 variation: null,
