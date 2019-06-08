@@ -16,9 +16,11 @@ import type {PlatformNameType, SetPlatformTypeType} from '../../component/combo-
 import {setPlatformType, platformNameMap} from '../../component/combo-list/combo-list-item/move/action';
 import comboListItemStyle from '../../component/combo-list/combo-list-item/combo-list-item.style.scss';
 import moveStyle from '../../component/combo-list/combo-list-item/move/move.style.scss';
-import {inputMoveMap} from '../../character-data/character-type';
-import type {ComboInputSingleType} from '../../character-data/character-type';
+import {inputMoveMap} from '../../move-type/combo-input-type';
+
 import {getImagePath} from '../../component/combo-list/combo-list-item/move/helper';
+
+import type {ComboInputSingleType} from '../../move-type/combo-input-type';
 
 import settingsPageStyle from './settings-page.style.scss';
 

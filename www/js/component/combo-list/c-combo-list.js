@@ -7,7 +7,7 @@ import React, {Component, Fragment} from 'react';
 
 import type {ContextRouterType} from '../../type/react-router-dom-v4';
 
-import type {ComboType} from '../../character-data/character-type';
+import type {ComboType} from '../../move-type/combo-type';
 
 import comboListStyle from './combo-list.style.scss';
 import {ComboListItem} from './combo-list-item/c-combo-list-item';

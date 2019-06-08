@@ -6,8 +6,9 @@ import type {Node} from 'react';
 import React, {Component} from 'react';
 
 import {Locale} from '../../../locale/c-locale';
-import type {ComboType, MayBeNaType} from '../../../../character-data/character-type';
-import {moveTypeTranslationMap} from '../../../../character-data/character-type';
+import type {ComboType} from '../../../../move-type/combo-type';
+import type {MayBeNaType} from '../../../../move-type/n-a-type';
+import {moveTypeTranslationMap} from '../../../../move-type/move-type';
 
 import {isNumber} from '../../../../lib/is';
 

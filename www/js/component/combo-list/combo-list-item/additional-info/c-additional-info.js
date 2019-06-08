@@ -5,9 +5,9 @@
 import type {Node} from 'react';
 import React, {Component, Fragment} from 'react';
 
-import type {ComboType} from '../../../../character-data/character-type';
-
 import {Locale} from '../../../locale/c-locale';
+
+import type {ComboType} from '../../../../move-type/combo-type';
 
 import additionalInfoStyle from './additional-info.style.scss';
 

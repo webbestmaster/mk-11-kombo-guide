@@ -1,6 +1,6 @@
 // @flow
 
-import {inputMoveMap} from '../../../../character-data/character-type';
+import {inputMoveMap} from '../../../../move-type/combo-input-type';
 
 import arrowUp from './image/main/arrow-up.svg';
 import arrowDown from './image/main/arrow-down.svg';

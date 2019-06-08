@@ -1,6 +1,6 @@
 // @flow
 
-import type {ComboInputSingleType} from '../../../../character-data/character-type';
+import type {ComboInputSingleType} from '../../../../move-type/combo-input-type';
 
 import type {PlatformNameType} from './action';
 import {platformNameMap} from './action';

@@ -2,28 +2,18 @@
 
 import type {Page, ElementHandle} from 'puppeteer';
 
+import type {CharacterType, CharacterMoveType} from '../../../www/js/character-data/character-type';
+import type {ComboType} from '../../../www/js/move-type/combo-type';
+
 import {getDataConst} from '../const';
-import {isNotString, isString} from '../../../www/js/lib/is';
-import type {
-    CharacterMoveType,
-    CharacterType,
-    ComboInputType,
-    ComboType,
-    FrameDataType,
-    MayBeNaType,
-    MoveDataType,
-    MoveType,
-} from '../../../www/js/character-data/character-type';
+import {isNotString} from '../../../www/js/lib/is';
 import {trim} from '../helper';
-import {
-    ensureDescriptionType,
-    ensureMoveType,
-    ensureNumberType,
-    ensurePropertyListType,
-    ensureVariationType,
-    moveTypeMap,
-    naValue,
-} from '../../../www/js/character-data/character-type';
+import {getSequence} from '../../../www/js/move-type/move-sequence';
+import {ensureDescriptionType} from '../../../www/js/move-type/move-description-type';
+import {ensureVariationType} from '../../../www/js/move-type/move-variation-type';
+import {ensurePropertyListType} from '../../../www/js/move-type/move-property-type';
+import {ensureNumberType} from '../../../www/js/move-type/move-frame-data-type';
+import {ensureMoveType} from '../../../www/js/move-type/move-type';
 
 export type CharacterDataType = {|
     +id: string,
@@ -171,7 +161,7 @@ async function getNodeData(rowNode: ElementHandle): Promise<NodeDataType> {
 // eslint-disable-next-line complexity
 async function getCombo(rowNode: ElementHandle): Promise<ComboType> {
     const {html, innerTextList} = await getNodeData(rowNode);
-    const comboName = innerTextList[0];
+    const [comboName, rawSequence] = innerTextList;
 
     const matchedHTML = html.replace(/\s+/g, ' ').match(/'[\S\s]*?'/g);
 
@@ -208,11 +198,9 @@ async function getCombo(rowNode: ElementHandle): Promise<ComboType> {
         flawlessBlockAdvance,
     ] = rawData;
 
-    console.log(rawData);
-
     return {
         name: comboName,
-        sequence: [], // TODO: JUST DO IT !!!
+        sequence: getSequence(rawSequence, []),
         description: ensureDescriptionType(description),
         deepLevel: html.includes('id="submove"') ? 1 : 0,
         variation: ensureVariationType(variation),

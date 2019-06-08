@@ -6,7 +6,7 @@ import type {ComponentType, Node} from 'react';
 import React, {Component, Fragment} from 'react';
 import {connect} from 'react-redux';
 
-import type {ComboInputSingleType, ComboInputType} from '../../../../character-data/character-type';
+import type {ComboInputSingleType, ComboInputType} from '../../../../move-type/combo-input-type';
 
 import {imageInputMapUniversal, imageInputMapPs, imageInputMapXBox} from './move-image';
 import moveStyle from './move.style.scss';

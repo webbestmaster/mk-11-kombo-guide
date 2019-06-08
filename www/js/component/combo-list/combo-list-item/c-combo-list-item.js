@@ -7,10 +7,12 @@ import React, {Component, Fragment} from 'react';
 import {connect} from 'react-redux';
 
 import type {GlobalStateType} from '../../../redux-store-provider/reducer';
-import type {ComboInputSingleType, ComboInputType, ComboType} from '../../../character-data/character-type';
+import type {ComboInputType, ComboInputSingleType} from '../../../move-type/combo-input-type';
+import type {ComboType} from '../../../move-type/combo-type';
 import {Locale} from '../../locale/c-locale';
 import serviceStyle from '../../../../css/service.scss';
-import {inputMoveMap} from '../../../character-data/character-type';
+import {inputMoveMap} from '../../../move-type/combo-input-type';
+
 import {forceResize} from '../../ui/scroll/helper';
 
 import comboListItemStyle from './combo-list-item.style.scss';
