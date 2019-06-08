@@ -1,6 +1,6 @@
 // @flow
 
-import {trim} from '../../../util/get-data/helper';
+import {trim} from '../lib/string-helper';
 
 export type FrameDataType = {|
     +startUp: number,

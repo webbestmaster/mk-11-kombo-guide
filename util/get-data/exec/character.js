@@ -7,7 +7,7 @@ import type {ComboType} from '../../../www/js/move-type/combo-type';
 
 import {getDataConst} from '../const';
 import {isNotString} from '../../../www/js/lib/is';
-import {trim} from '../helper';
+import {trim} from '../../../www/js/lib/string-helper';
 import {getSequence} from '../../../www/js/move-type/move-sequence';
 import {ensureDescriptionType} from '../../../www/js/move-type/move-description-type';
 import {ensureVariationType} from '../../../www/js/move-type/move-variation-type';

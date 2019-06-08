@@ -1,7 +1,7 @@
 // @flow
 
 import type {LangKeyType} from '../component/locale/translation/type';
-import {trim} from '../../../util/get-data/helper';
+import {trim} from '../lib/string-helper';
 
 export type MoveType = 'low' | 'mid' | 'high' | 'overhead' | 'throw' | 'unblockable' | 'N/A Move';
 

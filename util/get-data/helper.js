@@ -6,10 +6,6 @@ const fsPromises = fileSystem.promises;
 
 import type {CharacterType} from '../../www/js/character-data/character-type';
 
-export function trim(text: string): string {
-    return text.trim().replace(/\s+/g, ' ');
-}
-
 function dashToCamelCase(word: string): string {
     return word.replace(/-([a-z])/gi, (all: mixed, letter: string): string => letter.toUpperCase());
 }

@@ -1,6 +1,6 @@
 // @flow
 
-import {trim} from '../../../util/get-data/helper';
+import {trim} from '../lib/string-helper';
 
 export function ensureDescriptionType(description: string): Array<string> {
     return description
