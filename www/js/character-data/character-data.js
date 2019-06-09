@@ -27,7 +27,7 @@ import {scorpion} from './character/scorpion/data.js';
 import {shaoKahn} from './character/shao-kahn/data';
 import {skarlet} from './character/skarlet/data';
 import {sonya} from './character/sonya/data';
-// import {subZero} from './character/sub-zero/data';
+import {subZero} from './character/sub-zero/data';
 
 export const characterList: Array<CharacterType> = [
     baraka,
@@ -55,7 +55,7 @@ export const characterList: Array<CharacterType> = [
     shaoKahn,
     skarlet,
     sonya,
-    // subZero,
+    subZero,
 ];
 
 export function getCharacterById(characterId: string): CharacterType | null {
