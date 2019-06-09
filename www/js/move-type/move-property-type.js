@@ -7,8 +7,9 @@ export type PropertyNameType =
     | 'invulnerable'
     | 'parry'
     | 'proj parry - all'
+    | 'parry - high'
     | 'stance'
-    | 'press 1 repeatedly'
+    | 'stun'
     | 'projectile'
     | 'projectile invulnerable'
     | 'krushing blow'
@@ -23,13 +24,16 @@ export type PropertyNameType =
     | 'ranged - tracking'
     | 'teleport'
     | 'buff - resist'
+    | 'buff - block damage'
     | 'buff - damage';
 
 export const propertyNameMap: {+[key: string]: PropertyNameType} = {
     projectile: 'projectile',
     parry: 'parry',
     projParryAll: 'proj parry - all',
+    parryHigh: 'parry - high',
     stance: 'stance',
+    stun: 'stun',
     invulnerable: 'invulnerable',
     projectileInvulnerable: 'projectile invulnerable',
     krushingBlow: 'krushing blow',
@@ -44,6 +48,7 @@ export const propertyNameMap: {+[key: string]: PropertyNameType} = {
     rangedTracking: 'ranged - tracking',
     teleport: 'teleport',
     buffResist: 'buff - resist',
+    buffBlockDamage: 'buff - block damage',
     buffDamage: 'buff - damage',
 };
 
@@ -51,7 +56,9 @@ export const propertyNameTranslationMap: {+[key: PropertyNameType]: LangKeyType}
     [propertyNameMap.projectile]: 'MOVE_PROPERTY__INVULNERABLE',
     [propertyNameMap.parry]: 'MOVE_PROPERTY__PARRY',
     [propertyNameMap.projParryAll]: 'MOVE_PROPERTY__PROJ_PARRY_ALL',
+    [propertyNameMap.parryHigh]: 'MOVE_PROPERTY__PARRY_HIGH',
     [propertyNameMap.stance]: 'MOVE_PROPERTY__STANCE',
+    [propertyNameMap.stun]: 'MOVE_PROPERTY__STUN',
     [propertyNameMap.invulnerable]: 'MOVE_PROPERTY__PROJECTILE',
     [propertyNameMap.projectileInvulnerable]: 'MOVE_PROPERTY__PROJECTILE_INVULNERABLE',
     [propertyNameMap.krushingBlow]: 'MOVE_PROPERTY__KRUSHING_BLOW',
@@ -66,6 +73,7 @@ export const propertyNameTranslationMap: {+[key: PropertyNameType]: LangKeyType}
     [propertyNameMap.rangedTracking]: 'MOVE_PROPERTY__RANGED_TRACKING',
     [propertyNameMap.teleport]: 'MOVE_PROPERTY__TELEPORT',
     [propertyNameMap.buffResist]: 'MOVE_PROPERTY__BUFF_RESIST',
+    [propertyNameMap.buffBlockDamage]: 'MOVE_PROPERTY__BUFF_BLOCK_DAMAGE',
     [propertyNameMap.buffDamage]: 'MOVE_PROPERTY__BUFF_DAMAGE',
 };
 
@@ -75,7 +83,9 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
         projectile,
         parry,
         projParryAll,
+        parryHigh,
         stance,
+        stun,
         invulnerable,
         projectileInvulnerable,
         krushingBlow,
@@ -90,6 +100,7 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
         rangedTracking,
         teleport,
         buffResist,
+        buffBlockDamage,
         buffDamage,
     } = propertyNameMap;
     const mayBePropertyNameLowCase = trim(mayBePropertyName).toLowerCase();
@@ -101,8 +112,12 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
             return parry;
         case projParryAll:
             return projParryAll;
+        case parryHigh:
+            return parryHigh;
         case stance:
             return stance;
+        case stun:
+            return stun;
         case invulnerable:
             return invulnerable;
         case projectileInvulnerable:
@@ -133,6 +148,8 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
             return buffDamage;
         case buffResist:
             return buffResist;
+        case buffBlockDamage:
+            return buffBlockDamage;
         case '':
             return null;
         default:

@@ -55,7 +55,9 @@ export type LangDataType = {|
     +MOVE_PROPERTY__INVULNERABLE: string,
     +MOVE_PROPERTY__PARRY: string,
     +MOVE_PROPERTY__PROJ_PARRY_ALL: string,
+    +MOVE_PROPERTY__PARRY_HIGH: string,
     +MOVE_PROPERTY__STANCE: string,
+    +MOVE_PROPERTY__STUN: string,
     +MOVE_PROPERTY__PROJECTILE: string,
     +MOVE_PROPERTY__PROJECTILE_INVULNERABLE: string,
     +MOVE_PROPERTY__KRUSHING_BLOW: string,
@@ -70,6 +72,7 @@ export type LangDataType = {|
     +MOVE_PROPERTY__RANGED_TRACKING: string,
     +MOVE_PROPERTY__TELEPORT: string,
     +MOVE_PROPERTY__BUFF_RESIST: string,
+    +MOVE_PROPERTY__BUFF_BLOCK_DAMAGE: string,
     +MOVE_PROPERTY__BUFF_DAMAGE: string,
 
     // setting page

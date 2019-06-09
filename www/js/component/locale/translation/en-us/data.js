@@ -56,7 +56,9 @@ export const enUs: LangDataType = {
     MOVE_PROPERTY__INVULNERABLE: 'Invulnerable',
     MOVE_PROPERTY__PARRY: 'Parry',
     MOVE_PROPERTY__PROJ_PARRY_ALL: 'Proj parry - all',
+    MOVE_PROPERTY__PARRY_HIGH: 'Parry - high',
     MOVE_PROPERTY__STANCE: 'Stance',
+    MOVE_PROPERTY__STUN: 'stun',
     MOVE_PROPERTY__PROJECTILE: 'Projectile',
     MOVE_PROPERTY__PROJECTILE_INVULNERABLE: 'Projectile invulnerable',
     MOVE_PROPERTY__KRUSHING_BLOW: 'Krushing blow',
@@ -71,6 +73,7 @@ export const enUs: LangDataType = {
     MOVE_PROPERTY__RANGED_TRACKING: 'Ranged / tracking',
     MOVE_PROPERTY__TELEPORT: 'Teleport',
     MOVE_PROPERTY__BUFF_RESIST: 'Buff - resist',
+    MOVE_PROPERTY__BUFF_BLOCK_DAMAGE: 'Buff - block damage',
     MOVE_PROPERTY__BUFF_DAMAGE: 'Buff - damage',
 
     // setting page
