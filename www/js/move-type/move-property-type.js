@@ -12,6 +12,7 @@ export type PropertyNameType =
     | 'debuff'
     | 'ranged'
     | 'cancel'
+    | 'delay'
     | 'armor'
     | 'armor - 1 hit'
     | 'proximity'
@@ -26,6 +27,7 @@ export const propertyNameMap: {+[key: string]: PropertyNameType} = {
     krushingBlow: 'krushing blow',
     debuff: 'debuff',
     ranged: 'ranged',
+    delay: 'delay',
     cancel: 'cancel',
     armor: 'armor',
     armorOneHit: 'armor - 1 hit',
@@ -43,6 +45,7 @@ export const propertyNameTranslationMap: {+[key: PropertyNameType]: LangKeyType}
     [propertyNameMap.debuff]: 'MOVE_PROPERTY__DEBUFF',
     [propertyNameMap.ranged]: 'MOVE_PROPERTY__RANGED',
     [propertyNameMap.cancel]: 'MOVE_PROPERTY__CANCEL',
+    [propertyNameMap.delay]: 'MOVE_PROPERTY__DELAY',
     [propertyNameMap.armor]: 'MOVE_PROPERTY__ARMOR',
     [propertyNameMap.armorOneHit]: 'MOVE_PROPERTY__ARMOR_ONE_HIT',
     [propertyNameMap.proximity]: 'MOVE_PROPERTY__PROXIMITY',
@@ -61,6 +64,7 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
         debuff,
         ranged,
         cancel,
+        delay,
         armor,
         armorOneHit,
         proximity,
@@ -86,6 +90,8 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
             return ranged;
         case cancel:
             return cancel;
+        case delay:
+            return delay;
         case armor:
             return armor;
         case armorOneHit:

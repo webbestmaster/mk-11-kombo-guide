@@ -3,7 +3,7 @@
 import type {CharacterType} from './character-type';
 
 import {baraka} from './character/baraka/data';
-// import {cassieCage} from './character/cassie-cage/data';
+import {cassieCage} from './character/cassie-cage/data';
 // import {cetrion} from './character/cetrion/data';
 // import {dVorah} from './character/dvorah/data';
 // import {erronBlack} from './character/erron-black/data';
@@ -30,7 +30,7 @@ import {geras} from './character/geras/data';
 
 export const characterList: Array<CharacterType> = [
     baraka,
-    // cassieCage,
+    cassieCage,
     // cetrion,
     // dVorah,
     // erronBlack,

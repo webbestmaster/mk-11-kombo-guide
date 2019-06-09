@@ -61,6 +61,7 @@ export const enUs: LangDataType = {
     MOVE_PROPERTY__DEBUFF: 'Debuff',
     MOVE_PROPERTY__RANGED: 'Danged',
     MOVE_PROPERTY__CANCEL: 'Cancel',
+    MOVE_PROPERTY__DELAY: 'Delay',
     MOVE_PROPERTY__ARMOR: 'Armor',
     MOVE_PROPERTY__ARMOR_ONE_HIT: 'Armor - 1 hit',
     MOVE_PROPERTY__PROXIMITY: 'Proximity',

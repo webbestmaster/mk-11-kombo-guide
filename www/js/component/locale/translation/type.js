@@ -60,6 +60,7 @@ export type LangDataType = {|
     +MOVE_PROPERTY__DEBUFF: string,
     +MOVE_PROPERTY__RANGED: string,
     +MOVE_PROPERTY__CANCEL: string,
+    +MOVE_PROPERTY__DELAY: string,
     +MOVE_PROPERTY__ARMOR: string,
     +MOVE_PROPERTY__ARMOR_ONE_HIT: string,
     +MOVE_PROPERTY__PROXIMITY: string,
