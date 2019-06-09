@@ -25,7 +25,7 @@ import {raiden} from './character/raiden/data';
 import {scorpion} from './character/scorpion/data.js';
 // import {shangTsung} from './character/shang-tsung/data.js';
 import {shaoKahn} from './character/shao-kahn/data';
-// import {skarlet} from './character/skarlet/data';
+import {skarlet} from './character/skarlet/data';
 // import {sonyaBlade} from './character/sonya-blade/data';
 // import {subZero} from './character/sub-zero/data';
 
@@ -53,7 +53,7 @@ export const characterList: Array<CharacterType> = [
     scorpion,
     // shangTsung,
     shaoKahn,
-    // skarlet,
+    skarlet,
     // sonyaBlade,
     // subZero,
 ];
