@@ -18,7 +18,7 @@ import {kano} from './character/kano/data';
 import {kitana} from './character/kitana/data';
 import {kollector} from './character/kollector/data';
 import {kotalKahn} from './character/kotal-kahn/data';
-// import {kungLao} from './character/kung-lao/data';
+import {kungLao} from './character/kung-lao/data';
 // import {liuKang} from './character/liu-kang/data';
 // import {noobSaibot} from './character/noob-saibot/data';
 // import {raiden} from './character/raiden/data';
@@ -45,7 +45,7 @@ export const characterList: Array<CharacterType> = [
     kitana,
     kollector,
     kotalKahn,
-    // kungLao,
+    kungLao,
     // liuKang,
     // noobSaibot,
     // raiden,
