@@ -15,9 +15,9 @@ import {jaxBriggs} from './character/jax-briggs/data';
 import {johnnyCage} from './character/johnny-cage/data';
 import {kabal} from './character/kabal/data';
 import {kano} from './character/kano/data';
+import {kitana} from './character/kitana/data';
 // import {kollector} from './character/kollector/data';
 // import {kotalKahn} from './character/kotal-kahn/data';
-// import {kitana} from './character/kitana/data';
 // import {kungLao} from './character/kung-lao/data';
 // import {liuKang} from './character/liu-kang/data';
 // import {noobSaibot} from './character/noob-saibot/data';
@@ -42,7 +42,7 @@ export const characterList: Array<CharacterType> = [
     johnnyCage,
     kabal,
     kano,
-    // kitana,
+    kitana,
     // kollector,
     // kotalKahn,
     // kungLao,
