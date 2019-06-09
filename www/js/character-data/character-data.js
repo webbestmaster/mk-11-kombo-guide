@@ -22,7 +22,7 @@ import {kungLao} from './character/kung-lao/data';
 import {liuKang} from './character/liu-kang/data';
 import {noobSaibot} from './character/noob-saibot/data';
 import {raiden} from './character/raiden/data';
-// import {scorpion} from './character/scorpion/data.js';
+import {scorpion} from './character/scorpion/data.js';
 // import {shangTsung} from './character/shang-tsung/data.js';
 // import {skarlet} from './character/skarlet/data';
 // import {shaoKahn} from './character/shao-kahn/data';
@@ -50,7 +50,7 @@ export const characterList: Array<CharacterType> = [
     liuKang,
     noobSaibot,
     raiden,
-    // scorpion,
+    scorpion,
     // shangTsung,
     // shaoKahn,
     // skarlet,
