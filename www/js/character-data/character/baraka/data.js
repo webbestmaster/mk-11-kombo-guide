@@ -830,7 +830,7 @@ export const baraka = {
             },
             {
                 name: 'Extend',
-                sequence: ['rapidly', '3'],
+                sequence: ['rapidly press', '3'],
                 description: [],
                 deepLevel: 1,
                 variation: null,
