@@ -17,6 +17,8 @@ export type PropertyNameType =
     | 'armor - 1 hit'
     | 'proximity'
     | 'ranged - directable'
+    | 'ranged - tracking'
+    | 'teleport'
     | 'buff - damage';
 
 export const propertyNameMap: {+[key: string]: PropertyNameType} = {
@@ -33,6 +35,8 @@ export const propertyNameMap: {+[key: string]: PropertyNameType} = {
     armorOneHit: 'armor - 1 hit',
     proximity: 'proximity',
     rangedDirectable: 'ranged - directable',
+    rangedTracking: 'ranged - tracking',
+    teleport: 'teleport',
     buffDamage: 'buff - damage',
 };
 
@@ -50,6 +54,8 @@ export const propertyNameTranslationMap: {+[key: PropertyNameType]: LangKeyType}
     [propertyNameMap.armorOneHit]: 'MOVE_PROPERTY__ARMOR_ONE_HIT',
     [propertyNameMap.proximity]: 'MOVE_PROPERTY__PROXIMITY',
     [propertyNameMap.rangedDirectable]: 'MOVE_PROPERTY__RANGED_DIRECTABLE',
+    [propertyNameMap.rangedTracking]: 'MOVE_PROPERTY__RANGED_TRACKING',
+    [propertyNameMap.teleport]: 'MOVE_PROPERTY__TELEPORT',
     [propertyNameMap.buffDamage]: 'MOVE_PROPERTY__BUFF_DAMAGE',
 };
 
@@ -69,6 +75,8 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
         armorOneHit,
         proximity,
         rangedDirectable,
+        rangedTracking,
+        teleport,
         buffDamage,
     } = propertyNameMap;
     const mayBePropertyNameLowCase = trim(mayBePropertyName).toLowerCase();
@@ -100,6 +108,10 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
             return proximity;
         case rangedDirectable:
             return rangedDirectable;
+        case rangedTracking:
+            return rangedTracking;
+        case teleport:
+            return teleport;
         case buffDamage:
             return buffDamage;
         case '':

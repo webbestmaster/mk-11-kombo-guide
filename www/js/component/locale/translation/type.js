@@ -65,6 +65,8 @@ export type LangDataType = {|
     +MOVE_PROPERTY__ARMOR_ONE_HIT: string,
     +MOVE_PROPERTY__PROXIMITY: string,
     +MOVE_PROPERTY__RANGED_DIRECTABLE: string,
+    +MOVE_PROPERTY__RANGED_TRACKING: string,
+    +MOVE_PROPERTY__TELEPORT: string,
     +MOVE_PROPERTY__BUFF_DAMAGE: string,
 
     // setting page
