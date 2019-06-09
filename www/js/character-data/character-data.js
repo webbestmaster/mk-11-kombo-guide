@@ -9,8 +9,8 @@ import {dvorah} from './character/dvorah/data';
 import {erronBlack} from './character/erron-black/data';
 import {frost} from './character/frost/data';
 import {geras} from './character/geras/data';
+import {jacquiBriggs} from './character/jacqui-briggs/data';
 // import {jade} from './character/jade/data';
-// import {jacquiBriggs} from './character/jacqui-briggs/data';
 // import {jaxBriggs} from './character/jax-briggs/data';
 // import {johnnyCage} from './character/johnny-cage/data';
 // import {kabal} from './character/kabal/data';
@@ -36,7 +36,7 @@ export const characterList: Array<CharacterType> = [
     erronBlack,
     frost,
     geras,
-    // jacquiBriggs,
+    jacquiBriggs,
     // jade,
     // jaxBriggs,
     // johnnyCage,

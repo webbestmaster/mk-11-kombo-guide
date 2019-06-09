@@ -69,6 +69,7 @@ export type LangDataType = {|
     +MOVE_PROPERTY__RANGED_DIRECTABLE: string,
     +MOVE_PROPERTY__RANGED_TRACKING: string,
     +MOVE_PROPERTY__TELEPORT: string,
+    +MOVE_PROPERTY__BUFF_RESIST: string,
     +MOVE_PROPERTY__BUFF_DAMAGE: string,
 
     // setting page

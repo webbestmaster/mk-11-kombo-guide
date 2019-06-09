@@ -10,7 +10,7 @@ import {writeCharacterFile} from './helper';
     const {page, browser} = await runSystem();
     // TODO: uncomment me
     // const characterDataList = await getCharacterList(page);
-    const characterDataList = [(await getCharacterList(page))[5]];
+    const characterDataList = [(await getCharacterList(page))[7]];
 
     console.log('---> character-list:');
     console.log(characterDataList);

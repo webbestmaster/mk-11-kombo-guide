@@ -70,6 +70,7 @@ export const enUs: LangDataType = {
     MOVE_PROPERTY__RANGED_DIRECTABLE: 'Ranged / directable',
     MOVE_PROPERTY__RANGED_TRACKING: 'Ranged / tracking',
     MOVE_PROPERTY__TELEPORT: 'Teleport',
+    MOVE_PROPERTY__BUFF_RESIST: 'Buff - resist',
     MOVE_PROPERTY__BUFF_DAMAGE: 'Buff - damage',
 
     // setting page

@@ -28,6 +28,7 @@ const {
     i2n,
     i3n,
     i4n,
+    rapidlyPress,
     rapidly,
 } = inputMoveMap;
 
@@ -37,6 +38,7 @@ const inputList = [
     'throw',
     'ss',
     'rapidly press',
+    'rapidly',
     'u+f',
     'u+b',
     'd+f',
@@ -65,7 +67,8 @@ const inputMap = {
     'throw': iL1,
     // eslint-disable-next-line id-length
     ss: iL2,
-    'rapidly press': rapidly,
+    'rapidly press': rapidlyPress,
+    rapidly,
 
     'u+f': upFord,
     'u+b': upBack,
@@ -106,6 +109,7 @@ export function getSequence(rawSequence: string, accum: Array<ComboInputSingleTy
         return accum;
     }
 
+    // TODO: FIX ERROR BLACK
     // Erron Black 'Locked And Loaded' -> 'Unload' - 'Press 1 Repeatedly'
     if (normalizedString.startsWith('press 1 repeatedly')) {
         accum.push(i1n);

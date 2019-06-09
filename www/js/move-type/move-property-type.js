@@ -22,6 +22,7 @@ export type PropertyNameType =
     | 'ranged - directable'
     | 'ranged - tracking'
     | 'teleport'
+    | 'buff - resist'
     | 'buff - damage';
 
 export const propertyNameMap: {+[key: string]: PropertyNameType} = {
@@ -42,6 +43,7 @@ export const propertyNameMap: {+[key: string]: PropertyNameType} = {
     rangedDirectable: 'ranged - directable',
     rangedTracking: 'ranged - tracking',
     teleport: 'teleport',
+    buffResist: 'buff - resist',
     buffDamage: 'buff - damage',
 };
 
@@ -63,6 +65,7 @@ export const propertyNameTranslationMap: {+[key: PropertyNameType]: LangKeyType}
     [propertyNameMap.rangedDirectable]: 'MOVE_PROPERTY__RANGED_DIRECTABLE',
     [propertyNameMap.rangedTracking]: 'MOVE_PROPERTY__RANGED_TRACKING',
     [propertyNameMap.teleport]: 'MOVE_PROPERTY__TELEPORT',
+    [propertyNameMap.buffResist]: 'MOVE_PROPERTY__BUFF_RESIST',
     [propertyNameMap.buffDamage]: 'MOVE_PROPERTY__BUFF_DAMAGE',
 };
 
@@ -86,6 +89,7 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
         rangedDirectable,
         rangedTracking,
         teleport,
+        buffResist,
         buffDamage,
     } = propertyNameMap;
     const mayBePropertyNameLowCase = trim(mayBePropertyName).toLowerCase();
@@ -127,6 +131,8 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
             return teleport;
         case buffDamage:
             return buffDamage;
+        case buffResist:
+            return buffResist;
         case '':
             return null;
         default:
