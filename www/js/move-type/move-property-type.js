@@ -6,6 +6,9 @@ import {trim} from '../lib/string-helper';
 export type PropertyNameType =
     | 'invulnerable'
     | 'parry'
+    | 'proj parry - all'
+    | 'stance'
+    | 'press 1 repeatedly'
     | 'projectile'
     | 'projectile invulnerable'
     | 'krushing blow'
@@ -24,6 +27,8 @@ export type PropertyNameType =
 export const propertyNameMap: {+[key: string]: PropertyNameType} = {
     projectile: 'projectile',
     parry: 'parry',
+    projParryAll: 'proj parry - all',
+    stance: 'stance',
     invulnerable: 'invulnerable',
     projectileInvulnerable: 'projectile invulnerable',
     krushingBlow: 'krushing blow',
@@ -43,6 +48,8 @@ export const propertyNameMap: {+[key: string]: PropertyNameType} = {
 export const propertyNameTranslationMap: {+[key: PropertyNameType]: LangKeyType} = {
     [propertyNameMap.projectile]: 'MOVE_PROPERTY__INVULNERABLE',
     [propertyNameMap.parry]: 'MOVE_PROPERTY__PARRY',
+    [propertyNameMap.projParryAll]: 'MOVE_PROPERTY__PROJ_PARRY_ALL',
+    [propertyNameMap.stance]: 'MOVE_PROPERTY__STANCE',
     [propertyNameMap.invulnerable]: 'MOVE_PROPERTY__PROJECTILE',
     [propertyNameMap.projectileInvulnerable]: 'MOVE_PROPERTY__PROJECTILE_INVULNERABLE',
     [propertyNameMap.krushingBlow]: 'MOVE_PROPERTY__KRUSHING_BLOW',
@@ -64,6 +71,8 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
     const {
         projectile,
         parry,
+        projParryAll,
+        stance,
         invulnerable,
         projectileInvulnerable,
         krushingBlow,
@@ -86,6 +95,10 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
             return projectile;
         case parry:
             return parry;
+        case projParryAll:
+            return projParryAll;
+        case stance:
+            return stance;
         case invulnerable:
             return invulnerable;
         case projectileInvulnerable:

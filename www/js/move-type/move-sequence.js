@@ -98,11 +98,18 @@ const inputMap = {
     '4': i4n,
 };
 
+// eslint-disable-next-line complexity
 export function getSequence(rawSequence: string, accum: Array<ComboInputSingleType>): Array<ComboInputSingleType> {
     const normalizedString = trim(rawSequence).toLowerCase();
 
     if (normalizedString === '') {
         return accum;
+    }
+
+    // Erron Black 'Locked And Loaded' -> 'Unload' - 'Press 1 Repeatedly'
+    if (normalizedString.startsWith('press 1 repeatedly')) {
+        accum.push(i1n);
+        return getSequence(normalizedString.replace('press 1 repeatedly', ''), accum);
     }
 
     if (normalizedString.startsWith(downPlusBlockString)) {

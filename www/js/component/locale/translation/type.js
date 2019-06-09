@@ -54,6 +54,8 @@ export type LangDataType = {|
     // move property name
     +MOVE_PROPERTY__INVULNERABLE: string,
     +MOVE_PROPERTY__PARRY: string,
+    +MOVE_PROPERTY__PROJ_PARRY_ALL: string,
+    +MOVE_PROPERTY__STANCE: string,
     +MOVE_PROPERTY__PROJECTILE: string,
     +MOVE_PROPERTY__PROJECTILE_INVULNERABLE: string,
     +MOVE_PROPERTY__KRUSHING_BLOW: string,

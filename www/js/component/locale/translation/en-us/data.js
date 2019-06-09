@@ -55,6 +55,8 @@ export const enUs: LangDataType = {
     // move property name
     MOVE_PROPERTY__INVULNERABLE: 'Invulnerable',
     MOVE_PROPERTY__PARRY: 'Parry',
+    MOVE_PROPERTY__PROJ_PARRY_ALL: 'Proj parry - all',
+    MOVE_PROPERTY__STANCE: 'Stance',
     MOVE_PROPERTY__PROJECTILE: 'Projectile',
     MOVE_PROPERTY__PROJECTILE_INVULNERABLE: 'Projectile invulnerable',
     MOVE_PROPERTY__KRUSHING_BLOW: 'Krushing blow',
