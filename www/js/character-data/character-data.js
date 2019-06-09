@@ -13,7 +13,7 @@ import {jacquiBriggs} from './character/jacqui-briggs/data';
 import {jade} from './character/jade/data';
 import {jaxBriggs} from './character/jax-briggs/data';
 import {johnnyCage} from './character/johnny-cage/data';
-// import {kabal} from './character/kabal/data';
+import {kabal} from './character/kabal/data';
 // import {kano} from './character/kano/data';
 // import {kollector} from './character/kollector/data';
 // import {kotalKahn} from './character/kotal-kahn/data';
@@ -40,7 +40,7 @@ export const characterList: Array<CharacterType> = [
     jade,
     jaxBriggs,
     johnnyCage,
-    // kabal,
+    kabal,
     // kano,
     // kitana,
     // kollector,
