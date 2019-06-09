@@ -163,17 +163,22 @@ async function getCombo(rowNode: ElementHandle): Promise<ComboType> {
     const {html, innerTextList} = await getNodeData(rowNode);
     const [comboName, rawSequence] = innerTextList;
 
-    const matchedHTML = html.replace(/\s+/g, ' ').match(/'[\S\s]*?'/g);
+    const matchedFunction = html.match(/"fillTable\([\S\s]+?\)"/);
 
-    if (matchedHTML === null) {
-        throw new Error('Can not match html');
+    if (matchedFunction === null) {
+        throw new Error('Can not match matchedHTML');
     }
 
-    const rawData = matchedHTML
-        .map(trim)
-        .map((value: string): string => value.replace('\'', '').replace(/'$/g, ''))
-        .map(trim)
-        .splice(0, 15);
+    const clearParamString = trim(
+        matchedFunction[0]
+            .replace(/^"fillTable\(\s*?'/, '')
+            .replace(/'\s*?\)"$/, '')
+            .replace(/\\'/g, '\'')
+    );
+
+    const matchedHTML = clearParamString.split(/'\s?,\s?'/g);
+
+    const rawData = matchedHTML.map(trim).splice(0, 15);
 
     if (/n\s*?\/\s*?a/i.test(rawData.join(','))) {
         console.log(rawData);
@@ -197,6 +202,8 @@ async function getCombo(rowNode: ElementHandle): Promise<ComboType> {
         blockAdvance,
         flawlessBlockAdvance,
     ] = rawData;
+
+    // console.log(html);
 
     return {
         name: comboName,
