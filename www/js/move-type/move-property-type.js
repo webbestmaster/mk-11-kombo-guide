@@ -13,6 +13,7 @@ export type PropertyNameType =
     | 'projectile'
     | 'projectile invulnerable'
     | 'krushing blow'
+    | 'buff'
     | 'debuff'
     | 'ranged'
     | 'cancel'
@@ -37,6 +38,7 @@ export const propertyNameMap: {+[key: string]: PropertyNameType} = {
     invulnerable: 'invulnerable',
     projectileInvulnerable: 'projectile invulnerable',
     krushingBlow: 'krushing blow',
+    buff: 'buff',
     debuff: 'debuff',
     ranged: 'ranged',
     delay: 'delay',
@@ -62,6 +64,7 @@ export const propertyNameTranslationMap: {+[key: PropertyNameType]: LangKeyType}
     [propertyNameMap.invulnerable]: 'MOVE_PROPERTY__PROJECTILE',
     [propertyNameMap.projectileInvulnerable]: 'MOVE_PROPERTY__PROJECTILE_INVULNERABLE',
     [propertyNameMap.krushingBlow]: 'MOVE_PROPERTY__KRUSHING_BLOW',
+    [propertyNameMap.buff]: 'MOVE_PROPERTY__BUFF',
     [propertyNameMap.debuff]: 'MOVE_PROPERTY__DEBUFF',
     [propertyNameMap.ranged]: 'MOVE_PROPERTY__RANGED',
     [propertyNameMap.cancel]: 'MOVE_PROPERTY__CANCEL',
@@ -89,6 +92,7 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
         invulnerable,
         projectileInvulnerable,
         krushingBlow,
+        buff,
         debuff,
         ranged,
         cancel,
@@ -124,6 +128,8 @@ export function ensurePropertyType(mayBePropertyName: string): PropertyNameType 
             return projectileInvulnerable;
         case krushingBlow:
             return krushingBlow;
+        case buff:
+            return buff;
         case debuff:
             return debuff;
         case ranged:

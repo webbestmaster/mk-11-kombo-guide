@@ -62,6 +62,7 @@ export const enUs: LangDataType = {
     MOVE_PROPERTY__PROJECTILE: 'Projectile',
     MOVE_PROPERTY__PROJECTILE_INVULNERABLE: 'Projectile invulnerable',
     MOVE_PROPERTY__KRUSHING_BLOW: 'Krushing blow',
+    MOVE_PROPERTY__BUFF: 'Buff',
     MOVE_PROPERTY__DEBUFF: 'Debuff',
     MOVE_PROPERTY__RANGED: 'Danged',
     MOVE_PROPERTY__CANCEL: 'Cancel',

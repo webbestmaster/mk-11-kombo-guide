@@ -61,6 +61,7 @@ export type LangDataType = {|
     +MOVE_PROPERTY__PROJECTILE: string,
     +MOVE_PROPERTY__PROJECTILE_INVULNERABLE: string,
     +MOVE_PROPERTY__KRUSHING_BLOW: string,
+    +MOVE_PROPERTY__BUFF: string,
     +MOVE_PROPERTY__DEBUFF: string,
     +MOVE_PROPERTY__RANGED: string,
     +MOVE_PROPERTY__CANCEL: string,
