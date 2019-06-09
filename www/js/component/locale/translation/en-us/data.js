@@ -62,8 +62,10 @@ export const enUs: LangDataType = {
     MOVE_PROPERTY__RANGED: 'Danged',
     MOVE_PROPERTY__CANCEL: 'Cancel',
     MOVE_PROPERTY__ARMOR: 'Armor',
+    MOVE_PROPERTY__ARMOR_ONE_HIT: 'Armor - 1 hit',
     MOVE_PROPERTY__PROXIMITY: 'Proximity',
     MOVE_PROPERTY__RANGED_DIRECTABLE: 'Ranged / directable',
+    MOVE_PROPERTY__BUFF_DAMAGE: 'Buff - damage',
 
     // setting page
     SETTING__TITLE: 'Settings',

@@ -15,7 +15,7 @@ import {BackButton} from './back-button/c-back-button';
 import headerStyle from './header.style.scss';
 
 type PassedPropsType = {|
-    +title: string,
+    +title: Node,
     +hasBackButton: boolean,
     +hasMenuButton: boolean,
 |};

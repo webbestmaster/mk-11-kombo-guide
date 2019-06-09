@@ -2,7 +2,7 @@
 
 type ComboInputDirectionType = 'u' | 'd' | 'b' | 'f' | 'uf' | 'df' | 'ub' | 'db';
 type ComboInputMoveType = '1' | '2' | '3' | '4' | 'l1' | 'l2' | 'r1' | 'r2';
-type ComboInputAdditionalType = '+' | 'or' | 'hold' | ',';
+type ComboInputAdditionalType = '+' | 'or' | 'hold' | 'rapidly' | ',';
 export type ComboInputSingleType = ComboInputDirectionType | ComboInputMoveType | ComboInputAdditionalType;
 
 export const inputMoveMap: {[key: string]: ComboInputSingleType} = {
@@ -30,5 +30,6 @@ export const inputMoveMap: {[key: string]: ComboInputSingleType} = {
     plus: '+',
     ori: 'or',
     hold: 'hold',
+    rapidly: 'rapidly',
     comma: ',',
 };

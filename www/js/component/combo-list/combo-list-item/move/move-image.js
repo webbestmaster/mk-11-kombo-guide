@@ -41,6 +41,7 @@ import xBoxR2 from './image/xbox/r-2.svg';
 import signPlus from './image/main/sign-plus.svg';
 import signOr from './image/main/sign-or.svg';
 import signHold from './image/main/sign-hold.svg';
+import singRapidly from './image/main/sign-rapidly.svg';
 import signComma from './image/main/sign-comma.svg';
 
 const directionImageMap = {
@@ -59,6 +60,7 @@ const additionalImageMap = {
     [inputMoveMap.ori]: signOr,
     [inputMoveMap.hold]: signHold,
     [inputMoveMap.comma]: signComma,
+    [inputMoveMap.rapidly]: singRapidly,
 };
 
 const mainImageMap = {

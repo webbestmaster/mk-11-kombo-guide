@@ -7,11 +7,36 @@ import {inputMoveMap} from './combo-input-type';
 
 const downPlusBlockString = 'd+block';
 
+const {
+    iR1,
+    iR2,
+    iL1,
+    iL2,
+    upFord,
+    upBack,
+    downFord,
+    downBack,
+    hold,
+    ori,
+    comma,
+    plus,
+    up,
+    down,
+    back,
+    ford,
+    i1n,
+    i2n,
+    i3n,
+    i4n,
+    rapidly,
+} = inputMoveMap;
+
 const inputList = [
     'amp',
     'block',
     'throw',
     'ss',
+    'rapidly press',
     'u+f',
     'u+b',
     'd+f',
@@ -34,35 +59,13 @@ const inputList = [
     '4',
 ];
 
-const {
-    iR1,
-    iR2,
-    iL1,
-    iL2,
-    upFord,
-    upBack,
-    downFord,
-    downBack,
-    hold,
-    ori,
-    comma,
-    plus,
-    up,
-    down,
-    back,
-    ford,
-    i1n,
-    i2n,
-    i3n,
-    i4n,
-} = inputMoveMap;
-
 const inputMap = {
     amp: iR1,
     block: iR2,
     'throw': iL1,
     // eslint-disable-next-line id-length
     ss: iL2,
+    'rapidly press': rapidly,
 
     'u+f': upFord,
     'u+b': upBack,
