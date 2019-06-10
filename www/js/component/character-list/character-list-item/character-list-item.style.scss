@@ -21,6 +21,7 @@
 
 .character_name {
     display: block;
+    font-family: $title-font-family;
     font-size: 18px;
     overflow: hidden;
     padding: 0 $main-side-padding;

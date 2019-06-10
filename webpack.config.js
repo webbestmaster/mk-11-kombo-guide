@@ -44,7 +44,7 @@ const definePluginParams = {
     // IS_DEVELOPMENT: JSON.stringify(IS_DEVELOPMENT)
 };
 
-const fileRegExp = /\.(png|jpg|jpeg|gif|svg|woff2?)$/;
+const fileRegExp = /\.(png|jpg|jpeg|gif|svg|otf|woff2?)$/;
 
 const pathToDist = '/dist';
 
@@ -84,9 +84,9 @@ const webpackConfig = {
                             reuseExistingChunk: true,
                             test: /\.s?css$/,
                         },
-                        image: {
+                        asset: {
                             chunks: 'initial',
-                            name: 'image',
+                            name: 'asset',
                             priority: -15,
                             test: fileRegExp,
                         },
@@ -138,7 +138,7 @@ const webpackConfig = {
                         // - name - The name is a standard option.
                         query: {
                             limit: IS_PRODUCTION ? 10e3 : 1, // 10k bytes for production
-                            name: 'img/img-[name]-[hash:6].[ext]',
+                            name: 'asset/[name]-[hash:6].[ext]',
                         },
                     },
                     {

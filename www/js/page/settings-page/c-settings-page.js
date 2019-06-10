@@ -133,7 +133,7 @@ class SettingsPage extends Component<PropsType, StateType> {
 
         return (
             <Page>
-                <Header hasBackButton hasMenuButton={false} title="SETTING__TITLE"/>
+                <Header hasBackButton hasMenuButton={false} title={<Locale stringKey="SETTING__TITLE"/>}/>
                 <Scroll>
                     <div className={settingsPageStyle.settings_page__part}>{view.renderSelectPlatform()}</div>
                 </Scroll>
