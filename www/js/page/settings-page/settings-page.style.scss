@@ -1,7 +1,14 @@
 @import './../../../css/var';
 
+.settings_page__wrapper {
+    background-image: url('./image/logo.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 95% auto;
+}
+
 .settings_page__part {
-    background-color: $main-bg-color;
+    //background-color: $main-bg-color;
     display: block;
     padding: 10px $main-side-padding 40px;
 }

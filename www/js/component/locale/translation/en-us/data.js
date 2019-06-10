@@ -6,7 +6,7 @@ import {propertyNameMap} from '../../../../move-type/move-property-type';
 export const enUs: LangDataType = {
     /* eslint-disable id-match, id-length */
 
-    APP_NAME: 'MK11 Kombo Reference',
+    APP_NAME: 'MK11 Reference',
     META__LANGUAGE_NAME: 'English',
 
     // character data

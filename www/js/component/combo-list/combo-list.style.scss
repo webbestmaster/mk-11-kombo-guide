@@ -8,7 +8,7 @@
 .list_item {
     @extend %bordered;
 
-    background-color: $main-bg-color;
+    //background-color: $main-bg-color;
     display: block;
 
     &:first-child {

@@ -11,6 +11,8 @@ import type {SystemType} from '../system/reducer/root';
 
 import {Scroll} from '../ui/scroll/c-scroll';
 
+import {isString} from '../../lib/is';
+
 import pageStyle from './page.style.scss';
 
 type ReduxPropsType = {
@@ -27,6 +29,7 @@ const reduxAction: ReduxActionType = {
 
 type PassedPropsType = {|
     +children: Node,
+    +className?: string,
 |};
 
 type PropsType = {
@@ -69,10 +72,11 @@ class Page extends Component<ReduxPropsType, PassedPropsType, StateType> {
     render(): Node {
         const view = this;
         const {props} = view;
-        const {children} = props;
-        // const {width, height} = this.getSize();
+        const {children, className} = props;
 
-        return <div className={pageStyle.page}>{children}</div>;
+        const additionalClassName = isString(className) ? ` ${className}` : '';
+
+        return <div className={`${pageStyle.page}${additionalClassName}`}>{children}</div>;
     }
 }
 

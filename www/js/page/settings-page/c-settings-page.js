@@ -132,7 +132,7 @@ class SettingsPage extends Component<PropsType, StateType> {
         const view = this;
 
         return (
-            <Page>
+            <Page className={settingsPageStyle.settings_page__wrapper}>
                 <Header hasBackButton hasMenuButton={false} title={<Locale stringKey="SETTING__TITLE"/>}/>
                 <Scroll>
                     <div className={settingsPageStyle.settings_page__part}>{view.renderSelectPlatform()}</div>
