@@ -35,9 +35,10 @@ $text-stroke-color: rgba(0, 0, 0, 0.2);
     color: #a68640;
     font-family: $playstation-buttons-font-family;
     font-size: $move-data-size;
-    line-height: $move-data-size * 1.25;
+    line-height: $move-data-size;
     margin-left: $move-right-margin;
     margin-right: $move-right-margin * 2;
+    padding-top: 4px;
 }
 
 %move-text-on-button {
@@ -69,7 +70,8 @@ $text-stroke-color: rgba(0, 0, 0, 0.2);
         font-family: $playstation-buttons-font-family;
         font-size: $move-data-size;
         font-weight: normal;
-        line-height: $move-data-size * 1.2;
+        line-height: $move-data-size;
+        padding-top: 3px;
         text-align: left;
         text-indent: 3.6px;
 
@@ -120,30 +122,34 @@ $text-stroke-color: rgba(0, 0, 0, 0.2);
 
     color: $main-text-color;
     display: block;
-    font-size: $move-data-size / 1.9;
+    font-size: $move-data-size;
     height: $move-data-size;
     line-height: $move-data-size;
 
     &[data-input=','] {
         font-size: $move-data-size / 1.1;
-        line-height: $move-data-size;
+        line-height: $move-data-size / 1.1;
         margin-left: -$move-right-margin;
     }
 
     &[data-input='|'] {
         font-size: $move-data-size / 1.1;
-        line-height: $move-data-size;
+        line-height: $move-data-size / 1.1;
         padding-top: 2px;
     }
 
     &[data-input='+'] {
         font-size: $move-data-size / 1.2;
-        line-height: $move-data-size / 1.1;
+        line-height: $move-data-size / 1.2;
+        padding-top: 1px;
     }
 
     &[data-input='hold'],
     &[data-input='rapidly'],
     &[data-input='rapidly press'] {
+        font-size: $move-data-size / 1.9;
+        line-height: $move-data-size / 1.9;
         margin-right: 5px;
+        padding-top: 7px;
     }
 }
