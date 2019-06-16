@@ -1,29 +1,34 @@
 @import './../../../../../css/var';
 
-$move-data-size: 26px;
+$move-data-size: 30px;
+$move-right-margin: 2px;
 
 %move {
     box-sizing: border-box;
     display: block;
     height: $move-data-size;
+    margin-right: $move-right-margin;
+
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .move__direction {
     @extend %move;
+
+    height: $move-data-size / 1.1;
 }
 
 .move__move {
     @extend %move;
-}
 
-.move__text {
-    @extend %move;
-
-    color: $top-header-text-color;
-    display: block;
-    font-size: $move-data-size;
+    background-image: url('./image/main/button-bg.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
     height: $move-data-size;
-    line-height: $move-data-size;
+    padding: 2px;
+    width: $move-data-size;
 }
 
 .move__text_on_button {
@@ -32,4 +37,37 @@ $move-data-size: 26px;
     background-image: url('./image/main/button-bg.svg');
     background-repeat: no-repeat;
     background-size: contain;
+    font-family: $main-font-family-monospace;
+    font-size: $move-data-size / 1.9;
+    height: $move-data-size;
+    line-height: $move-data-size;
+    text-align: center;
+    width: $move-data-size;
+}
+
+.move__text {
+    @extend %move;
+
+    color: $main-text-color;
+    display: block;
+    font-size: $move-data-size / 1.9;
+    height: $move-data-size;
+    line-height: $move-data-size;
+
+    &[data-input=','] {
+        font-size: $move-data-size / 1.1;
+        line-height: $move-data-size;
+        margin-left: -$move-right-margin;
+    }
+
+    &[data-input='|'] {
+        font-size: $move-data-size / 1.1;
+        line-height: $move-data-size;
+        padding-top: 2px;
+    }
+
+    &[data-input='+'] {
+        font-size: $move-data-size / 1.2;
+        line-height: $move-data-size / 1.1;
+    }
 }

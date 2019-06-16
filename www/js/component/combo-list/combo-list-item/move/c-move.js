@@ -88,7 +88,11 @@ class Move extends Component<ReduxPropsType, PassedPropsType, StateType> {
         }
 
         if (additionalInputList.includes(input)) {
-            return <p className={moveStyle.move__text}>{input}</p>;
+            return (
+                <p className={moveStyle.move__text} data-input={input}>
+                    {input}
+                </p>
+            );
         }
 
         console.error('Can not detect input type:', input);
