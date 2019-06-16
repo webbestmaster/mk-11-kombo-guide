@@ -12,11 +12,12 @@
 }
 
 .header_title_wrapper {
+    color: #aa8854;
     display: block;
     flex-grow: 1;
     font-family: $title-font-family;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 0.5px;
     overflow: hidden;
-    padding: 8px $main-side-padding 7px;
+    padding: 10px $main-side-padding 3px;
 }
