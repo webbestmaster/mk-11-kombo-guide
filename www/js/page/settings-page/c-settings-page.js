@@ -22,6 +22,8 @@ import {getImagePath} from '../../component/combo-list/combo-list-item/move/help
 
 import type {ComboInputSingleType} from '../../move-type/combo-input-type';
 
+import {Move} from '../../component/combo-list/combo-list-item/move/c-move';
+
 import settingsPageStyle from './settings-page.style.scss';
 
 const {i1n, i2n, i3n, i4n, iL1, iL2, iR1, iR2} = inputMoveMap;
@@ -85,15 +87,7 @@ class SettingsPage extends Component<PropsType, StateType> {
         return (
             <div className={comboListItemStyle.combo_move_wrapper}>
                 {inputList.map((inputType: ComboInputSingleType): Node => {
-                    return (
-                        <img
-                            alt={inputType}
-                            className={moveStyle.move__move}
-                            data-input={inputType}
-                            key={inputType}
-                            src={getImagePath(platformName, inputType)}
-                        />
-                    );
+                    return <Move input={inputType} key={inputType} platform={{name: platformName}}/>;
                 })}
             </div>
         );

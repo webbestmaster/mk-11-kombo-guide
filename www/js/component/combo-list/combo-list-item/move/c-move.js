@@ -2,9 +2,8 @@
 
 /* eslint consistent-this: ["error", "view"] */
 
-import type {ComponentType, Node} from 'react';
-import React, {Component, Fragment} from 'react';
-import {connect} from 'react-redux';
+import type {Node} from 'react';
+import React, {Component} from 'react';
 
 import type {ComboInputSingleType} from '../../../../move-type/combo-input-type';
 
@@ -12,43 +11,23 @@ import {
     additionalInputList,
     directionInputList,
     frontInputList,
-    inputMoveMap,
     moveInputList,
 } from '../../../../move-type/combo-input-type';
 
-import {imageInputMapUniversal, imageInputMapPs, imageInputMapXBox} from './move-image';
 import moveStyle from './move.style.scss';
 import type {PlatformType} from './reducer';
-import {platformNameMap} from './action';
 import {getImagePath} from './helper';
 
-type ReduxPropsType = {|
+type PropsType = {|
+    +input: ComboInputSingleType,
     +platform: PlatformType,
 |};
-
-type ReduxActionType = {
-    // +setSmth: (smth: string) => string,
-};
-
-const reduxAction: ReduxActionType = {
-    // setSmth, // imported from actions
-};
-
-type PassedPropsType = {|
-    +input: ComboInputSingleType,
-|};
-
-type PropsType = {
-    ...ReduxActionType,
-    ...ReduxPropsType,
-    ...PassedPropsType,
-};
 
 type StateType = {|
     +state: number,
 |};
 
-class Move extends Component<ReduxPropsType, PassedPropsType, StateType> {
+export class Move extends Component<PropsType, StateType> {
     constructor(props: PropsType) {
         super(props);
 
@@ -100,11 +79,11 @@ class Move extends Component<ReduxPropsType, PassedPropsType, StateType> {
     }
 }
 
+/*
 const ConnectedComponent = connect<ComponentType<Move>, PassedPropsType, ReduxPropsType, ReduxActionType>(
-    (state: GlobalStateType, props: PassedPropsType): ReduxPropsType => ({
-        platform: state.platform,
-    }),
+    (state: GlobalStateType, props: PassedPropsType): ReduxPropsType => ({}),
     reduxAction
 )(Move);
 
 export {ConnectedComponent as Move};
+*/

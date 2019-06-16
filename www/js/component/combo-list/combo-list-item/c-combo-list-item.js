@@ -18,9 +18,10 @@ import {forceResize} from '../../ui/scroll/helper';
 import comboListItemStyle from './combo-list-item.style.scss';
 import {Move} from './move/c-move';
 import {FrameData} from './frame-data/c-frame-data';
+import type {PlatformType} from './move/reducer';
 
 type ReduxPropsType = {|
-    +reduxProp: boolean,
+    +platform: PlatformType,
 |};
 
 type ReduxActionType = {
@@ -46,10 +47,6 @@ type StateType = {|
 |};
 
 class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType> {
-    static renderMoveItem(inputType: ComboInputSingleType, index: number): Node {
-        return <Move input={inputType} key={index}/>;
-    }
-
     constructor(props: PropsType) {
         super(props);
 
@@ -62,6 +59,13 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
 
     state: StateType;
     props: PropsType;
+
+    renderMoveItem = (inputType: ComboInputSingleType, index: number): Node => {
+        const view = this;
+        const {props} = view;
+
+        return <Move input={inputType} key={index} platform={props.platform}/>;
+    };
 
     renderComboTitle(): Node {
         const view = this;
@@ -80,11 +84,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         const {props, state} = view;
         const {combo} = props;
 
-        return (
-            <div className={comboListItemStyle.combo_move_wrapper}>
-                {combo.sequence.map(ComboListItem.renderMoveItem)}
-            </div>
-        );
+        return <div className={comboListItemStyle.combo_move_wrapper}>{combo.sequence.map(this.renderMoveItem)}</div>;
     }
 
     handleWrapperClick = () => {
@@ -121,7 +121,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
 
 const ConnectedComponent = connect<ComponentType<ComboListItem>, PassedPropsType, ReduxPropsType, ReduxActionType>(
     (state: GlobalStateType, props: PassedPropsType): ReduxPropsType => ({
-        reduxProp: true,
+        platform: state.platform,
     }),
     reduxAction
 )(ComboListItem);
