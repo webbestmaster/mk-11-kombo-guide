@@ -2,13 +2,14 @@
 
 $move-data-size: 30px;
 $move-right-margin: 2px;
-$x-box-stroke-color: rgba(0, 0, 0, 0.2);
+$text-stroke-color: rgba(0, 0, 0, 0.2);
 
 %move {
     box-sizing: border-box;
     display: block;
     height: $move-data-size;
     margin-right: $move-right-margin;
+    overflow: hidden;
 
     &:last-child {
         margin-right: 0;
@@ -17,70 +18,59 @@ $x-box-stroke-color: rgba(0, 0, 0, 0.2);
 
 %text-stroke {
     text-shadow:
-        -1px -1px 0 $x-box-stroke-color,
-        1px -1px 0 $x-box-stroke-color,
-        -1px 1px 0 $x-box-stroke-color,
-        1px 1px 0 $x-box-stroke-color,
-        0 -1px 0 $x-box-stroke-color,
-        1px 0 0 $x-box-stroke-color,
-        -1px 0 0 $x-box-stroke-color,
-        0 1px 0 $x-box-stroke-color;
+        -1px -1px 0 $text-stroke-color,
+        1px -1px 0 $text-stroke-color,
+        -1px 1px 0 $text-stroke-color,
+        1px 1px 0 $text-stroke-color,
+        0 -1px 0 $text-stroke-color,
+        1px 0 0 $text-stroke-color,
+        -1px 0 0 $text-stroke-color,
+        0 1px 0 $text-stroke-color;
 }
 
 .move__direction {
     @extend %move;
+    @extend %text-stroke;
 
-    height: $move-data-size / 1.1;
+    color: #a68640;
+    font-family: $playstation-buttons-font-family;
+    font-size: $move-data-size;
+    line-height: $move-data-size * 1.25;
+    margin-left: $move-right-margin;
+    margin-right: $move-right-margin * 2;
 }
 
-.move__move {
+%move-text-on-button {
     @extend %move;
+    @extend %text-stroke;
 
-    background-image: url('./image/main/button-bg.svg');
+    background-image: url('image/button-bg.svg');
     background-repeat: no-repeat;
     background-size: contain;
+    font-family: $main-font-family-monospace;
+    font-size: $move-data-size / 1.9;
+    font-weight: bold;
     height: $move-data-size;
-    padding: 2px;
+    line-height: $move-data-size;
+    text-align: center;
     width: $move-data-size;
 }
 
 .move__text_on_button {
-    @extend %move;
-    @extend %text-stroke;
-
-    background-image: url('./image/main/button-bg.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    font-family: $main-font-family-monospace;
-    font-size: $move-data-size / 1.9;
-    height: $move-data-size;
-    line-height: $move-data-size;
-    text-align: center;
-    width: $move-data-size;
+    @extend %move-text-on-button;
 }
 
-.move__move_text_on_button {
-    @extend %move;
-    @extend %text-stroke;
+.move__1234_text_on_button {
+    @extend %move-text-on-button;
 
-    background-image: url('./image/main/button-bg.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    font-family: $main-font-family-monospace;
-    font-size: $move-data-size / 1.9;
-    height: $move-data-size;
-    line-height: $move-data-size;
-    text-align: center;
-    width: $move-data-size;
-
-    &.move__move_text_on_button__playstation {
-        //line-height: $move-data-size;
-        background-image: none;
+    &.move__1234_text_on_button__playstation {
         display: block;
         font-family: $playstation-buttons-font-family;
         font-size: $move-data-size;
-        position: relative;
-        top: 3px;
+        font-weight: normal;
+        line-height: $move-data-size * 1.2;
+        text-align: left;
+        text-indent: 3.6px;
 
         &[data-input='1'] {
             color: #bd1f63;
@@ -99,7 +89,7 @@ $x-box-stroke-color: rgba(0, 0, 0, 0.2);
         }
     }
 
-    &.move__move_text_on_button__x_box {
+    &.move__1234_text_on_button__x_box {
         font-weight: bold;
 
         &[data-input='1'] {
@@ -119,7 +109,7 @@ $x-box-stroke-color: rgba(0, 0, 0, 0.2);
         }
     }
 
-    &.move__move_text_on_button__universal {
+    &.move__1234_text_on_button__universal {
         font-weight: bold;
     }
 }

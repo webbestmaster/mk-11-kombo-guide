@@ -61,8 +61,8 @@ export class Move extends Component<PropsType, StateType> {
                 return (
                     <p
                         className={[
-                            moveStyle.move__move_text_on_button,
-                            moveStyle.move__move_text_on_button__playstation,
+                            moveStyle.move__1234_text_on_button,
+                            moveStyle.move__1234_text_on_button__playstation,
                         ].join(' ')}
                         data-input={input}
                     >
@@ -73,8 +73,8 @@ export class Move extends Component<PropsType, StateType> {
                 return (
                     <p
                         className={[
-                            moveStyle.move__move_text_on_button,
-                            moveStyle.move__move_text_on_button__x_box,
+                            moveStyle.move__1234_text_on_button,
+                            moveStyle.move__1234_text_on_button__x_box,
                         ].join(' ')}
                         data-input={input}
                     >
@@ -85,8 +85,8 @@ export class Move extends Component<PropsType, StateType> {
                 return (
                     <p
                         className={[
-                            moveStyle.move__move_text_on_button,
-                            moveStyle.move__move_text_on_button__universal,
+                            moveStyle.move__1234_text_on_button,
+                            moveStyle.move__1234_text_on_button__universal,
                         ].join(' ')}
                     >
                         {view.getImagePath()}
@@ -104,7 +104,8 @@ export class Move extends Component<PropsType, StateType> {
         const {input} = props;
 
         if (directionInputList.includes(input)) {
-            return <img alt={input} className={moveStyle.move__direction} src={view.getImagePath()}/>;
+            return <p className={moveStyle.move__direction}>{view.getImagePath()}</p>;
+            // return <img alt={input} className={moveStyle.move__direction} src={view.getImagePath()}/>;
         }
 
         if (moveInputList.includes(input)) {
