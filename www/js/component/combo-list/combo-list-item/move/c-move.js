@@ -78,12 +78,3 @@ export class Move extends Component<PropsType, StateType> {
         throw new Error('Can not detect input type');
     }
 }
-
-/*
-const ConnectedComponent = connect<ComponentType<Move>, PassedPropsType, ReduxPropsType, ReduxActionType>(
-    (state: GlobalStateType, props: PassedPropsType): ReduxPropsType => ({}),
-    reduxAction
-)(Move);
-
-export {ConnectedComponent as Move};
-*/
