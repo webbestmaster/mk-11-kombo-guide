@@ -49,10 +49,10 @@ export const imageInputMapPs = {
     ...mainImageMap,
 
     // ComboInputMoveType
-    [inputMoveMap.i1n]: ps1,
-    [inputMoveMap.i2n]: ps2,
-    [inputMoveMap.i3n]: ps3,
-    [inputMoveMap.i4n]: ps4,
+    [inputMoveMap.i1n]: 'S',
+    [inputMoveMap.i2n]: 'T',
+    [inputMoveMap.i3n]: 'X',
+    [inputMoveMap.i4n]: 'C',
     [inputMoveMap.iL1]: 'L1',
     [inputMoveMap.iL2]: 'L2',
     [inputMoveMap.iR1]: 'R1',

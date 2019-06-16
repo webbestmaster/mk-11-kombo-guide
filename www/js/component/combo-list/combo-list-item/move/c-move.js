@@ -59,11 +59,15 @@ export class Move extends Component<PropsType, StateType> {
         switch (platform.name) {
             case playStation:
                 return (
-                    <img
-                        alt={input}
-                        className={[moveStyle.move__move, moveStyle.move__move_text_on_button__playstation].join(' ')}
-                        src={view.getImagePath()}
-                    />
+                    <p
+                        className={[
+                            moveStyle.move__move_text_on_button,
+                            moveStyle.move__move_text_on_button__playstation,
+                        ].join(' ')}
+                        data-input={input}
+                    >
+                        {view.getImagePath()}
+                    </p>
                 );
             case xBox:
                 return (

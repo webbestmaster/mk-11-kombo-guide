@@ -68,17 +68,40 @@ $x-box-stroke-color: rgba(0, 0, 0, 0.2);
     background-size: contain;
     font-family: $main-font-family-monospace;
     font-size: $move-data-size / 1.9;
-    font-weight: bold;
     height: $move-data-size;
     line-height: $move-data-size;
     text-align: center;
     width: $move-data-size;
 
     &.move__move_text_on_button__playstation {
+        //line-height: $move-data-size;
+        background-image: none;
         display: block;
+        font-family: $playstation-buttons-font-family;
+        font-size: $move-data-size;
+        position: relative;
+        top: 3px;
+
+        &[data-input='1'] {
+            color: #bd1f63;
+        }
+
+        &[data-input='2'] {
+            color: #2bb673;
+        }
+
+        &[data-input='3'] {
+            color: #27aae1;
+        }
+
+        &[data-input='4'] {
+            color: #be1e2d;
+        }
     }
 
     &.move__move_text_on_button__x_box {
+        font-weight: bold;
+
         &[data-input='1'] {
             color: #10c8f6;
         }
@@ -97,7 +120,7 @@ $x-box-stroke-color: rgba(0, 0, 0, 0.2);
     }
 
     &.move__move_text_on_button__universal {
-        display: block;
+        font-weight: bold;
     }
 }
 
