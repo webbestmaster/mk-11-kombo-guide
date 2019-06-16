@@ -18,6 +18,7 @@ $text-stroke-color: rgba(0, 0, 0, 0.2);
     margin-right: $move-right-margin;
     overflow: hidden;
     position: relative;
+    text-align: center;
     top: 0;
 
     &:last-child {
@@ -41,11 +42,13 @@ $text-stroke-color: rgba(0, 0, 0, 0.2);
     @extend %move;
     @extend %text-stroke;
 
+    @include font-size($move-data-size / 1.1);
+
     color: #a68640;
     font-family: $playstation-buttons-font-family;
     margin-left: $move-right-margin;
     margin-right: $move-right-margin * 2;
-    top: 4px;
+    top: 5px;
 }
 
 %move-text-on-button {
@@ -59,9 +62,7 @@ $text-stroke-color: rgba(0, 0, 0, 0.2);
     background-size: contain;
     font-family: $main-font-family-monospace;
     font-weight: bold;
-    height: $move-data-size;
     padding-top: 8px;
-    text-align: center;
     width: $move-data-size;
 }
 
@@ -143,9 +144,9 @@ $text-stroke-color: rgba(0, 0, 0, 0.2);
     }
 
     &[data-input='+'] {
-        @include font-size($move-data-size / 1.2);
+        @include font-size($move-data-size / 1.9);
 
-        top: 1px;
+        padding-top: 8px;
     }
 
     &[data-input='hold'],
