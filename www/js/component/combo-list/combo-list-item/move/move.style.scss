@@ -2,6 +2,7 @@
 
 $move-data-size: 30px;
 $move-right-margin: 2px;
+$x-box-stroke-color: rgba(0, 0, 0, 0.2);
 
 %move {
     box-sizing: border-box;
@@ -12,6 +13,18 @@ $move-right-margin: 2px;
     &:last-child {
         margin-right: 0;
     }
+}
+
+%text-stroke {
+    text-shadow:
+        -1px -1px 0 $x-box-stroke-color,
+        1px -1px 0 $x-box-stroke-color,
+        -1px 1px 0 $x-box-stroke-color,
+        1px 1px 0 $x-box-stroke-color,
+        0 -1px 0 $x-box-stroke-color,
+        1px 0 0 $x-box-stroke-color,
+        -1px 0 0 $x-box-stroke-color,
+        0 1px 0 $x-box-stroke-color;
 }
 
 .move__direction {
@@ -33,6 +46,7 @@ $move-right-margin: 2px;
 
 .move__text_on_button {
     @extend %move;
+    @extend %text-stroke;
 
     background-image: url('./image/main/button-bg.svg');
     background-repeat: no-repeat;
@@ -43,6 +57,48 @@ $move-right-margin: 2px;
     line-height: $move-data-size;
     text-align: center;
     width: $move-data-size;
+}
+
+.move__move_text_on_button {
+    @extend %move;
+    @extend %text-stroke;
+
+    background-image: url('./image/main/button-bg.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: $main-font-family-monospace;
+    font-size: $move-data-size / 1.9;
+    font-weight: bold;
+    height: $move-data-size;
+    line-height: $move-data-size;
+    text-align: center;
+    width: $move-data-size;
+
+    &.move__move_text_on_button__playstation {
+        display: block;
+    }
+
+    &.move__move_text_on_button__x_box {
+        &[data-input='1'] {
+            color: #10c8f6;
+        }
+
+        &[data-input='2'] {
+            color: #ffc101;
+        }
+
+        &[data-input='3'] {
+            color: #9bba11;
+        }
+
+        &[data-input='4'] {
+            color: #df270f;
+        }
+    }
+
+    &.move__move_text_on_button__universal {
+        display: block;
+    }
 }
 
 .move__text {

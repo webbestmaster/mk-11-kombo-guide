@@ -17,6 +17,7 @@ import {
 import moveStyle from './move.style.scss';
 import type {PlatformType} from './reducer';
 import {getImagePath} from './helper';
+import {platformNameMap} from './action';
 
 type PropsType = {|
     +input: ComboInputSingleType,
@@ -49,6 +50,50 @@ export class Move extends Component<PropsType, StateType> {
         return getImagePath(platform.name, input);
     }
 
+    render1234(): Node {
+        const view = this;
+        const {props, state} = view;
+        const {input, platform} = props;
+        const {playStation, xBox, universal} = platformNameMap;
+
+        switch (platform.name) {
+            case playStation:
+                return (
+                    <img
+                        alt={input}
+                        className={[moveStyle.move__move, moveStyle.move__move_text_on_button__playstation].join(' ')}
+                        src={view.getImagePath()}
+                    />
+                );
+            case xBox:
+                return (
+                    <p
+                        className={[
+                            moveStyle.move__move_text_on_button,
+                            moveStyle.move__move_text_on_button__x_box,
+                        ].join(' ')}
+                        data-input={input}
+                    >
+                        {view.getImagePath()}
+                    </p>
+                );
+            case universal:
+                return (
+                    <p
+                        className={[
+                            moveStyle.move__move_text_on_button,
+                            moveStyle.move__move_text_on_button__universal,
+                        ].join(' ')}
+                    >
+                        {view.getImagePath()}
+                    </p>
+                );
+            default:
+                console.error('Can not detect platform name:', platform);
+                throw new Error('Can not detect platform name');
+        }
+    }
+
     render(): Node {
         const view = this;
         const {props, state} = view;
@@ -59,7 +104,7 @@ export class Move extends Component<PropsType, StateType> {
         }
 
         if (moveInputList.includes(input)) {
-            return <img alt={input} className={moveStyle.move__move} src={view.getImagePath()}/>;
+            return view.render1234();
         }
 
         if (frontInputList.includes(input)) {
