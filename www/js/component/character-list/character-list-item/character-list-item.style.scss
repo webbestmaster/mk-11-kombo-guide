@@ -2,35 +2,29 @@
 
 .character_wrapper {
     align-items: center;
+    box-sizing: border-box;
     color: $main-text-color;
     display: flex;
     flex-direction: row;
     font-size: 16px;
     height: 100%;
-    justify-content: space-between;
-    line-height: 16px;
+    padding: 0 $main-side-padding;
     text-decoration: none;
 }
 
 .character_image {
-    background-color: #c5c5c5;
+    background-color: #000;
+    border: 2px solid $top-header-text-color;
     display: block;
-    float: right;
-    height: 100%;
+    margin: 4px 0;
+    width: 50px;
 }
 
 .character_name {
     display: block;
+    flex-grow: 1;
     font-family: $title-font-family;
     font-size: 18px;
     overflow: hidden;
-    padding: 0 $main-side-padding;
+    padding: 5px 0 0 $main-side-padding;
 }
-
-/*
-.list_item {
-    display: block;
-    height: 64px;
-    background-color: #ccc;
-}
-*/

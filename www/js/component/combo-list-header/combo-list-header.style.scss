@@ -5,9 +5,9 @@
     @extend %bordered;
 
     align-items: center;
-    background-color: $header-bg-color;
+    background-color: $top-header-bg-color;
     border-bottom: 1px solid $header-border-bottom-color;
-    color: $header-text-color;
+    color: $top-header-text-color;
     display: flex;
     flex-direction: row;
     font-size: 16px;

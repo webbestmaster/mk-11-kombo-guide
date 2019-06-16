@@ -3,21 +3,25 @@
 
 .header_wrapper {
     align-items: center;
-    background-color: $header-bg-color;
-    color: $header-text-color;
+    background-color: $top-header-bg-color;
+    color: $top-header-text-color;
     display: flex;
     flex-direction: row;
-    height: $header-height;
+    height: $top-header-height;
     width: 100%;
 }
 
 .header_title_wrapper {
-    color: #aa8854;
+    color: $top-header-text-color;
     display: block;
     flex-grow: 1;
     font-family: $title-font-family;
     font-size: 22px;
     letter-spacing: 0.5px;
     overflow: hidden;
-    padding: 10px 10px 3px $main-side-padding;
+    padding: 10px 0 3px $main-side-padding;
+
+    &.header_title_wrapper__after_button {
+        padding-left: 0;
+    }
 }

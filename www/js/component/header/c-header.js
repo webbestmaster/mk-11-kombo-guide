@@ -4,6 +4,7 @@
 
 import type {Node} from 'react';
 import React, {Component} from 'react';
+import classNames from 'classnames';
 
 import {Locale} from '../locale/c-locale';
 import type {LangKeyType} from '../locale/translation/type';
@@ -40,17 +41,31 @@ export class Header extends Component<PropsType, StateType> {
     state: StateType;
     props: PropsType;
 
+    renderHeaderTitle(): Node {
+        const view = this;
+        const {props} = view;
+        const {hasBackButton, title} = props;
+
+        const titleWrapperClassName = classNames(headerStyle.header_title_wrapper, {
+            [headerStyle.header_title_wrapper__after_button]: hasBackButton,
+        });
+
+        return (
+            <div className={titleWrapperClassName}>
+                <h1 className={serviceStyle.ellipsis}>{title}</h1>
+            </div>
+        );
+    }
+
     render(): Node {
         const view = this;
         const {props} = view;
-        const {hasBackButton, hasMenuButton, title} = props;
+        const {hasBackButton, hasMenuButton} = props;
 
         return (
             <header className={headerStyle.header_wrapper}>
                 {hasBackButton ? <BackButton/> : null}
-                <div className={headerStyle.header_title_wrapper}>
-                    <h1 className={serviceStyle.ellipsis}>{title}</h1>
-                </div>
+                {view.renderHeaderTitle()}
                 {hasMenuButton ? <Menu/> : null}
             </header>
         );

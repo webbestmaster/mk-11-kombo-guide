@@ -5,10 +5,10 @@
     display: flex;
     flex-direction: row;
     flex-shrink: 0;
-    height: $header-height;
+    height: $top-header-height;
     justify-content: center;
     transition: opacity 0.3s linear;
-    width: $header-height;
+    width: $top-header-height;
 
     &:hover {
         opacity: 0.75;

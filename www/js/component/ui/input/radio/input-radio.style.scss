@@ -26,7 +26,7 @@ $input-radio-point-size: 16px;
 
     &:before,
     &:after {
-        border: 1px solid $header-bg-color;
+        border: 1px solid $top-header-bg-color;
         border-radius: 50%;
         box-sizing: border-box;
         content: '';
@@ -39,7 +39,7 @@ $input-radio-point-size: 16px;
     }
 
     &:after {
-        background-color: $header-bg-color;
+        background-color: $top-header-bg-color;
         border: 0;
         display: none;
         height: $input-radio-point-size - 6;
