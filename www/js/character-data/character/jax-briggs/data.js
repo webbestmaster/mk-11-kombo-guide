@@ -322,7 +322,7 @@ export const jaxBriggs = {
             },
             {
                 name: 'Hit With A Size 12',
-                sequence: ['3', 'or', '4'],
+                sequence: ['3', '|', '4'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -342,7 +342,7 @@ export const jaxBriggs = {
         hopAttackList: [
             {
                 name: 'Ground Smash',
-                sequence: ['u', ',', '1', 'or', 'u', ',', '2'],
+                sequence: ['u', ',', '1', '|', 'u', ',', '2'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -360,7 +360,7 @@ export const jaxBriggs = {
             },
             {
                 name: 'S.F. Stomp',
-                sequence: ['u', ',', '3', 'or', 'u', ',', '4'],
+                sequence: ['u', ',', '3', '|', 'u', ',', '4'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -468,7 +468,7 @@ export const jaxBriggs = {
         throwsList: [
             {
                 name: 'Toward Throw',
-                sequence: ['l1', '+', 'f', 'or', 'f', '+', '1', '+', '3'],
+                sequence: ['l1', '+', 'f', '|', 'f', '+', '1', '+', '3'],
                 description: ['KRUSHING BLOW:', 'Triggers if arms are fully HEATED UP'],
                 deepLevel: 0,
                 variation: null,
@@ -486,7 +486,7 @@ export const jaxBriggs = {
             },
             {
                 name: 'Back Throw',
-                sequence: ['l1', 'or', '1', '+', '3'],
+                sequence: ['l1', '|', '1', '+', '3'],
                 description: [],
                 deepLevel: 0,
                 variation: null,

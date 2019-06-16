@@ -1,51 +1,35 @@
 @import './../../../../../css/var';
 
-$move-image-size: 26px;
+$move-data-size: 26px;
 
-.move__image {
-    background-color: $top-header-bg-color;
-    border: 1px solid $top-header-bg-color;
-    border-radius: 50%;
+%move {
     box-sizing: border-box;
     display: block;
-    height: $move-image-size;
-    margin-right: 3px;
-    width: $move-image-size;
+    height: $move-data-size;
+}
 
-    &[data-input='u'],
-    &[data-input='d'],
-    &[data-input='b'],
-    &[data-input='f'],
-    &[data-input='uf'],
-    &[data-input='df'],
-    &[data-input='ub'],
-    &[data-input='db'],
-    &[data-input='+'],
-    &[data-input='or'],
-    &[data-input='hold'] {
-        background-color: transparent;
-        border: 0;
-        border-radius: 0;
-        height: $move-image-size * 0.9;
-        position: relative;
-        width: auto;
-    }
+.move__direction {
+    @extend %move;
+}
 
-    &[data-input='u'] {
-        top: -1px;
-    }
+.move__move {
+    @extend %move;
+}
 
-    &[data-input='d'] {
-        top: 1px;
-    }
+.move__text {
+    @extend %move;
 
-    &[data-input='+'],
-    &[data-input='or'],
-    &[data-input='hold'] {
-        height: $move-image-size;
-    }
+    color: $top-header-text-color;
+    display: block;
+    font-size: $move-data-size;
+    height: $move-data-size;
+    line-height: $move-data-size;
+}
 
-    &:last-child {
-        margin-right: 0;
-    }
+.move__text_on_button {
+    @extend %move;
+
+    background-image: url('./image/main/button-bg.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }

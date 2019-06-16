@@ -46,7 +46,7 @@ type StateType = {|
 |};
 
 class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType> {
-    static renderMoveItem(inputType: ComboInputSingleType, index: number): Node | Array<Node> {
+    static renderMoveItem(inputType: ComboInputSingleType, index: number): Node {
         return <Move input={inputType} key={index}/>;
     }
 

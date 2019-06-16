@@ -8,6 +8,14 @@ import {connect} from 'react-redux';
 
 import type {ComboInputSingleType} from '../../../../move-type/combo-input-type';
 
+import {
+    additionalInputList,
+    directionInputList,
+    frontInputList,
+    inputMoveMap,
+    moveInputList,
+} from '../../../../move-type/combo-input-type';
+
 import {imageInputMapUniversal, imageInputMapPs, imageInputMapXBox} from './move-image';
 import moveStyle from './move.style.scss';
 import type {PlatformType} from './reducer';
@@ -60,22 +68,6 @@ class Move extends Component<ReduxPropsType, PassedPropsType, StateType> {
         const {input, platform} = props;
 
         return getImagePath(platform.name, input);
-
-        /*
-        switch (platform.name) {
-            case platformNameMap.universal:
-                return imageInputMapUniversal[input];
-
-            case platformNameMap.playStation:
-                return imageInputMapPs[input];
-
-            case platformNameMap.xBox:
-                return imageInputMapXBox[input];
-
-            default:
-                throw new Error('Can not get image!');
-        }
-*/
     }
 
     render(): Node {
@@ -83,7 +75,24 @@ class Move extends Component<ReduxPropsType, PassedPropsType, StateType> {
         const {props, state} = view;
         const {input} = props;
 
-        return <img alt={input} className={moveStyle.move__image} data-input={input} src={view.getImagePath()}/>;
+        if (directionInputList.includes(input)) {
+            return <img alt={input} className={moveStyle.move__direction} src={view.getImagePath()}/>;
+        }
+
+        if (moveInputList.includes(input)) {
+            return <img alt={input} className={moveStyle.move__move} src={view.getImagePath()}/>;
+        }
+
+        if (frontInputList.includes(input)) {
+            return <p className={moveStyle.move__text_on_button}>{input.toUpperCase()}</p>;
+        }
+
+        if (additionalInputList.includes(input)) {
+            return <p className={moveStyle.move__text}>{input}</p>;
+        }
+
+        console.error('Can not detect input type:', input);
+        throw new Error('Can not detect input type');
     }
 }
 

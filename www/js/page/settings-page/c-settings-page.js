@@ -88,7 +88,7 @@ class SettingsPage extends Component<PropsType, StateType> {
                     return (
                         <img
                             alt={inputType}
-                            className={moveStyle.move__image}
+                            className={moveStyle.move__move}
                             data-input={inputType}
                             key={inputType}
                             src={getImagePath(platformName, inputType)}

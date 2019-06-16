@@ -340,7 +340,7 @@ export const kollector = {
             },
             {
                 name: 'Kura Heel',
-                sequence: ['3', 'or', '4'],
+                sequence: ['3', '|', '4'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -360,7 +360,7 @@ export const kollector = {
         hopAttackList: [
             {
                 name: 'Menacing Fist',
-                sequence: ['u', ',', '1', 'or', 'u', ',', '2'],
+                sequence: ['u', ',', '1', '|', 'u', ',', '2'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -378,7 +378,7 @@ export const kollector = {
             },
             {
                 name: 'Debt Kick',
-                sequence: ['u', ',', '3', 'or', 'u', ',', '4'],
+                sequence: ['u', ',', '3', '|', 'u', ',', '4'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -486,7 +486,7 @@ export const kollector = {
         throwsList: [
             {
                 name: 'Toward Throw',
-                sequence: ['l1', '+', 'f', 'or', 'f', '+', '1', '+', '3'],
+                sequence: ['l1', '+', 'f', '|', 'f', '+', '1', '+', '3'],
                 description: ['KRUSHING BLOW:', 'Triggers if opponent failed THROW ESCAPE during the previous THROW'],
                 deepLevel: 0,
                 variation: null,
@@ -504,7 +504,7 @@ export const kollector = {
             },
             {
                 name: 'Back Throw',
-                sequence: ['l1', 'or', '1', '+', '3'],
+                sequence: ['l1', '|', '1', '+', '3'],
                 description: ['KRUSHING BLOW:', 'Triggers if opponent failed THROW ESCAPE during the previous THROW'],
                 deepLevel: 0,
                 variation: null,
@@ -1145,7 +1145,7 @@ export const kollector = {
             },
             {
                 name: 'Dash Cancel',
-                sequence: ['f', 'f', 'or', 'b', 'b'],
+                sequence: ['f', 'f', '|', 'b', 'b'],
                 description: [],
                 deepLevel: 1,
                 variation: null,
@@ -1217,7 +1217,7 @@ export const kollector = {
             },
             {
                 name: 'Dash Cancel',
-                sequence: ['f', 'f', 'or', 'b', 'b'],
+                sequence: ['f', 'f', '|', 'b', 'b'],
                 description: [],
                 deepLevel: 1,
                 variation: 'Back in the Pack',
@@ -1253,7 +1253,7 @@ export const kollector = {
             },
             {
                 name: 'Amplify',
-                sequence: ['r1', 'or', 'r1', 'hold', 'b'],
+                sequence: ['r1', '|', 'r1', 'hold', 'b'],
                 description: [],
                 deepLevel: 1,
                 variation: null,

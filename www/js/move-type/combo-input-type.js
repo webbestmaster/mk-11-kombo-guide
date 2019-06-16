@@ -1,9 +1,22 @@
 // @flow
 
 type ComboInputDirectionType = 'u' | 'd' | 'b' | 'f' | 'uf' | 'df' | 'ub' | 'db';
-type ComboInputMoveType = '1' | '2' | '3' | '4' | 'l1' | 'l2' | 'r1' | 'r2';
-type ComboInputAdditionalType = '+' | 'or' | 'hold' | 'rapidly press' | 'rapidly' | ',';
-export type ComboInputSingleType = ComboInputDirectionType | ComboInputMoveType | ComboInputAdditionalType;
+type ComboInputMoveType = '1' | '2' | '3' | '4';
+type ComboInputFrontType = 'l1' | 'l2' | 'r1' | 'r2';
+type ComboInputAdditionalType = '+' | '|' | 'hold' | 'rapidly press' | 'rapidly' | ',';
+export type ComboInputSingleType =
+    | ComboInputDirectionType
+    | ComboInputMoveType
+    | ComboInputFrontType
+    | ComboInputAdditionalType;
+
+export const moveInputList: Array<ComboInputMoveType> = ['1', '2', '3', '4'];
+
+export const directionInputList: Array<ComboInputDirectionType> = ['u', 'd', 'b', 'f', 'uf', 'df', 'ub', 'db'];
+
+export const frontInputList: Array<ComboInputFrontType> = ['l1', 'l2', 'r1', 'r2'];
+
+export const additionalInputList: Array<ComboInputAdditionalType> = ['+', '|', 'hold', 'rapidly press', 'rapidly', ','];
 
 export const inputMoveMap: {[key: string]: ComboInputSingleType} = {
     // ComboInputDirectionType
@@ -28,7 +41,7 @@ export const inputMoveMap: {[key: string]: ComboInputSingleType} = {
 
     // additional move icon
     plus: '+',
-    ori: 'or',
+    ori: '|',
     hold: 'hold',
     rapidlyPress: 'rapidly press',
     rapidly: 'rapidly',

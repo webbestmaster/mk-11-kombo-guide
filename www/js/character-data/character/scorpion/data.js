@@ -304,7 +304,7 @@ export const scorpion = {
             },
             {
                 name: 'Devil Kick',
-                sequence: ['3', 'or', '4'],
+                sequence: ['3', '|', '4'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -324,7 +324,7 @@ export const scorpion = {
         hopAttackList: [
             {
                 name: 'Spear Stab',
-                sequence: ['u', ',', '1', 'or', 'u', ',', '2'],
+                sequence: ['u', ',', '1', '|', 'u', ',', '2'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -342,7 +342,7 @@ export const scorpion = {
             },
             {
                 name: 'Corkscrew Kick',
-                sequence: ['u', ',', '3', 'or', 'u', ',', '4'],
+                sequence: ['u', ',', '3', '|', 'u', ',', '4'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -450,7 +450,7 @@ export const scorpion = {
         throwsList: [
             {
                 name: 'Toward Throw',
-                sequence: ['l1', '+', 'f', 'or', 'f', '+', '1', '+', '3'],
+                sequence: ['l1', '+', 'f', '|', 'f', '+', '1', '+', '3'],
                 description: ['KRUSHING BLOW:', 'Triggers if opponent failed THROW ESCAPE during the previous THROW'],
                 deepLevel: 0,
                 variation: null,
@@ -468,7 +468,7 @@ export const scorpion = {
             },
             {
                 name: 'Back Throw',
-                sequence: ['l1', 'or', '1', '+', '3'],
+                sequence: ['l1', '|', '1', '+', '3'],
                 description: [],
                 deepLevel: 0,
                 variation: null,
@@ -818,7 +818,7 @@ export const scorpion = {
             },
             {
                 name: 'Hell Port Cancel',
-                sequence: ['hold', 'd', 'or', 'hold', 'f'],
+                sequence: ['hold', 'd', '|', 'hold', 'f'],
                 description: [],
                 deepLevel: 1,
                 variation: 'Reborn',
@@ -872,7 +872,7 @@ export const scorpion = {
             },
             {
                 name: 'Cancel',
-                sequence: ['hold', 'd', 'or', 'hold', 'f'],
+                sequence: ['hold', 'd', '|', 'hold', 'f'],
                 description: [],
                 deepLevel: 1,
                 variation: 'Reborn',
