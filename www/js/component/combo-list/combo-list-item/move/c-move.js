@@ -84,7 +84,7 @@ class Move extends Component<ReduxPropsType, PassedPropsType, StateType> {
         }
 
         if (frontInputList.includes(input)) {
-            return <p className={moveStyle.move__text_on_button}>{input.toUpperCase()}</p>;
+            return <p className={moveStyle.move__text_on_button}>{view.getImagePath()}</p>;
         }
 
         if (additionalInputList.includes(input)) {

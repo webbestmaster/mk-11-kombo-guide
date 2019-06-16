@@ -70,4 +70,10 @@ $move-right-margin: 2px;
         font-size: $move-data-size / 1.2;
         line-height: $move-data-size / 1.1;
     }
+
+    &[data-input='hold'],
+    &[data-input='rapidly'],
+    &[data-input='rapidly press'] {
+        margin-right: 5px;
+    }
 }
