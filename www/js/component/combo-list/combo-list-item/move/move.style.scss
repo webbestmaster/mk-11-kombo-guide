@@ -146,7 +146,7 @@ $text-stroke-color: rgba(0, 0, 0, 0.2);
     &[data-input='+'] {
         @include font-size($move-data-size / 1.9);
 
-        padding-top: 8px;
+        top: 7px;
     }
 
     &[data-input='hold'],
