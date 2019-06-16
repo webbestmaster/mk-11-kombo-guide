@@ -51,7 +51,8 @@ $text-stroke-color: rgba(0, 0, 0, 0.2);
     font-size: $move-data-size / 1.9;
     font-weight: bold;
     height: $move-data-size;
-    line-height: $move-data-size;
+    line-height: $move-data-size / 1.9;
+    padding-top: 8px;
     text-align: center;
     width: $move-data-size;
 }
