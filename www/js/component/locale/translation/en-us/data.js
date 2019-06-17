@@ -79,7 +79,7 @@ export const enUs: LangDataType = {
 
     // setting page
     SETTING__TITLE: 'Settings',
-    SETTING__SELECT_PLATFORM: 'Select platform',
+    SETTING__CHOOSE_A_PLATFORM: 'Choose a platform',
 
     // spec symbols
     SPACE: ' ',

@@ -28,7 +28,7 @@ import settingsPageStyle from './settings-page.style.scss';
 
 const {i1n, i2n, i3n, i4n, iL1, iL2, iR1, iR2} = inputMoveMap;
 
-const inputList: Array<ComboInputSingleType> = [i1n, i2n, i3n, i4n, iL1, iL2, iR1, iR2];
+const inputList: Array<ComboInputSingleType> = [i1n, i2n, i3n, i4n];
 
 type ReduxPropsType = {|
     +platform: PlatformType,
@@ -102,10 +102,10 @@ class SettingsPage extends Component<PropsType, StateType> {
 
         return [
             <h3 className={settingsPageStyle.settings_page__part_header} key="header">
-                <Locale stringKey="SETTING__SELECT_PLATFORM"/>
+                <Locale stringKey="SETTING__CHOOSE_A_PLATFORM"/>
             </h3>,
             <div key="content">
-                {[playStation, xBox, universal].map((platformName: PlatformNameType): Node => {
+                {[universal, playStation, xBox].map((platformName: PlatformNameType): Node => {
                     return (
                         <InputRadio
                             isDefaultChecked={currentPlatform === platformName}

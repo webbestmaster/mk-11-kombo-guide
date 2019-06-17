@@ -4,10 +4,11 @@ $input-radio-size: 26px;
 $input-radio-point-size: 16px;
 
 .input_radio__label {
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-bottom: 5px;
+    margin-bottom: 9px;
     vertical-align: top;
 
     &:last-child {
@@ -26,7 +27,7 @@ $input-radio-point-size: 16px;
 
     &:before,
     &:after {
-        border: 1px solid $top-header-bg-color;
+        border: 1px solid $main-text-color;
         border-radius: 50%;
         box-sizing: border-box;
         content: '';
@@ -39,9 +40,8 @@ $input-radio-point-size: 16px;
     }
 
     &:after {
-        background-color: $top-header-bg-color;
+        background-color: $main-text-color;
         border: 0;
-        display: none;
         height: $input-radio-point-size - 6;
         left: 3px;
         top: 16px;
@@ -54,6 +54,7 @@ $input-radio-point-size: 16px;
 
     &:checked + .input_radio__input_state {
         &:after {
+            background-color: $top-header-text-color;
             display: block;
         }
     }

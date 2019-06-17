@@ -78,7 +78,7 @@ export type LangDataType = {|
 
     // setting page
     +SETTING__TITLE: string,
-    +SETTING__SELECT_PLATFORM: string,
+    +SETTING__CHOOSE_A_PLATFORM: string,
 
     // spec symbols
     +SPACE: ' ',
