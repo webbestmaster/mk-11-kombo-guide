@@ -4,7 +4,7 @@ $input-radio-size: 26px;
 $input-radio-point-size: 16px;
 
 .input_radio__label {
-    //align-items: center;
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -17,7 +17,6 @@ $input-radio-point-size: 16px;
 }
 
 .input_radio__input_state {
-    //background-color: $main-bg-color;
     box-sizing: border-box;
     cursor: pointer;
     display: block;
