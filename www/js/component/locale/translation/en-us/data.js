@@ -84,5 +84,5 @@ export const enUs: LangDataType = {
     // spec symbols
     SPACE: ' ',
 
-    /* eslint-enable id-match, id-length  */
+    /* eslint-enable id-match, id-length */
 };
