@@ -1,14 +1,33 @@
 // @flow
 
+/* global localStorage, PROJECT_ID */
+
 import {combineReducers} from 'redux';
 
 import type {ActionDataType} from '../../../../redux-store-provider/type';
 
 import type {PlatformNameType} from './action';
 import {moveConst} from './move-const';
-import {platformNameMap} from './action';
+import {localStoragePlatformNameKey, platformNameMap} from './action';
 
-const defaultPlatformName: PlatformNameType = platformNameMap.universal;
+function getDefaultPlatformName(): PlatformNameType {
+    const savedDefaultPlatformName = localStorage.getItem(localStoragePlatformNameKey);
+
+    const {playStation, xBox, universal} = platformNameMap;
+
+    switch (savedDefaultPlatformName) {
+        case universal:
+            return universal;
+        case playStation:
+            return playStation;
+        case xBox:
+            return xBox;
+        default:
+            return universal;
+    }
+}
+
+const defaultPlatformName: PlatformNameType = getDefaultPlatformName();
 
 export type PlatformType = {|
     +name: PlatformNameType,
