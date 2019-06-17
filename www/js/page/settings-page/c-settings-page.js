@@ -3,7 +3,7 @@
 /* eslint consistent-this: ["error", "view"] */
 
 import type {ComponentType, Node} from 'react';
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import {connect} from 'react-redux';
 
 import {Page} from '../../component/page/c-page';
@@ -28,7 +28,8 @@ import settingsPageStyle from './settings-page.style.scss';
 
 const {i1n, i2n, i3n, i4n, iL1, iL2, iR1, iR2} = inputMoveMap;
 
-const inputList: Array<ComboInputSingleType> = [i1n, i2n, i3n, i4n];
+const inputListLine1: Array<ComboInputSingleType> = [i1n, i2n, i3n, i4n];
+const inputListLine2: Array<ComboInputSingleType> = [iL1, iL2, iR1, iR2];
 
 type ReduxPropsType = {|
     +platform: PlatformType,
@@ -85,10 +86,17 @@ class SettingsPage extends Component<PropsType, StateType> {
 
     renderSelectPlatformInputList(platformName: PlatformNameType): Node {
         return (
-            <div className={comboListItemStyle.combo_move_wrapper}>
-                {inputList.map((inputType: ComboInputSingleType): Node => {
-                    return <Move input={inputType} key={inputType} platform={{name: platformName}}/>;
-                })}
+            <div className={settingsPageStyle.settings_page__platform_input_wrapper}>
+                <div className={settingsPageStyle.settings_page__platform_input_list_wrapper}>
+                    {inputListLine1.map((inputType: ComboInputSingleType): Node => {
+                        return <Move input={inputType} key={inputType} platform={{name: platformName}}/>;
+                    })}
+                </div>
+                <div className={settingsPageStyle.settings_page__platform_input_list_wrapper}>
+                    {inputListLine2.map((inputType: ComboInputSingleType): Node => {
+                        return <Move input={inputType} key={inputType} platform={{name: platformName}}/>;
+                    })}
+                </div>
             </div>
         );
     }
@@ -104,7 +112,7 @@ class SettingsPage extends Component<PropsType, StateType> {
             <h3 className={settingsPageStyle.settings_page__part_header} key="header">
                 <Locale stringKey="SETTING__CHOOSE_A_PLATFORM"/>
             </h3>,
-            <div key="content">
+            <Fragment key="content">
                 {[universal, playStation, xBox].map((platformName: PlatformNameType): Node => {
                     return (
                         <InputRadio
@@ -118,7 +126,7 @@ class SettingsPage extends Component<PropsType, StateType> {
                         </InputRadio>
                     );
                 })}
-            </div>,
+            </Fragment>,
         ];
     }
 
@@ -133,11 +141,11 @@ class SettingsPage extends Component<PropsType, StateType> {
             <h3 className={settingsPageStyle.settings_page__part_header} key="header">
                 <Locale stringKey="SETTING__REPORT_A_BUG"/>
             </h3>,
-            <div key="content">
+            <Fragment key="content">
                 <a className={settingsPageStyle.settings_page__external_link} href="/report-a-bug" target="_blank">
                     <Locale stringKey="SETTING__REPORT_A_BUG"/>
                 </a>
-            </div>,
+            </Fragment>,
         ];
     }
 
