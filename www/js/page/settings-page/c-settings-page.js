@@ -122,6 +122,25 @@ class SettingsPage extends Component<PropsType, StateType> {
         ];
     }
 
+    renderReportABug(): [Node, Node] {
+        const view = this;
+        const {props, state} = view;
+        const {platform} = props;
+        const {playStation, xBox, universal} = platformNameMap;
+        const currentPlatform = platform.name;
+
+        return [
+            <h3 className={settingsPageStyle.settings_page__part_header} key="header">
+                <Locale stringKey="SETTING__REPORT_A_BUG"/>
+            </h3>,
+            <div key="content">
+                <a className={settingsPageStyle.settings_page__external_link} href="/report-a-bug" target="_blank">
+                    <Locale stringKey="SETTING__REPORT_A_BUG"/>
+                </a>
+            </div>,
+        ];
+    }
+
     render(): Node {
         const view = this;
 
@@ -130,6 +149,7 @@ class SettingsPage extends Component<PropsType, StateType> {
                 <Header hasBackButton hasMenuButton={false} title={<Locale stringKey="SETTING__TITLE"/>}/>
                 <Scroll>
                     <div className={settingsPageStyle.settings_page__part}>{view.renderSelectPlatform()}</div>
+                    <div className={settingsPageStyle.settings_page__part}>{view.renderReportABug()}</div>
                 </Scroll>
             </Page>
         );

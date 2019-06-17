@@ -80,6 +80,7 @@ export const enUs: LangDataType = {
     // setting page
     SETTING__TITLE: 'Settings',
     SETTING__CHOOSE_A_PLATFORM: 'Choose a platform',
+    SETTING__REPORT_A_BUG: 'Report a bug',
 
     // spec symbols
     SPACE: ' ',
