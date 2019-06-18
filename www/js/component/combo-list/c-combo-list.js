@@ -24,7 +24,7 @@ export class ComboList extends Component<PropsType, StateType> {
     state: StateType;
     props: PropsType;
 
-    renderComboItem(combo: ComboType, index: number): Node {
+    static renderComboItem(combo: ComboType, index: number): Node {
         return (
             <li className={comboListStyle.list_item} key={index}>
                 <ComboListItem combo={combo}/>
@@ -36,6 +36,6 @@ export class ComboList extends Component<PropsType, StateType> {
         const view = this;
         const {props, state} = view;
 
-        return <ul className={comboListStyle.list_wrapper}>{props.list.map(view.renderComboItem)}</ul>;
+        return <ul className={comboListStyle.list_wrapper}>{props.list.map(ComboList.renderComboItem)}</ul>;
     }
 }

@@ -29,12 +29,12 @@ export const enUs: LangDataType = {
 
     // move data
     FRAME_DATA__MOVE_TYPE: 'Move type',
-    FRAME_DATA__HIT_DAMAGE: 'Damage',
+    FRAME_DATA__HIT_DAMAGE: 'Hit damage',
     FRAME_DATA__BLOCK_DAMAGE: 'Block damage',
     FRAME_DATA__FLAWLESS_BLOCK_DAMAGE: 'F/Block damage',
 
     // frame data
-    FRAME_DATA__START_UP: 'Start-up',
+    FRAME_DATA__START_UP: 'Start\u2011up',
     FRAME_DATA__ACTIVE: 'Active',
     FRAME_DATA__RECOVERY: 'Recovery',
     FRAME_DATA__CANCEL_ADVANTAGE: 'Cancel adv',

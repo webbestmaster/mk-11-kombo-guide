@@ -95,17 +95,13 @@ export class FrameData extends Component<PropsType, StateType> {
                     <td className={frameDataStyle.frame_data__table_th}>
                         <Locale stringKey="FRAME_DATA__RECOVERY"/>
                     </td>
-                    <td className={frameDataStyle.frame_data__table_th}>
-                        <Locale stringKey="FRAME_DATA__FLAWLESS_BLOCK_ADVANTAGE"/>
-                    </td>
+                    <td className={frameDataStyle.frame_data__table_th}>&nbsp;</td>
                 </tr>
                 <tr className={frameDataStyle.frame_data__table_tr}>
                     <td className={frameDataStyle.frame_data__table_td}>{renderFrameDataValue(startUp)}</td>
                     <td className={frameDataStyle.frame_data__table_td}>{renderFrameDataValue(active)}</td>
                     <td className={frameDataStyle.frame_data__table_td}>{renderFrameDataValue(recover)}</td>
-                    <td className={frameDataStyle.frame_data__table_td}>
-                        {renderFrameDataValue(flawlessBlockAdvance)}
-                    </td>
+                    <td className={frameDataStyle.frame_data__table_td}>&nbsp;</td>
                 </tr>
                 <tr className={frameDataStyle.frame_data__table_tr}>
                     <td className={frameDataStyle.frame_data__table_th}>
@@ -117,14 +113,22 @@ export class FrameData extends Component<PropsType, StateType> {
                     <td className={frameDataStyle.frame_data__table_th}>
                         <Locale stringKey="FRAME_DATA__CANCEL_ADVANTAGE"/>
                     </td>
+                    <td className={frameDataStyle.frame_data__table_th}>
+                        <Locale stringKey="FRAME_DATA__FLAWLESS_BLOCK_ADVANTAGE"/>
+                    </td>
                 </tr>
                 <tr className={frameDataStyle.frame_data__table_tr}>
                     <td className={frameDataStyle.frame_data__table_td}>{renderFrameDataValue(hitAdvance)}</td>
                     <td className={frameDataStyle.frame_data__table_td}>{renderFrameDataValue(blockAdvance)}</td>
                     <td className={frameDataStyle.frame_data__table_td}>{renderFrameDataValue(cancel)}</td>
                     <td className={frameDataStyle.frame_data__table_td}>
+                        {renderFrameDataValue(flawlessBlockAdvance)}
+                    </td>
+                    {/*
+                    <td className={frameDataStyle.frame_data__table_td}>
                         <AdditionalInfo combo={combo}/>
                     </td>
+*/}
                 </tr>
             </>
         );
