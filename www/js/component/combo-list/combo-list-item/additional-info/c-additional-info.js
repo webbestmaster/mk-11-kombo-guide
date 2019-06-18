@@ -42,8 +42,8 @@ export class AdditionalInfo extends Component<PropsType, StateType> {
 
         return (
             <>
-                <div>propertyList: {JSON.stringify(combo.propertyList)}</div>
-                <div>variation: {combo.variation}</div>
+                <p>Properties: {JSON.stringify(combo.propertyList)}</p>
+                <p>Variation: {combo.variation}</p>
             </>
         );
     }

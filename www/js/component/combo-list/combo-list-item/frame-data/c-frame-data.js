@@ -124,11 +124,6 @@ export class FrameData extends Component<PropsType, StateType> {
                     <td className={frameDataStyle.frame_data__table_td}>
                         {renderFrameDataValue(flawlessBlockAdvance)}
                     </td>
-                    {/*
-                    <td className={frameDataStyle.frame_data__table_td}>
-                        <AdditionalInfo combo={combo}/>
-                    </td>
-*/}
                 </tr>
             </>
         );
@@ -136,6 +131,8 @@ export class FrameData extends Component<PropsType, StateType> {
 
     render(): Node {
         const view = this;
+        const {props} = view;
+        const {combo} = props;
 
         return (
             <div className={frameDataStyle.frame_data__wrapper}>
@@ -145,6 +142,7 @@ export class FrameData extends Component<PropsType, StateType> {
                         {view.renderFrameData()}
                     </tbody>
                 </table>
+                <AdditionalInfo combo={combo}/>
             </div>
         );
     }

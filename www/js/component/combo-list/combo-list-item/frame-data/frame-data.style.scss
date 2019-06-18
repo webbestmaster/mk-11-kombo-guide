@@ -7,7 +7,10 @@
 
 .frame_data__table {
     border: 1px solid $top-header-text-color;
+    box-sizing: border-box;
     margin-bottom: $main-side-padding;
+    max-width: 450px;
+    width: 100%;
 }
 
 .frame_data__table,
@@ -19,7 +22,7 @@
 %frame-data-table-cell {
     border-right: 1px solid $top-header-text-color;
     font-size: 14px;
-    padding: 3px 4px;
+    padding: 4px;
     text-align: center;
 }
 
@@ -29,6 +32,7 @@
     background-color: $top-header-bg-color;
     border-top: 1px solid $top-header-text-color;
     color: $top-header-text-color;
+    font-size: 13px;
 }
 
 .frame_data__table_td {

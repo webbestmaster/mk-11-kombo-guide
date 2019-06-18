@@ -21,9 +21,6 @@ type PropsType = PassedPropsType;
 type StateType = void;
 
 export class ComboList extends Component<PropsType, StateType> {
-    state: StateType;
-    props: PropsType;
-
     static renderComboItem(combo: ComboType, index: number): Node {
         return (
             <li className={comboListStyle.list_item} key={index}>
@@ -31,6 +28,9 @@ export class ComboList extends Component<PropsType, StateType> {
             </li>
         );
     }
+
+    state: StateType;
+    props: PropsType;
 
     render(): Node {
         const view = this;
