@@ -28,7 +28,7 @@ export const enUs: LangDataType = {
     COMBO_LIST__BRUTALITY: 'Brutality',
 
     // move data
-    FRAME_DATA__MOVE_TYPE: 'Move type',
+    FRAME_DATA__MOVE_TYPE: 'Type',
     FRAME_DATA__HIT_DAMAGE: 'Damage',
     FRAME_DATA__BLOCK_DAMAGE: 'Block damage',
     FRAME_DATA__FLAWLESS_BLOCK_DAMAGE: 'F/Block damage',
