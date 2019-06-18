@@ -1,16 +1,8 @@
 @import './../../../css/var';
-@import './../../../css/service';
 
-.header_wrapper {
-    @extend %bordered;
-
-    align-items: center;
-    background-color: $top-header-bg-color;
-    border-bottom: 1px solid $header-border-bottom-color;
+.combo_list__header_wrapper {
+    background-image: linear-gradient(90deg, $top-header-bg-color, $top-header-text-color 400%);
     color: $top-header-text-color;
-    display: flex;
-    flex-direction: row;
     font-size: 16px;
-    height: 30px;
-    padding: 0 $main-side-padding;
+    padding: 7px $main-side-padding 6px;
 }

@@ -43,7 +43,7 @@ export class ComboListHeader extends Component<PropsType, StateType> {
         const {title} = props;
 
         return (
-            <div className={comboListHeaderStyle.header_wrapper}>
+            <div className={comboListHeaderStyle.combo_list__header_wrapper}>
                 <h4 className={serviceStyle.ellipsis}>
                     <Locale stringKey={title}/>
                 </h4>
