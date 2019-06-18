@@ -24,6 +24,8 @@ import type {ComboInputSingleType} from '../../move-type/combo-input-type';
 
 import {Move} from '../../component/combo-list/combo-list-item/move/c-move';
 
+import {appConst} from '../../const';
+
 import settingsPageStyle from './settings-page.style.scss';
 
 const {i1n, i2n, i3n, i4n, iL1, iL2, iR1, iR2} = inputMoveMap;
@@ -142,7 +144,12 @@ class SettingsPage extends Component<PropsType, StateType> {
                 <Locale stringKey="SETTING__REPORT_A_BUG"/>
             </h3>,
             <Fragment key="content">
-                <a className={settingsPageStyle.settings_page__external_link} href="/report-a-bug" target="_blank">
+                <a
+                    className={settingsPageStyle.settings_page__external_link}
+                    href={appConst.bugReport.form.url}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                >
                     <Locale stringKey="SETTING__REPORT_A_BUG"/>
                 </a>
             </Fragment>,

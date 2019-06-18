@@ -11,6 +11,11 @@ export const appConst = {
         // eslint-disable-next-line id-match
         url: IS_PRODUCTION ? origin : 'http://my-best-site.com',
     },
+    bugReport: {
+        form: {
+            url: 'https://forms.gle/XvdL7cnPwMmQDs5P8',
+        },
+    },
 };
 
 window.appData = {
