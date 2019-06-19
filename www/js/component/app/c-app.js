@@ -4,7 +4,7 @@
 
 import type {Node} from 'react';
 import React from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Route, Switch, HashRouter} from 'react-router-dom';
 
 import {ReduxStoreProvider} from '../../redux-store-provider/provider';
 import {System} from '../system/c-system';
@@ -32,7 +32,7 @@ export function App(): Node {
             <>
                 <Auth key="auth"/>
                 <System key="system">
-                    <BrowserRouter basename={publicPath}>
+                    <HashRouter basename={publicPath}>
                         <Switch key="switch">
                             <Route component={userIsNotAuthenticated(LoginPage)} exact path={routes.login}/>
 
@@ -42,7 +42,7 @@ export function App(): Node {
 
                             <Route component={PageNotFound}/>
                         </Switch>
-                    </BrowserRouter>
+                    </HashRouter>
                 </System>
             </>
         </ReduxStoreProvider>
