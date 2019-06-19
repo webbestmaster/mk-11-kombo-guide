@@ -7,12 +7,7 @@ import React, {Component} from 'react';
 
 import {Locale} from '../../../locale/c-locale';
 import type {ComboType} from '../../../../move-type/combo-type';
-import type {MayBeNaType} from '../../../../move-type/n-a-type';
 import {moveTypeTranslationMap} from '../../../../move-type/move-type';
-
-import {isNumber} from '../../../../lib/is';
-
-import {AdditionalInfo} from '../additional-info/c-additional-info';
 
 import frameDataStyle from './frame-data.style.scss';
 import {renderFrameDataValue} from './helper';
@@ -142,7 +137,6 @@ export class FrameData extends Component<PropsType, StateType> {
                         {view.renderFrameData()}
                     </tbody>
                 </table>
-                <AdditionalInfo combo={combo}/>
             </div>
         );
     }

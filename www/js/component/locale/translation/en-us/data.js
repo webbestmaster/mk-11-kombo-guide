@@ -82,6 +82,12 @@ export const enUs: LangDataType = {
     SETTING__CHOOSE_A_PLATFORM: 'Choose a platform',
     SETTING__REPORT_A_BUG: 'Report a bug',
 
+    // additional info
+    ADDITIONAL_INFO__PROPERTIES: 'Properties',
+    ADDITIONAL_INFO__VARIATION: 'Variation',
+    ADDITIONAL_INFO__DESCRIPTION: 'Description',
+    ADDITIONAL_INFO__VARIATION__ALL_VARIATIONS: 'All variations',
+
     // spec symbols
     SPACE: ' ',
 

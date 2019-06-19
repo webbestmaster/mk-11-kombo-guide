@@ -19,6 +19,7 @@ import comboListItemStyle from './combo-list-item.style.scss';
 import {Move} from './move/c-move';
 import {FrameData} from './frame-data/c-frame-data';
 import type {PlatformType} from './move/reducer';
+import {AdditionalInfo} from './additional-info/c-additional-info';
 
 type ReduxPropsType = {|
     +platform: PlatformType,
@@ -114,6 +115,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
                     {view.renderMoveList()}
                 </div>
                 {isShowFrameData ? <FrameData combo={combo}/> : null}
+                {isShowFrameData ? <AdditionalInfo combo={combo}/> : null}
             </>
         );
     }
