@@ -85,7 +85,6 @@ export type LangDataType = {|
     +ADDITIONAL_INFO__PROPERTIES: string,
     +ADDITIONAL_INFO__VARIATION: string,
     +ADDITIONAL_INFO__DESCRIPTION: string,
-    +ADDITIONAL_INFO__VARIATION__ALL_VARIATIONS: string,
 
     // spec symbols
     +SPACE: ' ',

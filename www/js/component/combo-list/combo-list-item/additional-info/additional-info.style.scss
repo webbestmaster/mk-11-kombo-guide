@@ -1,10 +1,14 @@
 // scss
+@import './../../../../../css/var';
 
 .additional_info_wrapper {
     display: block;
-    font-size: 14px;
+    margin-bottom: $main-side-padding / 2;
 }
 
 .additional_info__p {
     display: block;
+    font-size: 14px;
+    line-height: 1.35;
+    padding: 0 $main-side-padding;
 }

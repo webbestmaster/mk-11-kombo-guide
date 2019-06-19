@@ -35,7 +35,11 @@ export class AdditionalInfo extends Component<PropsType, StateType> {
         return <>, {propertyNode}</>;
     }
 
-    static renderDescriptionItem(description: string): Node {
+    static renderDescriptionItem(description: string, index: number): Node {
+        if (index === 0) {
+            return description;
+        }
+
         return (
             <>
                 <br/>
@@ -82,14 +86,14 @@ export class AdditionalInfo extends Component<PropsType, StateType> {
         const {combo} = props;
         const {variation} = combo;
 
-        const variationNode
-            = variation === null ? <Locale stringKey="ADDITIONAL_INFO__VARIATION__ALL_VARIATIONS"/> : variation;
+        if (variation === null) {
+            return null;
+        }
 
         return (
             <p className={additionalInfoStyle.additional_info__p}>
                 <Locale stringKey="ADDITIONAL_INFO__VARIATION"/>
-                {': '}
-                {variationNode}
+                {`: ${variation}`}
             </p>
         );
     }
@@ -105,10 +109,12 @@ export class AdditionalInfo extends Component<PropsType, StateType> {
         }
 
         return (
-            <p className={additionalInfoStyle.additional_info__p}>
+            <div className={additionalInfoStyle.additional_info__p}>
                 <Locale stringKey="ADDITIONAL_INFO__DESCRIPTION"/>:
-                {description.map(AdditionalInfo.renderDescriptionItem)}
-            </p>
+                <p className={additionalInfoStyle.additional_info__p}>
+                    {description.map(AdditionalInfo.renderDescriptionItem)}
+                </p>
+            </div>
         );
     }
 
@@ -117,8 +123,8 @@ export class AdditionalInfo extends Component<PropsType, StateType> {
 
         return (
             <div className={additionalInfoStyle.additional_info_wrapper}>
-                {view.renderPropertyList()}
                 {view.renderVariation()}
+                {view.renderPropertyList()}
                 {view.renderDescription()}
             </div>
         );
