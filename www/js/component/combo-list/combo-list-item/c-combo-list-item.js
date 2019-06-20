@@ -5,6 +5,7 @@
 import type {ComponentType, Node} from 'react';
 import React, {Component, Fragment} from 'react';
 import {connect} from 'react-redux';
+import classNames from 'classnames';
 
 import type {GlobalStateType} from '../../../redux-store-provider/reducer';
 import type {ComboInputSingleType} from '../../../move-type/combo-input-type';
@@ -101,11 +102,16 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         const {props, state} = view;
         const {combo} = props;
         const {isShowFrameData} = state;
+        const {deepLevel} = combo;
+
+        const wrapperClassName = classNames(comboListItemStyle.combo_wrapper, {
+            [comboListItemStyle.combo_wrapper__sub_combo]: deepLevel === 1,
+        });
 
         return (
             <>
                 <div
-                    className={comboListItemStyle.combo_wrapper}
+                    className={wrapperClassName}
                     onClick={view.handleWrapperClick}
                     onKeyPress={view.handleWrapperClick}
                     role="button"

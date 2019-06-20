@@ -9,6 +9,10 @@
     justify-content: space-between;
     min-height: $combo-item-height;
     padding: 0 $main-side-padding;
+
+    &.combo_wrapper__sub_combo {
+        padding-left: $main-side-padding * 2;
+    }
 }
 
 .combo_name {
@@ -17,6 +21,12 @@
     padding-bottom: 7px;
     padding-right: 8px;
     padding-top: 8px;
+}
+
+.combo_wrapper__sub_combo {
+    .combo_name {
+        font-size: 16px;
+    }
 }
 
 .combo_move_wrapper {

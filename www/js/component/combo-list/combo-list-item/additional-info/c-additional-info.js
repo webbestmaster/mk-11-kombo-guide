@@ -27,24 +27,27 @@ type StateType = {|
 export class AdditionalInfo extends Component<PropsType, StateType> {
     static renderPropertyItem(propertyName: PropertyNameType, index: number): Node {
         const propertyNode = <Locale stringKey={propertyNameTranslationMap[propertyName]}/>;
+        const key = `${propertyName} - ${index}`;
 
         if (index === 0) {
-            return propertyNode;
+            return <Fragment key={key}>{propertyNode}</Fragment>;
         }
 
-        return <>, {propertyNode}</>;
+        return <Fragment key={key}>, {propertyNode}</Fragment>;
     }
 
     static renderDescriptionItem(description: string, index: number): Node {
+        const key = `${description} - ${index}`;
+
         if (index === 0) {
-            return description;
+            return <Fragment key={key}>{description}</Fragment>;
         }
 
         return (
-            <>
+            <Fragment key={key}>
                 <br/>
                 {description}
-            </>
+            </Fragment>
         );
     }
 
