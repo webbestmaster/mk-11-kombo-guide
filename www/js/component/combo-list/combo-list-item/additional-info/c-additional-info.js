@@ -7,7 +7,6 @@ import React, {Component, Fragment} from 'react';
 
 import type {ComboType} from '../../../../move-type/combo-type';
 import {Locale} from '../../../locale/c-locale';
-
 import type {PropertyNameType} from '../../../../move-type/move-property-type';
 import {propertyNameTranslationMap} from '../../../../move-type/move-property-type';
 

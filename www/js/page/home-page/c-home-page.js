@@ -11,7 +11,6 @@ import {Page} from '../../component/page/c-page';
 import {Header} from '../../component/header/c-header';
 import {Scroll} from '../../component/ui/scroll/c-scroll';
 import {CharacterList} from '../../component/character-list/c-character-list';
-
 import {Locale} from '../../component/locale/c-locale';
 
 export function HomePage(): Node {

@@ -1,7 +1,6 @@
 // @flow
 
 import type {CharacterType} from './character-type';
-
 import {baraka} from './character/baraka/data';
 import {cassieCage} from './character/cassie-cage/data';
 import {cetrion} from './character/cetrion/data';

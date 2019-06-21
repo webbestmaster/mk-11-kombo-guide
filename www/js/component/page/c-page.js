@@ -7,7 +7,6 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
 import type {GlobalStateType} from '../../redux-store-provider/reducer';
-
 import {isString} from '../../lib/is';
 
 import pageStyle from './page.style.scss';

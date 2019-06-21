@@ -13,14 +13,11 @@ import {Locale} from '../../component/locale/c-locale';
 import {InputRadio} from '../../component/ui/input/radio/c-input-radio';
 import type {ComboInputSingleType} from '../../move-type/combo-input-type';
 import {inputMoveMap} from '../../move-type/combo-input-type';
-
 import {Move} from '../../component/combo-list/combo-list-item/move/c-move';
-
 import {appConst} from '../../const';
 
 import type {PlatformNameType, SetPlatformTypeType} from './action';
 import {platformNameMap, setPlatformName} from './action';
-
 import settingsPageStyle from './settings-page.style.scss';
 
 const {i1n, i2n, i3n, i4n, iL1, iL2, iR1, iR2} = inputMoveMap;

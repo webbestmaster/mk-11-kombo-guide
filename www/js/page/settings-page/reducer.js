@@ -8,7 +8,6 @@ import type {ActionDataType} from '../../redux-store-provider/type';
 
 import type {PlatformNameType} from './action';
 import {localStoragePlatformNameKey, platformNameMap} from './action';
-
 import {settingConst} from './setting-const';
 
 function getDefaultPlatformName(): PlatformNameType {

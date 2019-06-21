@@ -7,7 +7,6 @@ import React, {Component} from 'react';
 import classNames from 'classnames';
 
 import {Menu} from '../menu/c-menu';
-
 import serviceStyle from '../../../css/service.scss';
 
 import {BackButton} from './back-button/c-back-button';

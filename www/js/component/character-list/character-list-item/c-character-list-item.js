@@ -4,7 +4,6 @@
 
 import type {Node} from 'react';
 import React, {Component} from 'react';
-
 import {Link} from 'react-router-dom';
 
 import type {CharacterType} from '../../../character-data/character-type';

@@ -11,9 +11,7 @@ import type {GlobalStateType} from '../../../redux-store-provider/reducer';
 import type {ComboInputSingleType} from '../../../move-type/combo-input-type';
 import type {ComboType} from '../../../move-type/combo-type';
 import serviceStyle from '../../../../css/service.scss';
-
 import {forceResize} from '../../ui/scroll/helper';
-
 import type {PlatformNameType} from '../../../page/settings-page/action';
 
 import comboListItemStyle from './combo-list-item.style.scss';

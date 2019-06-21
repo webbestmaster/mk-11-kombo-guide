@@ -12,7 +12,6 @@ import {
     frontInputList,
     moveInputList,
 } from '../../../../move-type/combo-input-type';
-
 import type {PlatformNameType} from '../../../../page/settings-page/action';
 import {platformNameMap} from '../../../../page/settings-page/action';
 
