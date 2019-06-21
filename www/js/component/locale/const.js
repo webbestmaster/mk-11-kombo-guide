@@ -3,10 +3,10 @@
 /* global window, PROJECT_ID */
 
 import type {LangDataType} from './translation/type';
-
-export type LocaleNameType = 'en-US';
 // export type LocaleNameType = 'en-US' | 'ru-RU' | 'zh-CN' | 'zh-TW';
 import {enUs} from './translation/en-us/data';
+
+export type LocaleNameType = 'en-US';
 // import {ruRu} from './translation/ru-ru/data';
 // import {zhCn} from './translation/zh-cn/data';
 // import {zhTw} from './translation/zh-tw/data';

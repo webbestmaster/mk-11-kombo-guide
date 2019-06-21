@@ -4,7 +4,7 @@
 
 import type {Node} from 'react';
 import React from 'react';
-import {BrowserRouter, Route, Switch, HashRouter} from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 
 import {ReduxStoreProvider} from '../../redux-store-provider/provider';
 import {System} from '../system/c-system';

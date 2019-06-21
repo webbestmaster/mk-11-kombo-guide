@@ -6,7 +6,6 @@ import type {Node} from 'react';
 import React, {Component} from 'react';
 
 import type {ComboInputSingleType} from '../../../../move-type/combo-input-type';
-
 import {
     additionalInputList,
     directionInputList,
@@ -14,14 +13,15 @@ import {
     moveInputList,
 } from '../../../../move-type/combo-input-type';
 
+import type {PlatformNameType} from '../../../../page/settings-page/action';
+import {platformNameMap} from '../../../../page/settings-page/action';
+
 import moveStyle from './move.style.scss';
-import type {PlatformType} from './reducer';
 import {getImagePath} from './helper';
-import {platformNameMap} from './action';
 
 type PropsType = {|
     +input: ComboInputSingleType,
-    +platform: PlatformType,
+    +platformName: PlatformNameType,
 |};
 
 type StateType = {|
@@ -45,18 +45,18 @@ export class Move extends Component<PropsType, StateType> {
     getImagePath(): string {
         const view = this;
         const {props} = view;
-        const {input, platform} = props;
+        const {input, platformName} = props;
 
-        return getImagePath(platform.name, input);
+        return getImagePath(platformName, input);
     }
 
     render1234(): Node {
         const view = this;
         const {props, state} = view;
-        const {input, platform} = props;
+        const {input, platformName} = props;
         const {playStation, xBox, universal} = platformNameMap;
 
-        switch (platform.name) {
+        switch (platformName) {
             case playStation:
                 return (
                     <p
@@ -93,7 +93,7 @@ export class Move extends Component<PropsType, StateType> {
                     </p>
                 );
             default:
-                console.error('Can not detect platform name:', platform);
+                console.error('Can not detect platform name:', platformName);
                 throw new Error('Can not detect platform name');
         }
     }

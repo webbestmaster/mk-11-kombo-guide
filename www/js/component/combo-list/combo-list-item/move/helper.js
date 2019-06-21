@@ -2,8 +2,9 @@
 
 import type {ComboInputSingleType} from '../../../../move-type/combo-input-type';
 
-import type {PlatformNameType} from './action';
-import {platformNameMap} from './action';
+import type {PlatformNameType} from '../../../../page/settings-page/action';
+import {platformNameMap} from '../../../../page/settings-page/action';
+
 import {imageInputMapPs, imageInputMapUniversal, imageInputMapXBox} from './move-image';
 
 export function getImagePath(platformName: PlatformNameType, inputType: ComboInputSingleType): string {

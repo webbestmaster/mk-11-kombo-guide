@@ -11,20 +11,15 @@ import {Header} from '../../component/header/c-header';
 import {Scroll} from '../../component/ui/scroll/c-scroll';
 import {Locale} from '../../component/locale/c-locale';
 import {InputRadio} from '../../component/ui/input/radio/c-input-radio';
-import type {PlatformType} from '../../component/combo-list/combo-list-item/move/reducer';
-import type {PlatformNameType, SetPlatformTypeType} from '../../component/combo-list/combo-list-item/move/action';
-import {setPlatformType, platformNameMap} from '../../component/combo-list/combo-list-item/move/action';
-import comboListItemStyle from '../../component/combo-list/combo-list-item/combo-list-item.style.scss';
-import moveStyle from '../../component/combo-list/combo-list-item/move/move.style.scss';
-import {inputMoveMap} from '../../move-type/combo-input-type';
-
-import {getImagePath} from '../../component/combo-list/combo-list-item/move/helper';
-
 import type {ComboInputSingleType} from '../../move-type/combo-input-type';
+import {inputMoveMap} from '../../move-type/combo-input-type';
 
 import {Move} from '../../component/combo-list/combo-list-item/move/c-move';
 
 import {appConst} from '../../const';
+
+import type {PlatformNameType, SetPlatformTypeType} from './action';
+import {platformNameMap, setPlatformName} from './action';
 
 import settingsPageStyle from './settings-page.style.scss';
 
@@ -34,15 +29,15 @@ const inputListLine1: Array<ComboInputSingleType> = [i1n, i2n, i3n, i4n];
 const inputListLine2: Array<ComboInputSingleType> = [iL1, iL2, iR1, iR2];
 
 type ReduxPropsType = {|
-    +platform: PlatformType,
+    +platformName: PlatformNameType,
 |};
 
 type ReduxActionType = {|
-    +setPlatformType: (platformName: PlatformNameType) => SetPlatformTypeType,
+    +setPlatformName: (platformName: PlatformNameType) => SetPlatformTypeType,
 |};
 
 const reduxAction: ReduxActionType = {
-    setPlatformType,
+    setPlatformName,
 };
 
 type PassedPropsType = {
@@ -81,7 +76,7 @@ class SettingsPage extends Component<PropsType, StateType> {
             const definedPlatformName = platformNameMap[key];
 
             if (platformName === definedPlatformName) {
-                props.setPlatformType(definedPlatformName);
+                props.setPlatformName(definedPlatformName);
             }
         });
     };
@@ -91,12 +86,12 @@ class SettingsPage extends Component<PropsType, StateType> {
             <div className={settingsPageStyle.settings_page__platform_input_wrapper}>
                 <div className={settingsPageStyle.settings_page__platform_input_list_wrapper}>
                     {inputListLine1.map((inputType: ComboInputSingleType): Node => {
-                        return <Move input={inputType} key={inputType} platform={{name: platformName}}/>;
+                        return <Move input={inputType} key={inputType} platformName={platformName}/>;
                     })}
                 </div>
                 <div className={settingsPageStyle.settings_page__platform_input_list_wrapper}>
                     {inputListLine2.map((inputType: ComboInputSingleType): Node => {
-                        return <Move input={inputType} key={inputType} platform={{name: platformName}}/>;
+                        return <Move input={inputType} key={inputType} platformName={platformName}/>;
                     })}
                 </div>
             </div>
@@ -106,9 +101,8 @@ class SettingsPage extends Component<PropsType, StateType> {
     renderSelectPlatform(): [Node, Node] {
         const view = this;
         const {props, state} = view;
-        const {platform} = props;
         const {playStation, xBox, universal} = platformNameMap;
-        const currentPlatform = platform.name;
+        const currentPlatform = props.platformName;
 
         return [
             <h3 className={settingsPageStyle.settings_page__part_header} key="header">
@@ -135,9 +129,9 @@ class SettingsPage extends Component<PropsType, StateType> {
     renderReportABug(): [Node, Node] {
         const view = this;
         const {props, state} = view;
-        const {platform} = props;
+        const {platformName} = props;
         const {playStation, xBox, universal} = platformNameMap;
-        const currentPlatform = platform.name;
+        const currentPlatform = platformName;
 
         return [
             <h3 className={settingsPageStyle.settings_page__part_header} key="header">
@@ -173,7 +167,7 @@ class SettingsPage extends Component<PropsType, StateType> {
 
 const ConnectedComponent = connect<ComponentType<SettingsPage>, PassedPropsType, ReduxPropsType, ReduxActionType>(
     (state: GlobalStateType, props: PassedPropsType): ReduxPropsType => ({
-        platform: state.platform,
+        platformName: state.setting.platformName,
     }),
     reduxAction
 )(SettingsPage);

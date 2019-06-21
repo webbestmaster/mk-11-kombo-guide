@@ -3,12 +3,10 @@
 /* eslint consistent-this: ["error", "view"] */
 
 import type {Node} from 'react';
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 
-import type {ContextRouterType} from '../../type/react-router-dom-v4';
 import type {CharacterType} from '../../character-data/character-type';
-import {characterList, getCharacterById} from '../../character-data/character-data';
-import {PageNotFound} from '../../page/page-not-found/c-page-not-found';
+import {getCharacterById} from '../../character-data/character-data';
 import {TabList} from '../ui/tab-list/c-tab-list';
 import {ComboList} from '../combo-list/c-combo-list';
 import {ComboListHeader} from '../combo-list-header/c-combo-list-header';

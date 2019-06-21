@@ -3,7 +3,7 @@
 /* eslint consistent-this: ["error", "view"] */
 
 import type {Node} from 'react';
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 
 import inputRadioStyle from './input-radio.style.scss';
 

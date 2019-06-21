@@ -7,9 +7,6 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
 import type {GlobalStateType} from '../../redux-store-provider/reducer';
-import type {SystemType} from '../system/reducer/root';
-
-import {Scroll} from '../ui/scroll/c-scroll';
 
 import {isString} from '../../lib/is';
 

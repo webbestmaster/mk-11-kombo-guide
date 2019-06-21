@@ -6,8 +6,6 @@ import type {Node} from 'react';
 import React, {Component} from 'react';
 import classNames from 'classnames';
 
-import {Locale} from '../locale/c-locale';
-import type {LangKeyType} from '../locale/translation/type';
 import {Menu} from '../menu/c-menu';
 
 import serviceStyle from '../../../css/service.scss';

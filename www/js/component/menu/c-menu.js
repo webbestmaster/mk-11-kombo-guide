@@ -5,16 +5,12 @@
 /* eslint consistent-this: ["error", "view"] */
 
 import type {Node} from 'react';
-import React, {Component, Fragment} from 'react';
-import ReactDOM from 'react-dom';
+import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-
-import {selector} from '../../const';
 
 import {routes} from '../app/routes';
 
 import menuOpenButtonImagePath from './image/menu-button.svg';
-import menuCloseButtonImagePath from './image/close-button.svg';
 import menuStyle from './menu.style.scss';
 
 type PassedPropsType = {};

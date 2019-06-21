@@ -3,27 +3,26 @@
 /* eslint consistent-this: ["error", "view"] */
 
 import type {ComponentType, Node} from 'react';
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import classNames from 'classnames';
 
 import type {GlobalStateType} from '../../../redux-store-provider/reducer';
 import type {ComboInputSingleType} from '../../../move-type/combo-input-type';
 import type {ComboType} from '../../../move-type/combo-type';
-import {Locale} from '../../locale/c-locale';
 import serviceStyle from '../../../../css/service.scss';
-import {inputMoveMap} from '../../../move-type/combo-input-type';
 
 import {forceResize} from '../../ui/scroll/helper';
+
+import type {PlatformNameType} from '../../../page/settings-page/action';
 
 import comboListItemStyle from './combo-list-item.style.scss';
 import {Move} from './move/c-move';
 import {FrameData} from './frame-data/c-frame-data';
-import type {PlatformType} from './move/reducer';
 import {AdditionalInfo} from './additional-info/c-additional-info';
 
 type ReduxPropsType = {|
-    +platform: PlatformType,
+    +platformName: PlatformNameType,
 |};
 
 type ReduxActionType = {
@@ -65,8 +64,9 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
     renderMoveItem = (inputType: ComboInputSingleType, index: number): Node => {
         const view = this;
         const {props} = view;
+        const {platformName} = props;
 
-        return <Move input={inputType} key={index} platform={props.platform}/>;
+        return <Move input={inputType} key={index} platformName={platformName}/>;
     };
 
     renderComboTitle(): Node {
@@ -129,7 +129,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
 
 const ConnectedComponent = connect<ComponentType<ComboListItem>, PassedPropsType, ReduxPropsType, ReduxActionType>(
     (state: GlobalStateType, props: PassedPropsType): ReduxPropsType => ({
-        platform: state.platform,
+        platformName: state.setting.platformName,
     }),
     reduxAction
 )(ComboListItem);

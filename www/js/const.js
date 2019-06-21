@@ -4,8 +4,6 @@
 
 const {hostname, origin} = location;
 
-import {getSequence} from './move-type/move-sequence';
-
 export const appConst = {
     api: {
         // eslint-disable-next-line id-match

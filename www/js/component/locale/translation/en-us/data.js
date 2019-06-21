@@ -1,7 +1,6 @@
 // @flow
 
 import type {LangDataType} from '../type';
-import {propertyNameMap} from '../../../../move-type/move-property-type';
 
 export const enUs: LangDataType = {
     /* eslint-disable id-match, id-length */

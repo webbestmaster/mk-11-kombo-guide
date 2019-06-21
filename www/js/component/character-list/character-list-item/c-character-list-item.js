@@ -3,14 +3,12 @@
 /* eslint consistent-this: ["error", "view"] */
 
 import type {Node} from 'react';
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 
 import {Link} from 'react-router-dom';
 
 import type {CharacterType} from '../../../character-data/character-type';
 import {getCharacterPath} from '../../app/routes';
-import {Locale} from '../../locale/c-locale';
-
 // import type {ContextRouterType} from '../../type/react-router-dom-v4';
 import serviceStyle from '../../../../css/service.scss';
 
