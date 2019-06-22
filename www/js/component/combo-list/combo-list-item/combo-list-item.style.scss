@@ -9,9 +9,11 @@
     justify-content: space-between;
     min-height: $combo-item-height;
     padding: 0 $main-side-padding;
+    position: relative;
 
     &.combo_wrapper__sub_combo {
-        padding-left: $main-side-padding * 2;
+        margin-left: $main-side-padding;
+        padding-left: $main-side-padding;
     }
 }
 
@@ -34,4 +36,12 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.combo__equipped_mark {
+    font-size: 28px;
+    left: 4px;
+    line-height: 28px;
+    position: absolute;
+    top: 5px;
 }

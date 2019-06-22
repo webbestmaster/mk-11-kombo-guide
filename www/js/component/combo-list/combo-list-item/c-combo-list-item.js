@@ -13,6 +13,7 @@ import type {ComboType} from '../../../move-type/combo-type';
 import serviceStyle from '../../../../css/service.scss';
 import {forceResize} from '../../ui/scroll/helper';
 import type {PlatformNameType} from '../../../page/settings-page/action';
+import {isString} from '../../../lib/is';
 
 import comboListItemStyle from './combo-list-item.style.scss';
 import {Move} from './move/c-move';
@@ -95,6 +96,15 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         view.setState({isShowFrameData: !isShowFrameData}, forceResize);
     };
 
+    renderEquippedMark(): Node {
+        const view = this;
+        const {props, state} = view;
+        const {combo} = props;
+        const {variation} = combo;
+
+        return isString(variation) ? <div className={comboListItemStyle.combo__equipped_mark}>*</div> : null;
+    }
+
     render(): Node {
         const view = this;
         const {props, state} = view;
@@ -115,6 +125,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
                     role="button"
                     tabIndex="0"
                 >
+                    {view.renderEquippedMark()}
                     {view.renderComboTitle()}
                     {view.renderMoveList()}
                 </div>
