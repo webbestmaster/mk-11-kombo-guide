@@ -1,0 +1,68 @@
+@import './../../../../../css/var';
+
+$input-checkbox-size: 26px;
+$input-checkbox-point-size: 20px;
+
+.input_checkbox__label {
+    clear: both;
+    cursor: pointer;
+    display: block;
+    padding-bottom: 8px;
+    vertical-align: top;
+
+    &:after {
+        clear: both;
+        content: '';
+        display: block;
+    }
+}
+
+.input_checkbox__input_state {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: $input-checkbox-size;
+    position: relative;
+    width: $input-checkbox-size;
+
+    &:before,
+    &:after {
+        border: 1px solid $main-text-color;
+        box-sizing: border-box;
+        content: '';
+        height: $input-checkbox-point-size;
+        left: 0;
+        margin-top: -$input-checkbox-point-size / 2;
+        position: absolute;
+        top: 50%;
+        width: $input-checkbox-point-size;
+    }
+
+    &:after {
+        background-color: transparent;
+        border: 0;
+        height: $input-checkbox-point-size - 6;
+        left: 3px;
+        top: 16px;
+        width: $input-checkbox-point-size - 6;
+    }
+}
+
+.input_checkbox__native_input {
+    display: none;
+
+    &:checked + .input_checkbox__input_state {
+        &:after {
+            background-color: $top-header-text-color;
+            display: block;
+        }
+    }
+}
+
+.input_checkbox__label_content {
+    display: block;
+    font-size: 16px;
+    margin-left: 28px;
+    padding-top: 4px;
+}

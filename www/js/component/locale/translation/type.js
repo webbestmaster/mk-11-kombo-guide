@@ -80,6 +80,8 @@ export type LangDataType = {|
     +SETTING__TITLE: string,
     +SETTING__CHOOSE_A_PLATFORM: string,
     +SETTING__REPORT_A_BUG: string,
+    SETTING__FRAME_DATA: string,
+    SETTING__SHOW_FLAWLESS_FRAME_DATA: string,
 
     // additional info
     +ADDITIONAL_INFO__PROPERTIES: string,

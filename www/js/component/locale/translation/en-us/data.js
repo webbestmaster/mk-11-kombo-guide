@@ -80,6 +80,8 @@ export const enUs: LangDataType = {
     SETTING__TITLE: 'Settings',
     SETTING__CHOOSE_A_PLATFORM: 'Choose a platform',
     SETTING__REPORT_A_BUG: 'Report a bug',
+    SETTING__FRAME_DATA: 'Frame data',
+    SETTING__SHOW_FLAWLESS_FRAME_DATA: 'Show flawless frame data',
 
     // additional info
     ADDITIONAL_INFO__PROPERTIES: 'Properties',

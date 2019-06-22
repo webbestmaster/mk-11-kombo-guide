@@ -15,10 +15,12 @@ import type {ComboInputSingleType} from '../../move-type/combo-input-type';
 import {inputMoveMap} from '../../move-type/combo-input-type';
 import {Move} from '../../component/combo-list/combo-list-item/move/c-move';
 import {appConst} from '../../const';
+import {InputCheckbox} from '../../component/ui/input/checkbox/c-input-checkbox';
 
 import type {PlatformNameType, SetPlatformTypeType} from './action';
 import {platformNameMap, setPlatformName} from './action';
 import settingsPageStyle from './settings-page.style.scss';
+import type {SettingType} from './reducer';
 
 const {i1n, i2n, i3n, i4n, iL1, iL2, iR1, iR2} = inputMoveMap;
 
@@ -26,7 +28,7 @@ const inputListLine1: Array<ComboInputSingleType> = [i1n, i2n, i3n, i4n];
 const inputListLine2: Array<ComboInputSingleType> = [iL1, iL2, iR1, iR2];
 
 type ReduxPropsType = {|
-    +platformName: PlatformNameType,
+    +setting: SettingType,
 |};
 
 type ReduxActionType = {|
@@ -98,8 +100,9 @@ class SettingsPage extends Component<PropsType, StateType> {
     renderSelectPlatform(): [Node, Node] {
         const view = this;
         const {props, state} = view;
+        const {setting} = props;
         const {playStation, xBox, universal} = platformNameMap;
-        const currentPlatform = props.platformName;
+        const currentPlatform = setting.platformName;
 
         return [
             <h3 className={settingsPageStyle.settings_page__part_header} key="header">
@@ -123,10 +126,66 @@ class SettingsPage extends Component<PropsType, StateType> {
         ];
     }
 
+    renderVisibleFlawless(): [Node, Node] {
+        const view = this;
+        const {props, state} = view;
+
+        return [
+            <h3 className={settingsPageStyle.settings_page__part_header} key="header">
+                <Locale stringKey="SETTING__FRAME_DATA"/>
+            </h3>,
+            <Fragment key="content">
+                <InputCheckbox
+                    isDefaultChecked={false}
+                    name="show-flawless-frame-data"
+                    onChange={(isChecked: boolean) => {
+                        console.log(isChecked);
+                    }}
+                >
+                    <Locale stringKey="SETTING__SHOW_FLAWLESS_FRAME_DATA"/>
+                </InputCheckbox>
+            </Fragment>,
+            <Fragment key="content">
+                <InputCheckbox
+                    isDefaultChecked={false}
+                    name="show-flawless-frame-data"
+                    onChange={(isChecked: boolean) => {
+                        console.log(isChecked);
+                    }}
+                >
+                    <Locale stringKey="SETTING__SHOW_FLAWLESS_FRAME_DATA"/>
+                </InputCheckbox>
+            </Fragment>,
+            <Fragment key="content">
+                <InputCheckbox
+                    isDefaultChecked={false}
+                    name="show-flawless-frame-data"
+                    onChange={(isChecked: boolean) => {
+                        console.log(isChecked);
+                    }}
+                >
+                    <Locale stringKey="SETTING__SHOW_FLAWLESS_FRAME_DATA"/>
+                </InputCheckbox>
+            </Fragment>,
+            <Fragment key="content">
+                <InputCheckbox
+                    isDefaultChecked={false}
+                    name="show-flawless-frame-data"
+                    onChange={(isChecked: boolean) => {
+                        console.log(isChecked);
+                    }}
+                >
+                    <Locale stringKey="SETTING__SHOW_FLAWLESS_FRAME_DATA"/>
+                </InputCheckbox>
+            </Fragment>,
+        ];
+    }
+
     renderReportABug(): [Node, Node] {
         const view = this;
         const {props, state} = view;
-        const {platformName} = props;
+        const {setting} = props;
+        const {platformName} = setting;
         const {playStation, xBox, universal} = platformNameMap;
         const currentPlatform = platformName;
 
@@ -155,6 +214,7 @@ class SettingsPage extends Component<PropsType, StateType> {
                 <Header hasBackButton hasMenuButton={false} title={<Locale stringKey="SETTING__TITLE"/>}/>
                 <Scroll>
                     <div className={settingsPageStyle.settings_page__part}>{view.renderSelectPlatform()}</div>
+                    <div className={settingsPageStyle.settings_page__part}>{view.renderVisibleFlawless()}</div>
                     <div className={settingsPageStyle.settings_page__part}>{view.renderReportABug()}</div>
                 </Scroll>
             </Page>
@@ -164,7 +224,7 @@ class SettingsPage extends Component<PropsType, StateType> {
 
 const ConnectedComponent = connect<ComponentType<SettingsPage>, PassedPropsType, ReduxPropsType, ReduxActionType>(
     (state: GlobalStateType, props: PassedPropsType): ReduxPropsType => ({
-        platformName: state.setting.platformName,
+        setting: state.setting,
     }),
     reduxAction
 )(SettingsPage);
