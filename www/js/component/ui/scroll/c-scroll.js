@@ -58,7 +58,11 @@ export class Scroll extends Component<PropsType, StateType> {
             return;
         }
 
-        swiper.destroy();
+        try {
+            swiper.destroy();
+        } catch (error) {
+            console.warn(error);
+        }
     }
 
     attr: AttrType;
