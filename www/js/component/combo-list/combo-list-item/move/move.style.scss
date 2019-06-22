@@ -76,6 +76,7 @@ $text-stroke-color: rgba(0, 0, 0, 0.2);
     &.move__1234_text_on_button__playstation {
         @include font-size($move-data-size);
 
+        background-image: none;
         display: block;
         font-family: $playstation-buttons-font-family;
         font-weight: normal;
