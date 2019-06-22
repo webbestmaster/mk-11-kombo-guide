@@ -13,7 +13,6 @@
     display: block;
     font-size: 14px;
     padding: 9px $main-side-padding 6px;
-    transition: border-bottom-color 200ms linear;
 
     &.tab_list__tab_item__active {
         border-bottom-color: $top-header-text-color;
@@ -30,6 +29,4 @@
 
 .tab_list__content_wrapper {
     display: flex;
-    height: calc(100vh - 90px);
-    width: 100%;
 }
