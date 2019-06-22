@@ -51,7 +51,7 @@ export class TabList extends Component<PropsType, StateType> {
         };
     }
 
-    handleSlideChange = (swiper: Swiper) => {
+    handleSlideChangeTransitionEnd = (swiper: Swiper) => {
         const view = this;
 
         view.updateActiveIndex(swiper.activeIndex);
@@ -135,7 +135,7 @@ export class TabList extends Component<PropsType, StateType> {
                     activeIndex={activeIndex}
                     hasScrollBar={false}
                     isFreeMode={false}
-                    onSlideChange={view.handleSlideChange}
+                    onSlideChangeTransitionEnd={view.handleSlideChangeTransitionEnd}
                     slidesPerView={1}
                 >
                     {view.renderContentList()}

@@ -25,6 +25,7 @@ type PropsType = {|
     +slidesPerView?: number | 'auto',
     +isFreeMode?: boolean,
     +onSlideChange?: (swiper: Swiper) => void,
+    +onSlideChangeTransitionEnd?: (swiper: Swiper) => void,
     +activeIndex?: number,
     +hasScrollBar?: boolean,
 |};
@@ -105,10 +106,10 @@ export class HorizontalScroll extends Component<PropsType, StateType> {
     node: NodeType;
     props: PropsType;
 
-    generateOnSlideChange(): () => void {
+    generateOnSlideChangeTransitionEnd(): () => void {
         const view = this;
         const {props} = view;
-        const {onSlideChange} = props;
+        const {onSlideChangeTransitionEnd} = props;
 
         return () => {
             const currentSwiper = view.attr.swiper;
@@ -119,8 +120,8 @@ export class HorizontalScroll extends Component<PropsType, StateType> {
             }
 
             view.setState({activeIndex: currentSwiper.activeIndex}, () => {
-                if (isFunction(onSlideChange)) {
-                    onSlideChange(currentSwiper);
+                if (isFunction(onSlideChangeTransitionEnd)) {
+                    onSlideChangeTransitionEnd(currentSwiper);
                 }
             });
         };
@@ -152,7 +153,7 @@ export class HorizontalScroll extends Component<PropsType, StateType> {
             mousewheel: true,
             // eslint-disable-next-line id-length
             on: {
-                slideChange: view.generateOnSlideChange(),
+                slideChangeTransitionEnd: view.generateOnSlideChangeTransitionEnd(),
             },
         });
 

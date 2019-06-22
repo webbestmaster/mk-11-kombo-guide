@@ -23,6 +23,7 @@ type SwiperOptionsType = {|
     |},
     +on?: {
         +slideChange?: (() => void) | null,
+        +slideChangeTransitionEnd?: (() => void) | null,
     },
 |};
 

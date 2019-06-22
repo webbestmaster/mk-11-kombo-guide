@@ -53,7 +53,7 @@ class Page extends Component<ReduxPropsType, PassedPropsType, StateType> {
     state: StateType;
     props: PropsType;
 
-    getSize(): { width: number, height: number } {
+    getSize(): {width: number, height: number} {
         const view = this;
         const {props} = view;
         const {system} = props;
