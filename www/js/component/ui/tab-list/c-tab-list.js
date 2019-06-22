@@ -13,8 +13,6 @@ import type {LangKeyType} from '../../locale/translation/type';
 import {HorizontalScroll} from '../horizontal-scroll/c-horizontal-scroll';
 import {Scroll} from '../scroll/c-scroll';
 
-import {isFunction} from '../../../lib/is';
-
 import tabListStyle from './tab-list.style.scss';
 
 type PassedPropsType = {|
@@ -107,7 +105,7 @@ export class TabList extends Component<PropsType, StateType> {
 
     renderContentItem = (node: Node, index: number): Node => {
         return (
-            <div key={index} style={{height: 300, display: 'flex'}}>
+            <div className={tabListStyle.tab_list__content_wrapper} key={index}>
                 <Scroll>{node}</Scroll>
             </div>
         );

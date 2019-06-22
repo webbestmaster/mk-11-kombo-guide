@@ -27,3 +27,9 @@
         display: block;
     }
 }
+
+.tab_list__content_wrapper {
+    display: flex;
+    height: calc(100vh - 90px);
+    width: 100%;
+}
