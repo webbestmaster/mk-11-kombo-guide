@@ -15,6 +15,7 @@ type SwiperOptionsType = {|
     +pagination?: {|
         // eslint-disable-next-line id-length
         +el: string,
+        +clickable?: boolean,
     |},
     +mousewheel?: boolean,
     +autoplay?: {|
