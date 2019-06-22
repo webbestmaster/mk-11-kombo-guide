@@ -6,9 +6,14 @@ import type {Node} from 'react';
 import React, {Component} from 'react';
 import classNames from 'classnames';
 
+import Swiper from 'swiper';
+
 import {Locale} from '../../locale/c-locale';
 import type {LangKeyType} from '../../locale/translation/type';
 import {HorizontalScroll} from '../horizontal-scroll/c-horizontal-scroll';
+import {Scroll} from '../scroll/c-scroll';
+
+import {isFunction} from '../../../lib/is';
 
 import tabListStyle from './tab-list.style.scss';
 
@@ -16,14 +21,13 @@ type PassedPropsType = {|
     +titleList: Array<LangKeyType>,
     +contentList: Array<Node>,
     +activeIndex: number,
-    +onChange?: (tabIndex: number) => mixed,
 |};
 
 type PropsType = PassedPropsType;
 
-type StateType = {|
+type StateType = {
     +activeIndex: number,
-|};
+};
 
 export class TabList extends Component<PropsType, StateType> {
     constructor(props: PropsType) {
@@ -43,29 +47,36 @@ export class TabList extends Component<PropsType, StateType> {
         return () => {
             const view = this;
 
-            const {props, state} = view;
-            const {onChange} = props;
-
-            if (state.activeIndex === activeIndex) {
-                return;
-            }
-
-            // eslint-disable-next-line react/no-set-state
-            view.setState({activeIndex}, () => {
-                if (onChange instanceof Function) {
-                    onChange(activeIndex);
-                }
-            });
+            view.updateActiveIndex(activeIndex);
         };
+    }
+
+    handleSlideChange = (swiper: Swiper) => {
+        const view = this;
+
+        view.updateActiveIndex(swiper.activeIndex);
+    };
+
+    updateActiveIndex(activeIndex: number) {
+        const view = this;
+
+        const {state} = view;
+
+        if (state.activeIndex === activeIndex) {
+            return;
+        }
+
+        view.setState({activeIndex});
     }
 
     renderTitle = (title: LangKeyType, index: number, titleList: Array<LangKeyType>): Node => {
         const view = this;
         const {state} = view;
+        const {activeIndex} = state;
 
         const handleOnClick = view.createChangeHandler(index);
 
-        const isActive = index === state.activeIndex;
+        const isActive = index === activeIndex;
         const isFirst = index === 0;
         const isLast = index === titleList.length - 1;
 
@@ -94,23 +105,41 @@ export class TabList extends Component<PropsType, StateType> {
         return titleList.map(view.renderTitle);
     }
 
-    renderContent(): Node {
-        const {props, state} = this;
-        const {contentList} = props;
-        const {activeIndex} = state;
+    renderContentItem = (node: Node, index: number): Node => {
+        return (
+            <div key={index} style={{height: 300, display: 'flex'}}>
+                <Scroll>{node}</Scroll>
+            </div>
+        );
+    };
 
-        return <div>{contentList[activeIndex]}</div>;
+    renderContentList(): Node {
+        const view = this;
+        const {props} = view;
+        const {contentList} = props;
+
+        return contentList.map(view.renderContentItem);
     }
 
     render(): Node {
         const view = this;
+        const {state} = view;
+        const {activeIndex} = state;
 
         return (
             <>
-                <HorizontalScroll className={tabListStyle.tab_list__top_menu}>
+                <HorizontalScroll className={tabListStyle.tab_list__top_menu} hasScrollBar={false}>
                     {view.renderTitleList()}
                 </HorizontalScroll>
-                {view.renderContent()}
+                <HorizontalScroll
+                    activeIndex={activeIndex}
+                    hasScrollBar={false}
+                    isFreeMode={false}
+                    onSlideChange={view.handleSlideChange}
+                    slidesPerView={1}
+                >
+                    {view.renderContentList()}
+                </HorizontalScroll>
             </>
         );
     }

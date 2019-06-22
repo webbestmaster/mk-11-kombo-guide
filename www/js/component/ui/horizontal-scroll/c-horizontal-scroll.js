@@ -6,14 +6,27 @@ import type {Node} from 'react';
 import React, {Component} from 'react';
 import Swiper from 'swiper';
 
+import {isBoolean, isFunction, isNotFunction, isNumber, isString} from '../../../lib/is';
+import {noop} from '../../../lib/function-helper';
+
 import horizontalScrollStyle from './horizontal-scroll.style.scss';
 
-type StateType = void;
+const swipeTransitionTime = 300;
+
+type StateType = {|
+    +activeIndex: number,
+|};
 
 type PropsType = {|
     +className?: string,
     +slideClassName?: string,
     +children: Node | Array<Node>,
+    // settings
+    +slidesPerView?: number | 'auto',
+    +isFreeMode?: boolean,
+    +onSlideChange?: (swiper: Swiper) => void,
+    +activeIndex?: number,
+    +hasScrollBar?: boolean,
 |};
 
 type NodeType = {|
@@ -30,6 +43,12 @@ export class HorizontalScroll extends Component<PropsType, StateType> {
         super(props);
 
         const view = this;
+
+        const {activeIndex} = props;
+
+        view.state = {
+            activeIndex: isNumber(activeIndex) ? activeIndex : 0,
+        };
 
         view.node = {
             wrapper: React.createRef(),
@@ -49,6 +68,23 @@ export class HorizontalScroll extends Component<PropsType, StateType> {
         view.initSwiper();
     }
 
+    componentDidUpdate(prevProps: PropsType, prevState: StateType) {
+        const view = this;
+        const {props, state} = view;
+
+        // check data received from parent
+        if (prevState.activeIndex !== state.activeIndex) {
+            console.log('check data received from parent');
+            return;
+        }
+
+        const propsActiveIndex = props.activeIndex;
+
+        if (props.activeIndex !== state.activeIndex && isNumber(propsActiveIndex)) {
+            view.slideTo(propsActiveIndex);
+        }
+    }
+
     componentWillUnmount() {
         const view = this;
 
@@ -65,8 +101,32 @@ export class HorizontalScroll extends Component<PropsType, StateType> {
     node: NodeType;
     props: PropsType;
 
+    generateOnSlideChange(): () => void {
+        const view = this;
+        const {props} = view;
+        const {onSlideChange} = props;
+
+        return () => {
+            const currentSwiper = view.attr.swiper;
+
+            if (currentSwiper === null) {
+                console.error('currentSwiper is not define');
+                return;
+            }
+
+            view.setState({activeIndex: currentSwiper.activeIndex}, () => {
+                if (isFunction(onSlideChange)) {
+                    onSlideChange(currentSwiper);
+                }
+            });
+        };
+    }
+
     initSwiper() {
         const view = this;
+        const {props, state} = view;
+        const {slidesPerView, isFreeMode} = props;
+        const {activeIndex} = state;
 
         const {wrapper} = view.node;
 
@@ -76,8 +136,8 @@ export class HorizontalScroll extends Component<PropsType, StateType> {
 
         view.attr.swiper = new Swiper(wrapper.current, {
             direction: 'horizontal',
-            slidesPerView: 'auto',
-            freeMode: true,
+            slidesPerView: isString(slidesPerView) || isNumber(slidesPerView) ? slidesPerView : 'auto',
+            freeMode: isBoolean(isFreeMode) ? isFreeMode : true,
             watchOverflow: true, // disable this cause swiper has scroll bar and bug after resize
             roundLengths: true,
             scrollbar: {
@@ -86,7 +146,13 @@ export class HorizontalScroll extends Component<PropsType, StateType> {
                 hide: true,
             },
             mousewheel: true,
+            // eslint-disable-next-line id-length
+            on: {
+                slideChange: view.generateOnSlideChange(),
+            },
         });
+
+        view.slideTo(activeIndex);
     }
 
     renderItem = (child: Node, index: number): Node => {
@@ -109,6 +175,7 @@ export class HorizontalScroll extends Component<PropsType, StateType> {
     renderSwiper(): Node {
         const view = this;
         const {props} = view;
+        const {hasScrollBar} = props;
 
         const childArray: Array<Node> = React.Children.toArray(props.children);
 
@@ -120,9 +187,21 @@ export class HorizontalScroll extends Component<PropsType, StateType> {
                 <ul className={`swiper-wrapper ${horizontalScrollStyle.horizontal_scroll_swiper_wrapper}`}>
                     {childArray.map(view.renderItem)}
                 </ul>
-                <div className={`${view.attr.swiperId} swiper-scrollbar`}/>
+                {hasScrollBar === false ? null : <div className={`${view.attr.swiperId} swiper-scrollbar`}/>}
             </div>
         );
+    }
+
+    slideTo(activeIndex: number) {
+        const view = this;
+        const currentSwiper = view.attr.swiper;
+
+        if (currentSwiper === null) {
+            console.error('currentSwiper is not define');
+            return;
+        }
+
+        currentSwiper.slideTo(activeIndex, swipeTransitionTime, noop);
     }
 
     render(): Node {

@@ -53,9 +53,7 @@ export class CharacterPage extends Component<PropsType, StateType> {
         return (
             <Page>
                 <Header hasBackButton hasMenuButton title={characterData.name}/>
-                <Scroll>
-                    <Character characterId={characterId}/>
-                </Scroll>
+                <Character characterId={characterId}/>
             </Page>
         );
     }

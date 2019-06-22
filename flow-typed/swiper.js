@@ -20,11 +20,16 @@ type SwiperOptionsType = {|
     +autoplay?: {|
         +delay?: number,
     |},
+    +on?: {
+        +slideChange?: (() => void) | null,
+    },
 |};
 
 declare module 'swiper' {
     declare export default class Swiper {
         constructor(node: HTMLElement, options: SwiperOptionsType): Swiper,
         destroy(deleteInstance?: boolean, cleanStyles: ?boolean): mixed, // default deleteInstance = true, cleanStyles = true
+        slideTo(index: number, speed: number, runCallbacks: () => void): mixed,
+        activeIndex: number,
     }
 }
