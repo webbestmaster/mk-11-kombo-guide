@@ -33,7 +33,9 @@ export function setPlatformName(platformName: PlatformNameType): SetPlatformType
     };
 }
 
-// export const localStorageShowFlawlessDataKey = PROJECT_ID + '-flawless-data';
+// eslint-disable-next-line id-match
+export const localStorageShowFlawlessDataKey = PROJECT_ID + '-flawless-data';
+
 export type SetShowFlawlessDataType = {|
     +type: 'setting__set-show-flawless-data',
     +payload: {|
@@ -42,7 +44,7 @@ export type SetShowFlawlessDataType = {|
 |};
 
 export function setShowFlawlessData(isShowFlawlessData: boolean): SetShowFlawlessDataType {
-    // localStorage.setItem(localStorageShowFlawlessDataKey, isShowFlawlessData ? '1' : '0');
+    localStorage.setItem(localStorageShowFlawlessDataKey, isShowFlawlessData ? '1' : '');
 
     return {
         type: settingConst.action.type.setShowFlawlessData,

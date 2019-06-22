@@ -39,7 +39,7 @@ const definePluginParams = {
     BRANCH_NAME: JSON.stringify(process.env.BRANCH_NAME),
     // NODE_ENV: JSON.stringify(NODE_ENV),
     IS_PRODUCTION: JSON.stringify(IS_PRODUCTION),
-    PROJECT_ID: JSON.stringify('my-best-project'),
+    PROJECT_ID: JSON.stringify('mk11-reference'),
     PUBLIC_PATH: JSON.stringify(publicPath),
     // IS_DEVELOPMENT: JSON.stringify(IS_DEVELOPMENT)
 };

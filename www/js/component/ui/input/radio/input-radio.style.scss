@@ -1,61 +1,22 @@
-@import './../../../../../css/var';
-
-$input-radio-size: 26px;
-$input-radio-point-size: 20px;
+@import './../input';
 
 .input_radio__label {
-    cursor: pointer;
-    margin-bottom: 21px;
-    vertical-align: top;
-
-    &:last-child {
-        margin-bottom: 0;
-    }
+    @extend %input-label;
 }
 
 .input_radio__input_state {
-    box-sizing: border-box;
-    cursor: pointer;
-    display: block;
-    height: $input-radio-size;
-    position: relative;
-    width: $input-radio-size;
+    @extend %input-state;
 
     &:before,
     &:after {
-        border: 1px solid $main-text-color;
         border-radius: 50%;
-        box-sizing: border-box;
-        content: '';
-        height: $input-radio-point-size;
-        left: 0;
-        margin-top: -$input-radio-point-size / 2;
-        position: absolute;
-        top: 50%;
-        width: $input-radio-point-size;
-    }
-
-    &:after {
-        background-color: $main-text-color;
-        border: 0;
-        height: $input-radio-point-size - 6;
-        left: 3px;
-        top: 16px;
-        width: $input-radio-point-size - 6;
     }
 }
 
 .input_radio__native_input {
-    display: none;
-
-    &:checked + .input_radio__input_state {
-        &:after {
-            background-color: $top-header-text-color;
-            display: block;
-        }
-    }
+    @extend %input-native;
 }
 
 .input_radio__label_content {
-    display: block;
+    @extend %input-label-content;
 }

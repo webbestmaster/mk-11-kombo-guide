@@ -53,7 +53,6 @@ export class InputCheckbox extends Component<PropsType, StateType> {
         return (
             <label className={inputCheckboxStyle.input_checkbox__label}>
                 <input
-                    checked={isChecked}
                     className={inputCheckboxStyle.input_checkbox__native_input}
                     defaultChecked={isChecked}
                     name={name}

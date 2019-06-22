@@ -12,7 +12,7 @@
     @extend %bordered;
 
     display: block;
-    padding: 10px $main-side-padding 24px;
+    padding: 10px $main-side-padding 12px;
 }
 
 .settings_page__part_header {
@@ -29,14 +29,8 @@
 }
 
 .settings_page__platform_input_wrapper {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 70px;
-    justify-content: space-between;
-    padding-left: 7px;
     position: relative;
-    top: -3px;
+    top: -6px;
 }
 
 .settings_page__platform_input_list_wrapper {
@@ -44,5 +38,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 4px;
     width: 143px;
 }

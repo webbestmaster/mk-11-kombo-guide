@@ -1,0 +1,64 @@
+@import './../../../../css/var';
+
+$input-point-size: 20px;
+$input-inner-point-margin: 3px;
+
+%input-label {
+    clear: both;
+    cursor: pointer;
+    display: block;
+    padding-bottom: $input-point-size / 2;
+    vertical-align: top;
+
+    &:after {
+        clear: both;
+        content: '';
+        display: block;
+    }
+}
+
+%input-state {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    float: left;
+    position: relative;
+    top: -1px;
+
+    &:before,
+    &:after {
+        border: 1px solid $main-text-color;
+        box-sizing: border-box;
+        content: '';
+        height: $input-point-size;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: $input-point-size;
+    }
+
+    &:after {
+        background-color: transparent;
+        border: 0;
+        height: $input-point-size - $input-inner-point-margin * 2;
+        left: $input-inner-point-margin;
+        top: $input-inner-point-margin;
+        width: $input-point-size - $input-inner-point-margin * 2;
+    }
+}
+
+%input-native {
+    display: none;
+
+    &:checked + %input-state {
+        &:after {
+            background-color: $top-header-text-color;
+        }
+    }
+}
+
+%input-label-content {
+    display: block;
+    font-size: 16px;
+    margin-left: 28px;
+}

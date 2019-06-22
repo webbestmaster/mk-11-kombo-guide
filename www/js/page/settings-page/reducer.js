@@ -7,7 +7,7 @@ import {combineReducers} from 'redux';
 import type {ActionDataType} from '../../redux-store-provider/type';
 
 import type {PlatformNameType} from './action';
-import {localStoragePlatformNameKey, platformNameMap} from './action';
+import {localStoragePlatformNameKey, localStorageShowFlawlessDataKey, platformNameMap} from './action';
 import {settingConst} from './setting-const';
 
 function getDefaultPlatformName(): PlatformNameType {
@@ -27,7 +27,11 @@ function getDefaultPlatformName(): PlatformNameType {
     }
 }
 
-const defaultPlatformName: PlatformNameType = getDefaultPlatformName();
+function getDefaultIsShowFlawlessData(): boolean {
+    const savedDefaultPlatformName = localStorage.getItem(localStorageShowFlawlessDataKey);
+
+    return Boolean(savedDefaultPlatformName);
+}
 
 export type SettingType = {|
     +platformName: PlatformNameType,
@@ -40,7 +44,7 @@ type ReduceMapType = {|
 |};
 
 export const setting = combineReducers<ReduceMapType, SettingType>({
-    platformName: (name: PlatformNameType = defaultPlatformName, actionData: ActionDataType): PlatformNameType => {
+    platformName: (name: PlatformNameType = getDefaultPlatformName(), actionData: ActionDataType): PlatformNameType => {
         if (actionData.type !== settingConst.action.type.setPlatformName) {
             return name;
         }
@@ -51,7 +55,10 @@ export const setting = combineReducers<ReduceMapType, SettingType>({
 
         return actionData.payload.platformName;
     },
-    isShowFlawlessData: (isShowFlawlessData: boolean = false, actionData: ActionDataType): boolean => {
+    isShowFlawlessData: (
+        isShowFlawlessData: boolean = getDefaultIsShowFlawlessData(),
+        actionData: ActionDataType
+    ): boolean => {
         if (actionData.type !== settingConst.action.type.setShowFlawlessData) {
             return isShowFlawlessData;
         }

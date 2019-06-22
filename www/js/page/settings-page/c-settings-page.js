@@ -17,8 +17,8 @@ import {Move} from '../../component/combo-list/combo-list-item/move/c-move';
 import {appConst} from '../../const';
 import {InputCheckbox} from '../../component/ui/input/checkbox/c-input-checkbox';
 
-import type {PlatformNameType, SetPlatformTypeType} from './action';
-import {platformNameMap, setPlatformName} from './action';
+import type {PlatformNameType, SetPlatformTypeType, SetShowFlawlessDataType} from './action';
+import {platformNameMap, setPlatformName, setShowFlawlessData} from './action';
 import settingsPageStyle from './settings-page.style.scss';
 import type {SettingType} from './reducer';
 
@@ -33,10 +33,12 @@ type ReduxPropsType = {|
 
 type ReduxActionType = {|
     +setPlatformName: (platformName: PlatformNameType) => SetPlatformTypeType,
+    +setShowFlawlessData: (isShowFlawlessData: boolean) => SetShowFlawlessDataType,
 |};
 
 const reduxAction: ReduxActionType = {
     setPlatformName,
+    setShowFlawlessData,
 };
 
 type PassedPropsType = {
@@ -78,6 +80,13 @@ class SettingsPage extends Component<PropsType, StateType> {
                 props.setPlatformName(definedPlatformName);
             }
         });
+    };
+
+    handleVisibleFlawless = (isVisible: boolean) => {
+        const view = this;
+        const {props, state} = view;
+
+        props.setShowFlawlessData(isVisible);
     };
 
     renderSelectPlatformInputList(platformName: PlatformNameType): Node {
@@ -129,6 +138,7 @@ class SettingsPage extends Component<PropsType, StateType> {
     renderVisibleFlawless(): [Node, Node] {
         const view = this;
         const {props, state} = view;
+        const {setting} = props;
 
         return [
             <h3 className={settingsPageStyle.settings_page__part_header} key="header">
@@ -136,44 +146,9 @@ class SettingsPage extends Component<PropsType, StateType> {
             </h3>,
             <Fragment key="content">
                 <InputCheckbox
-                    isDefaultChecked={false}
+                    isDefaultChecked={setting.isShowFlawlessData}
                     name="show-flawless-frame-data"
-                    onChange={(isChecked: boolean) => {
-                        console.log(isChecked);
-                    }}
-                >
-                    <Locale stringKey="SETTING__SHOW_FLAWLESS_FRAME_DATA"/>
-                </InputCheckbox>
-            </Fragment>,
-            <Fragment key="content">
-                <InputCheckbox
-                    isDefaultChecked={false}
-                    name="show-flawless-frame-data"
-                    onChange={(isChecked: boolean) => {
-                        console.log(isChecked);
-                    }}
-                >
-                    <Locale stringKey="SETTING__SHOW_FLAWLESS_FRAME_DATA"/>
-                </InputCheckbox>
-            </Fragment>,
-            <Fragment key="content">
-                <InputCheckbox
-                    isDefaultChecked={false}
-                    name="show-flawless-frame-data"
-                    onChange={(isChecked: boolean) => {
-                        console.log(isChecked);
-                    }}
-                >
-                    <Locale stringKey="SETTING__SHOW_FLAWLESS_FRAME_DATA"/>
-                </InputCheckbox>
-            </Fragment>,
-            <Fragment key="content">
-                <InputCheckbox
-                    isDefaultChecked={false}
-                    name="show-flawless-frame-data"
-                    onChange={(isChecked: boolean) => {
-                        console.log(isChecked);
-                    }}
+                    onChange={view.handleVisibleFlawless}
                 >
                     <Locale stringKey="SETTING__SHOW_FLAWLESS_FRAME_DATA"/>
                 </InputCheckbox>
@@ -183,11 +158,6 @@ class SettingsPage extends Component<PropsType, StateType> {
 
     renderReportABug(): [Node, Node] {
         const view = this;
-        const {props, state} = view;
-        const {setting} = props;
-        const {platformName} = setting;
-        const {playStation, xBox, universal} = platformNameMap;
-        const currentPlatform = platformName;
 
         return [
             <h3 className={settingsPageStyle.settings_page__part_header} key="header">
