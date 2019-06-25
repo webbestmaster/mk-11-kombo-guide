@@ -5,15 +5,17 @@ import type {OnResizeType, OnSetIsScrollEnableType} from '../component/system/ac
 import type {SetPopupStateType, SetUserType} from '../component/auth/action';
 import type {SetPlatformTypeType} from '../page/settings-page/redux/platform-name/action';
 import type {SetShowFlawlessDataType} from '../page/settings-page/redux/show-flawless-data/action';
+import type {SetComboViewTypeType} from '../page/settings-page/redux/combo-view-type/action';
 
 type DefaultActionDataType = {|type: string|};
 
 export type ActionDataType =
-    | DefaultActionDataType
     | OnResizeType
     | SetUserType
     | SetLocaleType
     | SetPopupStateType
     | OnSetIsScrollEnableType
     | SetPlatformTypeType
-    | SetShowFlawlessDataType;
+    | SetShowFlawlessDataType
+    | SetComboViewTypeType
+    | DefaultActionDataType;
