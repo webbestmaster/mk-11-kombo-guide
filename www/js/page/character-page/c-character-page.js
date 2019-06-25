@@ -10,7 +10,6 @@ import {isString} from '../../lib/is';
 import {Character} from '../../component/character/c-character';
 import {Page} from '../../component/page/c-page';
 import {Header} from '../../component/header/c-header';
-import {Scroll} from '../../component/ui/scroll/c-scroll';
 import {getCharacterById} from '../../character-data/character-data';
 // import style from './style.scss';
 

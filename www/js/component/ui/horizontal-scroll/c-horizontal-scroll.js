@@ -6,7 +6,7 @@ import type {Node} from 'react';
 import React, {Component} from 'react';
 import Swiper from 'swiper';
 
-import {isBoolean, isFunction, isNotFunction, isNumber, isString} from '../../../lib/is';
+import {isBoolean, isFunction, isNumber, isString} from '../../../lib/is';
 import {noop} from '../../../lib/function-helper';
 
 import horizontalScrollStyle from './horizontal-scroll.style.scss';

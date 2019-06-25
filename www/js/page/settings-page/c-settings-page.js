@@ -17,10 +17,12 @@ import {Move} from '../../component/combo-list/combo-list-item/move/c-move';
 import {appConst} from '../../const';
 import {InputCheckbox} from '../../component/ui/input/checkbox/c-input-checkbox';
 
-import type {PlatformNameType, SetPlatformTypeType, SetShowFlawlessDataType} from './action';
-import {platformNameMap, setPlatformName, setShowFlawlessData} from './action';
+import {platformNameMap, setPlatformName} from './redux/platform-name/action';
 import settingsPageStyle from './settings-page.style.scss';
 import type {SettingType} from './reducer';
+import type {IsShowFlawlessDataType, SetShowFlawlessDataType} from './redux/show-flawless-data/action';
+import type {PlatformNameType, SetPlatformTypeType} from './redux/platform-name/action';
+import {setShowFlawlessData} from './redux/show-flawless-data/action';
 
 const {i1n, i2n, i3n, i4n, iL1, iL2, iR1, iR2} = inputMoveMap;
 
@@ -33,7 +35,7 @@ type ReduxPropsType = {|
 
 type ReduxActionType = {|
     +setPlatformName: (platformName: PlatformNameType) => SetPlatformTypeType,
-    +setShowFlawlessData: (isShowFlawlessData: boolean) => SetShowFlawlessDataType,
+    +setShowFlawlessData: (isShowFlawlessData: IsShowFlawlessDataType) => SetShowFlawlessDataType,
 |};
 
 const reduxAction: ReduxActionType = {
@@ -82,7 +84,7 @@ class SettingsPage extends Component<PropsType, StateType> {
         });
     };
 
-    handleVisibleFlawless = (isVisible: boolean) => {
+    handleVisibleFlawless = (isVisible: IsShowFlawlessDataType) => {
         const view = this;
         const {props, state} = view;
 

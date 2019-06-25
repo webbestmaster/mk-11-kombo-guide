@@ -2,11 +2,10 @@
 
 /* global localStorage, PROJECT_ID */
 
-import {settingConst} from './setting-const';
+import {settingConst} from '../../setting-const';
 
 // eslint-disable-next-line id-match
 export const localStoragePlatformNameKey = PROJECT_ID + '-platform-name';
-
 export type PlatformNameType = 'universal' | 'playStation' | 'xBox';
 
 export const platformNameMap: {+[key: PlatformNameType]: PlatformNameType} = {
@@ -29,27 +28,6 @@ export function setPlatformName(platformName: PlatformNameType): SetPlatformType
         type: settingConst.action.type.setPlatformName,
         payload: {
             platformName,
-        },
-    };
-}
-
-// eslint-disable-next-line id-match
-export const localStorageShowFlawlessDataKey = PROJECT_ID + '-flawless-data';
-
-export type SetShowFlawlessDataType = {|
-    +type: 'setting__set-show-flawless-data',
-    +payload: {|
-        +isShowFlawlessData: boolean,
-    |},
-|};
-
-export function setShowFlawlessData(isShowFlawlessData: boolean): SetShowFlawlessDataType {
-    localStorage.setItem(localStorageShowFlawlessDataKey, isShowFlawlessData ? '1' : '');
-
-    return {
-        type: settingConst.action.type.setShowFlawlessData,
-        payload: {
-            isShowFlawlessData,
         },
     };
 }

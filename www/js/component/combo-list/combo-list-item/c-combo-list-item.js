@@ -12,7 +12,7 @@ import type {ComboInputSingleType} from '../../../move-type/combo-input-type';
 import type {ComboType} from '../../../move-type/combo-type';
 import serviceStyle from '../../../../css/service.scss';
 import {forceResize} from '../../../lib/screen';
-import type {PlatformNameType} from '../../../page/settings-page/action';
+import type {PlatformNameType} from '../../../page/settings-page/redux/platform-name/action';
 import {isString} from '../../../lib/is';
 
 import comboListItemStyle from './combo-list-item.style.scss';
