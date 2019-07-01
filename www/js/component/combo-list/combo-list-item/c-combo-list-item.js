@@ -12,8 +12,8 @@ import type {ComboInputSingleType} from '../../../move-type/combo-input-type';
 import type {ComboType} from '../../../move-type/combo-type';
 import serviceStyle from '../../../../css/service.scss';
 import {forceResize} from '../../../lib/screen';
-import type {PlatformNameType} from '../../../page/settings-page/redux/platform-name/action';
 import {isString} from '../../../lib/is';
+import type {SettingType} from '../../../page/settings-page/reducer';
 
 import comboListItemStyle from './combo-list-item.style.scss';
 import {Move} from './move/c-move';
@@ -21,7 +21,7 @@ import {FrameData} from './frame-data/c-frame-data';
 import {AdditionalInfo} from './additional-info/c-additional-info';
 
 type ReduxPropsType = {|
-    +platformName: PlatformNameType,
+    +setting: SettingType,
 |};
 
 type ReduxActionType = {
@@ -37,8 +37,8 @@ type PassedPropsType = {|
 |};
 
 type PropsType = {
-    ...ReduxPropsType,
     ...ReduxActionType,
+    ...ReduxPropsType,
     ...PassedPropsType,
 };
 
@@ -63,9 +63,9 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
     renderMoveItem = (inputType: ComboInputSingleType, index: number): Node => {
         const view = this;
         const {props} = view;
-        const {platformName} = props;
+        const {setting} = props;
 
-        return <Move input={inputType} key={index} platformName={platformName}/>;
+        return <Move input={inputType} key={index} platformName={setting.platformName}/>;
     };
 
     renderComboTitle(): Node {
@@ -138,7 +138,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
 
 const ConnectedComponent = connect<ComponentType<ComboListItem>, PassedPropsType, ReduxPropsType, ReduxActionType>(
     (state: GlobalStateType, props: PassedPropsType): ReduxPropsType => ({
-        platformName: state.setting.platformName,
+        setting: state.setting,
     }),
     reduxAction
 )(ComboListItem);
