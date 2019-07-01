@@ -80,8 +80,14 @@ export const enUs: LangDataType = {
     SETTING__TITLE: 'Settings',
     SETTING__CHOOSE_A_PLATFORM: 'Choose a platform',
     SETTING__REPORT_A_BUG: 'Report a bug',
-    SETTING__FRAME_DATA: 'Frame data',
+    SETTING__VIEW_SETTING__HEADER: 'Setup view',
     SETTING__SHOW_FLAWLESS_FRAME_DATA: 'Show flawless frame data',
+    SETTING__FRAME_DATA_TABLE_TYPE: 'Frame data table type',
+    SETTING__FRAME_DATA_TABLE__COMPACT: 'Compact',
+    SETTING__FRAME_DATA_TABLE__LIKE_IN_GAME: 'Like in game',
+    SETTING__INPUT_DATA_ITEM_TYPE: 'Input data item type',
+    SETTING__INPUT_DATA_ITEM_TYPE__LIKE_IN_GAME: 'Like in game',
+    SETTING__INPUT_DATA_ITEM_TYPE__MORE_INFO: 'More info',
 
     // additional info
     ADDITIONAL_INFO__PROPERTIES: 'Properties',

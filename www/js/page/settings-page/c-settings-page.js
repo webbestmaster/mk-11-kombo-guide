@@ -137,16 +137,16 @@ class SettingsPage extends Component<PropsType, StateType> {
         ];
     }
 
-    renderVisibleFlawless(): [Node, Node] {
+    renderViewSettingList(): [Node, Node] {
         const view = this;
         const {props, state} = view;
         const {setting} = props;
 
         return [
             <h3 className={settingsPageStyle.settings_page__part_header} key="header">
-                <Locale stringKey="SETTING__FRAME_DATA"/>
+                <Locale stringKey="SETTING__VIEW_SETTING__HEADER"/>
             </h3>,
-            <Fragment key="content">
+            <Fragment key="setting--show-flawless-frame-data">
                 <InputCheckbox
                     isDefaultChecked={setting.isShowFlawlessData}
                     name="show-flawless-frame-data"
@@ -186,7 +186,7 @@ class SettingsPage extends Component<PropsType, StateType> {
                 <Header hasBackButton hasMenuButton={false} title={<Locale stringKey="SETTING__TITLE"/>}/>
                 <Scroll>
                     <div className={settingsPageStyle.settings_page__part}>{view.renderSelectPlatform()}</div>
-                    <div className={settingsPageStyle.settings_page__part}>{view.renderVisibleFlawless()}</div>
+                    <div className={settingsPageStyle.settings_page__part}>{view.renderViewSettingList()}</div>
                     <div className={settingsPageStyle.settings_page__part}>{view.renderReportABug()}</div>
                 </Scroll>
             </Page>

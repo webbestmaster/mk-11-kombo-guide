@@ -6,11 +6,11 @@ import {settingConst} from '../../setting-const';
 
 // eslint-disable-next-line id-match
 export const localStorageComboViewTypeKey = PROJECT_ID + '-combo-view-type';
-export type ComboViewType = 'standard' | 'compact';
+export type ComboViewType = 'likeInGame' | 'moreInfo';
 
 export const comboViewTypeMap: {+[key: ComboViewType]: ComboViewType} = {
-    standard: 'standard',
-    compact: 'compact',
+    likeInGame: 'likeInGame',
+    moreInfo: 'moreInfo',
 };
 
 export type SetComboViewTypeType = {|

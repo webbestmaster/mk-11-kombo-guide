@@ -11,15 +11,15 @@ import {localStorageComboViewTypeKey, comboViewTypeMap} from './action';
 function getDefaultComboViewType(): ComboViewType {
     const savedComboViewType = localStorage.getItem(localStorageComboViewTypeKey);
 
-    const {standard, compact} = comboViewTypeMap;
+    const {moreInfo, likeInGame} = comboViewTypeMap;
 
     switch (savedComboViewType) {
-        case standard:
-            return standard;
-        case compact:
-            return compact;
+        case moreInfo:
+            return moreInfo;
+        case likeInGame:
+            return likeInGame;
         default:
-            return standard;
+            return likeInGame;
     }
 }
 
