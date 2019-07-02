@@ -88,6 +88,7 @@ export type LangDataType = {|
     +SETTING__INPUT_DATA_ITEM_TYPE: string,
     +SETTING__INPUT_DATA_ITEM_TYPE__LIKE_IN_GAME: string,
     +SETTING__INPUT_DATA_ITEM_TYPE__MORE_INFO: string,
+    +SETTING__OTHER: string,
 
     // additional info
     +ADDITIONAL_INFO__PROPERTIES: string,

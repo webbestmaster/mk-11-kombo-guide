@@ -88,6 +88,7 @@ export const enUs: LangDataType = {
     SETTING__INPUT_DATA_ITEM_TYPE: 'Input data item type',
     SETTING__INPUT_DATA_ITEM_TYPE__LIKE_IN_GAME: 'Like in game',
     SETTING__INPUT_DATA_ITEM_TYPE__MORE_INFO: 'More info',
+    SETTING__OTHER: 'Other',
 
     // additional info
     ADDITIONAL_INFO__PROPERTIES: 'Properties',
