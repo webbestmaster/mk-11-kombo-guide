@@ -238,14 +238,14 @@ class SettingsPage extends Component<PropsType, StateType> {
         );
     }
 
-    renderReportABug(): [Node, Node] {
+    renderReportABug(): Node {
         const view = this;
 
-        return [
-            <h3 className={settingsPageStyle.settings_page__part_header} key="header">
-                <Locale stringKey="SETTING__REPORT_A_BUG"/>
-            </h3>,
-            <Fragment key="content">
+        return (
+            <>
+                <h3 className={settingsPageStyle.settings_page__part_header}>
+                    <Locale stringKey="SETTING__REPORT_A_BUG"/>
+                </h3>
                 <a
                     className={settingsPageStyle.settings_page__external_link}
                     href={appConst.bugReport.form.url}
@@ -254,8 +254,8 @@ class SettingsPage extends Component<PropsType, StateType> {
                 >
                     <Locale stringKey="SETTING__REPORT_A_BUG"/>
                 </a>
-            </Fragment>,
-        ];
+            </>
+        );
     }
 
     render(): Node {
