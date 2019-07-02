@@ -22,7 +22,7 @@ export class ComboList extends Component<PropsType, StateType> {
     static renderComboItem(combo: ComboType, index: number): Node {
         return (
             <li className={comboListStyle.list_item} key={index}>
-                <ComboListItem combo={combo}/>
+                <ComboListItem combo={combo} isShowFrameData={false}/>
             </li>
         );
     }

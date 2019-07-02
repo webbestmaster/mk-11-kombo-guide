@@ -34,6 +34,7 @@ const reduxAction: ReduxActionType = {
 
 type PassedPropsType = {|
     +combo: ComboType,
+    +isShowFrameData: boolean,
 |};
 
 type PropsType = {
@@ -53,7 +54,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         const view = this;
 
         view.state = {
-            isShowFrameData: false,
+            isShowFrameData: props.isShowFrameData,
         };
     }
 

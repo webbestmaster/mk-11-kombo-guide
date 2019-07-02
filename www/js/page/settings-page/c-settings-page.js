@@ -16,6 +16,9 @@ import {inputMoveMap} from '../../move-type/combo-input-type';
 import {Move} from '../../component/combo-list/combo-list-item/move/c-move';
 import {appConst} from '../../const';
 import {InputCheckbox} from '../../component/ui/input/checkbox/c-input-checkbox';
+import {FormPart} from '../../component/ui/form-part/c-form-part';
+import {frost} from '../../character-data/character/frost/data';
+import {ComboListItem} from '../../component/combo-list/combo-list-item/c-combo-list-item';
 
 import {comboViewTypeMap, setComboViewType} from './redux/combo-view-type/action';
 import {frameDataViewTypeMap, setFrameDataViewType} from './redux/frame-data-view-type/action';
@@ -182,58 +185,66 @@ class SettingsPage extends Component<PropsType, StateType> {
                 <h3 className={settingsPageStyle.settings_page__part_header}>
                     <Locale stringKey="SETTING__VIEW_SETTING__HEADER"/>
                 </h3>
-                <h4 className={settingsPageStyle.settings_page__part_sub_header}>
-                    <Locale stringKey="SETTING__FRAME_DATA_TABLE_TYPE"/>
-                </h4>
-                <InputRadio
-                    isDefaultChecked={comboViewType === comboViewTypeMap.moreInfo}
-                    key={comboViewTypeMap.moreInfo}
-                    name="comboViewType"
-                    onSelect={view.handleSelectComboViewType}
-                    value={comboViewTypeMap.moreInfo}
-                >
-                    {comboViewTypeMap.moreInfo}
-                </InputRadio>
-                <InputRadio
-                    isDefaultChecked={comboViewType === comboViewTypeMap.likeInGame}
-                    key={comboViewTypeMap.likeInGame}
-                    name="comboViewType"
-                    onSelect={view.handleSelectComboViewType}
-                    value={comboViewTypeMap.likeInGame}
-                >
-                    {comboViewTypeMap.likeInGame}
-                </InputRadio>
-                <h4 className={settingsPageStyle.settings_page__part_sub_header}>
-                    <Locale stringKey="SETTING__FRAME_DATA_TABLE_TYPE"/>
-                </h4>
-                <InputRadio
-                    isDefaultChecked={frameDataViewType === frameDataViewTypeMap.compact}
-                    key={frameDataViewTypeMap.compact}
-                    name="frameDataViewType"
-                    onSelect={view.handleSelectFrameDataViewType}
-                    value={frameDataViewTypeMap.compact}
-                >
-                    {frameDataViewTypeMap.compact}
-                </InputRadio>
-                <InputRadio
-                    isDefaultChecked={frameDataViewType === frameDataViewTypeMap.likeInGame}
-                    key={frameDataViewTypeMap.likeInGame}
-                    name="frameDataViewType"
-                    onSelect={view.handleSelectFrameDataViewType}
-                    value={frameDataViewTypeMap.likeInGame}
-                >
-                    {frameDataViewTypeMap.likeInGame}
-                </InputRadio>
-                <h4 className={settingsPageStyle.settings_page__part_sub_header}>
-                    <Locale stringKey="SETTING__OTHER"/>
-                </h4>
-                <InputCheckbox
-                    isDefaultChecked={setting.isShowFlawlessData}
-                    name="show-flawless-frame-data"
-                    onChange={view.handleVisibleFlawless}
-                >
-                    <Locale stringKey="SETTING__SHOW_FLAWLESS_FRAME_DATA"/>
-                </InputCheckbox>
+                <FormPart headerLangKey="SETTING__FRAME_DATA_TABLE_TYPE">
+                    <InputRadio
+                        isDefaultChecked={comboViewType === comboViewTypeMap.moreInfo}
+                        key={comboViewTypeMap.moreInfo}
+                        name="comboViewType"
+                        onSelect={view.handleSelectComboViewType}
+                        value={comboViewTypeMap.moreInfo}
+                    >
+                        <Locale stringKey="SETTING__INPUT_DATA_ITEM_TYPE__MORE_INFO"/>
+                    </InputRadio>
+                    <InputRadio
+                        isDefaultChecked={comboViewType === comboViewTypeMap.likeInGame}
+                        key={comboViewTypeMap.likeInGame}
+                        name="comboViewType"
+                        onSelect={view.handleSelectComboViewType}
+                        value={comboViewTypeMap.likeInGame}
+                    >
+                        <Locale stringKey="SETTING__INPUT_DATA_ITEM_TYPE__LIKE_IN_GAME"/>
+                    </InputRadio>
+                </FormPart>
+                <FormPart headerLangKey="SETTING__FRAME_DATA_TABLE_TYPE">
+                    <InputRadio
+                        isDefaultChecked={frameDataViewType === frameDataViewTypeMap.compact}
+                        key={frameDataViewTypeMap.compact}
+                        name="frameDataViewType"
+                        onSelect={view.handleSelectFrameDataViewType}
+                        value={frameDataViewTypeMap.compact}
+                    >
+                        <Locale stringKey="SETTING__FRAME_DATA_TABLE__COMPACT"/>
+                    </InputRadio>
+                    <InputRadio
+                        isDefaultChecked={frameDataViewType === frameDataViewTypeMap.likeInGame}
+                        key={frameDataViewTypeMap.likeInGame}
+                        name="frameDataViewType"
+                        onSelect={view.handleSelectFrameDataViewType}
+                        value={frameDataViewTypeMap.likeInGame}
+                    >
+                        <Locale stringKey="SETTING__FRAME_DATA_TABLE__LIKE_IN_GAME"/>
+                    </InputRadio>
+                </FormPart>
+                <FormPart headerLangKey="SETTING__OTHER">
+                    <InputCheckbox
+                        isDefaultChecked={setting.isShowFlawlessData}
+                        name="show-flawless-frame-data"
+                        onChange={view.handleVisibleFlawless}
+                    >
+                        <Locale stringKey="SETTING__SHOW_FLAWLESS_FRAME_DATA"/>
+                    </InputCheckbox>
+                </FormPart>
+            </>
+        );
+    }
+
+    renderResultView(): Node {
+        return (
+            <>
+                <h3 className={settingsPageStyle.settings_page__part_header__free}>
+                    <Locale stringKey="SETTING__SETTINGS_RESULT"/>
+                </h3>
+                <ComboListItem combo={frost.move.comboList[13]} isShowFrameData/>
             </>
         );
     }
@@ -267,6 +278,7 @@ class SettingsPage extends Component<PropsType, StateType> {
                 <Scroll>
                     <div className={settingsPageStyle.settings_page__part}>{view.renderSelectPlatform()}</div>
                     <div className={settingsPageStyle.settings_page__part}>{view.renderViewSettingList()}</div>
+                    {view.renderResultView()}
                     <div className={settingsPageStyle.settings_page__part}>{view.renderReportABug()}</div>
                 </Scroll>
             </Page>
