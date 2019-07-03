@@ -247,7 +247,7 @@ class FrameData extends Component<PropsType, StateType> {
         );
     }
 
-    renderTableWrapper(children: Node | Array<Node>): Node {
+    renderTableWrapper(children: Node): Node {
         const view = this;
         const {props} = view;
         const {combo, setting} = props;

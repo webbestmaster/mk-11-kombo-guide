@@ -15,6 +15,8 @@ import {forceResize} from '../../../lib/screen';
 import {isString} from '../../../lib/is';
 import type {SettingType} from '../../../page/settings-page/reducer';
 
+import {comboViewTypeMap} from '../../../page/settings-page/redux/combo-view-type/action';
+
 import comboListItemStyle from './combo-list-item.style.scss';
 import {Move} from './move/c-move';
 import {FrameData} from './frame-data/c-frame-data';
@@ -69,7 +71,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         return <Move input={inputType} key={index} platformName={setting.platformName}/>;
     };
 
-    renderComboTitle(): Node {
+    renderComboTitleLikeInGame(): Node {
         const view = this;
         const {props, state} = view;
         const {combo} = props;
@@ -81,7 +83,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         );
     }
 
-    renderMoveList(): Node {
+    renderMoveListLikeInGame(): Node {
         const view = this;
         const {props, state} = view;
         const {combo} = props;
@@ -97,7 +99,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         view.setState({isShowFrameData: !isShowFrameData}, forceResize);
     };
 
-    renderEquippedMark(): Node {
+    renderEquippedMarkLikeInGame(): Node {
         const view = this;
         const {props, state} = view;
         const {combo} = props;
@@ -106,14 +108,26 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         return isString(variation) ? <div className={comboListItemStyle.combo__equipped_mark}>*</div> : null;
     }
 
-    renderComboStandard(): Node {
+    renderComboLikeInGame(): Node {
         const view = this;
 
         return (
             <>
-                {view.renderEquippedMark()}
-                {view.renderComboTitle()}
-                {view.renderMoveList()}
+                {view.renderEquippedMarkLikeInGame()}
+                {view.renderComboTitleLikeInGame()}
+                {view.renderMoveListLikeInGame()}
+            </>
+        );
+    }
+
+    renderComboMoreInfo(): Node {
+        const view = this;
+
+        return (
+            <>
+                {view.renderEquippedMarkLikeInGame()}
+                {view.renderComboTitleLikeInGame()}
+                {view.renderMoveListLikeInGame()}
             </>
         );
     }
@@ -131,7 +145,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         return [<FrameData combo={combo} key="frame-data"/>, <AdditionalInfo combo={combo} key="additional-info"/>];
     }
 
-    render(): Node {
+    renderWrapper(children: Node): Node {
         const view = this;
         const {props} = view;
         const {combo} = props;
@@ -150,11 +164,27 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
                     role="button"
                     tabIndex="0"
                 >
-                    {view.renderComboStandard()}
+                    {children}
                 </div>
                 {view.renderComboInfo()}
             </>
         );
+    }
+
+    render(): Node {
+        const view = this;
+        const {props} = view;
+        const {setting} = props;
+
+        if (setting.comboViewType === comboViewTypeMap.moreInfo) {
+            return view.renderWrapper(view.renderComboMoreInfo());
+        }
+
+        if (setting.comboViewType === comboViewTypeMap.likeInGame) {
+            return view.renderWrapper(view.renderComboLikeInGame());
+        }
+
+        throw new Error('can not detect comboViewType');
     }
 }
 
