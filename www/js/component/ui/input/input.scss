@@ -7,7 +7,8 @@ $input-inner-point-margin: 3px;
     clear: both;
     cursor: pointer;
     display: block;
-    padding-bottom: $input-point-size / 2;
+    padding-bottom: $input-point-size / 4;
+    padding-top: $input-point-size / 4;
     vertical-align: top;
 
     &:after {
@@ -30,7 +31,6 @@ $input-inner-point-margin: 3px;
     display: block;
     float: left;
     position: relative;
-    top: -1px;
 
     &:before,
     &:after {
@@ -38,9 +38,7 @@ $input-inner-point-margin: 3px;
         box-sizing: border-box;
         content: '';
         height: $input-point-size;
-        left: 0;
         position: absolute;
-        top: 0;
         width: $input-point-size;
     }
 
@@ -68,4 +66,5 @@ $input-inner-point-margin: 3px;
     display: block;
     font-size: 16px;
     margin-left: 28px;
+    padding-top: 1px;
 }
