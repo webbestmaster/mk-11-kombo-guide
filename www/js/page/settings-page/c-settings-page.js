@@ -162,7 +162,7 @@ class SettingsPage extends Component<PropsType, StateType> {
                         <InputRadio
                             isDefaultChecked={currentPlatform === platformName}
                             key={platformName}
-                            name="platformName"
+                            name="platform-name"
                             onSelect={view.handleSelectPlatform}
                             value={platformName}
                         >
@@ -185,11 +185,11 @@ class SettingsPage extends Component<PropsType, StateType> {
                 <h3 className={settingsPageStyle.settings_page__part_header}>
                     <Locale stringKey="SETTING__VIEW_SETTING__HEADER"/>
                 </h3>
-                <FormPart headerLangKey="SETTING__FRAME_DATA_TABLE_TYPE">
+                <FormPart headerLangKey="SETTING__INPUT_DATA_ITEM_TYPE">
                     <InputRadio
                         isDefaultChecked={comboViewType === comboViewTypeMap.moreInfo}
                         key={comboViewTypeMap.moreInfo}
-                        name="comboViewType"
+                        name="combo-view-type"
                         onSelect={view.handleSelectComboViewType}
                         value={comboViewTypeMap.moreInfo}
                     >
@@ -198,7 +198,7 @@ class SettingsPage extends Component<PropsType, StateType> {
                     <InputRadio
                         isDefaultChecked={comboViewType === comboViewTypeMap.likeInGame}
                         key={comboViewTypeMap.likeInGame}
-                        name="comboViewType"
+                        name="combo-view-type"
                         onSelect={view.handleSelectComboViewType}
                         value={comboViewTypeMap.likeInGame}
                     >
@@ -209,7 +209,7 @@ class SettingsPage extends Component<PropsType, StateType> {
                     <InputRadio
                         isDefaultChecked={frameDataViewType === frameDataViewTypeMap.compact}
                         key={frameDataViewTypeMap.compact}
-                        name="frameDataViewType"
+                        name="frame-data-view-type"
                         onSelect={view.handleSelectFrameDataViewType}
                         value={frameDataViewTypeMap.compact}
                     >
@@ -218,7 +218,7 @@ class SettingsPage extends Component<PropsType, StateType> {
                     <InputRadio
                         isDefaultChecked={frameDataViewType === frameDataViewTypeMap.likeInGame}
                         key={frameDataViewTypeMap.likeInGame}
-                        name="frameDataViewType"
+                        name="frame-data-view-type"
                         onSelect={view.handleSelectFrameDataViewType}
                         value={frameDataViewTypeMap.likeInGame}
                     >
