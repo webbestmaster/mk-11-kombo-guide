@@ -179,6 +179,7 @@ class SettingsPage extends Component<PropsType, StateType> {
         const {props, state} = view;
         const {setting} = props;
         const {comboViewType, frameDataViewType} = setting;
+        const isFrameDataLikeInGame = frameDataViewType === frameDataViewTypeMap.likeInGame;
 
         return (
             <>
@@ -227,7 +228,9 @@ class SettingsPage extends Component<PropsType, StateType> {
                 </FormPart>
                 <FormPart headerLangKey="SETTING__OTHER">
                     <InputCheckbox
-                        isDefaultChecked={setting.isShowFlawlessData}
+                        isDefaultChecked={setting.isShowFlawlessData || isFrameDataLikeInGame}
+                        isDisabled={isFrameDataLikeInGame}
+                        key={String(isFrameDataLikeInGame)}
                         name="show-flawless-frame-data"
                         onChange={view.handleVisibleFlawless}
                     >

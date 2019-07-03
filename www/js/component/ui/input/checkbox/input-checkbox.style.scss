@@ -4,6 +4,10 @@
     @extend %input-label;
 }
 
+.input_checkbox__label__disabled {
+    @extend %input-label-disabled;
+}
+
 .input_checkbox__input_state {
     @extend %input-state;
 }

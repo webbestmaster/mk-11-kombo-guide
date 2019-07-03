@@ -4,6 +4,7 @@
 
 import type {Node} from 'react';
 import React, {Component} from 'react';
+import classNames from 'classnames';
 
 import inputCheckboxStyle from './input-checkbox.style.scss';
 
@@ -12,6 +13,7 @@ type PassedPropsType = {|
     +children: Node | Array<Node>,
     +isDefaultChecked: boolean,
     +onChange: (isChecked: boolean) => mixed,
+    +isDisabled?: boolean,
 |};
 
 type PropsType = PassedPropsType;
@@ -48,10 +50,14 @@ export class InputCheckbox extends Component<PropsType, StateType> {
         const view = this;
         const {state, props} = view;
         const {isChecked} = state;
-        const {children, name} = props;
+        const {children, name, isDisabled} = props;
+
+        const labelClassName = classNames(inputCheckboxStyle.input_checkbox__label, {
+            [inputCheckboxStyle.input_checkbox__label__disabled]: isDisabled === true,
+        });
 
         return (
-            <label className={inputCheckboxStyle.input_checkbox__label}>
+            <label className={labelClassName}>
                 <input
                     className={inputCheckboxStyle.input_checkbox__native_input}
                     defaultChecked={isChecked}

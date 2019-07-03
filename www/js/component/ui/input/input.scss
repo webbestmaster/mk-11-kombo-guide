@@ -17,6 +17,13 @@ $input-inner-point-margin: 3px;
     }
 }
 
+%input-label-disabled {
+    @extend %input-label;
+
+    opacity: 0.5;
+    pointer-events: none;
+}
+
 %input-state {
     box-sizing: border-box;
     cursor: pointer;
