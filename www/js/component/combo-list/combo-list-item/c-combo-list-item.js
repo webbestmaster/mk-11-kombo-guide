@@ -106,11 +106,35 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         return isString(variation) ? <div className={comboListItemStyle.combo__equipped_mark}>*</div> : null;
     }
 
-    render(): Node {
+    renderComboStandard(): Node {
+        const view = this;
+
+        return (
+            <>
+                {view.renderEquippedMark()}
+                {view.renderComboTitle()}
+                {view.renderMoveList()}
+            </>
+        );
+    }
+
+    renderComboInfo(): [Node, Node] | null {
         const view = this;
         const {props, state} = view;
         const {combo} = props;
         const {isShowFrameData} = state;
+
+        if (!isShowFrameData) {
+            return null;
+        }
+
+        return [<FrameData combo={combo} key="frame-data"/>, <AdditionalInfo combo={combo} key="additional-info"/>];
+    }
+
+    render(): Node {
+        const view = this;
+        const {props} = view;
+        const {combo} = props;
         const {deepLevel} = combo;
 
         const wrapperClassName = classNames(comboListItemStyle.combo_wrapper, {
@@ -126,12 +150,9 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
                     role="button"
                     tabIndex="0"
                 >
-                    {view.renderEquippedMark()}
-                    {view.renderComboTitle()}
-                    {view.renderMoveList()}
+                    {view.renderComboStandard()}
                 </div>
-                {isShowFrameData ? <FrameData combo={combo}/> : null}
-                {isShowFrameData ? <AdditionalInfo combo={combo}/> : null}
+                {view.renderComboInfo()}
             </>
         );
     }
