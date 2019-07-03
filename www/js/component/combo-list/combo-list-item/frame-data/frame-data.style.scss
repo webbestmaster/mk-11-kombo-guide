@@ -5,18 +5,29 @@
     padding: 3px $main-side-padding 0;
 }
 
-.frame_data__table {
+%frame-data-table {
     border: 1px solid $top-header-text-color;
     box-sizing: border-box;
     margin-bottom: 10px;
-    max-width: 450px;
     width: 100%;
 }
 
-.frame_data__table,
+%frame-data-table,
 .frame_data__table_body,
 .frame_data__table_tr {
     outline: none;
+}
+
+.frame_data__table__compact {
+    @extend %frame-data-table;
+
+    max-width: 450px;
+}
+
+.frame_data__table__like_in_game {
+    @extend %frame-data-table;
+
+    max-width: 650px;
 }
 
 %frame-data-table-cell {
