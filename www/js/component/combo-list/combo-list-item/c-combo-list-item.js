@@ -14,8 +14,9 @@ import serviceStyle from '../../../../css/service.scss';
 import {forceResize} from '../../../lib/screen';
 import {isString} from '../../../lib/is';
 import type {SettingType} from '../../../page/settings-page/reducer';
-
 import {comboViewTypeMap} from '../../../page/settings-page/redux/combo-view-type/action';
+import {Locale} from '../../locale/c-locale';
+import {moveTypeTranslationMap} from '../../../move-type/move-type';
 
 import comboListItemStyle from './combo-list-item.style.scss';
 import {Move} from './move/c-move';
@@ -71,7 +72,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         return <Move input={inputType} key={index} platformName={setting.platformName}/>;
     };
 
-    renderComboTitleLikeInGame(): Node {
+    renderComboTitle(): Node {
         const view = this;
         const {props, state} = view;
         const {combo} = props;
@@ -83,7 +84,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         );
     }
 
-    renderMoveListLikeInGame(): Node {
+    renderMoveList(): Node {
         const view = this;
         const {props, state} = view;
         const {combo} = props;
@@ -99,7 +100,7 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
         view.setState({isShowFrameData: !isShowFrameData}, forceResize);
     };
 
-    renderEquippedMarkLikeInGame(): Node {
+    renderEquippedMark(): Node {
         const view = this;
         const {props, state} = view;
         const {combo} = props;
@@ -113,21 +114,35 @@ class ComboListItem extends Component<ReduxPropsType, PassedPropsType, StateType
 
         return (
             <>
-                {view.renderEquippedMarkLikeInGame()}
-                {view.renderComboTitleLikeInGame()}
-                {view.renderMoveListLikeInGame()}
+                {view.renderEquippedMark()}
+                {view.renderComboTitle()}
+                {view.renderMoveList()}
             </>
         );
     }
 
     renderComboMoreInfo(): Node {
         const view = this;
+        const {props, state} = view;
+        const {combo} = props;
+        const {frameData, moveData} = combo;
+        const {startUp, blockAdvance} = frameData;
 
         return (
             <>
-                {view.renderEquippedMarkLikeInGame()}
-                {view.renderComboTitleLikeInGame()}
-                {view.renderMoveListLikeInGame()}
+                {view.renderEquippedMark()}
+                <div className={comboListItemStyle.combo_move_more_info_inner_container}>
+                    {view.renderMoveList()}
+                    {view.renderComboTitle()}
+                </div>
+                <div className={comboListItemStyle.combo_move_more_info_inner_container}>
+                    <p className={comboListItemStyle.combo_move_more_info__shot_frame_data}>
+                        {startUp}&nbsp;&nbsp;{blockAdvance}
+                    </p>
+                    <p className={comboListItemStyle.combo_move_more_info__move_type}>
+                        <Locale stringKey={moveTypeTranslationMap[moveData.type]}/>
+                    </p>
+                </div>
             </>
         );
     }

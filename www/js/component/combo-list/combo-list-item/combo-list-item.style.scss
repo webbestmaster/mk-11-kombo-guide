@@ -20,9 +20,7 @@
 .combo_name {
     font-size: 18px;
     overflow: hidden;
-    padding-bottom: 7px;
-    padding-right: 8px;
-    padding-top: 8px;
+    padding: 8px 8px 7px 0;
 }
 
 .combo_wrapper__sub_combo {
@@ -36,6 +34,29 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.combo_move_more_info_inner_container {
+    .combo_move_wrapper {
+        justify-content: start;
+        padding-top: 7px;
+    }
+
+    .combo_name {
+        font-size: 12px;
+        padding: 6px 5px 6px 0;
+    }
+}
+
+.combo_move_more_info__shot_frame_data {
+    font-size: 16px;
+    padding-bottom: 3px;
+    text-align: right;
+}
+
+.combo_move_more_info__move_type {
+    font-size: 14px;
+    text-align: right;
 }
 
 .combo__equipped_mark {
