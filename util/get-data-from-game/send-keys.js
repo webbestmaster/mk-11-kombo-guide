@@ -2,7 +2,9 @@
 
 import keySender from 'node-key-sender';
 
-keySender.setOption('globalDelayPressMillisec', 1000);
+const globalDelayPressMillisec = 100;
+
+keySender.setOption('globalDelayPressMillisec', globalDelayPressMillisec);
 
 export function sendKeys(keys: string | Array<string>): Promise<mixed> {
     if (Array.isArray(keys)) {
@@ -15,5 +17,3 @@ export function sendKeys(keys: string | Array<string>): Promise<mixed> {
 
     return keySender.sendText(keys);
 }
-
-sendKeys(['1', '2', '3', '4']);

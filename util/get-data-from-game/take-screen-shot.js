@@ -2,8 +2,12 @@
 
 import screenShot from 'screenshot-desktop';
 
-export async function takeScreenShot(filePath: string) {
-    await screenShot({format: 'png', filename: `${filePath}.png`});
-}
+import {waitTime} from '../wait';
 
-takeScreenShot('test1');
+const screenShotTimeOut = 100;
+
+export async function takeScreenShot(filePath: string) {
+    await waitTime(screenShotTimeOut);
+    await screenShot({format: 'png', filename: `${filePath}.png`});
+    await waitTime(screenShotTimeOut);
+}
