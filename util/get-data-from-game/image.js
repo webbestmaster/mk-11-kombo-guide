@@ -3,11 +3,6 @@
 import getPixelsFromNpm from 'get-pixels';
 import type {ImageDataType} from 'get-pixels';
 
-export type CoordinatesType = {|
-    +x: number,
-    +y: number,
-|};
-
 export type PixelType = {|
     +x: number,
     +y: number,
@@ -70,10 +65,64 @@ function makePixelArray(fullImageDataType: FullImageDataType): Array<PixelType> 
     return result;
 }
 
-/*
-export async function getSubImageCoordinates(pathToBigImage: string, pathToSmallImage: string): CoordinatesType | null {
+function getPixelByCoordinates(fullImageDataType: FullImageDataType, x: number, y: number): PixelType | null {
+    return fullImageDataType.pixelList.find((pixel: PixelType): boolean => pixel.x === x && pixel.y === y) || null;
+}
+
+function getPixelList(
+    fullImageDataType: FullImageDataType,
+    x: number,
+    y: number,
+    width: number,
+    height: number
+): Array<PixelType> {
+    const bottom = height + y;
+    const right = width + x;
+
+    return fullImageDataType.pixelList
+        .filter((pixelData: PixelType): boolean => {
+            return pixelData.x >= x && pixelData.y >= y && pixelData.x < right && pixelData.y < bottom;
+        })
+        .map((pixelData: PixelType): PixelType => {
+            return {
+                x: pixelData.x - x,
+                y: pixelData.y - y,
+                red: pixelData.red,
+                green: pixelData.green,
+                blue: pixelData.blue,
+                alpha: pixelData.alpha,
+            };
+        });
+}
+
+export async function getSubImageCoordinates(
+    pathToBigImage: string,
+    pathToSmallImage: string
+): Promise<Array<PixelType>> {
     const bigImageData = await getImageData(pathToBigImage);
     const smallImageData = await getImageData(pathToSmallImage);
+    const smallImagePixelListString = JSON.stringify(smallImageData.pixelList);
 
+    const startPixelList: Array<PixelType> = [];
+
+    bigImageData.pixelList.forEach((pixelData: PixelType) => {
+        const pixelList = getPixelList(
+            bigImageData,
+            pixelData.x,
+            pixelData.y,
+            smallImageData.width,
+            smallImageData.height
+        );
+
+        if (JSON.stringify(pixelList) === smallImagePixelListString) {
+            startPixelList.push(pixelData);
+        }
+    });
+
+    return startPixelList;
 }
-*/
+
+// getImageData('./_res/screenshot/1.png').then(console.log)
+// getImageData('./_res/small-image.png');
+
+getSubImageCoordinates('./_res/screenshot/1.png', './_res/small-very-image.png').then(console.log);
