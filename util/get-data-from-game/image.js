@@ -10,6 +10,11 @@ export type PixelType = {|
     +green: number,
     +blue: number,
     +alpha: number,
+    +hash: {|
+        +full: string,
+        +rgb: string,
+        +rgba: string,
+    |},
 |};
 
 type FullImageDataType = {|
@@ -35,7 +40,7 @@ export function getImageData(pathToImage: string): Promise<FullImageDataType> {
 
                 resolve({numberList, width, height, pixelList});
 
-                console.log(`---> getImageData: ${pathToImage} has bean done`);
+                console.log('---> getImageData:', pathToImage, 'has bean done');
 
                 return;
             }
@@ -54,19 +59,37 @@ function makePixelArray(fullImageDataType: FullImageDataType): Array<PixelType> 
 
     let startIndex: number = 0;
 
+    let red: number = 0;
+
+    let green: number = 0;
+
+    let blue: number = 0;
+
+    let alpha: number = 0;
+
     // eslint-disable-next-line no-loops/no-loops
-    for (let heightIndex = 0; heightIndex < height; heightIndex += 1) {
+    for (let y: number = 0; y < height; y += 1) {
         // eslint-disable-next-line no-loops/no-loops
-        for (let widthIndex = 0; widthIndex < width; widthIndex += 1) {
-            startIndex = (heightIndex * width + widthIndex) * 4;
+        for (let x: number = 0; x < width; x += 1) {
+            startIndex = (y * width + x) * 4;
+
+            red = numberList[startIndex];
+            green = numberList[startIndex + 1];
+            blue = numberList[startIndex + 2];
+            alpha = numberList[startIndex + 3];
 
             result.push({
-                x: widthIndex,
-                y: heightIndex,
-                red: numberList[startIndex],
-                green: numberList[startIndex + 1],
-                blue: numberList[startIndex + 2],
-                alpha: numberList[startIndex + 3],
+                x,
+                y,
+                red,
+                green,
+                blue,
+                alpha,
+                hash: {
+                    full: [x, y, red, green, blue, alpha].join('_'),
+                    rgb: [red, green, blue].join('_'),
+                    rgba: [red, green, blue, alpha].join('_'),
+                },
             });
         }
     }
@@ -93,22 +116,13 @@ function getPixelsRectangle(
     });
 }
 
-function isPixelsEquals(pixelA: PixelType, pixelB: PixelType): boolean {
-    return (
-        pixelA.red === pixelB.red
-        && pixelA.green === pixelB.green
-        && pixelA.blue === pixelB.blue
-        && pixelA.alpha === pixelB.alpha
-    );
-}
-
 function isPixelRectangleEquals(pixelsRectangleA: Array<PixelType>, pixelsRectangleB: Array<PixelType>): boolean {
     if (pixelsRectangleA.length !== pixelsRectangleB.length) {
         return false;
     }
 
     return pixelsRectangleA.every((pixelA: PixelType, index: number): boolean => {
-        return isPixelsEquals(pixelA, pixelsRectangleB[index]);
+        return pixelA.hash.rgba === pixelsRectangleB[index].hash.rgba;
     });
 }
 
@@ -122,19 +136,27 @@ export async function getSubImageCoordinates(
     const bigImagePixelListLength = bigImageData.pixelList.length;
 
     return bigImageData.pixelList.filter((pixelData: PixelType, index: number): boolean => {
+        if (index % 20 === 0) {
+            console.log(
+                '---> getSubImageCoordinates:',
+                index,
+                '/',
+                bigImagePixelListLength,
+                '-',
+                (index / bigImagePixelListLength * 100).toFixed(4) + '%'
+            );
+        }
+
+        if (pixelData.hash.rgba !== smallImagePixelList[0].hash.rgba) {
+            return false;
+        }
+
         const pixelsRectangle = getPixelsRectangle(
             bigImageData,
             pixelData.x,
             pixelData.y,
             smallImageData.width,
             smallImageData.height
-        );
-
-        console.log(
-            `---> getSubImageCoordinates: ${index} / ${bigImagePixelListLength} - ${(
-                index / bigImagePixelListLength
-                * 100
-            ).toFixed(4)}%`
         );
 
         return isPixelRectangleEquals(pixelsRectangle, smallImagePixelList);
@@ -144,4 +166,4 @@ export async function getSubImageCoordinates(
 // getImageData('./_res/screenshot/1.png').then(console.log)
 // getImageData('./_res/small-image.png');
 
-getSubImageCoordinates('./_res/screenshot/1.png', './_res/small-very-image.png'); // .then(console.log);
+getSubImageCoordinates('./_res/small-image.png', './_res/small-very-image.png'); // .then(console.log);
