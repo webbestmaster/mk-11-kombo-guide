@@ -48,14 +48,14 @@ const fileRegExp = /\.(png|jpg|jpeg|gif|svg|otf|ttf|woff2?)$/;
 
 const pathToDist = '/dist';
 
-const duplicateList = ['/@babel/runtime', 'warning', 'invariant', 'hoist-non-react-statics'];
+const duplicateList = ['regenerator-runtime', '/@babel/runtime', 'warning', 'invariant', 'hoist-non-react-statics'];
 
 const alias = duplicateList.reduce((accumulator, packageName) => {
     return {...accumulator, [packageName]: path.resolve(CWD, `node_modules/${packageName}`)};
 }, {});
 
 const webpackConfig = {
-    entry: ['swiper/dist/css/swiper.css', './www/css/root.scss', './www/js/root.js'],
+    entry: ['babel-polyfill', 'whatwg-fetch', 'swiper/dist/css/swiper.css', './www/css/root.scss', './www/js/root.js'],
     output: {
         path: path.join(CWD, pathToDist),
         publicPath,
