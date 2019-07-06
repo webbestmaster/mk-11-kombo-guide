@@ -11,7 +11,12 @@ export const appConst = {
     },
     bugReport: {
         form: {
-            url: 'https://forms.gle/XvdL7cnPwMmQDs5P8',
+            character: {
+                url: 'https://forms.gle/XvdL7cnPwMmQDs5P8',
+            },
+            app: {
+                url: 'https://forms.gle/oBUgJqzZVueR5RzB8',
+            },
         },
     },
 };

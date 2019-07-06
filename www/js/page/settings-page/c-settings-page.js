@@ -248,6 +248,8 @@ class SettingsPage extends Component<PropsType, StateType> {
     }
 
     renderResultView(): Node {
+        const view = this;
+
         return (
             <>
                 <h3 className={settingsPageStyle.settings_page__part_header__free}>
@@ -268,11 +270,19 @@ class SettingsPage extends Component<PropsType, StateType> {
                 </h3>
                 <a
                     className={settingsPageStyle.settings_page__external_link}
-                    href={appConst.bugReport.form.url}
+                    href={appConst.bugReport.form.character.url}
                     rel="noopener noreferrer"
                     target="_blank"
                 >
-                    <Locale stringKey="SETTING__REPORT_A_BUG"/>
+                    <Locale stringKey="SETTING__REPORT_CHARACTER_BUG"/>
+                </a>
+                <a
+                    className={settingsPageStyle.settings_page__external_link}
+                    href={appConst.bugReport.form.app.url}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                >
+                    <Locale stringKey="SETTING__REPORT_APP_BUG"/>
                 </a>
             </>
         );
@@ -284,7 +294,7 @@ class SettingsPage extends Component<PropsType, StateType> {
         return (
             <Page className={settingsPageStyle.settings_page__wrapper}>
                 <Header hasBackButton hasMenuButton={false} title={<Locale stringKey="SETTING__TITLE"/>}/>
-                <Scroll>
+                <Scroll slideClassName={settingsPageStyle.page_scroll__slide}>
                     <div className={settingsPageStyle.settings_page__part}>{view.renderSelectPlatform()}</div>
                     <div className={settingsPageStyle.settings_page__part}>{view.renderViewSettingList()}</div>
                     {view.renderResultView()}
