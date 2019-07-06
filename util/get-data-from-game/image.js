@@ -17,7 +17,7 @@ export type PixelType = {|
     |},
 |};
 
-type FullImageDataType = {|
+export type FullImageDataType = {|
     +width: number,
     +height: number,
     +numberList: Array<number>,
