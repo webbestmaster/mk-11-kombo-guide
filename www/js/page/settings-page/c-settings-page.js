@@ -19,6 +19,7 @@ import {InputCheckbox} from '../../component/ui/input/checkbox/c-input-checkbox'
 import {FormPart} from '../../component/ui/form-part/c-form-part';
 import {frost} from '../../character-data/character/frost/data';
 import {ComboListItem} from '../../component/combo-list/combo-list-item/c-combo-list-item';
+import {forceResize} from '../../lib/screen';
 
 import {comboViewTypeMap, setComboViewType} from './redux/combo-view-type/action';
 import {frameDataViewTypeMap, setFrameDataViewType} from './redux/frame-data-view-type/action';
@@ -80,6 +81,11 @@ class SettingsPage extends Component<PropsType, StateType> {
     }
 
     state: StateType;
+
+    async componentDidUpdate() {
+        await forceResize();
+    }
+
     props: PropsType;
 
     handleSelectPlatform = (platformName: string) => {
