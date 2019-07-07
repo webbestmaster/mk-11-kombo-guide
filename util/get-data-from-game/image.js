@@ -3,6 +3,8 @@
 import getPixelsFromNpm from 'get-pixels';
 import type {ImageDataType} from 'get-pixels';
 
+import {hasProperty} from '../../www/js/lib/is';
+
 export type PixelType = {|
     +x: number,
     +y: number,
@@ -17,6 +19,13 @@ export type PixelType = {|
     |},
 |};
 
+export type RectangleType = {|
+    +x: number,
+    +y: number,
+    +width: number,
+    +height: number,
+|};
+
 export type FullImageDataType = {|
     +width: number,
     +height: number,
@@ -24,8 +33,14 @@ export type FullImageDataType = {|
     +pixelList: Array<PixelType>,
 |};
 
+const imageDataCache: {[key: string]: Promise<FullImageDataType>} = {};
+
 export function getImageData(pathToImage: string): Promise<FullImageDataType> {
-    return new Promise((resolve: (imageData: FullImageDataType) => mixed, reject: (error: Error) => mixed) => {
+    if (hasProperty(imageDataCache, pathToImage)) {
+        return imageDataCache[pathToImage];
+    }
+
+    const result = new Promise((resolve: (imageData: FullImageDataType) => mixed, reject: (error: Error) => mixed) => {
         getPixelsFromNpm(pathToImage, (mayBeError: Error | null, mayBeImageData: ImageDataType | void) => {
             if (mayBeError instanceof Error) {
                 reject(mayBeError);
@@ -48,6 +63,10 @@ export function getImageData(pathToImage: string): Promise<FullImageDataType> {
             reject(new Error('mayBeError or mayBeImageData should be defined!'));
         });
     });
+
+    imageDataCache[pathToImage] = result;
+
+    return result;
 }
 
 // getImageData('./_res/screenshot/1.png').then(console.log)
@@ -101,19 +120,30 @@ function getPixelByCoordinates(fullImageDataType: FullImageDataType, x: number, 
     return fullImageDataType.pixelList.find((pixel: PixelType): boolean => pixel.x === x && pixel.y === y) || null;
 }
 
-function getPixelsRectangle(
-    fullImageDataType: FullImageDataType,
-    x: number,
-    y: number,
-    width: number,
-    height: number
-): Array<PixelType> {
-    const bottom = height + y;
-    const right = width + x;
+function getPixelsRectangle(fullImageDataType: FullImageDataType, rectangle: RectangleType): Array<PixelType> {
+    console.log('getPixelsRectangle');
 
-    return fullImageDataType.pixelList.filter((pixelData: PixelType): boolean => {
-        return pixelData.x >= x && pixelData.y >= y && pixelData.x < right && pixelData.y < bottom;
-    });
+    return fullImageDataType.pixelList.filter((pixelData: PixelType): boolean => isInRectangle(pixelData, rectangle));
+}
+
+function isPixelEquals(pixelA: PixelType, pixelB: PixelType): boolean {
+    const delta = 10;
+
+    // console.log('isPixelEquals');
+
+    if (Math.abs(pixelA.red - pixelB.red) > delta) {
+        return false;
+    }
+
+    if (Math.abs(pixelA.green - pixelB.green) > delta) {
+        return false;
+    }
+
+    if (Math.abs(pixelA.blue - pixelB.blue) > delta) {
+        return false;
+    }
+
+    return true;
 }
 
 function isPixelRectangleEquals(pixelsRectangleA: Array<PixelType>, pixelsRectangleB: Array<PixelType>): boolean {
@@ -121,43 +151,72 @@ function isPixelRectangleEquals(pixelsRectangleA: Array<PixelType>, pixelsRectan
         return false;
     }
 
-    return pixelsRectangleA.every((pixelA: PixelType, index: number): boolean => {
-        return pixelA.hash.rgba === pixelsRectangleB[index].hash.rgba;
-    });
+    return pixelsRectangleA.every((pixelA: PixelType, index: number): boolean =>
+        isPixelEquals(pixelA, pixelsRectangleB[index])
+    );
+}
+
+function isInRectangle(coords: {+x: number, +y: number}, rectangle: RectangleType): boolean {
+    // console.log('isInRectangle');
+
+    if (coords.x < rectangle.x) {
+        return false;
+    }
+    if (coords.y < rectangle.y) {
+        return false;
+    }
+
+    if (coords.x >= rectangle.x + rectangle.width) {
+        return false;
+    }
+
+    if (coords.y >= rectangle.y + rectangle.height) {
+        return false;
+    }
+
+    return true;
 }
 
 export async function getSubImageCoordinates(
     pathToBigImage: string,
-    pathToSmallImage: string
+    pathToSmallImage: string,
+    limitSquare: RectangleType
 ): Promise<Array<PixelType>> {
     const bigImageData = await getImageData(pathToBigImage);
     const smallImageData = await getImageData(pathToSmallImage);
     const smallImagePixelList = smallImageData.pixelList;
-    const bigImagePixelListLength = bigImageData.pixelList.length;
+    const bigImagePixelListInRectangle = getPixelsRectangle(bigImageData, limitSquare);
 
-    return bigImageData.pixelList.filter((pixelData: PixelType, index: number): boolean => {
+    return bigImagePixelListInRectangle.filter((pixelData: PixelType, index: number): boolean => {
         if (index % 20 === 0) {
             console.log(
-                '---> getSubImageCoordinates:',
-                index,
-                '/',
-                bigImagePixelListLength,
-                '-',
-                (index / bigImagePixelListLength * 100).toFixed(4) + '%'
+                [
+                    '---> getSubImageCoordinates:',
+                    index,
+                    '/',
+                    bigImagePixelListInRectangle.length,
+                    '-',
+                    (index / bigImagePixelListInRectangle.length * 100).toFixed(4) + '%',
+                ].join(' ')
             );
         }
 
-        if (pixelData.hash.rgba !== smallImagePixelList[0].hash.rgba) {
+        if (!isPixelEquals(pixelData, smallImagePixelList[0])) {
             return false;
         }
 
-        const pixelsRectangle = getPixelsRectangle(
-            bigImageData,
-            pixelData.x,
-            pixelData.y,
-            smallImageData.width,
-            smallImageData.height
-        );
+        /*
+        console.log('!isInRectangle(pixelData, limitSquare)')
+        if (!isInRectangle(pixelData, limitSquare)) {
+            return false;
+        }
+*/
+        const pixelsRectangle = getPixelsRectangle(bigImageData, {
+            x: pixelData.x,
+            y: pixelData.y,
+            width: smallImageData.width,
+            height: smallImageData.height,
+        });
 
         return isPixelRectangleEquals(pixelsRectangle, smallImagePixelList);
     });
@@ -166,4 +225,4 @@ export async function getSubImageCoordinates(
 // getImageData('./_res/screenshot/1.png').then(console.log)
 // getImageData('./_res/small-image.png');
 
-getSubImageCoordinates('./_res/small-image.png', './_res/small-very-image.png'); // .then(console.log);
+// getSubImageCoordinates('./_res/small-image.png', './_res/small-very-image.png'); // .then(console.log);

@@ -2,12 +2,22 @@
 
 import type {ComboType} from '../../../www/js/move-type/combo-type';
 
+import type {FullImageDataType} from '../image';
+import {getImageData} from '../image';
+
+import {getMoveDataTab} from './get-move-data-tab/get-move-data-tab';
+
 export type ParsedScreenShotType = {|
     +combo: ComboType,
     +meta: {},
 |};
 
-export function parseScreenShot(pathToScreenShot: string): ComboType | null {
+export async function parseScreenShot(pathToScreenShot: string): Promise<ComboType | null> {
+    // const ScreenShotImageData = await getImageData(pathToScreenShot);
+    const tabName = await getMoveDataTab(pathToScreenShot);
+
+    console.log('tabName');
+    console.log(tabName);
     // 1 - get combo tab - basic, combo, special, finisher
 
     // 2 - get combo label (full combo line)
@@ -27,3 +37,5 @@ export function parseScreenShot(pathToScreenShot: string): ComboType | null {
 
     return null;
 }
+
+parseScreenShot('./_res/screenshot/8.png');
