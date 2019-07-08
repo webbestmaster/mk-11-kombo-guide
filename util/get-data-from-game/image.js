@@ -12,11 +12,6 @@ export type PixelType = {|
     +green: number,
     +blue: number,
     +alpha: number,
-    +hash: {|
-        +full: string,
-        +rgb: string,
-        +rgba: string,
-    |},
 |};
 
 export type RectangleType = {|
@@ -78,37 +73,19 @@ function makePixelArray(fullImageDataType: FullImageDataType): Array<PixelType> 
 
     let startIndex: number = 0;
 
-    let red: number = 0;
-
-    let green: number = 0;
-
-    let blue: number = 0;
-
-    let alpha: number = 0;
-
     // eslint-disable-next-line no-loops/no-loops
     for (let y: number = 0; y < height; y += 1) {
         // eslint-disable-next-line no-loops/no-loops
         for (let x: number = 0; x < width; x += 1) {
             startIndex = (y * width + x) * 4;
 
-            red = numberList[startIndex];
-            green = numberList[startIndex + 1];
-            blue = numberList[startIndex + 2];
-            alpha = numberList[startIndex + 3];
-
             result.push({
                 x,
                 y,
-                red,
-                green,
-                blue,
-                alpha,
-                hash: {
-                    full: [x, y, red, green, blue, alpha].join('_'),
-                    rgb: [red, green, blue].join('_'),
-                    rgba: [red, green, blue, alpha].join('_'),
-                },
+                red: numberList[startIndex],
+                green: numberList[startIndex + 1],
+                blue: numberList[startIndex + 2],
+                alpha: numberList[startIndex + 3],
             });
         }
     }
@@ -121,7 +98,7 @@ function getPixelByCoordinates(fullImageDataType: FullImageDataType, x: number, 
 }
 
 function getPixelsRectangle(fullImageDataType: FullImageDataType, rectangle: RectangleType): Array<PixelType> {
-    console.log('getPixelsRectangle');
+    console.log('getPixelsRectangle:', rectangle);
 
     return fullImageDataType.pixelList.filter((pixelData: PixelType): boolean => isInRectangle(pixelData, rectangle));
 }
