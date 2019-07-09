@@ -15,10 +15,12 @@ export type ParsedScreenShotType = {|
 
 export async function parseScreenShot(pathToScreenShot: string): Promise<ComboType | null> {
     const tabName = await getMoveDataTab(pathToScreenShot);
+
     console.log('tabName:', tabName);
     // 1 - get combo tab - basic, combo, special, finisher
 
     const comboLabelRectangle = await getComboLabelRectangle(pathToScreenShot);
+
     console.log('comboLabelRectangle', comboLabelRectangle);
 
     // 2 - get combo label (full combo line)

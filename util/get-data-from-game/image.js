@@ -161,7 +161,7 @@ export async function getSubImageCoordinates(
     const bigImagePixelListInRectangle = getPixelsRectangle(bigImageData, limitSquare);
 
     return bigImagePixelListInRectangle.filter((pixelData: PixelType, index: number): boolean => {
-/*
+        /*
         if (index % 10000 === 0) {
             console.log(
                 [
