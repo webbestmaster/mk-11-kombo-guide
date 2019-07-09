@@ -98,15 +98,11 @@ function getPixelByCoordinates(fullImageDataType: FullImageDataType, x: number, 
 }
 
 function getPixelsRectangle(fullImageDataType: FullImageDataType, rectangle: RectangleType): Array<PixelType> {
-    console.log('getPixelsRectangle:', rectangle);
-
     return fullImageDataType.pixelList.filter((pixelData: PixelType): boolean => isInRectangle(pixelData, rectangle));
 }
 
 function isPixelEquals(pixelA: PixelType, pixelB: PixelType): boolean {
-    const delta = 10;
-
-    // console.log('isPixelEquals');
+    const delta = 30;
 
     if (Math.abs(pixelA.red - pixelB.red) > delta) {
         return false;
@@ -165,7 +161,8 @@ export async function getSubImageCoordinates(
     const bigImagePixelListInRectangle = getPixelsRectangle(bigImageData, limitSquare);
 
     return bigImagePixelListInRectangle.filter((pixelData: PixelType, index: number): boolean => {
-        if (index % 20 === 0) {
+/*
+        if (index % 10000 === 0) {
             console.log(
                 [
                     '---> getSubImageCoordinates:',
@@ -177,6 +174,7 @@ export async function getSubImageCoordinates(
                 ].join(' ')
             );
         }
+*/
 
         if (!isPixelEquals(pixelData, smallImagePixelList[0])) {
             return false;

@@ -6,6 +6,7 @@ import type {FullImageDataType} from '../image';
 import {getImageData} from '../image';
 
 import {getMoveDataTab} from './get-move-data-tab/get-move-data-tab';
+import {getComboLabelRectangle} from './get-combo-label-rectangle/get-combo-label-rectangle';
 
 export type ParsedScreenShotType = {|
     +combo: ComboType,
@@ -13,12 +14,12 @@ export type ParsedScreenShotType = {|
 |};
 
 export async function parseScreenShot(pathToScreenShot: string): Promise<ComboType | null> {
-    // const ScreenShotImageData = await getImageData(pathToScreenShot);
     const tabName = await getMoveDataTab(pathToScreenShot);
-
-    console.log('tabName');
-    console.log(tabName);
+    console.log('tabName:', tabName);
     // 1 - get combo tab - basic, combo, special, finisher
+
+    const comboLabelRectangle = await getComboLabelRectangle(pathToScreenShot);
+    console.log('comboLabelRectangle', comboLabelRectangle);
 
     // 2 - get combo label (full combo line)
     // 2.1 - get combo name
@@ -38,4 +39,13 @@ export async function parseScreenShot(pathToScreenShot: string): Promise<ComboTy
     return null;
 }
 
-parseScreenShot('./_res/screenshot/8.png');
+(async () => {
+    await parseScreenShot('./_res/screenshot/1.png');
+    await parseScreenShot('./_res/screenshot/2.png');
+    await parseScreenShot('./_res/screenshot/3.png');
+    await parseScreenShot('./_res/screenshot/4.png'); // !!!
+    await parseScreenShot('./_res/screenshot/5.png'); // !!!
+    await parseScreenShot('./_res/screenshot/6.png');
+    await parseScreenShot('./_res/screenshot/7.png');
+    await parseScreenShot('./_res/screenshot/8.png');
+})();
