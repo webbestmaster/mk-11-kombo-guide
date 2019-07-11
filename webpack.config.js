@@ -5,7 +5,6 @@
 const path = require('path');
 
 const webpack = require('webpack');
-
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {BundleAnalyzerPlugin} = require('webpack-bundle-analyzer'); // eslint-disable-line no-unused-vars
 const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
@@ -276,7 +275,7 @@ const webpackConfig = {
                 ignore: ['www/**/*.scss.flow', 'www/**/*.css.flow', 'www/js/lib/**/*.*'],
             },
         }),
-        new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /en/),
+        // new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /en/),
     ],
 
     devServer: {
