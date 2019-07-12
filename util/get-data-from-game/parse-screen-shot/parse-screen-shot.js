@@ -8,6 +8,7 @@ import {getImageData} from '../image';
 import {getMoveDataTab} from './get-move-data-tab/get-move-data-tab';
 import {getComboLabelRectangle} from './get-combo-label-rectangle/get-combo-label-rectangle';
 import {getComboDeepLevel} from './get-combo-deep-level/get-combo-deep-level';
+import {getComboIsEquipped} from './get-combo-is-equipped/get-combo-is-equipped';
 
 export type ParsedScreenShotType = {|
     +combo: ComboType,
@@ -24,9 +25,13 @@ export async function parseScreenShot(pathToScreenShot: string): Promise<ComboTy
 
     console.log('comboLabelRectangle', comboLabelRectangle);
 
-    const deepLevel = await getComboDeepLevel(comboLabelRectangle);
+    const deepLevel = getComboDeepLevel(comboLabelRectangle);
 
     console.log('deepLevel', deepLevel);
+
+    const isEquipped = await getComboIsEquipped(pathToScreenShot, comboLabelRectangle);
+
+    console.log('isEquipped', isEquipped);
 
     // 2 - get combo label (full combo line)
     // 2.1 - get is combo or is sub combo, i. e. deepLevel
