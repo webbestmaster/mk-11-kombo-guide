@@ -1290,7 +1290,7 @@ export const erronBlack = {
             },
             {
                 name: 'Unload',
-                sequence: ['1'],
+                sequence: ['press repeatedly', '1'],
                 description: [],
                 deepLevel: 1,
                 variation: null,
