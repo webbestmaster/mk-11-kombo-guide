@@ -18,6 +18,7 @@ export type ParsedScreenShotType = {|
 export async function parseScreenShot(pathToScreenShot: string): Promise<ComboType | null> {
     const tabName = await getMoveDataTab(pathToScreenShot);
 
+    console.log('parseScreenShot -> pathToScreenShot:', pathToScreenShot);
     console.log('tabName:', tabName);
     // 1 - get combo tab - basic, combo, special, finisher
 
@@ -52,12 +53,12 @@ export async function parseScreenShot(pathToScreenShot: string): Promise<ComboTy
 }
 
 (async () => {
-    await parseScreenShot('./_res/screenshot/1.png');
-    await parseScreenShot('./_res/screenshot/2.png');
-    await parseScreenShot('./_res/screenshot/3.png');
+    // await parseScreenShot('./_res/screenshot/1.png');
+    // await parseScreenShot('./_res/screenshot/2.png');
+    // await parseScreenShot('./_res/screenshot/3.png');
     await parseScreenShot('./_res/screenshot/4.png'); // !!!
-    await parseScreenShot('./_res/screenshot/5.png'); // !!!
-    await parseScreenShot('./_res/screenshot/6.png');
-    await parseScreenShot('./_res/screenshot/7.png');
-    await parseScreenShot('./_res/screenshot/8.png');
+    // await parseScreenShot('./_res/screenshot/5.png'); // !!!
+    // await parseScreenShot('./_res/screenshot/6.png');
+    // await parseScreenShot('./_res/screenshot/7.png');
+    // await parseScreenShot('./_res/screenshot/8.png');
 })();

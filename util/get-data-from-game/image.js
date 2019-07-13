@@ -50,7 +50,7 @@ export function getImageData(pathToImage: string): Promise<FullImageDataType> {
 
                 resolve({numberList, width, height, pixelList});
 
-                console.log('---> getImageData:', pathToImage, 'has bean done');
+                // console.log('---> getImageData:', pathToImage, 'has bean done');
 
                 return;
             }

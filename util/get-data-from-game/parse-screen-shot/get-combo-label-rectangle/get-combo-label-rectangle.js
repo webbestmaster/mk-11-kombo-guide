@@ -24,13 +24,13 @@ export async function getComboLabelRectangle(pathToImage: string): Promise<Recta
     );
 
     if (leftPositionList.length === 0 || rightPositionList.length === 0) {
-        console.log('leftPositionList and rightPositionList');
+        console.warn('!!! WARNING: leftPositionList and rightPositionList are empty');
         console.log(leftPositionList, rightPositionList);
         throw new Error('leftPositionList.length and rightPositionList.length should be 1');
     }
 
     if (leftPositionList.length > 1 || rightPositionList.length > 1) {
-        console.warn('leftPositionList and rightPositionList');
+        console.warn('!!! WARNING: leftPositionList and rightPositionList too long, bigger than 1');
         console.log(leftPositionList, rightPositionList);
     }
 
