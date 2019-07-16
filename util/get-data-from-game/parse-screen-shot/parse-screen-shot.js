@@ -10,6 +10,7 @@ import {getComboLabelRectangle} from './get-combo-label-rectangle/get-combo-labe
 import {getComboDeepLevel} from './get-combo-deep-level/get-combo-deep-level';
 import {getComboIsEquipped} from './get-combo-is-equipped/get-combo-is-equipped';
 import {getComboInput} from './get-combo-input/get-combo-input';
+import {getPropertyNameList} from './get-property-name-list/get-property-name-list';
 
 export type ParsedScreenShotType = {|
     +combo: ComboType,
@@ -38,6 +39,10 @@ export async function parseScreenShot(pathToScreenShot: string): Promise<ComboTy
     const comboInputData = await getComboInput(pathToScreenShot, comboLabelRectangle);
 
     console.log('comboInputData', comboInputData);
+
+    const propertyList = await getPropertyNameList(pathToScreenShot);
+
+    console.log('propertyList', propertyList);
 
     // 2 - get combo label (full combo line)
     // 2.1 - get is combo or is sub combo, i. e. deepLevel
