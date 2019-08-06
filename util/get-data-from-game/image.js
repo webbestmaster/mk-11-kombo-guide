@@ -161,20 +161,18 @@ export async function getSubImageCoordinates(
     const bigImagePixelListInRectangle = getPixelsRectangle(bigImageData, limitSquare);
 
     return bigImagePixelListInRectangle.filter((pixelData: PixelType, index: number): boolean => {
-        /*
-        if (index % 10000 === 0) {
-            console.log(
-                [
-                    '---> getSubImageCoordinates:',
-                    index,
-                    '/',
-                    bigImagePixelListInRectangle.length,
-                    '-',
-                    (index / bigImagePixelListInRectangle.length * 100).toFixed(4) + '%',
-                ].join(' ')
-            );
-        }
-*/
+        // if (index % 10000 === 0) {
+        //     console.log(
+        //         [
+        //             '---> getSubImageCoordinates:',
+        //             index,
+        //             '/',
+        //             bigImagePixelListInRectangle.length,
+        //             '-',
+        //             (index / bigImagePixelListInRectangle.length * 100).toFixed(4) + '%',
+        //         ].join(' ')
+        //     );
+        // }
 
         if (!isPixelEquals(pixelData, smallImagePixelList[0])) {
             return false;

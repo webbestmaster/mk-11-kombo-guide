@@ -53,6 +53,27 @@ const alias = duplicateList.reduce((accumulator, packageName) => {
     return {...accumulator, [packageName]: path.resolve(CWD, `node_modules/${packageName}`)};
 }, {});
 
+const styleLoader = {
+    loader: 'style-loader',
+    options: {
+        // sourceMap: IS_DEVELOPMENT,
+        // singleton: true,
+        attributes: {
+            'class': 'my-css-module',
+        },
+    },
+};
+
+const postCssLoader = {
+    loader: 'postcss-loader',
+    options: {
+        sourceMap: true,
+        config: {
+            path: './postcss.config.js',
+        },
+    },
+};
+
 const webpackConfig = {
     entry: ['swiper/dist/css/swiper.css', './www/css/root.scss', './www/js/root.js'],
     output: {
@@ -120,26 +141,12 @@ const webpackConfig = {
         rules: [
             {
                 test: /\.js$/,
-                // exclude: /node_modules/,
-                // query-string: query-string|strict-uri-encode
-                // pixi-viewport: pixi-viewport|yy-[\w]+
-                exclude: /node_modules(?!([/\\])(query-string|strict-uri-encode|pixi-viewport|yy-\w+))/,
+                exclude: /node_modules/,
                 loader: 'babel-loader',
             },
             {
                 test: fileRegExp,
                 use: [
-                    {
-                        loader: 'base64-inline-loader',
-                        // - limit - The limit can be specified with a query parameter. (Defaults to no limit).
-                        // If the file is greater than the limit (in bytes) the file-loader is used and
-                        // all query parameters are passed to it.
-                        // - name - The name is a standard option.
-                        query: {
-                            limit: IS_PRODUCTION ? 1e3 : 1, // 1k bytes for production
-                            name: 'asset/[name]-[hash:6].[ext]',
-                        },
-                    },
                     {
                         loader: 'image-webpack-loader',
                         options: {
@@ -165,23 +172,23 @@ const webpackConfig = {
                             // }
                         },
                     },
+                    {
+                        loader: 'base64-inline-loader',
+                        // - limit - The limit can be specified with a query parameter. (Defaults to no limit).
+                        // If the file is greater than the limit (in bytes) the file-loader is used and
+                        // all query parameters are passed to it.
+                        // - name - The name is a standard option.
+                        query: {
+                            limit: IS_PRODUCTION ? 1e3 : 1, // 1k bytes for production
+                            name: 'asset/[name]-[md5:hash:hex:7].[ext]',
+                        },
+                    },
                 ],
             },
             {
                 test: /\.scss$/,
                 use: [
-                    IS_PRODUCTION
-                        ? MiniCssExtractPlugin.loader
-                        : {
-                            loader: 'style-loader',
-                            options: {
-                                sourceMap: IS_DEVELOPMENT,
-                                singleton: true,
-                                attrs: {
-                                    'class': 'my-scss-module',
-                                },
-                            },
-                        },
+                    IS_PRODUCTION ? MiniCssExtractPlugin.loader : styleLoader,
                     'css-modules-flow-types-loader',
                     {
                         loader: 'css-loader',
@@ -192,33 +199,14 @@ const webpackConfig = {
                             },
                         },
                     },
-                    {
-                        loader: 'postcss-loader',
-                        options: {
-                            sourceMap: true,
-                            config: {
-                                path: './postcss.config.js',
-                            },
-                        },
-                    },
+                    postCssLoader,
                     {loader: 'sass-loader', options: {sourceMap: IS_DEVELOPMENT}},
                 ],
             },
             {
                 test: /\.css$/,
                 use: [
-                    IS_PRODUCTION
-                        ? MiniCssExtractPlugin.loader
-                        : {
-                            loader: 'style-loader',
-                            options: {
-                                sourceMap: IS_DEVELOPMENT,
-                                singleton: true,
-                                attrs: {
-                                    'class': 'my-css-module',
-                                },
-                            },
-                        },
+                    IS_PRODUCTION ? MiniCssExtractPlugin.loader : styleLoader,
                     'css-modules-flow-types-loader',
                     {
                         loader: 'css-loader',
@@ -229,15 +217,7 @@ const webpackConfig = {
                             },
                         },
                     },
-                    {
-                        loader: 'postcss-loader',
-                        options: {
-                            sourceMap: true,
-                            config: {
-                                path: './postcss.config.js',
-                            },
-                        },
-                    },
+                    postCssLoader,
                 ],
             },
         ],
@@ -279,6 +259,7 @@ const webpackConfig = {
     ],
 
     devServer: {
+        writeToDisk: true,
         contentBase: path.join(CWD, pathToDist),
         host: '0.0.0.0',
         port: 8787,
