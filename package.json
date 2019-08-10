@@ -14,8 +14,9 @@
   },
   "homepage": "https://github.com/webbestmaster/mk-11-kombo-guide#readme",
   "scripts": {
-    "collect-screen-shot": "npm run remove-screen-all-shot && cross-env NODE_ENV=foo babel-node ./util/collect-screen-shot-list/collect-screen-shot-list.js",
+    "collect-screen-shot": "npm run remove-screen-all-shot && cross-env NODE_ENV=foo babel-node ./util/collect-screen-shot-list/collect-screen-shot-list.js && npm run remove-duplicated-screen-shot",
     "remove-screen-all-shot": "rm -rf ./game-screen-shots",
+    "remove-duplicated-screen-shot": "echo !no command here!",
     "parse-screen-shot": "cross-env NODE_ENV=foo babel-node ./util/get-data-from-screen-shot/parse-screen-shot/parse-screen-shot.js",
     "get-data": "babel-node ./util/get-data-from-site/get-data.js && npm run check:fix",
     "start": "cross-env BRANCH_NAME=`git symbolic-ref --short HEAD` webpack-dev-server --progress --no-inline",

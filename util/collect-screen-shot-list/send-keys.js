@@ -17,3 +17,11 @@ export function sendKeys(keys: string | Array<string>): Promise<mixed> {
 
     return keySender.sendText(keys);
 }
+
+export function pressDown(): Promise<mixed> {
+    return keySender.sendKey('S');
+}
+
+export function shiftTab(): Promise<mixed> {
+    return keySender.sendKey('R');
+}
