@@ -14,8 +14,7 @@
   },
   "homepage": "https://github.com/webbestmaster/mk-11-kombo-guide#readme",
   "scripts": {
-    "collect-screen-shot": "npm run remove-screen-all-shot && cross-env NODE_ENV=foo babel-node ./util/collect-screen-shot-list/collect-screen-shot-list.js && npm run remove-duplicated-screen-shot",
-    "remove-screen-all-shot": "rm -rf ./game-screen-shots",
+    "collect-screen-shot": "cross-env NODE_ENV=foo babel-node ./util/collect-screen-shot-list/collect-screen-shot-list.js && npm run remove-duplicated-screen-shot",
     "remove-duplicated-screen-shot": "echo !no command here!",
     "parse-screen-shot": "cross-env NODE_ENV=foo babel-node ./util/get-data-from-screen-shot/parse-screen-shot/parse-screen-shot.js",
     "get-data": "babel-node ./util/get-data-from-site/get-data.js && npm run check:fix",
@@ -42,7 +41,6 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "get-pixels": "^3.3.2",
-    "node-key-sender": "^1.0.11",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-redux": "^7.1.0",
@@ -93,7 +91,7 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-sonarjs": "^0.4.0",
     "eslint-plugin-unicorn": "^10.0.0",
-    "flow-bin": "^0.105.0",
+    "flow-bin": "^0.105.1",
     "flow-coverage-report": "^0.6.1",
     "flow-runtime": "^0.17.0",
     "flow-typed": "^2.6.1",

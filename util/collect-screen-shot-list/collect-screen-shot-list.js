@@ -6,6 +6,7 @@ import {promises as fsPromises} from 'fs';
 import type {MoveDataTabNameType} from '../get-data-from-screen-shot/parse-screen-shot/get-move-data-tab/get-move-data-tab';
 
 import {waitTime} from '../wait';
+import {exec} from '../exec';
 
 import {takeScreenShot} from './take-screen-shot';
 import {pressDown, shiftTab} from './send-keys';
@@ -34,6 +35,7 @@ async function collectTabScreenShot(directoryName: MoveDataTabNameType) {
 }
 
 async function collectScreenShotList() {
+    await exec('rm -rf ' + rootDirectoryPath);
     await fsPromises.mkdir(rootDirectoryPath);
 
     // eslint-disable-next-line no-loops/no-loops
