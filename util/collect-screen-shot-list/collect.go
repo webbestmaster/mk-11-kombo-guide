@@ -2,15 +2,18 @@ package main
 
 import (
     "fmt"
+    "github.com/kbinani/screenshot"
     "github.com/micmonay/keybd_event"
+    "image/png"
     "os"
     "runtime"
     "time"
+    "strconv"
 )
 
-var rootDirectory = "./tmp"
+var rootDirectory = "./game-screen-shots"
 
-func keyPress(direction string) (isOk bool) {
+func keyPress(direction string) {
     kb, err := keybd_event.NewKeyBonding()
 
     if err != nil {
@@ -24,12 +27,10 @@ func keyPress(direction string) (isOk bool) {
 
     if direction == "down" {
         kb.SetKeys(keybd_event.VK_B)
-        return true
     }
 
     if direction == "right" {
         kb.SetKeys(keybd_event.VK_A)
-        return true
     }
 
     //launch
@@ -38,15 +39,57 @@ func keyPress(direction string) (isOk bool) {
         panic(err)
     }
 
-    return false
+    time.Sleep(500 * time.Microsecond)
+}
+
+func takeScreenShot(tabName string, index string) {
+    bounds := screenshot.GetDisplayBounds(0)
+
+    fmt.Printf(tabName + "/" + index + "\n")
+
+    img, err := screenshot.CaptureRect(bounds)
+    if err != nil {
+        panic(err)
+    }
+
+    fileName := fmt.Sprintf(rootDirectory + "/" + tabName + "/" + index + ".png")
+
+    file, _ := os.Create(fileName)
+
+    defer file.Close()
+
+    png.Encode(file, img)
+
+    fmt.Printf(fileName + "\n")
+
+    time.Sleep(500 * time.Microsecond)
+}
+
+func zeroLeftPad(number int) string {
+    if number <= 9 {
+        return "0" + strconv.Itoa(number)
+    }
+
+    return strconv.Itoa(number)
+}
+
+func getTabData(tabName string) {
+    for index := 0; index < 5; index++ {
+        takeScreenShot(tabName, zeroLeftPad(index))
+        keyPress("down")
+    }
 }
 
 func main() {
-    removeAllResult := os.RemoveAll(rootDirectory + "/")
+    _ = os.RemoveAll(rootDirectory + "/")
+    _ = os.MkdirAll(rootDirectory, os.ModePerm)
 
-    if removeAllResult != nil {
-        fmt.Println(removeAllResult)
-        return
+    tabNameList := [4]string{"basic", "combo", "special", "finisher"}
+
+    for _, tabName := range tabNameList {
+        _ = os.MkdirAll(rootDirectory + "/" + tabName, os.ModePerm)
+        getTabData(tabName)
+        keyPress("right")
     }
 
     fmt.Println("Hello world")
